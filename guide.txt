@@ -1,0 +1,278 @@
+NAGE LIBRE -Depth of Silence-
+NAGE LIBRE -Seijaku no Suishin-
+(c) VARIE 1995 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GUIDE 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Please use these cheat codes.
+-----------------------------------------------------------------------------
+Infinite Gold  7E17790F 
+               7E177A27 
+Invincibility  7E10CCFF
+Death Hit      7E10D163 (Very effective with the ATK card)
+-----------------------------------------------------------------------------
+                                About the game                              
+-----------------------------------------------------------------------------
+Five nymphs stray off into a different world "Nage," and fight in order to 
+return to their former world. The fighting technique is a card battle, and 
+only the high school girl's lovely offense and defense develops. The attack 
+changes depending on the kind of extracurricular activities selected when the 
+stage begins.          
+-----------------------------------------------------------------------------
+The Cards
+-----------------------------------------------------------------------------
+The 8 cards for the card battle are as follows
+-----------------------------------------------------------------------------
+1. ATK card (G100): to attack 
+2. DEF card (G200): to defend 
+3. HP card  (G300): to recover HP 
+4. ESC card (G400): to escape from the card battle 
+5. SP card  (G700): a super-killer shot 
+6. CHG card       : to change card in battle (cannot bought)
+7. COS card       : to change costume in battle (cannot be bought)
+8. ??? card       : various action such as ATK, DEF or HP in battle (cannot 
+                                                                   be bought)
+-----------------------------------------------------------------------------
+Battle Command
+-----------------------------------------------------------------------------
+1. Stand by 
+2. Attack
+3. Item
+3. Exchange 
+3. Pocketbell
+4. Anime
+5. Save
+-----------------------------------------------------------------------------
+Note: the small square icons on the MAP are red (enemy), yellow (treasure 
+chest) and light blue (nymph).
+-----------------------------------------------------------------------------
+I choose the birthday (birthstone) for the 5 Nymphs.
+-----------------------------------------------------------------------------
+Ayaka Sakurai     July      18  (Ruby)
+Mai Himenogi      February   2  (Amethyst)
+Yui Kirishima     September  9  (Sapphire)
+Miki Shizumoto    May       27  (Emerald)
+Ryoko Aoi         May       10  (Emerald)
+-----------------------------------------------------------------------------
+Stage 1 - Yuki 
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. After defeating the enemies, fight 
+the boss Tomomi Harata (Moonstone - June) who is blocking the school door. 
+After defeating the boss Tomomi Harata, there is a scene, and Ryoko Aoi 
+becomes a friend. After stage 1 is cleared, there is a scene. When the 
+question appears with "What do you want? + Shopping (1) to buy cards for each 
+members of the group to be used in the card battles + Club Activities (2) to 
+change clubs + Save (3) to save the game + Start (4) to begin the next 
+stage." Since I am using the cheat codes, I choose "Shopping (1) to buy a 
+lot of ATK cards" and then I choose "Start (4)" to begin the next stage. 
+There is a scene.
+-----------------------------------------------------------------------------
+Stage 2 - Yuki and Ryoko
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. After defeating the enemies, fight 
+the boss Yumika Hazuki (Agate - August) who is front of the classroom. After 
+defeating the boss Yumika Hazuki, there is a scene. After stage 2 is cleared, 
+there is a scene. When the question appears with "What do you want?," choose 
+"Start (4)" to begin the next stage. There is a scene.
+-----------------------------------------------------------------------------
+Stage 3 - Yuki, Ryoko and Mai
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. After defeating the enemies, try to 
+fight the boss Himeka Aoki who is blocking the town. There is a scene, and 
+then Mai Himenogi becomes a friend. Now, fight the enemies. After defeating 
+the enemies, fight the boss Himeka Aoki (Lapis Lazuli - December). After 
+defeating the boss Himeka Aoki, stage 3 is cleared, and there is a scene. 
+When the question appears with "What do you want?," choose "Shopping (1)" to 
+buy some more ATK cards, and then choose "Start (4)" to begin the next stage. 
+-----------------------------------------------------------------------------
+Stage 4 - Yuki, Ryoko and Mai
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. After defeating the enemies, fight 
+the boss Kirika Fujisaki (Topaz) who is blocking the town's exit. After 
+defeating Kirika Fujisaki, stage 4 is cleared, and there is a scene. When the 
+question appears with "What do you want?," choose "Start (4)" to begin the 
+next stage, and there is a scene. 
+-----------------------------------------------------------------------------
+Stage 5 - Yuki, Ryoko and Mai
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. When the question appears with 
+"Do you pick it up?," choose "yes" to get the neutralizer. After defeating 
+the all the enemies, stage 5 is cleared, and there is a scene. When the 
+question appears with "What do you want?," choose "Start (4)" to begin the 
+next stage, and there is a scene. 
+-----------------------------------------------------------------------------
+Stage 6 - Yuki, Ryoko and Mai
+-----------------------------------------------------------------------------
+There is a scene. Now, go to the upper right, and go into the room. In this 
+room, defeat Akemi Ryokoku (Sapphire) to open the two doors of the middle 
+room. After that, fight the enemies in the middle room. After defeating the 
+enemies, fight the boss Ayka Sakurai (Moonstone). After defeating Ayka 
+Sakurai, there is a scene, and Ayaka Sakurai becomes a friend. After stage 6 
+is cleared, and there is a scene. When the question appears with "What do you 
+want?," choose "Start (4)" to begin the next stage, and there is a scene. 
+-----------------------------------------------------------------------------
+Stage 7 - Yuki, Ryoko, Mai and Ayaka
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the westside, and go behind the school's 
+fence. Behind the school's fence, fight Sanae Mukojima (Amethyst) to open 
+the gate. After defeating Sanae Mukojima, fight the boss Kirika Fujisaki 
+(Moonstone) who is blocking the school. After defeating Kirika Fujisaki, 
+there is a scene, and Miki Shizumoto becomes a friend. After stage 7 is 
+cleared, there is a scene. When the question appears with "What do you 
+want?," choose "Shopping (1)" to buy some more ATK cards, and then choose 
+"Start (4)" to begin the next stage. There is a scene.
+-----------------------------------------------------------------------------
+Stage 8 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the northeastside, and fight the boss 
+Kikuko Himeka (Garnet) who is blocking the exit. After defeating Kikuko 
+Himeka, stage 8 is cleared, and there is a scene. When the question appears 
+with "What do you want?," choose "Start (4)" to begin the next stage. There 
+is a scene.
+-----------------------------------------------------------------------------
+Stage 9 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. After defeating all of the enemies, 
+stage 9 is cleared, and there is a scene. When the question appears with 
+"What do you want?," choose "Start (4)" to begin the next stage. There is a 
+scene.
+-----------------------------------------------------------------------------
+Stage 10 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. After defeating the enemies, 
+fight the boss Rika Mitarashi (Opal) who is on stage. After defeating Rika 
+Mitarashi, the group gets the red jewel, and stage 10 is cleared. There is a 
+scene. When the question appears with "What do you want?," choose "Shopping 
+(1)" to buy some more ATK cards, and then choose "Start (4)" to begin the 
+next stage. There is a scene.
+-----------------------------------------------------------------------------
+Stage 11 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go upward, and go into the pool from the right side or 
+left side where the red ladder is at. After that, fight the boss Sara Mikigen 
+(Diamond) who is in the center of the pool. After defeating Sara Mikigen, the 
+group gets the green jewel, and stage 11 is cleared. There is a scene. When 
+the question appears with "What do you want?," choose "Shopping (1)" to buy 
+some more ATK cards, and then choose "Start (4)" to begin the next stage. 
+There is a scene. 
+-----------------------------------------------------------------------------
+Stage 12 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the top area, and fight the boss Aria 
+(Emerald) who is at the front of the classroom. After defeating Aria, stage 
+12 is cleared, and there is a scene. When the question appears with "What do 
+you want?," choose "Start (4)" to begin the next stage, and there is a scene. 
+-----------------------------------------------------------------------------
+Stage 13 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the top area, and fight the boss Aria 
+(Emerald) who is blocking the exit. After defeating Aria, stage 13 is 
+cleared, and there is a scene. When the question appears with "What do you 
+want?," choose "Start (4)" to begin the next stage, and there is a scene.  
+-----------------------------------------------------------------------------
+Stage 14 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the northwestside, and fight the boss 
+Miyu Ayakoji (Emerald). After defeating Miyu Ayakoji, stage 14 is cleared, 
+and there is a scene. When the question appears with "What do you want?," 
+choose "Start (4)" to begin the next stage, and there is a scene. Then, Miki 
+leaves the group. 
+-----------------------------------------------------------------------------
+Stage 15 - Yuki, Ryoko, Mai and Ayaka
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the center, and fight the boss Sayoko 
+Hayasaka (Opal) who is blocking the library entrance. After defeating Sayoko 
+Hayasaka, stage 15 is cleared, and there is a scene. Then, Miki rejoins the 
+group. When the question appears with "What do you want?," choose "Shopping 
+(1)" to buy some more ATK cards, and then choose "Start (4)" to begin the 
+next stage. There is a scene.   
+-----------------------------------------------------------------------------
+Stage 16 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, defeat the enemies to get each of the 5 pages of the 
+secret book to remove Kyoko Mikigen's barrier. After that, go to the upper 
+left, and fight the boss Kyoko Mikigen (Emerald) who is standing in front of 
+the three bookshelves. After defeating Kyoko Mikigen, stage 16 is cleared, 
+and there is a scene. When the question appears with "What do you want?," 
+choose "Start (4)" to begin the next stage. There is a scene.   
+-----------------------------------------------------------------------------
+Stage 17 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the top area, and fight the boss Kirika 
+Fujisaki (Garnet) who is blocking the entrance of the cave. After defeating 
+Kirika Fujisaki, there is a scene, and stage 17 is cleared. There is another 
+scene. When the question appears with "What do you want?," choose "Start (4)" 
+to begin the next stage. There is a scene.   
+-----------------------------------------------------------------------------
+Stage 18 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the lower left, and fight the boss Mami 
+Saotome (Garnet) who is blocking the entrance of the temple. After defeating 
+Mami Saotome, stage 18 is cleared, and there is scene. When the question 
+appears with "What do you want?," choose "Start (4)" to begin the next stage. 
+There is a scene.   
+-----------------------------------------------------------------------------
+Stage 19 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the top area, and fight the boss Mami 
+Saotome (Garnet) who blocking the entrance to the world of Nage. After 
+defeating Mami Saotome, stage 19 is cleared, and there is scene. When the 
+question appears with "What do you want?," choose "Shopping (1)" to buy some 
+more ATK cards, and then choose "Start (4)" to begin the next stage. There 
+is a scene.      
+-----------------------------------------------------------------------------
+Stage 20 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. In the snow labyrinth, defeat the enemies because many 
+of them are blocking the way. After that, go northwest, and speak to Saty. 
+Choose "yes or no." Now, fight the boss Saty (Amethyst). After defeating 
+Saty,  stage 20 is cleared, and there is scene. When the question appears 
+with "What do you want?," choose "Start (4)" to begin the next stage, and 
+there is a scene.   
+-----------------------------------------------------------------------------
+Stage 21 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go around to the center area, and fight the boss 
+Yumiko Ayanokoji (Garnet) who blocking the entrance of the tower. After 
+defeating Yumiko Ayanokoji, stage 21 is cleared, and there is scene. When 
+the question appears with "What do you want?," choose "Shopping (1)" to buy 
+some ATK cards, and then choose "Start (4)" to begin the next stage. There 
+is a scene.         
+-----------------------------------------------------------------------------
+Stage 22 - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, go to the upper left, and fight Maya Asahina (Ruby) 
+who is inside a room by herself. After defeating Maya Asahina, the wall of 
+light that's nearby Misti disappears. Now, go to the top area, and fight the 
+boss Misti (Garnet). After defeating Misti, there is a scene. Now, go around 
+to the bottom area, and fight Ako Shinden (Garnet) who is blocking the exit. 
+After defeating Ako Shinden, there is a scene. Now, go to the upper right, 
+and fight Tsukiyomi (Diamond). After defeating Tsukiyomi, there is a scene. 
+Now, go all the way back to the top area where the big brown stairs is at, 
+stage 22 is cleared, and there is scene. When the question appears with "What 
+do you want?," choose "Shopping (1)" to buy a lot of ATK cards, and then 
+choose "Start (4)" to begin the next stage. There is a scene.         
+-----------------------------------------------------------------------------
+Final Stage - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, fight the enemies. After defeating all of the enemies, 
+there is a scene. Now, go to the upper left, and fight the enemies that Nage 
+made. After defeating all of the the enemies, Nage's power has weaked, and 
+the door disappears. There is a scene, and choose "yes or no." Now, fight the 
+final boss Nage (Garnet). After the credits roll by, go to "File," and choose 
+"Reset Game." On the screen, press the START button, and choose "EXTRA 
+STAGE." When the question appears with "What do you want?," choose "Shopping 
+(1)" to buy a lot of ATK cards, and then choose "Start (4)" to begin the 
+Extra Stage. There is a scene.   
+-----------------------------------------------------------------------------
+Extra Stage - Yuki, Ryoko, Mai, Ayaka and Miki
+-----------------------------------------------------------------------------
+There is a scene. Now, defeat the bosses of Yumika Hazuki, Himeka Aoki, 
+Kirika Fujisaki, Fake - Ayaka Sakurai, Kirika Fujisaki, Keiko Onda, Sara 
+Mikigen, Aria, Kyouko Mikigen, Kirika Fujisaki, Mami Saotome, Mami Saotome, 
+Saty, Tsukiyomi, Misti, and Nage.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+THE END
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Version 1.0
+By Ritchie (hidall@hotmail.com)

@@ -1,0 +1,6 @@
+rom/
+tools/
+*.sfc
+*.smc
+*.srm
+*.mss
