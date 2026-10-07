@@ -1,6 +1,6 @@
 """Dump script blocks listed in scripts/textmap.json to script/jp/<block>.txt.
 
-Kinds: ptr16 / ptr24 / fixed (text in ROM), scene (compressed event blocks: resource table entries
+Kinds: ptr16 / ptr24 / fixed / list (text in ROM), scene (compressed event blocks: resource table entries
 FIRST..LAST, one file per resource `scene_XXX.txt`, offsets relative to the decompressed block).
 """
 import json, os, re, sys
@@ -50,6 +50,13 @@ def extract(data, table, b):
         return [Entry(b["name"], i, start + i * size, size,
                       table.decode(data, start + i * size, start + (i + 1) * size, stop_at_end=False)[0])
                 for i in range(b["count"])]
+    if b["kind"] == "list":                      # consecutive terminated strings in [start, end)
+        pos, end, out = int(b["start"], 16), int(b["end"], 16), []
+        while pos < end:
+            text, nxt = table.decode(data, pos, end)
+            out.append(Entry(b["name"], len(out), pos, nxt - pos, text))
+            pos = nxt
+        return out
     out, first = [], {}
     for i, off in enumerate(_pointers(data, b)):
         if off in first:
@@ -174,7 +181,7 @@ if __name__ == "__main__":
             continue
         entries = extract(data, table, b)
         write_text(os.path.join(OUT, b["name"] + ".txt"), format_block(entries, table))
-        g = gaps(entries) if b["kind"] != "fixed" else []
+        g = gaps(entries) if b["kind"] in ("ptr16", "ptr24") else []
         unk = sum(e.text.count("<$") for e in entries)
         print(f"{b['name']}: {len(entries)} entries, {unk} raw codes, gaps: "
               + (", ".join(f"{s:06X}-{e:06X}" for s, e in g) or "none"))

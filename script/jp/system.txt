@@ -1,0 +1,956 @@
+## system 0000 @038077 len=6
+桜井<END>
+
+## system 0001 @03807D len=8
+姫ノ木<END>
+
+## system 0002 @038085 len=6
+霧島<END>
+
+## system 0003 @03808B len=6
+静本<END>
+
+## system 0004 @038091 len=4
+葵<END>
+
+## system 0005 @038095 len=6
+青木<END>
+
+## system 0006 @03809B len=6
+青田<END>
+
+## system 0007 @0380A1 len=6
+赤井<END>
+
+## system 0008 @0380A7 len=8
+朝比奈<END>
+
+## system 0009 @0380AF len=8
+綾小路<END>
+
+## system 0010 @0380B7 len=6
+生島<END>
+
+## system 0011 @0380BD len=6
+石井<END>
+
+## system 0012 @0380C3 len=6
+石田<END>
+
+## system 0013 @0380C9 len=6
+井上<END>
+
+## system 0014 @0380CF len=6
+今井<END>
+
+## system 0015 @0380D5 len=6
+今岡<END>
+
+## system 0016 @0380DB len=6
+今田<END>
+
+## system 0017 @0380E1 len=6
+今中<END>
+
+## system 0018 @0380E7 len=6
+入<$8A05><END>
+
+## system 0019 @0380ED len=6
+岡島<END>
+
+## system 0020 @0380F3 len=6
+岡田<END>
+
+## system 0021 @0380F9 len=6
+岡本<END>
+
+## system 0022 @0380FF len=6
+音無<END>
+
+## system 0023 @038105 len=6
+鬼庭<END>
+
+## system 0024 @03810B len=6
+恩田<END>
+
+## system 0025 @038111 len=4
+鏡<END>
+
+## system 0026 @038115 len=6
+片桐<END>
+
+## system 0027 @03811B len=6
+上岡<END>
+
+## system 0028 @038121 len=6
+神田<END>
+
+## system 0029 @038127 len=8
+神無月<END>
+
+## system 0030 @03812F len=6
+菊池<END>
+
+## system 0031 @038135 len=6
+如月<END>
+
+## system 0032 @03813B len=6
+木田<END>
+
+## system 0033 @038141 len=6
+清川<END>
+
+## system 0034 @038147 len=6
+京極<END>
+
+## system 0035 @03814D len=6
+来島<END>
+
+## system 0036 @038153 len=6
+甲賀<END>
+
+## system 0037 @038159 len=6
+古式<END>
+
+## system 0038 @03815F len=6
+近藤<END>
+
+## system 0039 @038165 len=6
+紺野<END>
+
+## system 0040 @03816B len=8
+早乙女<END>
+
+## system 0041 @038173 len=6
+酒井<END>
+
+## system 0042 @038179 len=6
+桜木<END>
+
+## system 0043 @03817F len=6
+桜島<END>
+
+## system 0044 @038185 len=6
+桜田<END>
+
+## system 0045 @03818B len=6
+定岡<END>
+
+## system 0046 @038191 len=6
+真田<END>
+
+## system 0047 @038197 len=6
+静岡<END>
+
+## system 0048 @03819D len=6
+島岡<END>
+
+## system 0049 @0381A3 len=6
+島田<END>
+
+## system 0050 @0381A9 len=6
+島本<END>
+
+## system 0051 @0381AF len=6
+新城<END>
+
+## system 0052 @0381B5 len=6
+千両<END>
+
+## system 0053 @0381BB len=6
+<$9202>井<END>
+
+## system 0054 @0381C1 len=6
+龍田<END>
+
+## system 0055 @0381C7 len=6
+田中<END>
+
+## system 0056 @0381CD len=6
+千葉<END>
+
+## system 0057 @0381D3 len=6
+月島<END>
+
+## system 0058 @0381D9 len=6
+東国<END>
+
+## system 0059 @0381DF len=6
+道本<END>
+
+## system 0060 @0381E5 len=4
+所<END>
+
+## system 0061 @0381E9 len=6
+中井<END>
+
+## system 0062 @0381EF len=6
+中島<END>
+
+## system 0063 @0381F5 len=6
+中田<END>
+
+## system 0064 @0381FB len=6
+中代<END>
+
+## system 0065 @038201 len=6
+中村<END>
+
+## system 0066 @038207 len=6
+中本<END>
+
+## system 0067 @03820D len=6
+仲本<END>
+
+## system 0068 @038213 len=6
+梨田<END>
+
+## system 0069 @038219 len=6
+仁料<END>
+
+## system 0070 @03821F len=6
+虹野<END>
+
+## system 0071 @038225 len=6
+新田<END>
+
+## system 0072 @03822B len=6
+野上<END>
+
+## system 0073 @038231 len=6
+橋本<END>
+
+## system 0074 @038237 len=6
+葉月<END>
+
+## system 0075 @03823D len=6
+早坂<END>
+
+## system 0076 @038243 len=6
+原島<END>
+
+## system 0077 @038249 len=6
+原田<END>
+
+## system 0078 @03824F len=6
+姫神<END>
+
+## system 0079 @038255 len=6
+藤崎<END>
+
+## system 0080 @03825B len=6
+本田<END>
+
+## system 0081 @038261 len=6
+舞島<END>
+
+## system 0082 @038267 len=6
+間中<END>
+
+## system 0083 @03826D len=8
+美樹原<END>
+
+## system 0084 @038275 len=6
+三沢<END>
+
+## system 0085 @03827B len=6
+水本<END>
+
+## system 0086 @038281 len=8
+御手洗<END>
+
+## system 0087 @038289 len=8
+水無月<END>
+
+## system 0088 @038291 len=6
+美好<END>
+
+## system 0089 @038297 len=6
+向島<END>
+
+## system 0090 @03829D len=6
+睦月<END>
+
+## system 0091 @0382A3 len=6
+本木<END>
+
+## system 0092 @0382A9 len=6
+本宮<END>
+
+## system 0093 @0382AF len=6
+森田<END>
+
+## system 0094 @0382B5 len=6
+森野<END>
+
+## system 0095 @0382BB len=6
+矢神<END>
+
+## system 0096 @0382C1 len=6
+吉井<END>
+
+## system 0097 @0382C7 len=6
+吉田<END>
+
+## system 0098 @0382CD len=6
+吉本<END>
+
+## system 0099 @0382D3 len=6
+両国<END>
+
+## system 0100 @0382D9 len=6
+彩香<END>
+
+## system 0101 @0382DF len=4
+舞<END>
+
+## system 0102 @0382E3 len=4
+唯<END>
+
+## system 0103 @0382E7 len=6
+美姫<END>
+
+## system 0104 @0382ED len=6
+嶺子<END>
+
+## system 0105 @0382F3 len=4
+愛<END>
+
+## system 0106 @0382F7 len=6
+愛子<END>
+
+## system 0107 @0382FD len=8
+あかね<END>
+
+## system 0108 @038305 len=4
+茜<END>
+
+## system 0109 @038309 len=8
+あけみ<END>
+
+## system 0110 @038311 len=6
+明美<END>
+
+## system 0111 @038317 len=6
+亜子<END>
+
+## system 0112 @03831D len=4
+彩<END>
+
+## system 0113 @038321 len=6
+彩子<END>
+
+## system 0114 @038327 len=6
+綾子<END>
+
+## system 0115 @03832D len=8
+亜矢子<END>
+
+## system 0116 @038335 len=6
+彩音<END>
+
+## system 0117 @03833B len=6
+詩紅<END>
+
+## system 0118 @038341 len=6
+詩子<END>
+
+## system 0119 @038347 len=6
+絵舞<END>
+
+## system 0120 @03834D len=6
+紅美<END>
+
+## system 0121 @038353 len=6
+絵里<END>
+
+## system 0122 @038359 len=8
+かおり<END>
+
+## system 0123 @038361 len=6
+和代<END>
+
+## system 0124 @038367 len=8
+喜久子<END>
+
+## system 0125 @03836F len=6
+京子<END>
+
+## system 0126 @038375 len=8
+今日子<END>
+
+## system 0127 @03837D len=6
+鏡子<END>
+
+## system 0128 @038383 len=6
+霧香<END>
+
+## system 0129 @038389 len=6
+久美<END>
+
+## system 0130 @03838F len=6
+景子<END>
+
+## system 0131 @038395 len=6
+恵子<END>
+
+## system 0132 @03839B len=6
+紗恵<END>
+
+## system 0133 @0383A1 len=6
+紗︁希<END>
+
+## system 0134 @0383A7 len=8
+さくら<END>
+
+## system 0135 @0383AF len=4
+桜<END>
+
+## system 0136 @0383B3 len=6
+桜子<END>
+
+## system 0137 @0383B9 len=6
+里子<END>
+
+## system 0138 @0383BF len=6
+早苗<END>
+
+## system 0139 @0383C5 len=6
+紗︁夜<END>
+
+## system 0140 @0383CB len=8
+紗︁夜子<END>
+
+## system 0141 @0383D3 len=6
+紗︁羅<END>
+
+## system 0142 @0383D9 len=6
+詩織<END>
+
+## system 0143 @0383DF len=6
+静紅<END>
+
+## system 0144 @0383E5 len=8
+しずか<END>
+
+## system 0145 @0383ED len=4
+静<END>
+
+## system 0146 @0383F1 len=6
+静香<END>
+
+## system 0147 @0383F7 len=6
+静子<END>
+
+## system 0148 @0383FD len=6
+順子<END>
+
+## system 0149 @038403 len=6
+純子<END>
+
+## system 0150 @038409 len=6
+祥子<END>
+
+## system 0151 @03840F len=8
+智恵子<END>
+
+## system 0152 @038417 len=8
+ともみ<END>
+
+## system 0153 @03841F len=6
+知美<END>
+
+## system 0154 @038425 len=6
+知世<END>
+
+## system 0155 @03842B len=6
+月子<END>
+
+## system 0156 @038431 len=8
+菜桜子<END>
+
+## system 0157 @038439 len=6
+直子<END>
+
+## system 0158 @03843F len=6
+奈美<END>
+
+## system 0159 @038445 len=4
+望<END>
+
+## system 0160 @038449 len=6
+法子<END>
+
+## system 0161 @03844F len=6
+紀子<END>
+
+## system 0162 @038455 len=6
+典子<END>
+
+## system 0163 @03845B len=6
+華子<END>
+
+## system 0164 @038461 len=6
+姫香<END>
+
+## system 0165 @038467 len=6
+<$9002>子<END>
+
+## system 0166 @03846D len=6
+洋子<END>
+
+## system 0167 @038473 len=6
+<$9002>美<END>
+
+## system 0168 @038479 len=6
+洋美<END>
+
+## system 0169 @03847F len=8
+ひろみ<END>
+
+## system 0170 @038487 len=6
+文子<END>
+
+## system 0171 @03848D len=6
+舞子<END>
+
+## system 0172 @038493 len=6
+舞美<END>
+
+## system 0173 @038499 len=6
+真紀<END>
+
+## system 0174 @03849F len=6
+真子<END>
+
+## system 0175 @0384A5 len=6
+真澄<END>
+
+## system 0176 @0384AB len=6
+真奈<END>
+
+## system 0177 @0384B1 len=8
+真奈美<END>
+
+## system 0178 @0384B9 len=6
+まみ<END>
+
+## system 0179 @0384BF len=6
+真美<END>
+
+## system 0180 @0384C5 len=6
+真矢<END>
+
+## system 0181 @0384CB len=6
+真弥<END>
+
+## system 0182 @0384D1 len=6
+美<$E405><END>
+
+## system 0183 @0384D7 len=6
+未緒<END>
+
+## system 0184 @0384DD len=6
+美香<END>
+
+## system 0185 @0384E3 len=6
+美樹<END>
+
+## system 0186 @0384E9 len=6
+美紀<END>
+
+## system 0187 @0384EF len=6
+美子<END>
+
+## system 0188 @0384F5 len=8
+美奈子<END>
+
+## system 0189 @0384FD len=6
+美穂<END>
+
+## system 0190 @038503 len=6
+美矢<END>
+
+## system 0191 @038509 len=6
+美夕<END>
+
+## system 0192 @03850F len=8
+みゆき<END>
+
+## system 0193 @038517 len=6
+美雪<END>
+
+## system 0194 @03851D len=6
+美幸<END>
+
+## system 0195 @038523 len=8
+美由紀<END>
+
+## system 0196 @03852B len=8
+美代子<END>
+
+## system 0197 @038533 len=6
+睦紅<END>
+
+## system 0198 @038539 len=6
+睦美<END>
+
+## system 0199 @03853F len=4
+恵<END>
+
+## system 0200 @038543 len=6
+愛美<END>
+
+## system 0201 @038549 len=6
+素子<END>
+
+## system 0202 @03854F len=6
+弥生<END>
+
+## system 0203 @038555 len=6
+結奈<END>
+
+## system 0204 @03855B len=6
+夕子<END>
+
+## system 0205 @038561 len=6
+由佳<END>
+
+## system 0206 @038567 len=6
+結花<END>
+
+## system 0207 @03856D len=8
+ゆかり<END>
+
+## system 0208 @038575 len=6
+ゆみ<END>
+
+## system 0209 @03857B len=6
+優美<END>
+
+## system 0210 @038581 len=6
+由美<END>
+
+## system 0211 @038587 len=6
+弓香<END>
+
+## system 0212 @03858D len=6
+弓子<END>
+
+## system 0213 @038593 len=8
+百合子<END>
+
+## system 0214 @03859B len=8
+由利子<END>
+
+## system 0215 @0385A3 len=6
+葉子<END>
+
+## system 0216 @0385A9 len=6
+良子<END>
+
+## system 0217 @0385AF len=6
+好子<END>
+
+## system 0218 @0385B5 len=6
+理︁恵<END>
+
+## system 0219 @0385BB len=6
+りか<END>
+
+## system 0220 @0385C1 len=6
+梨香<END>
+
+## system 0221 @0385C7 len=10
+ナージュ<END>
+
+## system 0222 @0385D1 len=8
+アリア<END>
+
+## system 0223 @0385D9 len=8
+サティ<END>
+
+## system 0224 @0385E1 len=10
+ツキヨミ<END>
+
+## system 0225 @0385EB len=10
+ミスティ<END>
+
+## system 0226 @0385F5 len=10
+シャドウ<END>
+
+## system 0227 @0385FF len=10
+バスケ部<END>
+
+## system 0228 @038609 len=10
+テニス部<END>
+
+## system 0229 @038613 len=8
+剣道部<END>
+
+## system 0230 @03861B len=8
+空手部<END>
+
+## system 0231 @038623 len=8
+弓道部<END>
+
+## system 0232 @03862B len=12
+ラクロス部<END>
+
+## system 0233 @038637 len=10
+新体操部<END>
+
+## system 0234 @038641 len=12
+オカルト研<END>
+
+## system 0235 @03864D len=8
+料学部<END>
+
+## system 0236 @038655 len=8
+日舞部<END>
+
+## system 0237 @03865D len=8
+華道部<END>
+
+## system 0238 @038665 len=10
+軽音楽部<END>
+
+## system 0239 @03866F len=8
+演劇部<END>
+
+## system 0240 @038677 len=8
+漫画部<END>
+
+## system 0241 @03867F len=8
+手芸部<END>
+
+## system 0242 @038687 len=10
+一般生徒<END>
+
+## system 0243 @038691 len=6
+ボス<END>
+
+## system 0244 @038697 len=30
+　　　　　　　　　　　　　　<END>
+
+## system 0245 @0386B5 len=24
+　　　　　　　　　　　<END>
+
+## system 0246 @0386CD len=12
+　　　　　<END>
+
+## system 0247 @0386D9 len=6
+？？<END>
+
+## system 0248 @0386DF len=10
+の攻撃‼<END>
+
+## system 0249 @0386E9 len=4
+は<END>
+
+## system 0250 @0386ED len=14
+のダメージ‼<END>
+
+## system 0251 @0386FB len=10
+回復した<END>
+
+## system 0252 @038705 len=16
+防御がアップ‼<END>
+
+## system 0253 @038715 len=28
+入れかえるカードを選んでね<END>
+
+## system 0254 @038731 len=24
+ただいま着がえ中です…<END>
+
+## system 0255 @038749 len=12
+逃げろぉ‼<END>
+
+## system 0256 @038755 len=26
+…おいつかれてしまった‼<END>
+
+## system 0257 @03876F len=26
+…なんとか、逃げられた…<END>
+
+## system 0258 @038789 len=14
+　誕生石効果<END>
+
+## system 0259 @038797 len=28
+ダメージをあたえられない‼<END>
+
+## system 0260 @0387B3 len=20
+逃げるな　待てぇ‼<END>
+
+## system 0261 @0387C7 len=14
+…おいついた<END>
+
+## system 0262 @0387D5 len=22
+…逃げられてしまった<END>
+
+## system 0263 @0387EB len=12
+を倒した‼<END>
+
+## system 0264 @0387F7 len=22
+ゴールド手に入れた‼<END>
+
+## system 0265 @03880D len=12
+上がった‼<END>
+
+## system 0266 @038819 len=8
+体力が<END>
+
+## system 0267 @038821 len=8
+腕力が<END>
+
+## system 0268 @038829 len=10
+防御力が<END>
+
+## system 0269 @038833 len=10
+精神力が<END>
+
+## system 0270 @03883D len=10
+素早さが<END>
+
+## system 0271 @038847 len=10
+レベルが<END>
+
+## system 0272 @038851 len=4
+が<END>
+
+## system 0273 @038855 len=22
+選べるようになった‼<END>
+
+## system 0274 @03886B len=14
+に上がった‼<END>
+
+## system 0275 @038879 len=12
+誕生石効果<END>
+
+## system 0276 @038885 len=18
+　はい　　いいえ<END>
+
+## system 0277 @038897 len=16
+の超必殺技だ‼<END>
+
+## system 0278 @0388A7 len=24
+このデータでいいかな？<END>
+
+## system 0279 @0388BF len=28
+どのファイルをロードする？<END>
+
+## system 0280 @0388DB len=28
+カードを買います　　　　　<END>
+
+## system 0281 @0388F7 len=28
+キャラクターを入れかえます<END>
+
+## system 0282 @038913 len=28
+カードをうります　　　　　<END>
+
+## system 0283 @03892F len=26
+お金がたりません‼　　　<END>
+
+## system 0284 @038949 len=28
+これ以上買えません　　　　<END>
+
+## system 0285 @038965 len=4
+月<END>
+
+## system 0286 @038969 len=4
+日<END>
+
+## system 0287 @03896D len=20
+誕生日をおしえてね<END>
+
+## system 0288 @038981 len=26
+これで誕生日はいいかな？<END>
+
+## system 0289 @03899B len=28
+どのファイルにセーブする？<END>
+
+## system 0290 @0389B7 len=10
+ファイル<END>
+
+## system 0291 @0389C1 len=4
+面<END>
+
+## system 0292 @0389C5 len=26
+まえのデータをけしますよ<END>
+
+## system 0293 @0389DF len=12
+だめ　よい<END>
+
+## system 0294 @0389EB len=6
+なし<END>
+
+## system 0295 @0389F1 len=16
+ガーネット　　<END>
+
+## system 0296 @038A01 len=16
+アメジスト　　<END>
+
+## system 0297 @038A11 len=16
+アクアマリン　<END>
+
+## system 0298 @038A21 len=16
+ダイヤモンド　<END>
+
+## system 0299 @038A31 len=16
+エメラルド　　<END>
+
+## system 0300 @038A41 len=16
+ムーンストーン<END>
+
+## system 0301 @038A51 len=16
+ルビー　　　　<END>
+
+## system 0302 @038A61 len=16
+めのう　　　　<END>
+
+## system 0303 @038A71 len=16
+サファイア　　<END>
+
+## system 0304 @038A81 len=16
+オパール　　　<END>
+
+## system 0305 @038A91 len=16
+トパーズ　　　<END>
+
+## system 0306 @038AA1 len=16
+ラピスラズリ　<END>
+
+## system 0307 @038AB1 len=16
+どうしますか？<END>
+
+## system 0308 @038AC1 len=8
+買い物<END>
+
+## system 0309 @038AC9 len=10
+部活選択<END>
+
+## system 0310 @038AD3 len=8
+セーブ<END>
+
+## system 0311 @038ADB len=10
+スタート<END>
+
+## system 0312 @038AE5 len=6
+ＥＸ<END>
+
+## system 0313 @038AEB len=14
+「リ」の宝玉<END>
+
+## system 0314 @038AF9 len=14
+「ベ」の宝玉<END>
+
+## system 0315 @038B07 len=14
+「ラ」の宝玉<END>
+
+## system 0316 @038B15 len=14
+「シ」の宝玉<END>
+
+## system 0317 @038B23 len=14
+「オ」の宝玉<END>
+
+## system 0318 @038B31 len=14
+「ン」の宝玉<END>

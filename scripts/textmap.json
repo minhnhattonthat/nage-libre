@@ -1,3 +1,4 @@
 {"blocks": [
-  {"name": "scenes", "kind": "scene", "res_table": "0x50000", "first": "0x30F", "last": "0x45B"}
+  {"name": "scenes", "kind": "scene", "res_table": "0x50000", "first": "0x30F", "last": "0x45B"},
+  {"name": "system", "kind": "list", "start": "0x38077", "end": "0x38B3F"}
 ]}

@@ -78,3 +78,9 @@ class Scene(unittest.TestCase):
 
     def test_wrap_counts_half_width_as_one(self):
         self.assertEqual(dump.wrap_text("1" * 31, W, 30), "1" * 30 + "\n1")
+
+class ListKind(unittest.TestCase):
+    def test_consecutive_strings_in_range(self):
+        data = bytes(4) + words(0x10, 0xFFFF, 0x02, 0x10, 0xFFFF) + words(0x10, 0xFFFF)
+        e = dump.extract(data, W, {"name": "sys", "kind": "list", "start": "0x4", "end": "0xE"})
+        self.assertEqual([(x.offset, x.length, x.text) for x in e], [(4, 4, "あ<END>"), (8, 6, "1あ<END>")])

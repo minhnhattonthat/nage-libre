@@ -1,0 +1,2 @@
+# wait after transition
+150 -
