@@ -109,3 +109,14 @@ So repointing must decode the opcode grammar (operand counts per opcode). Patchi
 - Scenes: 333 files, string areas covered end to end (no gaps, last entry ends at block end). System list: 319 entries, no gaps.
 - Raw codes: 1114 in 354 non-text data entries (expected). **28 uses of 20 codes in real text**: 01FA 0290 0292 02B4 02F6 0440 0444 0446 0448 044C 044E 0452 0454 0458 0460 053C 0576 058A 05E4 0702. Mostly staff-credit names (`scene_447`) and rare name kanji, left raw rather than guessed.
 - Not dumped (graphics, sub-project 4): battle HUD labels and cards, map HUD, title screen, map command menu. All appear to be English already, except the unconfirmed command menu (see `notes/text-inventory.md`).
+
+## Bytecode
+
+- Interpreter: the loader `8380DB` decompresses into `$7F:64C0`, then loops `lda [$06]`. Dispatch is a compare chain `cmp #$00NN / bne +6 / jsr handler / brl` at `$838105-$8383D0`, covering ops `0x01-0x42`. Handlers advance `$06` themselves with `inc $06` pairs.
+- Table: `scripts/opcodes.json` (words incl. opcode, `offsets` = operand indexes holding block offsets, per-op notes). `python -I scripts/bytecode.py --check` → **333/333 blocks parse**.
+- Derivation: the draft came from naive `inc $06` counts (147/333). A coordinate search over counts reached 333 but overfit (e.g. `2B`=4 swallowing `002C 0020`). Every count where the draft and the search disagreed was settled by reading the handler. See the `note` fields.
+- Offset operands (text **and** data):
+  - ops `01 0B 26 2B 3B`: operand 1
+  - ops `09 0A`: operand 2 (data tables)
+  - op `13`: operands 1-5 (per-member string chosen by `$1787`)
+- Coverage: 2627 non-empty text/data entries are referenced through offset operands. 29 entries are referenced by nothing, and no unmarked operand equals their offset, so they are dead or reached by adjacency. Layout keeps order and adjacency.

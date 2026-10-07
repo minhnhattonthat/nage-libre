@@ -1,0 +1,420 @@
+{
+ "ops": {
+  "0x01": {
+   "handler": "8383EE",
+   "words": 2,
+   "offsets": [
+    1
+   ],
+   "note": "print string (offset) - adc #$64C0 @83840D"
+  },
+  "0x02": {
+   "handler": "83849A",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x03": {
+   "handler": "8384F5",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x04": {
+   "handler": "83856C",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x05": {
+   "handler": "838579",
+   "words": 3,
+   "offsets": [],
+   "note": "set text cursor col/row ($1141/$1142) - verified from handler (search proposed 2: wrong)"
+  },
+  "0x06": {
+   "handler": "83859C",
+   "words": 1,
+   "offsets": [],
+   "note": "wait/refresh, no operands - verified"
+  },
+  "0x07": {
+   "handler": "8385DB",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x08": {
+   "handler": "8386D3",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x09": {
+   "handler": "83873B",
+   "words": 3,
+   "offsets": [
+    2
+   ],
+   "note": "data-table op: operand 2 = block offset of data entry (adc #$64C0 @838755)"
+  },
+  "0x0A": {
+   "handler": "8388A2",
+   "words": 3,
+   "offsets": [
+    2
+   ],
+   "note": "character + data offset: op1 member id, op2 block offset (adc @8388E9); handler reads table pairs until 0063 - verified (draft 5 wrong)"
+  },
+  "0x0B": {
+   "handler": "838444",
+   "words": 2,
+   "offsets": [
+    1
+   ],
+   "note": "print string (offset) - adc @838463"
+  },
+  "0x0C": {
+   "handler": "83854D",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x0D": {
+   "handler": "838655",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x0E": {
+   "handler": "83896B",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x0F": {
+   "handler": "838A6A",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x10": {
+   "handler": "838A9B",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x11": {
+   "handler": "838B63",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x12": {
+   "handler": "838B98",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x13": {
+   "handler": "838BE8",
+   "words": 6,
+   "offsets": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "note": "per-party-member string: 5 offsets, picks operand $1787 (adc @838C13) - verified loop skip (idx-1)/(6-idx)"
+  },
+  "0x14": {
+   "handler": "838C56",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x15": {
+   "handler": "838CA0",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x16": {
+   "handler": "838CAF",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x17": {
+   "handler": "838D47",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x18": {
+   "handler": "8389EF",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x19": {
+   "handler": "838DB1",
+   "words": 4,
+   "offsets": [],
+   "note": "4 words on the path all blocks use (alternate path with 3 extra incs never matches data) - verified"
+  },
+  "0x1A": {
+   "handler": "838E6F",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x1B": {
+   "handler": "838E84",
+   "words": 2,
+   "offsets": [],
+   "note": "member stat change: operand = count; record loop runs on a separately loaded resource (0x45C+), not the bytecode - verified"
+  },
+  "0x1C": {
+   "handler": "83905F",
+   "words": 2,
+   "offsets": [],
+   "note": "2 words; subroutines 8390DB/83926D don't touch $06 - verified (search proposed 6: wrong)"
+  },
+  "0x1D": {
+   "handler": "839087",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x1E": {
+   "handler": "83930F",
+   "words": 4,
+   "offsets": [],
+   "note": "4 words main path (alt entry 83939E re-runs op 19 handler on same words) - verified"
+  },
+  "0x1F": {
+   "handler": "8393A7",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x20": {
+   "handler": "839414",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x21": {
+   "handler": "839465",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x22": {
+   "handler": "8394C0",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x23": {
+   "handler": "83958C",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x24": {
+   "handler": "839618",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x25": {
+   "handler": "839659",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x26": {
+   "handler": "83968A",
+   "words": 2,
+   "offsets": [
+    1
+   ],
+   "note": "print string (offset) - adc @8396A9"
+  },
+  "0x27": {
+   "handler": "8396E0",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x28": {
+   "handler": "839717",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x29": {
+   "handler": "83960C",
+   "words": 2,
+   "offsets": [],
+   "note": "jsr to op 23 handler (2 words) - verified"
+  },
+  "0x2A": {
+   "handler": "839745",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x2B": {
+   "handler": "839770",
+   "words": 2,
+   "offsets": [
+    1
+   ],
+   "note": "print string in narration box (offset) - adc @83978F; 2 words verified (search proposed 4: wrong)"
+  },
+  "0x2C": {
+   "handler": "8397C6",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x2D": {
+   "handler": "8397F9",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x2E": {
+   "handler": "839808",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x2F": {
+   "handler": "839820",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x30": {
+   "handler": "839850",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x31": {
+   "handler": "839871",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x32": {
+   "handler": "8398A3",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x33": {
+   "handler": "8398DC",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x34": {
+   "handler": "839915",
+   "words": 3,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x35": {
+   "handler": "83994E",
+   "words": 3,
+   "offsets": [],
+   "note": "3 words verified (search proposed 6: wrong)"
+  },
+  "0x36": {
+   "handler": "839987",
+   "words": 2,
+   "offsets": [],
+   "note": "2 words verified (search proposed 5: wrong)"
+  },
+  "0x37": {
+   "handler": "8399DB",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x38": {
+   "handler": "8399BD",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x39": {
+   "handler": "839A0A",
+   "words": 4,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x3A": {
+   "handler": "839B56",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x3B": {
+   "handler": "839B8E",
+   "words": 2,
+   "offsets": [
+    1
+   ],
+   "note": "print string (offset) - adc @839BAD"
+  },
+  "0x3C": {
+   "handler": "839BE4",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x3D": {
+   "handler": "839C35",
+   "words": 2,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x3E": {
+   "handler": "839C56",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x3F": {
+   "handler": "839C77",
+   "words": 1,
+   "offsets": [],
+   "note": "halt loop (bra -6), 1 word"
+  },
+  "0x40": {
+   "handler": "839C82",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x41": {
+   "handler": "839CF3",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  },
+  "0x42": {
+   "handler": "839D67",
+   "words": 1,
+   "offsets": [],
+   "note": "inc $06 pair count of handler; validated by 333/333 parse"
+  }
+ }
+}
