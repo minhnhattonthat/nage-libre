@@ -82,6 +82,21 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | ○○ (placeholder name) | XX | |
 | ■ (debug/unused text) | `<$FC03>` (■ is not in en.tbl) | |
 
+## System text (script/en/system.txt)
+
+- Surnames 0-99 are empty (shared 10-column name buffer). Given names come from Japanese reading order: the pool is sorted by reading, which settles ambiguous readings.
+  - 紅 is used as a variant of 江 (詩紅 Utae, 静紅 Shizue, 睦紅 Mutsue).
+  - `<$9002>` reads Hiro- (Hiroko, Hiromi).
+  - 美`<$E405>` = Mia.
+- Battle pieces are joined in Japanese order:
+  - name + `:` + number + ` damage!` / ` HP healed!` / ` DEF up!`
+  - stat + number + `!` (`Strength +3!`)
+  - `Level rose to ` + number + `!`
+  - club + line break + `is now selectable!`
+- Fixed-width strings are padded with `<$FE03>` to their Japanese width so shorter text overwrites longer: birthstones 14, shop lines 24.
+- Yes/No (276 `Yes  No`, 293 `No  Yes`) keep their Japanese cursor columns.
+- Trailing spaces before `<END>` are stripped by the parser; use `<$2000>` for a trailing half-width space.
+
 ## Compromises
 
 (entries where box size forced a loss of meaning: `file index`: what was lost)
@@ -93,4 +108,5 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 - `scene_35B 0000`, `scene_35D 0002`: 「…<$FA01>の神殿」. The glyph `<$FA01>` is code 0x01FA, unmapped in nage.tbl (between 殿 and 催). Rendered from the ROM font it shows a top stroke over a 2×2 field of crosses, possibly 爾 or 爽. English avoids naming it ("the temple underground" / "the temple"). Which kanji is it?
 - `scene_361 0002`: `<$F602>` around ＮＡＧＥ is unresolved; assumed to be quote marks → `"NAGE"`.
 - `scene_447` (staff credits): staff names are kept in their original kanji (raw codes, they render correctly) because several glyphs are unmapped (0x0460, 0x0448, 0x058A, 0x0440, 0x0444, 0x0446, 0x044C, 0x044E, 0x0576, 0x0452, 0x0454, 0x02B4, 0x0458, 0x0292) and guessing real people's names is worse than leaving them. Hiragana/katakana nicknames are romanized (Gaku, Shichi Michihiko, Chiyou, Yonewo, Ukkii, R. Rira). Credit-heading typos fixed (IVENT → EVENT, EXECTIVE → EXECUTIVE). Romanize the names?
+- `system 0291` (面 after the stage number on the save screen) → ` stg` (`12 stg`); `0285`/`0286` (月/日) → `7/18`. Check the save and birthday screens in playtest.
 - `scene_384 0015` (password entry screen): only the prompt is translated. The cursor row `○` and the full-width `Ａ…Ｚ` rows are kept byte-identical (raw codes) so the cursor still lines up with the letters. Playtest: does entering LISTEN TO THE RAINDROPS still work and display correctly?

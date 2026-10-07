@@ -1,0 +1,947 @@
+## system 0000 @000000 len=0
+<END>
+
+## system 0001 @000000 len=0
+<END>
+
+## system 0002 @000000 len=0
+<END>
+
+## system 0003 @000000 len=0
+<END>
+
+## system 0004 @000000 len=0
+<END>
+
+## system 0005 @000000 len=0
+<END>
+
+## system 0006 @000000 len=0
+<END>
+
+## system 0007 @000000 len=0
+<END>
+
+## system 0008 @000000 len=0
+<END>
+
+## system 0009 @000000 len=0
+<END>
+
+## system 0010 @000000 len=0
+<END>
+
+## system 0011 @000000 len=0
+<END>
+
+## system 0012 @000000 len=0
+<END>
+
+## system 0013 @000000 len=0
+<END>
+
+## system 0014 @000000 len=0
+<END>
+
+## system 0015 @000000 len=0
+<END>
+
+## system 0016 @000000 len=0
+<END>
+
+## system 0017 @000000 len=0
+<END>
+
+## system 0018 @000000 len=0
+<END>
+
+## system 0019 @000000 len=0
+<END>
+
+## system 0020 @000000 len=0
+<END>
+
+## system 0021 @000000 len=0
+<END>
+
+## system 0022 @000000 len=0
+<END>
+
+## system 0023 @000000 len=0
+<END>
+
+## system 0024 @000000 len=0
+<END>
+
+## system 0025 @000000 len=0
+<END>
+
+## system 0026 @000000 len=0
+<END>
+
+## system 0027 @000000 len=0
+<END>
+
+## system 0028 @000000 len=0
+<END>
+
+## system 0029 @000000 len=0
+<END>
+
+## system 0030 @000000 len=0
+<END>
+
+## system 0031 @000000 len=0
+<END>
+
+## system 0032 @000000 len=0
+<END>
+
+## system 0033 @000000 len=0
+<END>
+
+## system 0034 @000000 len=0
+<END>
+
+## system 0035 @000000 len=0
+<END>
+
+## system 0036 @000000 len=0
+<END>
+
+## system 0037 @000000 len=0
+<END>
+
+## system 0038 @000000 len=0
+<END>
+
+## system 0039 @000000 len=0
+<END>
+
+## system 0040 @000000 len=0
+<END>
+
+## system 0041 @000000 len=0
+<END>
+
+## system 0042 @000000 len=0
+<END>
+
+## system 0043 @000000 len=0
+<END>
+
+## system 0044 @000000 len=0
+<END>
+
+## system 0045 @000000 len=0
+<END>
+
+## system 0046 @000000 len=0
+<END>
+
+## system 0047 @000000 len=0
+<END>
+
+## system 0048 @000000 len=0
+<END>
+
+## system 0049 @000000 len=0
+<END>
+
+## system 0050 @000000 len=0
+<END>
+
+## system 0051 @000000 len=0
+<END>
+
+## system 0052 @000000 len=0
+<END>
+
+## system 0053 @000000 len=0
+<END>
+
+## system 0054 @000000 len=0
+<END>
+
+## system 0055 @000000 len=0
+<END>
+
+## system 0056 @000000 len=0
+<END>
+
+## system 0057 @000000 len=0
+<END>
+
+## system 0058 @000000 len=0
+<END>
+
+## system 0059 @000000 len=0
+<END>
+
+## system 0060 @000000 len=0
+<END>
+
+## system 0061 @000000 len=0
+<END>
+
+## system 0062 @000000 len=0
+<END>
+
+## system 0063 @000000 len=0
+<END>
+
+## system 0064 @000000 len=0
+<END>
+
+## system 0065 @000000 len=0
+<END>
+
+## system 0066 @000000 len=0
+<END>
+
+## system 0067 @000000 len=0
+<END>
+
+## system 0068 @000000 len=0
+<END>
+
+## system 0069 @000000 len=0
+<END>
+
+## system 0070 @000000 len=0
+<END>
+
+## system 0071 @000000 len=0
+<END>
+
+## system 0072 @000000 len=0
+<END>
+
+## system 0073 @000000 len=0
+<END>
+
+## system 0074 @000000 len=0
+<END>
+
+## system 0075 @000000 len=0
+<END>
+
+## system 0076 @000000 len=0
+<END>
+
+## system 0077 @000000 len=0
+<END>
+
+## system 0078 @000000 len=0
+<END>
+
+## system 0079 @000000 len=0
+<END>
+
+## system 0080 @000000 len=0
+<END>
+
+## system 0081 @000000 len=0
+<END>
+
+## system 0082 @000000 len=0
+<END>
+
+## system 0083 @000000 len=0
+<END>
+
+## system 0084 @000000 len=0
+<END>
+
+## system 0085 @000000 len=0
+<END>
+
+## system 0086 @000000 len=0
+<END>
+
+## system 0087 @000000 len=0
+<END>
+
+## system 0088 @000000 len=0
+<END>
+
+## system 0089 @000000 len=0
+<END>
+
+## system 0090 @000000 len=0
+<END>
+
+## system 0091 @000000 len=0
+<END>
+
+## system 0092 @000000 len=0
+<END>
+
+## system 0093 @000000 len=0
+<END>
+
+## system 0094 @000000 len=0
+<END>
+
+## system 0095 @000000 len=0
+<END>
+
+## system 0096 @000000 len=0
+<END>
+
+## system 0097 @000000 len=0
+<END>
+
+## system 0098 @000000 len=0
+<END>
+
+## system 0099 @000000 len=0
+<END>
+
+## system 0100 @000000 len=0
+Ayaka<END>
+
+## system 0101 @000000 len=0
+Mai<END>
+
+## system 0102 @000000 len=0
+Yui<END>
+
+## system 0103 @000000 len=0
+Miki<END>
+
+## system 0104 @000000 len=0
+Ryoko<END>
+
+## system 0105 @000000 len=0
+Ai<END>
+
+## system 0106 @000000 len=0
+Aiko<END>
+
+## system 0107 @000000 len=0
+Akane<END>
+
+## system 0108 @000000 len=0
+Akane<END>
+
+## system 0109 @000000 len=0
+Akemi<END>
+
+## system 0110 @000000 len=0
+Akemi<END>
+
+## system 0111 @000000 len=0
+Ako<END>
+
+## system 0112 @000000 len=0
+Aya<END>
+
+## system 0113 @000000 len=0
+Ayako<END>
+
+## system 0114 @000000 len=0
+Ayako<END>
+
+## system 0115 @000000 len=0
+Ayako<END>
+
+## system 0116 @000000 len=0
+Ayane<END>
+
+## system 0117 @000000 len=0
+Utae<END>
+
+## system 0118 @000000 len=0
+Utako<END>
+
+## system 0119 @000000 len=0
+Ema<END>
+
+## system 0120 @000000 len=0
+Emi<END>
+
+## system 0121 @000000 len=0
+Eri<END>
+
+## system 0122 @000000 len=0
+Kaori<END>
+
+## system 0123 @000000 len=0
+Kazuyo<END>
+
+## system 0124 @000000 len=0
+Kikuko<END>
+
+## system 0125 @000000 len=0
+Kyoko<END>
+
+## system 0126 @000000 len=0
+Kyoko<END>
+
+## system 0127 @000000 len=0
+Kyoko<END>
+
+## system 0128 @000000 len=0
+Kirika<END>
+
+## system 0129 @000000 len=0
+Kumi<END>
+
+## system 0130 @000000 len=0
+Keiko<END>
+
+## system 0131 @000000 len=0
+Keiko<END>
+
+## system 0132 @000000 len=0
+Sae<END>
+
+## system 0133 @000000 len=0
+Saki<END>
+
+## system 0134 @000000 len=0
+Sakura<END>
+
+## system 0135 @000000 len=0
+Sakura<END>
+
+## system 0136 @000000 len=0
+Sakurako<END>
+
+## system 0137 @000000 len=0
+Satoko<END>
+
+## system 0138 @000000 len=0
+Sanae<END>
+
+## system 0139 @000000 len=0
+Saya<END>
+
+## system 0140 @000000 len=0
+Sayoko<END>
+
+## system 0141 @000000 len=0
+Sara<END>
+
+## system 0142 @000000 len=0
+Shiori<END>
+
+## system 0143 @000000 len=0
+Shizue<END>
+
+## system 0144 @000000 len=0
+Shizuka<END>
+
+## system 0145 @000000 len=0
+Shizuka<END>
+
+## system 0146 @000000 len=0
+Shizuka<END>
+
+## system 0147 @000000 len=0
+Shizuko<END>
+
+## system 0148 @000000 len=0
+Junko<END>
+
+## system 0149 @000000 len=0
+Junko<END>
+
+## system 0150 @000000 len=0
+Shoko<END>
+
+## system 0151 @000000 len=0
+Chieko<END>
+
+## system 0152 @000000 len=0
+Tomomi<END>
+
+## system 0153 @000000 len=0
+Tomomi<END>
+
+## system 0154 @000000 len=0
+Tomoyo<END>
+
+## system 0155 @000000 len=0
+Tsukiko<END>
+
+## system 0156 @000000 len=0
+Naoko<END>
+
+## system 0157 @000000 len=0
+Naoko<END>
+
+## system 0158 @000000 len=0
+Nami<END>
+
+## system 0159 @000000 len=0
+Nozomi<END>
+
+## system 0160 @000000 len=0
+Noriko<END>
+
+## system 0161 @000000 len=0
+Noriko<END>
+
+## system 0162 @000000 len=0
+Noriko<END>
+
+## system 0163 @000000 len=0
+Hanako<END>
+
+## system 0164 @000000 len=0
+Himeka<END>
+
+## system 0165 @000000 len=0
+Hiroko<END>
+
+## system 0166 @000000 len=0
+Hiroko<END>
+
+## system 0167 @000000 len=0
+Hiromi<END>
+
+## system 0168 @000000 len=0
+Hiromi<END>
+
+## system 0169 @000000 len=0
+Hiromi<END>
+
+## system 0170 @000000 len=0
+Fumiko<END>
+
+## system 0171 @000000 len=0
+Maiko<END>
+
+## system 0172 @000000 len=0
+Maimi<END>
+
+## system 0173 @000000 len=0
+Maki<END>
+
+## system 0174 @000000 len=0
+Mako<END>
+
+## system 0175 @000000 len=0
+Masumi<END>
+
+## system 0176 @000000 len=0
+Mana<END>
+
+## system 0177 @000000 len=0
+Manami<END>
+
+## system 0178 @000000 len=0
+Mami<END>
+
+## system 0179 @000000 len=0
+Mami<END>
+
+## system 0180 @000000 len=0
+Maya<END>
+
+## system 0181 @000000 len=0
+Maya<END>
+
+## system 0182 @000000 len=0
+Mia<END>
+
+## system 0183 @000000 len=0
+Mio<END>
+
+## system 0184 @000000 len=0
+Mika<END>
+
+## system 0185 @000000 len=0
+Miki<END>
+
+## system 0186 @000000 len=0
+Miki<END>
+
+## system 0187 @000000 len=0
+Miko<END>
+
+## system 0188 @000000 len=0
+Minako<END>
+
+## system 0189 @000000 len=0
+Miho<END>
+
+## system 0190 @000000 len=0
+Miya<END>
+
+## system 0191 @000000 len=0
+Miyu<END>
+
+## system 0192 @000000 len=0
+Miyuki<END>
+
+## system 0193 @000000 len=0
+Miyuki<END>
+
+## system 0194 @000000 len=0
+Miyuki<END>
+
+## system 0195 @000000 len=0
+Miyuki<END>
+
+## system 0196 @000000 len=0
+Miyoko<END>
+
+## system 0197 @000000 len=0
+Mutsue<END>
+
+## system 0198 @000000 len=0
+Mutsumi<END>
+
+## system 0199 @000000 len=0
+Megumi<END>
+
+## system 0200 @000000 len=0
+Megumi<END>
+
+## system 0201 @000000 len=0
+Motoko<END>
+
+## system 0202 @000000 len=0
+Yayoi<END>
+
+## system 0203 @000000 len=0
+Yuina<END>
+
+## system 0204 @000000 len=0
+Yuko<END>
+
+## system 0205 @000000 len=0
+Yuka<END>
+
+## system 0206 @000000 len=0
+Yuka<END>
+
+## system 0207 @000000 len=0
+Yukari<END>
+
+## system 0208 @000000 len=0
+Yumi<END>
+
+## system 0209 @000000 len=0
+Yumi<END>
+
+## system 0210 @000000 len=0
+Yumi<END>
+
+## system 0211 @000000 len=0
+Yumika<END>
+
+## system 0212 @000000 len=0
+Yumiko<END>
+
+## system 0213 @000000 len=0
+Yuriko<END>
+
+## system 0214 @000000 len=0
+Yuriko<END>
+
+## system 0215 @000000 len=0
+Yoko<END>
+
+## system 0216 @000000 len=0
+Yoshiko<END>
+
+## system 0217 @000000 len=0
+Yoshiko<END>
+
+## system 0218 @000000 len=0
+Rie<END>
+
+## system 0219 @000000 len=0
+Rika<END>
+
+## system 0220 @000000 len=0
+Rika<END>
+
+## system 0221 @000000 len=0
+Nage<END>
+
+## system 0222 @000000 len=0
+Aria<END>
+
+## system 0223 @000000 len=0
+Saty<END>
+
+## system 0224 @000000 len=0
+Tsukiyomi<END>
+
+## system 0225 @000000 len=0
+Misty<END>
+
+## system 0226 @000000 len=0
+Shadow<END>
+
+## system 0227 @000000 len=0
+Basketball<END>
+
+## system 0228 @000000 len=0
+Tennis<END>
+
+## system 0229 @000000 len=0
+Kendo<END>
+
+## system 0230 @000000 len=0
+Karate<END>
+
+## system 0231 @000000 len=0
+Archery<END>
+
+## system 0232 @000000 len=0
+Lacrosse<END>
+
+## system 0233 @000000 len=0
+Gymnastics<END>
+
+## system 0234 @000000 len=0
+Occult<END>
+
+## system 0235 @000000 len=0
+Cooking<END>
+
+## system 0236 @000000 len=0
+Dance<END>
+
+## system 0237 @000000 len=0
+Ikebana<END>
+
+## system 0238 @000000 len=0
+Band<END>
+
+## system 0239 @000000 len=0
+Drama<END>
+
+## system 0240 @000000 len=0
+Manga<END>
+
+## system 0241 @000000 len=0
+Crafts<END>
+
+## system 0242 @000000 len=0
+Student<END>
+
+## system 0243 @000000 len=0
+Boss<END>
+
+## system 0247 @000000 len=0
+??<END>
+
+## system 0248 @000000 len=0
+'s attack!<END>
+
+## system 0249 @000000 len=0
+:<$FE03><END>
+
+## system 0250 @000000 len=0
+ damage!<END>
+
+## system 0251 @000000 len=0
+ HP healed!<END>
+
+## system 0252 @000000 len=0
+ DEF up!<END>
+
+## system 0253 @000000 len=0
+Pick a card to swap<END>
+
+## system 0254 @000000 len=0
+Changing clothes…<END>
+
+## system 0255 @000000 len=0
+Run for it!<END>
+
+## system 0256 @000000 len=0
+…They caught up!<END>
+
+## system 0257 @000000 len=0
+…Managed to escape…<END>
+
+## system 0258 @000000 len=0
+<$FE03>Birthstone bonus<END>
+
+## system 0259 @000000 len=0
+No damage dealt!<END>
+
+## system 0260 @000000 len=0
+Don't run! Wait!<END>
+
+## system 0261 @000000 len=0
+…Caught up<END>
+
+## system 0262 @000000 len=0
+…They got away<END>
+
+## system 0263 @000000 len=0
+ was defeated!<END>
+
+## system 0264 @000000 len=0
+ gold obtained!<END>
+
+## system 0265 @000000 len=0
+!<END>
+
+## system 0266 @000000 len=0
+HP +<END>
+
+## system 0267 @000000 len=0
+Strength +<END>
+
+## system 0268 @000000 len=0
+Defense +<END>
+
+## system 0269 @000000 len=0
+Spirit +<END>
+
+## system 0270 @000000 len=0
+Speed +<END>
+
+## system 0271 @000000 len=0
+Level rose to<$2000><END>
+
+## system 0272 @000000 len=0
+<$FE03><END>
+
+## system 0273 @000000 len=0
+is now selectable!<END>
+
+## system 0274 @000000 len=0
+!<END>
+
+## system 0275 @000000 len=0
+Birthstone bonus<END>
+
+## system 0276 @000000 len=0
+<$FE03>Yes <$FE03><$FE03>No<END>
+
+## system 0277 @000000 len=0
+'s super move!<END>
+
+## system 0278 @000000 len=0
+Is this data OK?<END>
+
+## system 0279 @000000 len=0
+Load which file?<END>
+
+## system 0280 @000000 len=0
+Buy cards <$FE03><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03><END>
+
+## system 0281 @000000 len=0
+Switch characters <$FE03><$FE03><$FE03><END>
+
+## system 0282 @000000 len=0
+Sell cards<$FE03><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03><END>
+
+## system 0283 @000000 len=0
+Not enough money! <$FE03><$FE03><$FE03><END>
+
+## system 0284 @000000 len=0
+Can't buy any more<$FE03><$FE03><$FE03><END>
+
+## system 0285 @000000 len=0
+/<END>
+
+## system 0286 @000000 len=0
+<$FE03><END>
+
+## system 0287 @000000 len=0
+Tell me your birthday<END>
+
+## system 0288 @000000 len=0
+Are these birthdays OK?<END>
+
+## system 0289 @000000 len=0
+Save to which file?<END>
+
+## system 0290 @000000 len=0
+File<END>
+
+## system 0291 @000000 len=0
+ stg<END>
+
+## system 0292 @000000 len=0
+Old data will be erased<END>
+
+## system 0293 @000000 len=0
+No<$FE03><$FE03>Yes<END>
+
+## system 0294 @000000 len=0
+none<END>
+
+## system 0295 @000000 len=0
+Garnet<$FE03><$FE03><$FE03><$FE03><END>
+
+## system 0296 @000000 len=0
+Amethyst<$FE03><$FE03><$FE03><END>
+
+## system 0297 @000000 len=0
+Aquamarine<$FE03><$FE03><END>
+
+## system 0298 @000000 len=0
+Diamond <$FE03><$FE03><$FE03><END>
+
+## system 0299 @000000 len=0
+Emerald <$FE03><$FE03><$FE03><END>
+
+## system 0300 @000000 len=0
+Moonstone <$FE03><$FE03><END>
+
+## system 0301 @000000 len=0
+Ruby<$FE03><$FE03><$FE03><$FE03><$FE03><END>
+
+## system 0302 @000000 len=0
+Agate <$FE03><$FE03><$FE03><$FE03><END>
+
+## system 0303 @000000 len=0
+Sapphire<$FE03><$FE03><$FE03><END>
+
+## system 0304 @000000 len=0
+Opal<$FE03><$FE03><$FE03><$FE03><$FE03><END>
+
+## system 0305 @000000 len=0
+Topaz <$FE03><$FE03><$FE03><$FE03><END>
+
+## system 0306 @000000 len=0
+Lapis Lazuli<$FE03><END>
+
+## system 0307 @000000 len=0
+What now?<END>
+
+## system 0308 @000000 len=0
+Shop<END>
+
+## system 0309 @000000 len=0
+Clubs<END>
+
+## system 0310 @000000 len=0
+Save<END>
+
+## system 0311 @000000 len=0
+Start<END>
+
+## system 0312 @000000 len=0
+EX<END>
+
+## system 0313 @000000 len=0
+"LI" Jewel<END>
+
+## system 0314 @000000 len=0
+"BE" Jewel<END>
+
+## system 0315 @000000 len=0
+"RA" Jewel<END>
+
+## system 0316 @000000 len=0
+"TI" Jewel<END>
+
+## system 0317 @000000 len=0
+"O" Jewel<END>
+
+## system 0318 @000000 len=0
+"N" Jewel<END>
