@@ -50,7 +50,7 @@ class Build(unittest.TestCase):
         self.assertEqual(self.img[0x28000:0x28400], self.clean[0x28000:0x28400])
 
     def test_en_newlines_are_spaces(self):
-        img = build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\nIn a\ndistant world<END>\n"))
+        img = build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n<BR>In a\ndistant world<END>\n"))
         blk = decompress.decompress(img, ptr(img, 0x341))[0]
         text = dump.extract_scene(blk, Table.load(build.EN_TBL), "scene_341")[0].text
         self.assertIn("In a distant world", text)
@@ -62,6 +62,21 @@ class Build(unittest.TestCase):
     def test_overflow_names_box(self):
         with self.assertRaisesRegex(build.BuildError, "scene_341.txt entry 0000: .*lines"):
             build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n" + "word " * 40 + "<END>\n"))
+
+    def test_hidden_first_line_requires_br(self):
+        # scene_341 0000's Japanese starts with a full blank line (hidden above the narration box)
+        with self.assertRaisesRegex(build.BuildError, "scene_341.txt entry 0000: .*blank first line.*<BR>"):
+            build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\nHello<END>\n"))
+        build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n<BR>Hello<END>\n"))
+
+    def test_trailing_spaces_after_end_ok(self):
+        build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n<BR>Hi<END>   \n"))
+
+    def test_fit_error_states_box_once(self):
+        with self.assertRaises(build.BuildError) as cm:
+            build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n" + "word " * 40 + "<END>\n"))
+        self.assertEqual(str(cm.exception).count("30"), 1, str(cm.exception))
+        self.assertIn("columns over", str(cm.exception))
 
     def test_rejects_non_clean_rom(self):
         bad = bytearray(self.clean); bad[0x1000] ^= 1
@@ -86,8 +101,8 @@ class Build(unittest.TestCase):
         img = build.build(self.clean, self._en(f"## scene_341 0000 @000000 len=0\n{grown}\n"))
         blk = decompress.decompress(img, ptr(img, 0x341))[0]
         new = dump.extract_scene(blk, Table.load(build.EN_TBL), "scene_341")
-        self.assertEqual(new[0].text.replace(" ", ""), "Inadistantworld…avoiceechoes…<END>")
-        self.assertEqual(new[0].text[:30], " " * 30)
+        self.assertEqual(new[0].text.replace(" ", "").replace("　", ""), "Inadistantworld…avoiceechoes…<END>")
+        self.assertTrue(new[0].text.startswith("　" * 15))
         self.assertEqual(len(new), len(jp))
         ops = bytecode.parse(blk)
         starts = {e.offset for e in new}
@@ -146,7 +161,7 @@ class TranslationInputValidation(unittest.TestCase):
             self.fails({name: ""}, name)
 
     def test_duplicate_index_and_foreign_header_rejected(self):
-        self.fails({"scene_341.txt": "## scene_341 0000 @0 len=0\nHi<END>\n\n## scene_341 0000 @0 len=0\nYo<END>\n"}, "duplicate")
+        self.fails({"scene_341.txt": "## scene_341 0000 @0 len=0\n<BR>Hi<END>\n\n## scene_341 0000 @0 len=0\n<BR>Yo<END>\n"}, "duplicate")
         self.fails({"scene_341.txt": "## scene_342 0000 @000000 len=0\nあ<END>\n"}, "scene_342")
 
     def test_missing_en_dir_rejected(self):

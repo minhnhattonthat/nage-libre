@@ -32,7 +32,7 @@ op 3B box Box(cols=30, lines=3): JP lines {1: 5, 2: 2, 3: 12}
 | `scene_341 0000` `<BR>In a distant world… a voice echoes…` | full 30×3 | `english_narration_next_00120.png` | word-wrapped at "voice / echoes…"; leading blank line sits above the visible area of the black-screen narration box (same as the Japanese convention) |
 | `scene_341 0002` 3-line quote | full 30×3 | `english_narration_next_00390.png` | exactly 3 full lines, ends at the box edge |
 | `scene_341 0004` `<BR>…  AM 6:12  …` | full 30×3 | `english_narration_next_00570.png` | correct; doubled spaces collapse to one (by design) |
-| `scene_310 0012` four 22-char lines | portrait 22×4 | `english_settle240_final.png` (map1 + 240 idle frames, route `settle240`) | exactly fills the portrait box, nothing outside the frame |
+| `scene_310 0012` four 22-char lines | portrait 22×4 | `english_settle240_final.png` (map1 + 240 idle frames, route `settle240`, part of `accept.py english`) | exactly fills the portrait box, nothing outside the frame |
 
 Untranslated lines show hiragana as Latin letters (e.g. the boss's previous line in `english_map1_01050.png`). Expected until those lines are translated; kanji and katakana are unaffected.
 
@@ -46,3 +46,10 @@ Untranslated lines show hiragana as Latin letters (e.g. the boss's previous line
 - Black-screen narration (`scene_341`-style) keeps a leading `<BR>` like the Japanese blank first line.
 - Literal `<`/`>` can't be used. `… ♥ ♪ ‼` are available as full-width symbols (2 columns each).
 - The build fails with file, entry, box and line count when text doesn't fit.
+
+## Review fixes (2b final review)
+
+- **Hidden / spacer first line:** 93 entries' Japanese starts with a full blank line (84 in op-`0B` 30×4 boxes, 9 in 30×3). On the black-screen narration that line sits above the visible area. The build now fails unless the English for such an entry starts with `<BR>`, so the layout is kept and a line can't silently disappear.
+- **30×4 box (op `0B`):** not yet confirmed in the emulator. Its entries (e.g. `scene_310 0014`/`0016`, the stage-start banner and victory condition) don't display on the current routes. The capacity rests on the Japanese: 52 op-`0B` entries without a leading blank line use all 4 lines. Confirm on the first playtest that reaches a stage-start banner.
+- **Padding** uses the full-width blank `03FE` (2 columns per glyph) plus at most one space. That halves padding bytes, which matters for the 0x1340 WRAM window, and padding glyphs don't blip.
+- **Fit errors** report the columns over and why a box applies (e.g. the 22×1 rule for entries printed by both 22- and 30-column boxes). Trailing spaces after `<END>` are allowed.

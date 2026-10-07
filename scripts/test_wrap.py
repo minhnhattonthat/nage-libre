@@ -4,16 +4,21 @@ from tbl import Table
 
 T = Table.parse(entable.table_text())
 B = wrap.Box(10, 3)
+FB = "　"                       # full-width blank: pads 2 columns in one glyph
+
+
+def pad(n):
+    return " " * (n % 2) + FB * (n // 2)
 
 class Fit(unittest.TestCase):
     def test_word_wrap_pads_with_spaces(self):
-        self.assertEqual(wrap.fit("hello there world<END>", B, T), "hello     there     world<END>")
+        self.assertEqual(wrap.fit("hello there world<END>", B, T), "hello" + pad(5) + "there" + pad(5) + "world<END>")
 
     def test_exact_fill_needs_no_padding(self):
         self.assertEqual(wrap.fit("abcdefghij klm<END>", B, T), "abcdefghijklm<END>")
 
     def test_br_and_leading_br(self):
-        self.assertEqual(wrap.fit("<BR>hi<BR>yo<END>", B, T), " " * 10 + "hi" + " " * 8 + "yo<END>")
+        self.assertEqual(wrap.fit("<BR>hi<BR>yo<END>", B, T), pad(10) + "hi" + pad(8) + "yo<END>")
 
     def test_br_after_exact_fill_is_not_a_blank_line(self):
         self.assertEqual(wrap.fit("abcdefghij<BR>klm<END>", B, T), "abcdefghijklm<END>")
@@ -29,8 +34,16 @@ class Fit(unittest.TestCase):
             wrap.fit("abcdefghijk<END>", B, T)
 
     def test_too_many_lines_fails_with_count(self):
-        with self.assertRaisesRegex(wrap.FitError, "4 lines"):
+        with self.assertRaisesRegex(wrap.FitError, r"4 lines, box holds 3 .* 7 columns over"):
             wrap.fit("aaaa bbbbbbb cccccc ddddddd<END>", B, T)
+
+    def test_padding_uses_fullwidth_blanks(self):
+        self.assertEqual(wrap.fit("abc de<END>", wrap.Box(4, 2), T), "abc" + " " + "de<END>")
+        self.assertEqual(wrap.fit("ab cd<END>", wrap.Box(4, 2), T), "ab" + FB + "cd<END>")
+
+    def test_box_note_explains_error(self):
+        with self.assertRaisesRegex(wrap.FitError, "must fit one"):
+            wrap.fit("aaaa bbbb<END>", wrap.Box(5, 1, "printed by 22- and 30-column boxes: must fit one 22-column line"), T)
 
     def test_unknown_char_and_missing_end(self):
         with self.assertRaisesRegex(wrap.FitError, "table"):
@@ -52,4 +65,6 @@ class EntryBoxes(unittest.TestCase):
 
     def test_mixed_widths_get_one_line_of_the_narrower(self):
         blk = words(0x01, 0x0008, 0x2B, 0x0008, 0xFFFF, 0x41, 0xFFFF)
-        self.assertEqual(wrap.entry_boxes(blk)[0x08], wrap.Box(22, 1))
+        box = wrap.entry_boxes(blk)[0x08]
+        self.assertEqual((box.cols, box.lines), (22, 1))
+        self.assertIn("22- and 30-column", box.note)

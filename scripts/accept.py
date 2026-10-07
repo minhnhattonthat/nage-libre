@@ -79,11 +79,11 @@ def english():
     d, built = write_rom(build.build(rom.load(), fixtures))
     try:
         play("english", built, [("dialogue1", None), ("narration_next", "dialogue1"),
-                                ("stage1", "dialogue1"), ("map1", "stage1")])
+                                ("stage1", "dialogue1"), ("map1", "stage1"), ("settle240", "map1")])
     finally:
         shutil.rmtree(d)
     print("review work/shots/english_narration_next_*.png (scene_341 0000/0002/0004) and "
-          "work/shots/english_map1_final.png (scene_310 0012, portrait box filled to capacity)")
+          "work/shots/english_settle240_final.png (scene_310 0012, portrait 22x4 filled)")
     return True
 
 

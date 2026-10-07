@@ -18,6 +18,7 @@ ADC_SITES = [0x83840D, 0x838463, 0x838755, 0x8388E9, 0x838C13, 0x8396A9, 0x83978
 LOADER = 0x8380F0           # lda #$C0 / sta $06 / lda #$64 / sta $07
 EN_TBL = entable.OUT
 THRESHOLD_SITES = [0x80F3AE, 0x80F3C7, 0x80F426]   # operand of cmp #$0010 (half-width glyph threshold)
+BLANK = bytes([0xFE, 0x03])                        # full-width blank glyph 03FE
 FONT_AT = 0x28000 + 0x20 * 0x20                    # glyphs for codes 0x20-0x7F (English = ASCII)
 
 
@@ -43,7 +44,7 @@ def english_patches(clean):
     return p
 
 
-def en_texts(path, entries, table, boxes):
+def en_texts(path, entries, table, boxes, jp_block=b""):
     """{index: encoded bytes} for one translated scene file, validated against the JP entries."""
     fname = os.path.basename(path)
     block = os.path.splitext(fname)[0]
@@ -70,17 +71,24 @@ def en_texts(path, entries, table, boxes):
             if t.text != e.text:
                 raise BuildError(f"{where}: data entry was edited (data entries must stay exactly as dumped)")
             continue
-        if not t.text.endswith("<END>"):
+        text = t.text.rstrip()
+        if not text.endswith("<END>"):
             raise BuildError(f"{where}: text must end with <END>")
         box = boxes.get(e.offset, wrap.FULL)
         try:
-            b = table.encode(wrap.fit(t.text, box, table))
-        except ValueError as x:                      # includes wrap.FitError
+            b = table.encode(wrap.fit(text, box, table))
+        except wrap.FitError as x:                   # message already names the box
+            raise BuildError(f"{where}: {x}") from None
+        except ValueError as x:
             raise BuildError(f"{where}: {x} (box {box.cols}x{box.lines})") from None
         if len(b) % 2:
             raise BuildError(f"{where}: encodes to an odd number of bytes (a raw <$..> code is 1 byte short)")
         if any(b[i:i + 2] == dump.END for i in range(0, len(b) - 2, 2)):
             raise BuildError(f"{where}: <END> before the end of the text (text after it would never show)")
+        blank_line = BLANK * (box.cols // 2)
+        if box.lines > 1 and jp_block[e.offset:e.offset + len(blank_line)] == blank_line and not text.startswith("<BR>"):
+            raise BuildError(f"{where}: the Japanese starts with a blank first line (hidden/spacer line in this box); "
+                             f"start the English with <BR>")
         out[t.index] = b
     return out
 
@@ -105,7 +113,7 @@ def build(clean, en_dir=None):
         blk, _ = decompress.decompress(clean, rom.lorom_to_pc(int.from_bytes(clean[at:at + 3], "little")))
         entries = dump.extract_scene(blk, table, name)
         path = os.path.join(en_dir, name + ".txt") if en_dir else None
-        texts = en_texts(path, entries, en_table, wrap.entry_boxes(blk)) if path and os.path.exists(path) else {}
+        texts = en_texts(path, entries, en_table, wrap.entry_boxes(blk), blk) if path and os.path.exists(path) else {}
         try:
             new = layout.rebuild(blk, entries, texts)
         except ValueError as e:
