@@ -47,11 +47,11 @@
 ## scene_40F 0013 @00017E len=2
 <END>
 
-## scene_40F 0014 @000180 len=24
+## scene_40F 0014 @000180 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_40F 0015 @000198 len=2
 <END>
 
-## scene_40F 0016 @00019A len=8
+## scene_40F 0016 @00019A len=8 data
 <$0000>8<$6300><END>

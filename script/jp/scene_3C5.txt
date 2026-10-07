@@ -20,7 +20,7 @@
 ## scene_3C5 0005 @0000B0 len=2
 <END>
 
-## scene_3C5 0006 @0000B2 len=24
+## scene_3C5 0006 @0000B2 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3C5 0007 @0000CA len=2

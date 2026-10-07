@@ -31,7 +31,7 @@
 ## scene_3CB 0008 @00011A len=2
 <END>
 
-## scene_3CB 0009 @00011C len=8
+## scene_3CB 0009 @00011C len=8 data
 6ぶ<$6300><END>
 
 ## scene_3CB 0010 @000124 len=2

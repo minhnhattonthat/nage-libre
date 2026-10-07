@@ -16,11 +16,11 @@
 ## scene_3A0 0004 @0000BA len=2
 <END>
 
-## scene_3A0 0005 @0000BC len=8
+## scene_3A0 0005 @0000BC len=8 data
 5ぶ<$6300><END>
 
 ## scene_3A0 0006 @0000C4 len=2
 <END>
 
-## scene_3A0 0007 @0000C6 len=8
+## scene_3A0 0007 @0000C6 len=8 data
 28<$6300><END>

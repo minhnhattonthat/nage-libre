@@ -18,7 +18,7 @@
 ## scene_3B8 0005 @0000B2 len=2
 <END>
 
-## scene_3B8 0006 @0000B4 len=8
+## scene_3B8 0006 @0000B4 len=8 data
 <$0000><$0F00><$6300><END>
 
 ## scene_3B8 0007 @0000BC len=2

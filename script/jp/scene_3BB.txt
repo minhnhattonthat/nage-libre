@@ -20,7 +20,7 @@
 ## scene_3BB 0005 @0000F2 len=2
 <END>
 
-## scene_3BB 0006 @0000F4 len=8
+## scene_3BB 0006 @0000F4 len=8 data
 <$0000><$0F00><$6300><END>
 
 ## scene_3BB 0007 @0000FC len=2

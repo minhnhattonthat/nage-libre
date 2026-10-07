@@ -109,25 +109,25 @@
 ## scene_3FF 0032 @000336 len=2
 <END>
 
-## scene_3FF 0033 @000338 len=24
+## scene_3FF 0033 @000338 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3FF 0034 @000350 len=2
 <END>
 
-## scene_3FF 0035 @000352 len=8
+## scene_3FF 0035 @000352 len=8 data
 4ぶ<$6300><END>
 
 ## scene_3FF 0036 @00035A len=2
 <END>
 
-## scene_3FF 0037 @00035C len=36
+## scene_3FF 0037 @00035C len=36 data
 01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
 
-## scene_3FF 0038 @000380 len=6
+## scene_3FF 0038 @000380 len=6 data
 <$0100>2<END>
 
-## scene_3FF 0039 @000386 len=6
+## scene_3FF 0039 @000386 len=6 data
 <$0000>2<END>
 
 ## scene_3FF 0040 @00038C len=2

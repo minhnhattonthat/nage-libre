@@ -21,13 +21,13 @@
 ## scene_3BD 0005 @000108 len=2
 <END>
 
-## scene_3BD 0006 @00010A len=24
+## scene_3BD 0006 @00010A len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3BD 0007 @000122 len=2
 <END>
 
-## scene_3BD 0008 @000124 len=8
+## scene_3BD 0008 @000124 len=8 data
 <$0000><$0F00><$6300><END>
 
 ## scene_3BD 0009 @00012C len=2

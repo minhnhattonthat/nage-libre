@@ -12,8 +12,9 @@ from tbl import Table
 MAP = os.path.join(rom.ROOT, "scripts", "textmap.json")
 TBL = os.path.join(rom.ROOT, "nage.tbl")
 OUT = os.path.join(rom.ROOT, "script", "jp")
-_HEAD = re.compile(r"^## (\S+) (\d+) (?:@([0-9A-F]+) len=(\d+)|=(\d+))$")
+_HEAD = re.compile(r"^## (\S+) (\d+) (?:@([0-9A-F]+) len=(\d+)( data)?|=(\d+))$")
 END = b"\xff\xff"
+GLYPH_MIN = 0x180      # raw codes below this are never real glyphs (kanji start at 0x180) -> data, not text
 
 
 @dataclass
@@ -24,6 +25,7 @@ class Entry:
     length: int
     text: str
     alias: int | None = None
+    data: bool = False   # non-text data in the string area: must not be translated
 
 
 def write_text(path, s):
@@ -76,7 +78,8 @@ def extract_scene(blk, table, name):
     out, pos = [], pos + 2
     while pos < len(blk) - 1:
         text, end = table.decode(blk, pos)
-        out.append(Entry(name, len(out), pos, end - pos, text))
+        raw = [int(c[2:] + c[:2], 16) for c in re.findall(r"<\$([0-9A-F]{4})>", text)]
+        out.append(Entry(name, len(out), pos, end - pos, text, data=any(c < GLYPH_MIN for c in raw)))
         pos = end
     return out
 
@@ -123,7 +126,8 @@ def format_block(entries, table, wrap=None):
         text = wrap_text(e.text, table, wrap) if wrap else e.text
         for tag in table.break_tags:
             text = re.sub(r"(<%s(?::[0-9A-F]+)?>)" % tag, r"\1\n", text)
-        parts.append(f"## {e.block} {e.index:04d} @{e.offset:06X} len={e.length}\n{text.rstrip(chr(10))}\n")
+        flag = " data" if e.data else ""
+        parts.append(f"## {e.block} {e.index:04d} @{e.offset:06X} len={e.length}{flag}\n{text.rstrip(chr(10))}\n")
     return "\n".join(parts)
 
 
@@ -135,10 +139,11 @@ def parse_block(s):
         if not m:
             raise ValueError(f"bad header: {head!r}")
         name, idx = m.group(1), int(m.group(2))
-        if m.group(5) is not None:
-            out.append(Entry(name, idx, None, 0, "", alias=int(m.group(5))))
+        if m.group(6) is not None:
+            out.append(Entry(name, idx, None, 0, "", alias=int(m.group(6))))
         else:
-            out.append(Entry(name, idx, int(m.group(3), 16), int(m.group(4)), body.replace("\n", "")))
+            out.append(Entry(name, idx, int(m.group(3), 16), int(m.group(4)), body.replace("\n", ""),
+                             data=m.group(5) is not None))
     return out
 
 

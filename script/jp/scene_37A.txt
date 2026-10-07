@@ -35,7 +35,7 @@
 ## scene_37A 0010 @00013A len=2
 <END>
 
-## scene_37A 0011 @00013C len=24
+## scene_37A 0011 @00013C len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_37A 0012 @000154 len=2

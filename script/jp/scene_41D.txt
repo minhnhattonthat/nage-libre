@@ -25,5 +25,5 @@
 ## scene_41D 0007 @0000BC len=2
 <END>
 
-## scene_41D 0008 @0000BE len=16
+## scene_41D 0008 @0000BE len=16 data
 0ぉ1ぉ<$0000><$0F00><$6300><END>

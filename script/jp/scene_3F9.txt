@@ -70,10 +70,10 @@
 ## scene_3F9 0018 @0002F2 len=2
 <END>
 
-## scene_3F9 0019 @0002F4 len=24
+## scene_3F9 0019 @0002F4 len=24 data
 081808182<$0F00><$6300><END>
 
-## scene_3F9 0020 @00030C len=20
+## scene_3F9 0020 @00030C len=20 data
 0818<$0000>こ7ぬ<$6300><END>
 
 ## scene_3F9 0021 @000320 len=2

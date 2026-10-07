@@ -45,8 +45,8 @@
 ## scene_3F6 0012 @00019E len=2
 <END>
 
-## scene_3F6 0013 @0001A0 len=8
+## scene_3F6 0013 @0001A0 len=8 data
 <$0000>8<$6300><END>
 
-## scene_3F6 0014 @0001A8 len=8
+## scene_3F6 0014 @0001A8 len=8 data
 7ぬ<$6300><END>

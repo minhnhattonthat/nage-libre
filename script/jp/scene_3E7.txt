@@ -69,23 +69,23 @@
 ## scene_3E7 0020 @000238 len=2
 <END>
 
-## scene_3E7 0021 @00023A len=10
+## scene_3E7 0021 @00023A len=10 data
 <$0000><$0000><$0000>2<END>
 
 ## scene_3E7 0022 @000244 len=2
 <END>
 
-## scene_3E7 0023 @000246 len=36
+## scene_3E7 0023 @000246 len=36 data
 01<$0000>111<$0100>101<$0000>11101<$6300><END>
 
 ## scene_3E7 0024 @00026A len=2
 <END>
 
-## scene_3E7 0025 @00026C len=12
+## scene_3E7 0025 @00026C len=12 data
 4ぶ28<$6300><END>
 
 ## scene_3E7 0026 @000278 len=2
 <END>
 
-## scene_3E7 0027 @00027A len=10
+## scene_3E7 0027 @00027A len=10 data
 <$0100><$0100><$0100>2<END>

@@ -84,8 +84,15 @@ Resolved by context and image (Task 8). Corrections to first readings: `0330` �
 `scripts/textmap.json` kind `scene`: resources `0x30F-0x45B` (333 compressed event blocks) → `script/jp/scene_XXX.txt`.
 Each block = 16-bit bytecode up to the first `FFFF` word, then the string area; every `FFFF`-terminated unit is one entry (offset relative to the decompressed block).
 Dialogue strings are usually followed by an empty `<END>` entry (double `FFFF`). Display lines are wrapped every 15 full-width glyphs (encoder ignores newlines).
-~354 entries in the string area are **non-text data** (small words like `0000`/`0001`/`0063`, digits). They round-trip but aren't for translation.
-Known bytecode ops: `002B off` / `0026 off` print the string at block offset `off`; `0020`, `0024 a b c`, `0025 a b`, `0027`, `0029 n`, `002C`, `003A` (meaning TBD, sub-project 2).
+**354 entries in the string area are non-text data** (raw codes below `0x180`, e.g. `0000`/`0001`/`0063`). Their dump header ends in ` data`. They round-trip but **must not be translated or edited**.
+Known bytecode ops: `0020`, `0024 a b c`, `0025 a b`, `0027`, `0029 n`, `002C`, `003A` (meanings TBD, sub-project 2).
+
+**String references (needed for repointing, sub-project 2).** Many opcodes take string operands, not just `002B off` / `0026 off`. Measured over all non-empty text entries:
+- **2617** entries have their block offset appear as a word inside their bytecode.
+- **29** entries appear nowhere in the bytecode: unreferenced, or reached by offset arithmetic.
+- The word before the first match is, by count: `0001` 1002, `000B` 271, `0013` 246, `0026` 213, `0000` 175, `002B` 73, `0003` 47, `0005` 27, …
+
+So repointing must decode the opcode grammar (operand counts per opcode). Patching words that merely equal an offset would also hit coincidental matches. The dump headers therefore record block offset and length only, not referencing positions.
 
 ## Spot checks
 

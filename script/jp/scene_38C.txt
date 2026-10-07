@@ -44,13 +44,13 @@
 ## scene_38C 0014 @0000BE len=2
 <END>
 
-## scene_38C 0015 @0000C0 len=12
+## scene_38C 0015 @0000C0 len=12 data
 <$0100><$0100><$0100><$0100>2<END>
 
 ## scene_38C 0016 @0000CC len=2
 <END>
 
-## scene_38C 0017 @0000CE len=24
+## scene_38C 0017 @0000CE len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_38C 0018 @0000E6 len=2

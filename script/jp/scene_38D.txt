@@ -28,7 +28,7 @@
 ## scene_38D 0008 @0000B0 len=2
 <END>
 
-## scene_38D 0009 @0000B2 len=24
+## scene_38D 0009 @0000B2 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_38D 0010 @0000CA len=2

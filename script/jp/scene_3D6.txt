@@ -33,11 +33,11 @@
 ## scene_3D6 0008 @0001A4 len=2
 <END>
 
-## scene_3D6 0009 @0001A6 len=8
+## scene_3D6 0009 @0001A6 len=8 data
 4ぶ<$6300><END>
 
 ## scene_3D6 0010 @0001AE len=2
 <END>
 
-## scene_3D6 0011 @0001B0 len=24
+## scene_3D6 0011 @0001B0 len=24 data
 081808182<$0F00><$6300><END>

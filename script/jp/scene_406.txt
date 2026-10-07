@@ -27,5 +27,5 @@
 ## scene_406 0008 @0000A8 len=2
 <END>
 
-## scene_406 0009 @0000AA len=8
+## scene_406 0009 @0000AA len=8 data
 6ぶ<$6300><END>

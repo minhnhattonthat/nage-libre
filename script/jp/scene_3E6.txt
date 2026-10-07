@@ -17,5 +17,5 @@
 ## scene_3E6 0005 @000066 len=2
 <END>
 
-## scene_3E6 0006 @000068 len=8
+## scene_3E6 0006 @000068 len=8 data
 7ぶ<$6300><END>

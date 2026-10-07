@@ -109,13 +109,13 @@
 ## scene_346 0030 @0004B8 len=2
 <END>
 
-## scene_346 0031 @0004BA len=8
+## scene_346 0031 @0004BA len=8 data
 <$0000>8<$6300><END>
 
 ## scene_346 0032 @0004C2 len=2
 <END>
 
-## scene_346 0033 @0004C4 len=8
+## scene_346 0033 @0004C4 len=8 data
 7ぎ<$6300><END>
 
 ## scene_346 0034 @0004CC len=2

@@ -44,8 +44,8 @@
 ## scene_40E 0013 @000156 len=2
 <END>
 
-## scene_40E 0014 @000158 len=8
+## scene_40E 0014 @000158 len=8 data
 4ぶ<$6300><END>
 
-## scene_40E 0015 @000160 len=8
+## scene_40E 0015 @000160 len=8 data
 28<$6300><END>

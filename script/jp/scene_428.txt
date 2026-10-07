@@ -67,13 +67,13 @@
 ## scene_428 0019 @0001FE len=2
 <END>
 
-## scene_428 0020 @000200 len=8
+## scene_428 0020 @000200 len=8 data
 <$0000><$0000>2<END>
 
 ## scene_428 0021 @000208 len=2
 <END>
 
-## scene_428 0022 @00020A len=8
+## scene_428 0022 @00020A len=8 data
 4ぶ<$6300><END>
 
 ## scene_428 0023 @000212 len=2

@@ -35,5 +35,5 @@
 ## scene_3F5 0009 @00017E len=2
 <END>
 
-## scene_3F5 0010 @000180 len=8
+## scene_3F5 0010 @000180 len=8 data
 4ぶ<$6300><END>

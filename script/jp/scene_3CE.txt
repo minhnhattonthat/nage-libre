@@ -75,13 +75,13 @@
 ## scene_3CE 0022 @000242 len=2
 <END>
 
-## scene_3CE 0023 @000244 len=36
+## scene_3CE 0023 @000244 len=36 data
 01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
 
 ## scene_3CE 0024 @000268 len=2
 <END>
 
-## scene_3CE 0025 @00026A len=8
+## scene_3CE 0025 @00026A len=8 data
 4ぶ<$6300><END>
 
 ## scene_3CE 0026 @000272 len=2

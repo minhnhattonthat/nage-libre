@@ -97,8 +97,8 @@
 ## scene_3EE 0027 @00039C len=2
 <END>
 
-## scene_3EE 0028 @00039E len=36
+## scene_3EE 0028 @00039E len=36 data
 01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
 
-## scene_3EE 0029 @0003C2 len=8
+## scene_3EE 0029 @0003C2 len=8 data
 4ぬ<$6300><END>

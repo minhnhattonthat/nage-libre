@@ -59,8 +59,8 @@
 ## scene_3EA 0015 @000298 len=2
 <END>
 
-## scene_3EA 0016 @00029A len=8
+## scene_3EA 0016 @00029A len=8 data
 7ぶ<$6300><END>
 
-## scene_3EA 0017 @0002A2 len=8
+## scene_3EA 0017 @0002A2 len=8 data
 28<$6300><END>

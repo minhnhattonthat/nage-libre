@@ -36,10 +36,10 @@
 ## scene_40D 0009 @00014E len=2
 <END>
 
-## scene_40D 0010 @000150 len=8
+## scene_40D 0010 @000150 len=8 data
 7ぶ<$6300><END>
 
-## scene_40D 0011 @000158 len=8
+## scene_40D 0011 @000158 len=8 data
 28<$6300><END>
 
 ## scene_40D 0012 @000160 len=2

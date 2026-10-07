@@ -92,3 +92,18 @@ class LineEndings(unittest.TestCase):
         with open(p, "w", encoding="utf-8", newline="\r\n") as f:     # what a Windows checkout/editor produces
             f.write(s)
         self.assertEqual(dump.parse_block(dump.read_text(p)), dump.parse_block(s))
+
+class DataFlag(unittest.TestCase):
+    # string area: data entry (raw code 0x0063 < 0x180), real text, text with an unresolved kanji (0x0440)
+    BLK = words(0xFFFF, 0x10, 0x63, 0xFFFF, 0x10, 0xFFFF, 0x0440, 0xFFFF)
+
+    def test_entries_with_non_glyph_codes_are_data(self):
+        e = dump.extract_scene(self.BLK, W, "s")
+        self.assertEqual([x.data for x in e], [True, False, False])
+
+    def test_data_flag_in_header_roundtrips(self):
+        e = dump.extract_scene(self.BLK, W, "s")
+        s = dump.format_block(e, W)
+        self.assertIn("## s 0000 @000002 len=6 data\n", s)
+        self.assertEqual([(x.offset, x.length, x.text, x.data) for x in dump.parse_block(s)],
+                         [(x.offset, x.length, x.text, x.data) for x in e])

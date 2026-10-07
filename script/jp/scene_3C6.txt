@@ -19,5 +19,5 @@
 ## scene_3C6 0005 @0000B0 len=2
 <END>
 
-## scene_3C6 0006 @0000B2 len=12
+## scene_3C6 0006 @0000B2 len=12 data
 5ぶ28<$6300><END>

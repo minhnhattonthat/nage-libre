@@ -12,7 +12,7 @@
 ## scene_3F8 0003 @00009E len=2
 <END>
 
-## scene_3F8 0004 @0000A0 len=24
+## scene_3F8 0004 @0000A0 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3F8 0005 @0000B8 len=2

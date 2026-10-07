@@ -20,11 +20,11 @@
 ## scene_3C7 0005 @0000D4 len=2
 <END>
 
-## scene_3C7 0006 @0000D6 len=36
+## scene_3C7 0006 @0000D6 len=36 data
 01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
 
-## scene_3C7 0007 @0000FA len=8
+## scene_3C7 0007 @0000FA len=8 data
 28<$6300><END>
 
-## scene_3C7 0008 @000102 len=8
+## scene_3C7 0008 @000102 len=8 data
 7ぶ<$6300><END>

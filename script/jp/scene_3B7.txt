@@ -18,19 +18,19 @@
 ## scene_3B7 0005 @0000B8 len=2
 <END>
 
-## scene_3B7 0006 @0000BA len=8
+## scene_3B7 0006 @0000BA len=8 data
 5ぶ<$6300><END>
 
-## scene_3B7 0007 @0000C2 len=8
+## scene_3B7 0007 @0000C2 len=8 data
 28<$6300><END>
 
-## scene_3B7 0008 @0000CA len=36
+## scene_3B7 0008 @0000CA len=36 data
 01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
 
 ## scene_3B7 0009 @0000EE len=2
 <END>
 
-## scene_3B7 0010 @0000F0 len=8
+## scene_3B7 0010 @0000F0 len=8 data
 <$0000><$0F00><$6300><END>
 
 ## scene_3B7 0011 @0000F8 len=2

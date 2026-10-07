@@ -158,13 +158,13 @@
 ## scene_42D 0042 @00067A len=2
 <END>
 
-## scene_42D 0043 @00067C len=36
+## scene_42D 0043 @00067C len=36 data
 01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
 
 ## scene_42D 0044 @0006A0 len=2
 <END>
 
-## scene_42D 0045 @0006A2 len=12
+## scene_42D 0045 @0006A2 len=12 data
 4ぶ28<$6300><END>
 
 ## scene_42D 0046 @0006AE len=2

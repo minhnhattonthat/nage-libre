@@ -40,19 +40,19 @@
 ## scene_373 0012 @0001C6 len=2
 <END>
 
-## scene_373 0013 @0001C8 len=40
+## scene_373 0013 @0001C8 len=40 data
 01<$0000>111<$0100>100<$0000>010<$0100>04ぎ<$6300><END>
 
 ## scene_373 0014 @0001F0 len=2
 <END>
 
-## scene_373 0015 @0001F2 len=8
+## scene_373 0015 @0001F2 len=8 data
 28<$6300><END>
 
 ## scene_373 0016 @0001FA len=2
 <END>
 
-## scene_373 0017 @0001FC len=8
+## scene_373 0017 @0001FC len=8 data
 6ぶ<$6300><END>
 
 ## scene_373 0018 @000204 len=2

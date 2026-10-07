@@ -15,5 +15,5 @@
 ## scene_33D 0003 @0000E2 len=2
 <END>
 
-## scene_33D 0004 @0000E4 len=8
+## scene_33D 0004 @0000E4 len=8 data
 5ぶ<$6300><END>

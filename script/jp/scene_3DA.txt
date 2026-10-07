@@ -77,13 +77,13 @@
 ## scene_3DA 0021 @0002E8 len=2
 <END>
 
-## scene_3DA 0022 @0002EA len=8
+## scene_3DA 0022 @0002EA len=8 data
 7<$5500><$6300><END>
 
 ## scene_3DA 0023 @0002F2 len=2
 <END>
 
-## scene_3DA 0024 @0002F4 len=24
+## scene_3DA 0024 @0002F4 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3DA 0025 @00030C len=2
@@ -101,5 +101,5 @@
 ## scene_3DA 0029 @00031C len=2
 <END>
 
-## scene_3DA 0030 @00031E len=8
+## scene_3DA 0030 @00031E len=8 data
 28<$6300><END>

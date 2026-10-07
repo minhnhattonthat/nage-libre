@@ -69,23 +69,23 @@
 ## scene_41B 0020 @000238 len=2
 <END>
 
-## scene_41B 0021 @00023A len=12
+## scene_41B 0021 @00023A len=12 data
 <$0000><$0000><$0000>12<END>
 
 ## scene_41B 0022 @000246 len=2
 <END>
 
-## scene_41B 0023 @000248 len=36
+## scene_41B 0023 @000248 len=36 data
 01<$0000>111<$0100>101<$0000>11101<$6300><END>
 
 ## scene_41B 0024 @00026C len=2
 <END>
 
-## scene_41B 0025 @00026E len=12
+## scene_41B 0025 @00026E len=12 data
 4ぶ28<$6300><END>
 
 ## scene_41B 0026 @00027A len=2
 <END>
 
-## scene_41B 0027 @00027C len=12
+## scene_41B 0027 @00027C len=12 data
 <$0100><$0100><$0100>02<END>

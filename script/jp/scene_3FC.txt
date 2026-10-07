@@ -101,13 +101,13 @@
 ## scene_3FC 0029 @00036E len=2
 <END>
 
-## scene_3FC 0030 @000370 len=8
+## scene_3FC 0030 @000370 len=8 data
 7ぬ<$6300><END>
 
 ## scene_3FC 0031 @000378 len=2
 <END>
 
-## scene_3FC 0032 @00037A len=8
+## scene_3FC 0032 @00037A len=8 data
 28<$6300><END>
 
 ## scene_3FC 0033 @000382 len=2

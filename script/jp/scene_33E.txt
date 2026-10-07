@@ -14,7 +14,7 @@
 ## scene_33E 0003 @0000DA len=2
 <END>
 
-## scene_33E 0004 @0000DC len=8
+## scene_33E 0004 @0000DC len=8 data
 6ぶ<$6300><END>
 
 ## scene_33E 0005 @0000E4 len=2

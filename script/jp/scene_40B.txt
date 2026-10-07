@@ -34,5 +34,5 @@
 ## scene_40B 0009 @000128 len=2
 <END>
 
-## scene_40B 0010 @00012A len=8
+## scene_40B 0010 @00012A len=8 data
 7ぬ<$6300><END>

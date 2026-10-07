@@ -28,7 +28,7 @@
 ## scene_3CC 0007 @00012E len=2
 <END>
 
-## scene_3CC 0008 @000130 len=24
+## scene_3CC 0008 @000130 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3CC 0009 @000148 len=2

@@ -37,13 +37,13 @@
 ## scene_429 0010 @00018A len=2
 <END>
 
-## scene_429 0011 @00018C len=8
+## scene_429 0011 @00018C len=8 data
 7じ<$6300><END>
 
 ## scene_429 0012 @000194 len=2
 <END>
 
-## scene_429 0013 @000196 len=12
+## scene_429 0013 @000196 len=12 data
 4ぬ28<$6300><END>
 
 ## scene_429 0014 @0001A2 len=2

@@ -31,7 +31,7 @@
 ## scene_3DD 0008 @00017A len=2
 <END>
 
-## scene_3DD 0009 @00017C len=24
+## scene_3DD 0009 @00017C len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3DD 0010 @000194 len=2
@@ -43,7 +43,7 @@
 ## scene_3DD 0012 @00019E len=8
 112<END>
 
-## scene_3DD 0013 @0001A6 len=8
+## scene_3DD 0013 @0001A6 len=8 data
 4ぶ<$6300><END>
 
 ## scene_3DD 0014 @0001AE len=2

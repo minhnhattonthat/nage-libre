@@ -4,7 +4,7 @@
 ## scene_3BC 0001 @000036 len=2
 <END>
 
-## scene_3BC 0002 @000038 len=8
+## scene_3BC 0002 @000038 len=8 data
 4ぶ<$6300><END>
 
 ## scene_3BC 0003 @000040 len=2

@@ -62,5 +62,5 @@
 ## scene_36B 0019 @000194 len=2
 <END>
 
-## scene_36B 0020 @000196 len=8
+## scene_36B 0020 @000196 len=8 data
 4ぶ<$6300><END>

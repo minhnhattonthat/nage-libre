@@ -57,11 +57,11 @@
 ## scene_315 0016 @00020E len=2
 <END>
 
-## scene_315 0017 @000210 len=8
+## scene_315 0017 @000210 len=8 data
 4ぶ<$6300><END>
 
 ## scene_315 0018 @000218 len=2
 <END>
 
-## scene_315 0019 @00021A len=8
+## scene_315 0019 @00021A len=8 data
 2<$0100><$6300><END>

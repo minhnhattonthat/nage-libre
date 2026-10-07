@@ -69,11 +69,11 @@
 ## scene_422 0018 @0002DC len=2
 <END>
 
-## scene_422 0019 @0002DE len=12
+## scene_422 0019 @0002DE len=12 data
 5ぶ28<$6300><END>
 
 ## scene_422 0020 @0002EA len=2
 <END>
 
-## scene_422 0021 @0002EC len=12
+## scene_422 0021 @0002EC len=12 data
 4ぶ28<$6300><END>

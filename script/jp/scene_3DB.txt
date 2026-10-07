@@ -34,7 +34,7 @@
 ## scene_3DB 0009 @000132 len=2
 <END>
 
-## scene_3DB 0010 @000134 len=24
+## scene_3DB 0010 @000134 len=24 data
 081808182<$0F00><$6300><END>
 
 ## scene_3DB 0011 @00014C len=2

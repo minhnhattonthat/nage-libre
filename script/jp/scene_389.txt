@@ -66,25 +66,25 @@
 ## scene_389 0020 @00027C len=2
 <END>
 
-## scene_389 0021 @00027E len=40
+## scene_389 0021 @00027E len=40 data
 01<$0000>111<$0100>100<$0000>010<$0100>04ぎ<$6300><END>
 
 ## scene_389 0022 @0002A6 len=2
 <END>
 
-## scene_389 0023 @0002A8 len=12
+## scene_389 0023 @0002A8 len=12 data
 5ぶ28<$6300><END>
 
 ## scene_389 0024 @0002B4 len=2
 <END>
 
-## scene_389 0025 @0002B6 len=12
+## scene_389 0025 @0002B6 len=12 data
 6ぶ28<$6300><END>
 
 ## scene_389 0026 @0002C2 len=2
 <END>
 
-## scene_389 0027 @0002C4 len=8
+## scene_389 0027 @0002C4 len=8 data
 28<$6300><END>
 
 ## scene_389 0028 @0002CC len=2

@@ -163,14 +163,14 @@
 ## scene_328 0045 @0006AA len=2
 <END>
 
-## scene_328 0046 @0006AC len=8
+## scene_328 0046 @0006AC len=8 data
 7ぶ<$6300><END>
 
-## scene_328 0047 @0006B4 len=8
+## scene_328 0047 @0006B4 len=8 data
 78<$6300><END>
 
-## scene_328 0048 @0006BC len=8
+## scene_328 0048 @0006BC len=8 data
 28<$6300><END>
 
-## scene_328 0049 @0006C4 len=8
+## scene_328 0049 @0006C4 len=8 data
 4ぶ<$6300><END>

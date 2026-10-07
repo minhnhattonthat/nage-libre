@@ -65,17 +65,17 @@
 ## scene_41A 0019 @0001AC len=2
 <END>
 
-## scene_41A 0020 @0001AE len=8
+## scene_41A 0020 @0001AE len=8 data
 4ぬ<$6300><END>
 
-## scene_41A 0021 @0001B6 len=8
+## scene_41A 0021 @0001B6 len=8 data
 28<$6300><END>
 
-## scene_41A 0022 @0001BE len=6
+## scene_41A 0022 @0001BE len=6 data
 <$0100>2<END>
 
 ## scene_41A 0023 @0001C4 len=6
 02<END>
 
-## scene_41A 0024 @0001CA len=36
+## scene_41A 0024 @0001CA len=36 data
 01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>

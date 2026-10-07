@@ -40,13 +40,13 @@
 ## scene_3DC 0010 @0001B0 len=2
 <END>
 
-## scene_3DC 0011 @0001B2 len=12
+## scene_3DC 0011 @0001B2 len=12 data
 0い4ぶ<$6300><END>
 
 ## scene_3DC 0012 @0001BE len=2
 <END>
 
-## scene_3DC 0013 @0001C0 len=8
+## scene_3DC 0013 @0001C0 len=8 data
 28<$6300><END>
 
 ## scene_3DC 0014 @0001C8 len=2
