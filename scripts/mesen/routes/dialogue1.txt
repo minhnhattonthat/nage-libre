@@ -1,0 +1,10 @@
+# boot -> intro; START skips to title
+900 -
+4 start
+# title fades in
+400 -
+4 start
+# title -> menu (NEW GAME), A starts the opening narration
+300 -
+4 a
+76 -
