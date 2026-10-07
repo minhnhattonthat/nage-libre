@@ -117,3 +117,14 @@ class DataOpTargets(unittest.TestCase):
         blk = dump.source(rom.load(), "scene_310", dump.load_map())
         e = dump.extract_scene(blk, Table.load(dump.TBL), "scene_310")
         self.assertEqual((e[25].text, e[25].data), ("012<END>", True))
+
+
+class Joiner(unittest.TestCase):
+    def test_joiner_replaces_newlines(self):
+        s = "## s 0000 @000000 len=0\nHello\nthere<END>\n"
+        self.assertEqual(dump.parse_block(s, joiner=" ")[0].text, "Hello there<END>")
+        self.assertEqual(dump.parse_block(s)[0].text, "Hellothere<END>")
+
+    def test_joiner_ignores_blank_separator_lines(self):
+        s = "## s 0000 @000000 len=0\nHi<END>\n\n## s 0001 @000000 len=0\nYo<END>\n"
+        self.assertEqual([e.text for e in dump.parse_block(s, joiner=" ")], ["Hi<END>", "Yo<END>"])

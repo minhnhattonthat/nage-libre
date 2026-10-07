@@ -4,7 +4,7 @@
 """
 import argparse, glob, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import bps, compress, decompress, dump, layout, rom, romimage
+import bps, compress, decompress, dump, entable, fontgen, layout, rom, romimage, wrap
 from tbl import Table
 
 CLEAN_CHECKSUM = 0xC895
@@ -16,6 +16,9 @@ WRAM_BASE = 0x64C0          # scene buffer $7F:WRAM_BASE (notes/wram.md)
 WRAM_WINDOW = 0x1340        # max decompressed block size (notes/wram.md)
 ADC_SITES = [0x83840D, 0x838463, 0x838755, 0x8388E9, 0x838C13, 0x8396A9, 0x83978F, 0x839BAD]
 LOADER = 0x8380F0           # lda #$C0 / sta $06 / lda #$64 / sta $07
+EN_TBL = entable.OUT
+THRESHOLD_SITES = [0x80F3AE, 0x80F3C7, 0x80F426]   # operand of cmp #$0010 (half-width glyph threshold)
+FONT_AT = 0x28000 + 0x20 * 0x20                    # glyphs for codes 0x20-0x7F (English = ASCII)
 
 
 class BuildError(Exception):
@@ -27,12 +30,20 @@ def relocation_patches(base):
     if base == 0x64C0:
         return []
     lo, hi = base & 0xFF, base >> 8
-    p = [(rom.lorom_to_pc(a), b"\x69\xc0\x64", bytes([0x69, lo, hi])) for a in ADC_SITES]
+    p = [(rom.lorom_to_pc(a), bytes([0x69, 0xC0, 0x64]), bytes([0x69, lo, hi])) for a in ADC_SITES]
     p.append((rom.lorom_to_pc(LOADER), bytes.fromhex("a9c08506a9648507"), bytes([0xA9, lo, 0x85, 0x06, 0xA9, hi, 0x85, 0x07])))
     return p
 
 
-def en_texts(path, entries, table):
+def english_patches(clean):
+    """(file offset, expected original bytes, new bytes): threshold 0x10 -> 0x80 and the English font."""
+    p = [(rom.lorom_to_pc(a), bytes([0x10, 0x00]), bytes([0x80, 0x00])) for a in THRESHOLD_SITES]
+    font = fontgen.font_bytes(fontgen.load())
+    p.append((FONT_AT, bytes(clean[FONT_AT:FONT_AT + len(font)]), font))
+    return p
+
+
+def en_texts(path, entries, table, boxes):
     """{index: encoded bytes} for one translated scene file, validated against the JP entries."""
     fname = os.path.basename(path)
     block = os.path.splitext(fname)[0]
@@ -40,7 +51,7 @@ def en_texts(path, entries, table):
     if not raw.strip():
         return {}
     try:
-        parsed = dump.parse_block(raw)
+        parsed = dump.parse_block(raw, joiner=" ")
     except ValueError as x:
         raise BuildError(f"{fname}: {x}") from None
     by_index = {e.index: e for e in entries}
@@ -61,10 +72,11 @@ def en_texts(path, entries, table):
             continue
         if not t.text.endswith("<END>"):
             raise BuildError(f"{where}: text must end with <END>")
+        box = boxes.get(e.offset, wrap.FULL)
         try:
-            b = table.encode(t.text)
-        except ValueError as x:
-            raise BuildError(f"{where}: {x}") from None
+            b = table.encode(wrap.fit(t.text, box, table))
+        except ValueError as x:                      # includes wrap.FitError
+            raise BuildError(f"{where}: {x} (box {box.cols}x{box.lines})") from None
         if len(b) % 2:
             raise BuildError(f"{where}: encodes to an odd number of bytes (a raw <$..> code is 1 byte short)")
         if any(b[i:i + 2] == dump.END for i in range(0, len(b) - 2, 2)):
@@ -76,7 +88,8 @@ def en_texts(path, entries, table):
 def build(clean, en_dir=None):
     if len(clean) != 0x180000 or romimage.checksum(clean) != CLEAN_CHECKSUM:
         raise BuildError("input is not the clean 1.5 MB Nage Libre ROM (size/checksum mismatch)")
-    table = Table.load(dump.TBL)
+    table = Table.load(dump.TBL)            # Japanese: splits the original blocks
+    en_table = Table.load(EN_TBL)
     if en_dir:
         if not os.path.isdir(en_dir):
             raise BuildError(f"translation directory not found: {en_dir}")
@@ -92,7 +105,7 @@ def build(clean, en_dir=None):
         blk, _ = decompress.decompress(clean, rom.lorom_to_pc(int.from_bytes(clean[at:at + 3], "little")))
         entries = dump.extract_scene(blk, table, name)
         path = os.path.join(en_dir, name + ".txt") if en_dir else None
-        texts = en_texts(path, entries, table) if path and os.path.exists(path) else {}
+        texts = en_texts(path, entries, en_table, wrap.entry_boxes(blk)) if path and os.path.exists(path) else {}
         try:
             new = layout.rebuild(blk, entries, texts)
         except ValueError as e:
@@ -110,7 +123,7 @@ def build(clean, en_dir=None):
         free += len(packed)
     if over:
         raise BuildError("blocks exceed the WRAM window (shorten text or relocate the buffer):\n  " + "\n  ".join(over))
-    for off, old, new in relocation_patches(WRAM_BASE):
+    for off, old, new in relocation_patches(WRAM_BASE) + english_patches(clean):
         if img[off:off + len(old)] != old:
             raise BuildError(f"patch at {off:#x}: unexpected original bytes {img[off:off + len(old)].hex()}")
         img[off:off + len(new)] = new

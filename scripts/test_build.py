@@ -32,12 +32,36 @@ class Build(unittest.TestCase):
         diff = [i for i in range(0x180000) if self.img[i] != self.clean[i]]
         allowed = set(range(0x50000 + 3 * 0x30F, 0x50000 + 3 * 0x45C)) | set(range(0x7FDC, 0x7FE0))
         allowed |= {at + k for at, old, new in build.relocation_patches(build.WRAM_BASE) for k in range(len(new))}
+        allowed |= {at + k for at, old, new in build.english_patches(self.clean) for k in range(len(new))}
         self.assertEqual([i for i in diff if i not in allowed], [])
 
     def test_deterministic_and_clean_untouched(self):
         before = os.path.getmtime(rom.ROM_PATH)
         self.assertEqual(build.build(self.clean), self.img)
         self.assertEqual(os.path.getmtime(rom.ROM_PATH), before)
+
+    def test_threshold_and_font_patched(self):
+        import fontgen
+        for a in build.THRESHOLD_SITES:
+            self.assertEqual(self.img[rom.lorom_to_pc(a):rom.lorom_to_pc(a) + 2], b"\x80\x00")
+        self.assertEqual(self.img[0x28400:0x29000], fontgen.font_bytes(fontgen.load()))
+
+    def test_halfwidth_digits_untouched(self):
+        self.assertEqual(self.img[0x28000:0x28400], self.clean[0x28000:0x28400])
+
+    def test_en_newlines_are_spaces(self):
+        img = build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\nIn a\ndistant world<END>\n"))
+        blk = decompress.decompress(img, ptr(img, 0x341))[0]
+        text = dump.extract_scene(blk, Table.load(build.EN_TBL), "scene_341")[0].text
+        self.assertIn("In a distant world", text)
+
+    def test_japanese_in_en_file_names_entry(self):
+        with self.assertRaisesRegex(build.BuildError, "scene_341.txt entry 0000: .*table"):
+            build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n遠くの世界<END>\n"))
+
+    def test_overflow_names_box(self):
+        with self.assertRaisesRegex(build.BuildError, "scene_341.txt entry 0000: .*lines"):
+            build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n" + "word " * 40 + "<END>\n"))
 
     def test_rejects_non_clean_rom(self):
         bad = bytearray(self.clean); bad[0x1000] ^= 1
@@ -58,20 +82,21 @@ class Build(unittest.TestCase):
     def test_growth_text_lands_and_operands_follow(self):
         t = Table.load(dump.TBL)
         jp = dump.extract_scene(dump.source(self.clean, "scene_341", dump.load_map()), t, "scene_341")
-        grown = jp[0].text.replace("<END>", "") * 2 + "<END>"
+        grown = "<BR>In a distant world… a voice echoes…<END>"
         img = build.build(self.clean, self._en(f"## scene_341 0000 @000000 len=0\n{grown}\n"))
         blk = decompress.decompress(img, ptr(img, 0x341))[0]
-        new = dump.extract_scene(blk, t, "scene_341")
-        self.assertEqual(new[0].text, grown)
-        self.assertEqual([e.text for e in new[1:]], [e.text for e in jp[1:]])
+        new = dump.extract_scene(blk, Table.load(build.EN_TBL), "scene_341")
+        self.assertEqual(new[0].text.replace(" ", ""), "Inadistantworld…avoiceechoes…<END>")
+        self.assertEqual(new[0].text[:30], " " * 30)
+        self.assertEqual(len(new), len(jp))
         ops = bytecode.parse(blk)
         starts = {e.offset for e in new}
         self.assertTrue(all(o.operands[k - 1] in starts for o in ops for k in o.offset_operands))
 
     def test_en_errors_name_file_and_entry(self):
-        cases = [("## scene_341 9999 @000000 len=0\nあ<END>\n", "scene_341.txt entry 9999"),
-                 ("## scene_341 0000 @000000 len=0\nあ\n", "<END>"),
-                 ("## scene_341 0000 @000000 len=0\nQ<END>\n", "scene_341.txt entry 0000")]
+        cases = [("## scene_341 9999 @000000 len=0\nHi<END>\n", "scene_341.txt entry 9999"),
+                 ("## scene_341 0000 @000000 len=0\nHi\n", "<END>"),
+                 ("## scene_341 0000 @000000 len=0\nä<END>\n", "scene_341.txt entry 0000")]
         for body, msg in cases:
             with self.assertRaisesRegex(build.BuildError, msg):
                 build.build(self.clean, self._en(body))
@@ -121,7 +146,7 @@ class TranslationInputValidation(unittest.TestCase):
             self.fails({name: ""}, name)
 
     def test_duplicate_index_and_foreign_header_rejected(self):
-        self.fails({"scene_341.txt": "## scene_341 0000 @0 len=0\nあ<END>\n\n## scene_341 0000 @0 len=0\nい<END>\n"}, "duplicate")
+        self.fails({"scene_341.txt": "## scene_341 0000 @0 len=0\nHi<END>\n\n## scene_341 0000 @0 len=0\nYo<END>\n"}, "duplicate")
         self.fails({"scene_341.txt": "## scene_342 0000 @000000 len=0\nあ<END>\n"}, "scene_342")
 
     def test_missing_en_dir_rejected(self):
@@ -129,5 +154,5 @@ class TranslationInputValidation(unittest.TestCase):
             build.build(self.clean, os.path.join(tempfile.gettempdir(), "no-such-dir"))
 
     def test_odd_length_and_inner_end_rejected(self):
-        self.fails({"scene_341.txt": "## scene_341 0000 @000000 len=0\nあ<$12><END>\n"}, "odd")
-        self.fails({"scene_341.txt": "## scene_341 0000 @000000 len=0\nあ<END>い<END>\n"}, "<END> before")
+        self.fails({"scene_341.txt": "## scene_341 0000 @000000 len=0\na<$12><END>\n"}, "odd")
+        self.fails({"scene_341.txt": "## scene_341 0000 @000000 len=0\na<END>b<END>\n"}, "<END> before")

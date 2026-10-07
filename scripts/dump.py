@@ -136,7 +136,7 @@ def format_block(entries, table, wrap=None):
     return "\n".join(parts)
 
 
-def parse_block(s):
+def parse_block(s, joiner=""):
     out = []
     for chunk in re.split(r"\n(?=## )", s.strip("\n")):
         head, _, body = chunk.partition("\n")
@@ -147,7 +147,7 @@ def parse_block(s):
         if m.group(6) is not None:
             out.append(Entry(name, idx, None, 0, "", alias=int(m.group(6))))
         else:
-            out.append(Entry(name, idx, int(m.group(3), 16), int(m.group(4)), body.replace("\n", ""),
+            out.append(Entry(name, idx, int(m.group(3), 16), int(m.group(4)), body.strip("\n").replace("\n", joiner),
                              data=m.group(5) is not None))
     return out
 
