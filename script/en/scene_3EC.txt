@@ -1,0 +1,38 @@
+## scene_3EC 0000 @0000B8 len=22
+Um, excuse me……<END>
+
+## scene_3EC 0002 @0000D0 len=8
+Yes?<END>
+
+## scene_3EC 0004 @0000DA len=84
+I dropped my contact lens…… Could you help me look for it?<END>
+
+## scene_3EC 0006 @000130 len=16
+Oh… sure.<END>
+
+## scene_3EC 0008 @000142 len=44
+Doesn't seem to be around here……<END>
+
+## scene_3EC 0010 @000170 len=40
+I see…… Please tell me if you find it.<END>
+
+## scene_3EC 0012 @00019A len=10
+Okaaay!<END>
+
+## scene_3EC 0014 @0001A6 len=38
+Yeah, sure! Leave it to me!<END>
+
+## scene_3EC 0016 @0001CE len=20
+Certainly♥<END>
+
+## scene_3EC 0018 @0001E4 len=42
+Alright, a good deed for once!<END>
+
+## scene_3EC 0020 @000210 len=42
+Poor thing…… Let's help her!<END>
+
+## scene_3EC 0022 @00023C len=42
+Poor thing…… I'll look for it♪<END>
+
+## scene_3EC 0024 @000268 len=60
+If we find it, we might get something♪<END>

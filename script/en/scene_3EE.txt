@@ -1,0 +1,38 @@
+## scene_3EE 0000 @0000CC len=122
+<BR>……If you look closely,<BR><$FE03>there's a contact lens<BR><$FE03><$FE03><$FE03><$FE03><$FE03>on the ground……<END>
+
+## scene_3EE 0002 @000148 len=68
+Oh…… isn't this… …the lens that girl was looking for…<END>
+
+## scene_3EE 0004 @00018E len=24
+Let's go give it to her!<END>
+
+## scene_3EE 0006 @0001A8 len=30
+Alright! Let's deliver it!<END>
+
+## scene_3EE 0008 @0001C8 len=36
+It would be cruel not to return it……<END>
+
+## scene_3EE 0010 @0001EE len=24
+There she is! Here you go!<END>
+
+## scene_3EE 0012 @000208 len=44
+You're still here! We found this.<END>
+
+## scene_3EE 0014 @000236 len=40
+Alright! Still here! Found this!<END>
+
+## scene_3EE 0017 @000262 len=86
+Oh… thank you so much!…… Now I can see clearly!<END>
+
+## scene_3EE 0019 @0002BA len=46
+As thanks…… I'll give you my treasure!<END>
+
+## scene_3EE 0022 @0002EC len=92
+<BR>……Received the "TI" Jewel!……<END>
+
+## scene_3EE 0024 @00034A len=36
+……What a pretty stone…… Thanks!<END>
+
+## scene_3EE 0026 @000370 len=44
+No, thank YOU. Good luck♥<END>

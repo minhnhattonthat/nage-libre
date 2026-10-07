@@ -1,0 +1,26 @@
+## scene_3F9 0000 @000062 len=40
+Anything at the roots of this tree?<END>
+
+## scene_3F9 0002 @00008C len=90
+Nothing, huh…. Looks like nothing at the roots this time……… Huh?<END>
+
+## scene_3F9 0004 @0000E8 len=92
+<BR>……Letters are carved<BR><$FE03><$FE03><$FE03><$FE03>into the tree with a knife……<END>
+
+## scene_3F9 0006 @000146 len=92
+<BR>…"3 steps right, 1 step up,<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>2 steps right"…<END>
+
+## scene_3F9 0008 @0001A4 len=44
+Hmm. Gotta look up when we walk, too!<END>
+
+## scene_3F9 0010 @0001D2 len=46
+Yay! There must be something there!<END>
+
+## scene_3F9 0012 @000202 len=88
+Anything on the ground? From now on, I'll look up as well as down! Yeah!<END>
+
+## scene_3F9 0014 @00025C len=68
+Mustn't walk with my head down. Let's go there.<END>
+
+## scene_3F9 0016 @0002A2 len=78
+There must be something there. Let's go see, how exciting♪<END>

@@ -1,0 +1,23 @@
+## scene_3EA 0000 @000052 len=18
+Ah! A treasure chest!<END>
+
+## scene_3EA 0002 @000066 len=40
+Alright! Found a treasure chest!<END>
+
+## scene_3EA 0004 @000090 len=92
+……Inside the treasure chest<BR><$FE03><$FE03><$FE03>was a teddy bear!……<END>
+
+## scene_3EA 0006 @0000EE len=90
+Why's this stashed away so carefully? I don't want it!<END>
+
+## scene_3EA 0008 @00014A len=82
+Kyaa, so cute♥ But Mai can't carry it around… …so no thanks!<END>
+
+## scene_3EA 0010 @00019E len=90
+Hmm… a useless thing, stashed so carefully… I'll leave it. Feels mean to take it.<END>
+
+## scene_3EA 0012 @0001FA len=68
+Oh… it's the same bear I had as a kid! …Why is it here?<END>
+
+## scene_3EA 0014 @000240 len=88
+Oh, what a cute bear♥ It must be precious to someone, so let's leave it.<END>

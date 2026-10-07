@@ -1,0 +1,47 @@
+## scene_3EB 0000 @0000BE len=92
+……A crumbling brick road……<BR><$FE03><$FE03><$FE03>It seems to be a road<BR><$FE03><$FE03><$FE03>from ancient times……<END>
+
+## scene_3EB 0002 @00011C len=42
+Looks like a road nobody uses anymore……<END>
+
+## scene_3EB 0004 @000148 len=40
+The bricks are crumbling here and there……<END>
+
+## scene_3EB 0006 @000172 len=42
+Looks like a road nobody uses anymore……<END>
+
+## scene_3EB 0008 @00019E len=66
+Ahh…… I thought we were home…… even the roads are different……<END>
+
+## scene_3EB 0010 @0001E2 len=68
+There was no old road like this near my house, was there?<END>
+
+## scene_3EB 0012 @000228 len=38
+Yahoo! Nice to meet you!<END>
+
+## scene_3EB 0014 @000250 len=58
+I'm the goddess of the ancient road! Pleased to meet you!<END>
+
+## scene_3EB 0016 @00028C len=24
+Eek! You scared me!<END>
+
+## scene_3EB 0018 @0002A6 len=82
+This time just a hint! If you stand by at various spots on the map……<END>
+
+## scene_3EB 0020 @0002FA len=60
+you may find all sorts of buried treasure! Check it out!<END>
+
+## scene_3EB 0022 @000338 len=80
+……Well, I'm in a hurry, so see ya♪ Bye-byeee♥<END>
+
+## scene_3EB 0024 @00038A len=28
+What was THAT just now……<END>
+
+## scene_3EB 0026 @0003A8 len=42
+What's she in such a hurry for?<END>
+
+## scene_3EB 0028 @0003D4 len=68
+What what what? That girl? ……Oh, she's gone……<END>
+
+## scene_3EB 0030 @00041A len=60
+I suppose she has many things to attend to as well?<END>

@@ -1,0 +1,11 @@
+## scene_3E2 0000 @000058 len=18
+It's this way, right?<END>
+
+## scene_3E2 0002 @00006C len=8
+Yes.<END>
+
+## scene_3E2 0004 @000076 len=56
+It's exactly the road she told us about♪<END>
+
+## scene_3E2 0006 @0000B0 len=60
+Isn't there gonna be an ambush on the way?<END>

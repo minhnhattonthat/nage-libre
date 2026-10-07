@@ -1,0 +1,11 @@
+## scene_3E4 0000 @00001E len=40
+Frosted glass. Can't see outside♪<END>
+
+## scene_3E4 0002 @000048 len=40
+This glass is all foggy!<END>
+
+## scene_3E4 0004 @000072 len=58
+I hate frosted glass, you can't see outside……<END>
+
+## scene_3E4 0006 @0000AE len=62
+Outside the window… …I see nothing out of the ordinary.<END>

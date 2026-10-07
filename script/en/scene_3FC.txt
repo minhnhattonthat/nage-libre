@@ -1,0 +1,44 @@
+## scene_3FC 0000 @0000AC len=42
+Ugh, the grass is all damp……<END>
+
+## scene_3FC 0002 @0000D8 len=46
+I hate how soggy the grass is……<END>
+
+## scene_3FC 0004 @000108 len=24
+It's so damp…… here.<END>
+
+## scene_3FC 0006 @000122 len=44
+This spot is damp from the waterfall……<END>
+
+## scene_3FC 0008 @000150 len=54
+<BR><$FE03><$FE03><$FE03>……Rustle rustle……<END>
+
+## scene_3FC 0010 @000188 len=10
+……What?<END>
+
+## scene_3FC 0012 @000194 len=88
+Yahooo♥ Hellooo! I'm the little goddess of the waterfall!<END>
+
+## scene_3FC 0014 @0001EE len=24
+She's like a cockroach……<END>
+
+## scene_3FC 0016 @000208 len=40
+Eww, she's tiny, like a cockroach!<END>
+
+## scene_3FC 0018 @000232 len=38
+Being tiny is kinda weird……<END>
+
+## scene_3FC 0020 @00025A len=40
+She's just a miniature version……<END>
+
+## scene_3FC 0022 @000284 len=60
+So tiny and adorable, like a doll♥<END>
+
+## scene_3FC 0024 @0002C2 len=88
+This time I'll give you a hint! There's something good inside the Water Temple!<END>
+
+## scene_3FC 0026 @00031C len=56
+Where the flowers bloom! Go look! Bye!<END>
+
+## scene_3FC 0028 @000356 len=24
+Where the flowers bloom, huh……<END>

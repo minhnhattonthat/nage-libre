@@ -1,0 +1,14 @@
+## scene_3E3 0000 @00006C len=60
+They said Ayaka's under hypnosis or something!<END>
+
+## scene_3E3 0002 @0000AA len=62
+Right. We might even end up fighting Ayaka…<END>
+
+## scene_3E3 0004 @0000EA len=54
+But first, nothing can be done until we meet her.<END>
+
+## scene_3E3 0006 @000122 len=62
+She may not look it, but she's actually pretty sensible!<END>
+
+## scene_3E3 0008 @000162 len=88
+…Yeah. Even Ayaka wouldn't fall for an enemy trap that easily!<END>

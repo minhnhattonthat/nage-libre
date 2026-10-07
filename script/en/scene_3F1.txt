@@ -1,0 +1,20 @@
+## scene_3F1 0000 @000078 len=44
+Welcome! This is the card shop!<END>
+
+## scene_3F1 0002 @0000A6 len=6
+Huh?<END>
+
+## scene_3F1 0004 @0000AE len=86
+You thought beating me would get you treasure, right? Tsk tsk tsk, not so……<END>
+
+## scene_3F1 0006 @000106 len=66
+No! We weren't thinking that…… ……Honest!<END>
+
+## scene_3F1 0008 @00014A len=88
+No, we weren't thinking that at all…… Phew, she read my mind……<END>
+
+## scene_3F1 0010 @0001A4 len=86
+Oh well. How about it? Trade one of your cards for five of mine?<END>
+
+## scene_3F1 0012 @0001FC len=38
+Trade?<BR><$FE03><$FE03><$FE03><END>

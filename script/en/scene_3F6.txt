@@ -1,0 +1,17 @@
+## scene_3F6 0000 @00003E len=12
+Huh……?<END>
+
+## scene_3F6 0002 @00004C len=62
+We came down from up high, so we can't go back!<END>
+
+## scene_3F6 0004 @00008C len=64
+Aah! We can't go back to where we came down! It was a nice spot!<END>
+
+## scene_3F6 0006 @0000CE len=68
+Oh… we can't go back up there… …It was a nice spot……<END>
+
+## scene_3F6 0008 @000114 len=88
+Huh…… it's not warm down here…… Standing by doesn't heal much anymore……<END>
+
+## scene_3F6 0010 @00016E len=46
+It seems standing by no longer heals us……<END>

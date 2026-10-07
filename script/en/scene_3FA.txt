@@ -1,0 +1,8 @@
+## scene_3FA 0000 @000048 len=24
+Oh, something's here……<END>
+
+## scene_3FA 0002 @000062 len=92
+<$FE03>……"Power Booster"……<BR><BR><$FE03><$FE03><$FE03>Strength went up by 3!……<END>
+
+## scene_3FA 0004 @0000C0 len=12
+Yay♥<END>

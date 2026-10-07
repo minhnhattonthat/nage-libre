@@ -1,0 +1,38 @@
+## scene_3ED 0000 @0000AC len=62
+<BR>……A goddess stands before the church……<END>
+
+## scene_3ED 0002 @0000EC len=66
+Hiii! Hello! I'm the goddess of the church!<END>
+
+## scene_3ED 0004 @000130 len=20
+Well, obviously!<END>
+
+## scene_3ED 0006 @000146 len=12
+Yahoo!<END>
+
+## scene_3ED 0008 @000154 len=24
+Goddess of what, exactly……<END>
+
+## scene_3ED 0010 @00016E len=40
+What sort of goddess is she, I wonder……?<END>
+
+## scene_3ED 0012 @000198 len=40
+Sit quietly and I'll read your fortune!<END>
+
+## scene_3ED 0014 @0001C2 len=82
+I see it! What you seek lies at a spot between houses!<END>
+
+## scene_3ED 0016 @000216 len=20
+Huh…… what is it?<END>
+
+## scene_3ED 0018 @00022C len=40
+Well then… …bye now♪<END>
+
+## scene_3ED 0020 @000256 len=40
+Eh, let's look. Something good'll come of it.<END>
+
+## scene_3ED 0022 @000280 len=62
+Well, let's search. Something good may come of it♥<END>
+
+## scene_3ED 0024 @0002C0 len=40
+There's something! Let's look!<END>

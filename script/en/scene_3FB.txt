@@ -1,0 +1,11 @@
+## scene_3FB 0000 @000018 len=18
+What a big waterfall♥<END>
+
+## scene_3FB 0002 @00002C len=36
+How far does this water fall……?<END>
+
+## scene_3FB 0004 @000052 len=12
+Beautiful……<END>
+
+## scene_3FB 0006 @000060 len=28
+My, what a lovely waterfall♥<END>

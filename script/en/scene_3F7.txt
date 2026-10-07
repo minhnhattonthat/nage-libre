@@ -1,0 +1,5 @@
+## scene_3F7 0000 @000034 len=38
+Anything at the tree roots this time?<END>
+
+## scene_3F7 0002 @00005C len=18
+Nothing, huh……<END>

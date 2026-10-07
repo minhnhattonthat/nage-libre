@@ -1,0 +1,17 @@
+## scene_3F4 0000 @000028 len=92
+<BR>……The locker is locked……<END>
+
+## scene_3F4 0002 @000086 len=42
+If it won't open, oh well……<END>
+
+## scene_3F4 0004 @0000B2 len=46
+Knock knock…… Seems empty inside…<END>
+
+## scene_3F4 0006 @0000E2 len=46
+I'm not a burglar, so no need to open it!<END>
+
+## scene_3F4 0008 @000112 len=46
+I shouldn't open it without permission…… I'll leave it……<END>
+
+## scene_3F4 0010 @000142 len=80
+This isn't my locker, so there's no need to open it.<END>

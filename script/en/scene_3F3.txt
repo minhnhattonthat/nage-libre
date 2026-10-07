@@ -1,0 +1,17 @@
+## scene_3F3 0000 @000028 len=60
+…Difficult-looking books<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>line the shelves…<END>
+
+## scene_3F3 0002 @000066 len=22
+Nothing I want to read……<END>
+
+## scene_3F3 0004 @00007E len=36
+Hard books…… no thanks!<END>
+
+## scene_3F3 0006 @0000A4 len=60
+Does anyone actually read these? They make me sleepy……<END>
+
+## scene_3F3 0008 @0000E2 len=74
+Huh, this book is…… …no, no, this is no time for reading……<END>
+
+## scene_3F3 0010 @00012E len=78
+Oh! The book I was looking for is here! I'll come borrow it next time. Smile♪<END>

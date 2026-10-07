@@ -1,0 +1,47 @@
+## scene_3FF 0000 @000098 len=60
+<BR><$FE03>……There's a cave entrance……<END>
+
+## scene_3FF 0002 @0000D6 len=42
+Is this, by any chance…? Let's go in……<END>
+
+## scene_3FF 0004 @000102 len=40
+Alright! Let's go in!<END>
+
+## scene_3FF 0006 @00012C len=62
+I bet it leads somewhere good! Let's go!<END>
+
+## scene_3FF 0008 @00016C len=66
+Wandering around for three months again would be awful, but…… let's go in.<END>
+
+## scene_3FF 0010 @0001B0 len=40
+Let's go right in♥<END>
+
+## scene_3FF 0012 @0001DA len=18
+Oh! A treasure chest!<END>
+
+## scene_3FF 0014 @0001EE len=16
+Found a chest!<END>
+
+## scene_3FF 0016 @000200 len=18
+Ah! A treasure chest!<END>
+
+## scene_3FF 0018 @000214 len=16
+I found a chest!<END>
+
+## scene_3FF 0020 @000226 len=36
+I knew it! A treasure chest!<END>
+
+## scene_3FF 0022 @00024C len=92
+<BR>……Got the "N" Jewel!……<END>
+
+## scene_3FF 0024 @0002AA len=20
+Ooh, a jewel, huh……<END>
+
+## scene_3FF 0026 @0002C0 len=64
+A jewel? Eh, free stuff is free stuff!<END>
+
+## scene_3FF 0028 @000302 len=24
+Pretty…… I'm so happy♥<END>
+
+## scene_3FF 0030 @00031C len=24
+What a beautiful jewel♥<END>

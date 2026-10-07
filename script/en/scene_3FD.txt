@@ -1,0 +1,8 @@
+## scene_3FD 0000 @000048 len=24
+Oh, something's here……<END>
+
+## scene_3FD 0002 @000062 len=92
+……"Defense Booster"……<BR><BR><$FE03><$FE03>Defense went up by 3!……<END>
+
+## scene_3FD 0004 @0000C0 len=12
+Yay♥<END>

@@ -1,0 +1,14 @@
+## scene_3E5 0000 @00001E len=22
+The answer's wrong…<END>
+
+## scene_3E5 0002 @000036 len=46
+Wrong answer! Even Mai knows that!<END>
+
+## scene_3E5 0004 @000066 len=36
+The answer's wrong… …What a dummy.<END>
+
+## scene_3E5 0006 @00008C len=16
+What a fancy blackboard.<END>
+
+## scene_3E5 0008 @00009E len=42
+Oh my, the answer is wrong.<END>

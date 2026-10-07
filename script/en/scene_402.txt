@@ -1,0 +1,29 @@
+## scene_402 0000 @0000B6 len=66
+Now. This is the last. Let us proceed solemnly……<END>
+
+## scene_402 0002 @0000FA len=16
+Oh, her again<$D203><END>
+
+## scene_402 0004 @00010C len=90
+I am the "Last Goddess"…… I shall give you one final bit of help……<END>
+
+## scene_402 0006 @000168 len=10
+Yay♥<END>
+
+## scene_402 0008 @000174 len=88
+But you do not have all six jewels……<END>
+
+## scene_402 0010 @0001CE len=90
+As you are now, you may not be able to win the final battle.<END>
+
+## scene_402 0012 @00022A len=68
+But if you try hard, you should manage…… Do your best……<END>
+
+## scene_402 0014 @000270 len=20
+What was THAT……<END>
+
+## scene_402 0016 @000286 len=40
+What?! Saying such ominous stuff!<END>
+
+## scene_402 0018 @0002B0 len=26
+What was that about……<END>

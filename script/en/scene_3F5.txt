@@ -1,0 +1,14 @@
+## scene_3F5 0000 @00002C len=92
+<BR>……A warm light<BR><$FE03><$FE03><$FE03>surrounds the area……<END>
+
+## scene_3F5 0002 @00008A len=56
+Just standing by here heals you! Lucky!<END>
+
+## scene_3F5 0004 @0000C4 len=56
+Standing by heals you? Yay!<END>
+
+## scene_3F5 0006 @0000FE len=64
+Standing by here seems to heal you. ……So warm……<END>
+
+## scene_3F5 0008 @000140 len=62
+Simply standing by here heals you. How lucky♥<END>

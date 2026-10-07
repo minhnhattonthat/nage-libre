@@ -1,0 +1,20 @@
+## scene_3E8 0000 @000068 len=64
+Heh heh! You're not getting past here, nyah♪<END>
+
+## scene_3E8 0002 @0000AA len=40
+Dammit… …In that case!<END>
+
+## scene_3E8 0004 @0000D4 len=46
+Hyaah! Then let's just run!<END>
+
+## scene_3E8 0006 @000104 len=38
+Hyaah! In that case!<END>
+
+## scene_3E8 0008 @00012C len=44
+We're in a hurry, so we'll be passing through!<END>
+
+## scene_3E8 0010 @00015A len=42
+Alright! Full speed ahead!<END>
+
+## scene_3E8 0012 @000186 len=42
+Whaaat, running is cheating……<END>

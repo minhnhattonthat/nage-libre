@@ -1,0 +1,35 @@
+## scene_3F2 0000 @0000C4 len=34
+Hey! I'm the goddess of books!<END>
+
+## scene_3F2 0002 @0000E8 len=68
+You're here too… This world is crawling with goddesses…<END>
+
+## scene_3F2 0004 @00012E len=34
+She's everywhere!<END>
+
+## scene_3F2 0006 @000152 len=16
+Oh, hi……<END>
+
+## scene_3F2 0008 @000164 len=40
+You really are everywhere……<END>
+
+## scene_3F2 0010 @00018E len=44
+Today… …I'll give you this book!<END>
+
+## scene_3F2 0012 @0001BC len=32
+……"Lessons to Get Smarter"<END>
+
+## scene_3F2 0014 @0001DE len=62
+……Reading it, you feel<BR><$FE03><$FE03>like you got smarter!<END>
+
+## scene_3F2 0016 @00021E len=62
+<BR>……Spirit went up by 3!……<END>
+
+## scene_3F2 0018 @00025E len=14
+Thank you♥<END>
+
+## scene_3F2 0020 @00026E len=24
+Ooh! Thanks!<END>
+
+## scene_3F2 0022 @000288 len=66
+I'm glad you like it! See you again♪<END>

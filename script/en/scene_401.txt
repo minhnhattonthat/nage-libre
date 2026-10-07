@@ -1,0 +1,50 @@
+## scene_401 0000 @0000A2 len=20
+……An oasis……<END>
+
+## scene_401 0002 @0000B8 len=46
+Water's welling up… I was just getting thirsty……<END>
+
+## scene_401 0004 @0000E8 len=24
+Water! Let's drink!<END>
+
+## scene_401 0006 @000102 len=40
+I was thirsty! Perfect timing!<END>
+
+## scene_401 0008 @00012C len=46
+Such clear water… …Maybe I'll drink some……<END>
+
+## scene_401 0010 @00015C len=58
+I was just thirsty, so let's drink♪<END>
+
+## scene_401 0012 @000198 len=24
+<$FE03>……Gulp gulp……<END>
+
+## scene_401 0014 @0001B2 len=14
+………………<END>
+
+## scene_401 0016 @0001C2 len=24
+<$FE03>……Gulp gulp……<END>
+
+## scene_401 0018 @0001DC len=68
+……………… This water is weirdly delicious……………<END>
+
+## scene_401 0020 @000222 len=24
+<$FE03>……Glug glug……<END>
+
+## scene_401 0022 @00023C len=46
+Whoa! I feel super energized!<END>
+
+## scene_401 0024 @00026C len=40
+Feeling great! Full of energy!<END>
+
+## scene_401 0026 @000296 len=88
+I feel great! I'm gonna swing my arms around! Hyah! Whoosh whoosh!<END>
+
+## scene_401 0028 @0002F0 len=38
+I feel energized……<END>
+
+## scene_401 0030 @000318 len=26
+My head feels so clear……<END>
+
+## scene_401 0032 @000334 len=60
+<BR><$FE03>……HP fully restored!……<END>

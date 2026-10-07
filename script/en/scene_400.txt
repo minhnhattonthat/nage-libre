@@ -1,0 +1,41 @@
+## scene_400 0000 @0000A0 len=58
+Hiii! I'm the goddess of the field♥<END>
+
+## scene_400 0002 @0000DC len=22
+Yes, yes, hello.<END>
+
+## scene_400 0004 @0000F4 len=14
+Hello!<END>
+
+## scene_400 0006 @000104 len=62
+Man, "Nage" sure is a world with lots of goddesses……<END>
+
+## scene_400 0008 @000144 len=40
+Oh, hello again…… We keep running into you.<END>
+
+## scene_400 0010 @00016E len=42
+Oh my, it's been a while♥<END>
+
+## scene_400 0012 @00019A len=58
+Now then, today's present is… …this!<END>
+
+## scene_400 0014 @0001D6 len=92
+<BR>……Received a<BR><$FE03><$FE03><$FE03><$FE03>"Power Booster"!……<END>
+
+## scene_400 0016 @000234 len=62
+<BR>……Strength went up by 3!……<END>
+
+## scene_400 0018 @000274 len=14
+Thank youuu!<END>
+
+## scene_400 0020 @000284 len=22
+……Is this the last time?<END>
+
+## scene_400 0022 @00029C len=62
+Once we go to Nage's tower, we can't see you anymore?<END>
+
+## scene_400 0024 @0002DC len=42
+Will we not meet again after this?<END>
+
+## scene_400 0026 @000308 len=88
+Who knows? ……But I'll always be…… in all your hearts! ……Bye-bye!<END>

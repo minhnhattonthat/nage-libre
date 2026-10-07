@@ -1,0 +1,5 @@
+## scene_3F0 0000 @000014 len=92
+<BR>……There's a notice<BR><$FE03><$FE03><$FE03><$FE03>posted on the building……<END>
+
+## scene_3F0 0002 @000072 len=92
+<BR>……"The card shop has moved<BR><$FE03><$FE03><$FE03><$FE03><$FE03>next door"……<END>

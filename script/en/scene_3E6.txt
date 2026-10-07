@@ -1,0 +1,8 @@
+## scene_3E6 0000 @00001E len=12
+Ow, hot!<END>
+
+## scene_3E6 0002 @00002C len=22
+Eek! Hot!<END>
+
+## scene_3E6 0004 @000044 len=34
+Kyaa! Sparks in my face……!<END>

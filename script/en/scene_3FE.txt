@@ -1,0 +1,14 @@
+## scene_3FE 0000 @000022 len=44
+What?! It's a detour!<END>
+
+## scene_3FE 0002 @000050 len=84
+If I just hopped over, I'd be there… …Ow! The handrail has spikes!<END>
+
+## scene_3FE 0004 @0000A6 len=58
+Huh, look closely, these stairs are a detour!<END>
+
+## scene_3FE 0006 @0000E2 len=46
+Such long stairs. I'm worn out……<END>
+
+## scene_3FE 0008 @000112 len=46
+What nasty stairs…… making us go the long way.<END>

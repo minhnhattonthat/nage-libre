@@ -72,6 +72,8 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | ステージ２２・再スタート / 再々スタート | Stage 22 Restart / Re-Restart | |
 | 宝玉のかけら | Jewel Shard | |
 | 素早さのモト / 体力アップのくすり / 回復のくすり | Speed Booster / HP Up Potion / Healing medicine | |
+| 腕力のモト / 防御力のモト | Power Booster / Defense Booster | |
+| 待機 | stand by (map command) | |
 | 料学部 | Cooking Club (official club name; 料 = cooking) | |
 | ○○ (placeholder name) | XX | |
 | ■ (debug/unused text) | `<$FC03>` (■ is not in en.tbl) | |
