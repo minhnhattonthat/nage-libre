@@ -1,0 +1,66 @@
+## scene_36B 0000 @000066 len=62
+　　　　　　　　　　　　　　　
+　ドアのスイッチを手に入れた‼<END>
+
+## scene_36B 0001 @0000A4 len=2
+<END>
+
+## scene_36B 0002 @0000A6 len=36
+これでドアが　　　　　開くんだ
+な‼<END>
+
+## scene_36B 0003 @0000CA len=2
+<END>
+
+## scene_36B 0004 @0000CC len=22
+わーい、ドア開くぅ‼<END>
+
+## scene_36B 0005 @0000E2 len=2
+<END>
+
+## scene_36B 0006 @0000E4 len=40
+さっそく　　　　　　　ドアを開
+けよう‼<END>
+
+## scene_36B 0007 @00010C len=2
+<END>
+
+## scene_36B 0008 @00010E len=44
+では、ドアを　　　　　　開けて
+みましょう。<END>
+
+## scene_36B 0009 @00013A len=2
+<END>
+
+## scene_36B 0010 @00013C len=22
+それでは、開けドア‼<END>
+
+## scene_36B 0011 @000152 len=2
+<END>
+
+## scene_36B 0012 @000154 len=12
+やったぁ‼<END>
+
+## scene_36B 0013 @000160 len=2
+<END>
+
+## scene_36B 0014 @000162 len=16
+やりましたわ♪<END>
+
+## scene_36B 0015 @000172 len=2
+<END>
+
+## scene_36B 0016 @000174 len=22
+がんばったね、美姫♥<END>
+
+## scene_36B 0017 @00018A len=2
+<END>
+
+## scene_36B 0018 @00018C len=8
+げっ‼<END>
+
+## scene_36B 0019 @000194 len=2
+<END>
+
+## scene_36B 0020 @000196 len=8
+4ぶ<$6300><END>

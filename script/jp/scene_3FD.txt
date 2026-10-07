@@ -1,0 +1,22 @@
+## scene_3FD 0000 @000048 len=24
+あ、なんか落ちてる……<END>
+
+## scene_3FD 0001 @000060 len=2
+<END>
+
+## scene_3FD 0002 @000062 len=92
+……「防御力のモト」……　　　
+　　　　　　　　　　　　　　　
+　　防御力が３アップした‼……<END>
+
+## scene_3FD 0003 @0000BE len=2
+<END>
+
+## scene_3FD 0004 @0000C0 len=12
+やったぁ♥<END>
+
+## scene_3FD 0005 @0000CC len=2
+<END>
+
+## scene_3FD 0006 @0000CE len=8
+4ぶ<$6300><END>

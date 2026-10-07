@@ -1,0 +1,155 @@
+## scene_3B0 0000 @0001DC len=44
+ナージュの塔が…　　　…崩れ落
+ちていく……<END>
+
+## scene_3B0 0001 @000208 len=2
+<END>
+
+## scene_3B0 0002 @00020A len=36
+これで、元の世界に帰れるんだな
+……<END>
+
+## scene_3B0 0003 @00022E len=2
+<END>
+
+## scene_3B0 0004 @000230 len=48
+……考えてみれば、　　可哀想だ
+ったね、あの人も<END>
+
+## scene_3B0 0005 @000260 len=2
+<END>
+
+## scene_3B0 0006 @000262 len=62
+人…じゃないとは　　　思うけど
+……利用されていただけだもんね<END>
+
+## scene_3B0 0007 @0002A0 len=2
+<END>
+
+## scene_3B0 0008 @0002A2 len=66
+でも、これで　　　　　元の世界
+に帰れるんだから、ま、いーじゃ
+ん♪<END>
+
+## scene_3B0 0009 @0002E4 len=2
+<END>
+
+## scene_3B0 0010 @0002E6 len=12
+ねぇねぇ？<END>
+
+## scene_3B0 0011 @0002F2 len=2
+<END>
+
+## scene_3B0 0012 @0002F4 len=8
+はい？<END>
+
+## scene_3B0 0013 @0002FC len=2
+<END>
+
+## scene_3B0 0014 @0002FE len=68
+なんだか、床が　　　　冷たくな
+ってきたよ‼　…水があふれてき
+てる‼<END>
+
+## scene_3B0 0015 @000342 len=2
+<END>
+
+## scene_3B0 0016 @000344 len=14
+……そうねぇ<END>
+
+## scene_3B0 0017 @000352 len=2
+<END>
+
+## scene_3B0 0018 @000354 len=6
+……<END>
+
+## scene_3B0 0019 @00035A len=2
+<END>
+
+## scene_3B0 0020 @00035C len=6
+……<END>
+
+## scene_3B0 0021 @000362 len=2
+<END>
+
+## scene_3B0 0022 @000364 len=6
+……<END>
+
+## scene_3B0 0023 @00036A len=2
+<END>
+
+## scene_3B0 0024 @00036C len=18
+あの……唯さん？<END>
+
+## scene_3B0 0025 @00037E len=2
+<END>
+
+## scene_3B0 0026 @000380 len=8
+はい？<END>
+
+## scene_3B0 0027 @000388 len=2
+<END>
+
+## scene_3B0 0028 @00038A len=16
+元の世界の……<END>
+
+## scene_3B0 0029 @00039A len=2
+<END>
+
+## scene_3B0 0030 @00039C len=6
+うん<END>
+
+## scene_3B0 0031 @0003A2 len=2
+<END>
+
+## scene_3B0 0032 @0003A4 len=44
+どこに…　　　　　　　…出るん
+でしょうか？<END>
+
+## scene_3B0 0033 @0003D0 len=2
+<END>
+
+## scene_3B0 0034 @0003D2 len=6
+さぁ<END>
+
+## scene_3B0 0035 @0003D8 len=2
+<END>
+
+## scene_3B0 0036 @0003DA len=42
+私たち、ずいぶん　　　移動しま
+したよね💧<END>
+
+## scene_3B0 0037 @000404 len=2
+<END>
+
+## scene_3B0 0038 @000406 len=14
+そうだね……<END>
+
+## scene_3B0 0039 @000414 len=2
+<END>
+
+## scene_3B0 0040 @000416 len=62
+少なくとも、　　　　　東京から
+さらに　　　　百何キロかは……<END>
+
+## scene_3B0 0041 @000454 len=2
+<END>
+
+## scene_3B0 0042 @000456 len=6
+だね<END>
+
+## scene_3B0 0043 @00045C len=2
+<END>
+
+## scene_3B0 0044 @00045E len=62
+もし、元の世界でも、　その分だ
+け　　　　　　移動してたら……<END>
+
+## scene_3B0 0045 @00049C len=2
+<END>
+
+## scene_3B0 0046 @00049E len=14
+海、ですわね<END>
+
+## scene_3B0 0047 @0004AC len=2
+<END>

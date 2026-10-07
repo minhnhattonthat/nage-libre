@@ -1,5 +1,6 @@
 """Table file: HEX=text (HEX in ROM byte order). Tags <NAME>, <NAME:n> (n arg bytes),
-trailing ! = terminator, trailing / = dump inserts a newline after it. Unmapped bytes -> <$XX>.
+trailing ! = terminator, trailing / = dump inserts a newline after it.
+Unmapped data -> <$XX..> in units of the shortest table code.
 
     python -I scripts/tbl.py --check nage.tbl
 """
@@ -16,6 +17,7 @@ class Table:
         self.break_tags = set()
         self.duplicates, self.errors = [], []
         self.maxlen = 1
+        self.minlen = 1      # unmapped data is emitted in units of the shortest code (keeps 16-bit text aligned)
 
     @classmethod
     def load(cls, path):
@@ -53,6 +55,7 @@ class Table:
                 t.enc_text.setdefault(val, code)
                 seen.setdefault(val, []).append(code.hex().upper())
         t.duplicates = [(v, codes) for v, codes in seen.items() if len(codes) > 1]
+        t.minlen = min((len(c) for c in t.dec), default=1)
         return t
 
     def _render(self, code, args):
@@ -72,8 +75,9 @@ class Table:
                 if code in self.dec:
                     break
             else:
-                out.append(f"<${data[pos]:02X}>")
-                pos += 1
+                n = min(self.minlen, end - pos)
+                out.append(f"<${bytes(data[pos:pos + n]).hex().upper()}>")
+                pos += n
                 continue
             _, nargs, is_end, _ = self.dec[code]
             args = bytes(data[pos + ln:pos + ln + nargs])

@@ -1,0 +1,114 @@
+## scene_3FC 0000 @0000AC len=42
+あちゃあ、草むらが　　しめって
+るぞぉ……<END>
+
+## scene_3FC 0001 @0000D6 len=2
+<END>
+
+## scene_3FC 0002 @0000D8 len=46
+草むらが　　　　　　　水っぽく
+てヤだなぁ……<END>
+
+## scene_3FC 0003 @000106 len=2
+<END>
+
+## scene_3FC 0004 @000108 len=24
+ジメジメしてる……ここ<END>
+
+## scene_3FC 0005 @000120 len=2
+<END>
+
+## scene_3FC 0006 @000122 len=44
+この場所は、滝の水で　しめって
+ますわね……<END>
+
+## scene_3FC 0007 @00014E len=2
+<END>
+
+## scene_3FC 0008 @000150 len=54
+　　　　　　　　　　　　　　　
+　　　……ゴソゴソ……<END>
+
+## scene_3FC 0009 @000186 len=2
+<END>
+
+## scene_3FC 0010 @000188 len=10
+……何？<END>
+
+## scene_3FC 0011 @000192 len=2
+<END>
+
+## scene_3FC 0012 @000194 len=88
+いやっほぉ♥　　　　　こんにち
+はぁ‼　　　　あたしは　　　　
+　　　滝の小女神さまだよ‼<END>
+
+## scene_3FC 0013 @0001EC len=2
+<END>
+
+## scene_3FC 0014 @0001EE len=24
+ゴキブリみたいだな……<END>
+
+## scene_3FC 0015 @000206 len=2
+<END>
+
+## scene_3FC 0016 @000208 len=40
+やん、ちっちゃくて　　ゴキブリ
+みたい‼<END>
+
+## scene_3FC 0017 @000230 len=2
+<END>
+
+## scene_3FC 0018 @000232 len=38
+なんか、ちっちゃいと　ヘンだな
+ぁ……<END>
+
+## scene_3FC 0019 @000258 len=2
+<END>
+
+## scene_3FC 0020 @00025A len=40
+そのままミニチュアに　なってる
+わね……<END>
+
+## scene_3FC 0021 @000282 len=2
+<END>
+
+## scene_3FC 0022 @000284 len=60
+ちっちゃくて、　　　　かわいら
+しいですわね、お人形みたい♥<END>
+
+## scene_3FC 0023 @0002C0 len=2
+<END>
+
+## scene_3FC 0024 @0002C2 len=88
+今回は、　　　　　　　ヒントを
+あげるよ‼　　水の神殿の中には
+、　　いい物が落ちてるよ‼<END>
+
+## scene_3FC 0025 @00031A len=2
+<END>
+
+## scene_3FC 0026 @00031C len=56
+花の咲いてる所だよ‼　捜してみ
+てね‼　　　　それじゃ‼<END>
+
+## scene_3FC 0027 @000354 len=2
+<END>
+
+## scene_3FC 0028 @000356 len=24
+花の咲いてる所ねぇ……<END>
+
+## scene_3FC 0029 @00036E len=2
+<END>
+
+## scene_3FC 0030 @000370 len=8
+7ぬ<$6300><END>
+
+## scene_3FC 0031 @000378 len=2
+<END>
+
+## scene_3FC 0032 @00037A len=8
+28<$6300><END>
+
+## scene_3FC 0033 @000382 len=2
+<END>

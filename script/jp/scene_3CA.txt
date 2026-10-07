@@ -1,0 +1,85 @@
+## scene_3CA 0000 @0000B6 len=60
+　　　　　　　　　　　　　　　
+……太きな穴が開いている……<END>
+
+## scene_3CA 0001 @0000F2 len=2
+<END>
+
+## scene_3CA 0002 @0000F4 len=22
+太きな穴だねー……。<END>
+
+## scene_3CA 0003 @00010A len=2
+<END>
+
+## scene_3CA 0004 @00010C len=44
+危ないわね。こんな所に穴なんか
+開いてて……<END>
+
+## scene_3CA 0005 @000138 len=2
+<END>
+
+## scene_3CA 0006 @00013A len=42
+この武道館、イガイと痛んでます
+わね……。<END>
+
+## scene_3CA 0007 @000164 len=2
+<END>
+
+## scene_3CA 0008 @000166 len=68
+こんにちはぁ‼　　　　あたしは
+　　　　　　　武道館の女神だよ
+ーん‼<END>
+
+## scene_3CA 0009 @0001AA len=2
+<END>
+
+## scene_3CA 0010 @0001AC len=2
+<END>
+
+## scene_3CA 0011 @0001AE len=24
+きゃ‼　ビックリした‼<END>
+
+## scene_3CA 0012 @0001C6 len=2
+<END>
+
+## scene_3CA 0013 @0001C8 len=2
+<END>
+
+## scene_3CA 0014 @0001CA len=90
+私を捜してくれて　　　ありがと
+う‼　　　　　おれいに、「体力
+アップのくすり」をあげるよ‼<END>
+
+## scene_3CA 0015 @000224 len=2
+<END>
+
+## scene_3CA 0016 @000226 len=2
+<END>
+
+## scene_3CA 0017 @000228 len=62
+　　　　　　　　　　　　　　　
+……最高体力が５アップした‼…<END>
+
+## scene_3CA 0018 @000266 len=2
+<END>
+
+## scene_3CA 0019 @000268 len=14
+ありがとう‼<END>
+
+## scene_3CA 0020 @000276 len=2
+<END>
+
+## scene_3CA 0021 @000278 len=8
+7ぶ<$6300><END>
+
+## scene_3CA 0022 @000280 len=8
+4ぶ<$6300><END>
+
+## scene_3CA 0023 @000288 len=2
+<END>
+
+## scene_3CA 0024 @00028A len=36
+01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
+
+## scene_3CA 0025 @0002AE len=2
+<END>

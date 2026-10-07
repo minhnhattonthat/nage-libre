@@ -53,3 +53,12 @@ class Encode(unittest.TestCase):
 
     def test_break_tags(self):
         self.assertEqual(T.break_tags, {"NL"})
+
+class WordTable(unittest.TestCase):
+    W = Table.parse("1000=あ\nFFFF=<END>!\n")
+
+    def test_unmapped_word_stays_aligned(self):
+        raw = bytes([0xFF, 0x12, 0xFF, 0xFF])           # unmapped code 0x12FF, then END
+        text, end = self.W.decode(raw)
+        self.assertEqual((text, end), ("<$FF12><END>", 4))
+        self.assertEqual(self.W.encode(text), raw)

@@ -1,0 +1,105 @@
+## scene_3AA 0000 @000136 len=88
+あ、そうだ‼　　　　　はんせい
+のしるしに　　コレあげるよ‼　
+　　　　　　…それじゃね♪<END>
+
+## scene_3AA 0001 @00018E len=2
+<END>
+
+## scene_3AA 0002 @000190 len=2
+<END>
+
+## scene_3AA 0003 @000192 len=92
+……「回復剤」をもらった‼　　
+　　　　　　　　　　　　　　　
+　全員、体力が全回復したぞ‼…<END>
+
+## scene_3AA 0004 @0001EE len=2
+<END>
+
+## scene_3AA 0005 @0001F0 len=2
+<END>
+
+## scene_3AA 0006 @0001F2 len=60
+わあーい‼　　　　　　しかも、
+一方通行が　　逆になったよ‼<END>
+
+## scene_3AA 0007 @00022E len=2
+<END>
+
+## scene_3AA 0008 @000230 len=32
+これで、戻ることは出来ますわね<END>
+
+## scene_3AA 0009 @000250 len=2
+<END>
+
+## scene_3AA 0010 @000252 len=44
+あっ‼　でも敵がまた　全員よみ
+がえってる‼<END>
+
+## scene_3AA 0011 @00027E len=2
+<END>
+
+## scene_3AA 0012 @000280 len=42
+キリがないわ…　　　　…こうな
+ったら……<END>
+
+## scene_3AA 0013 @0002AA len=2
+<END>
+
+## scene_3AA 0014 @0002AC len=40
+塔を上がって、ナージュと戦うし
+かない‼<END>
+
+## scene_3AA 0015 @0002D4 len=2
+<END>
+
+## scene_3AA 0016 @0002D6 len=92
+　ステージ２２・再々スタート‼
+　　　　　　　　　　　　　　　
+勝利条件：階段までたどりつけ‼<END>
+
+## scene_3AA 0017 @000332 len=2
+<END>
+
+## scene_3AA 0018 @000334 len=24
+　　　……声が響く……<END>
+
+## scene_3AA 0019 @00034C len=2
+<END>
+
+## scene_3AA 0020 @00034E len=116
+ここまで来ると言うのですか…　
+…いいでしょう…　　　　　　　
+……来られるものなら……　　　
+　　……最後の決戦を……<END>
+
+## scene_3AA 0021 @0003C2 len=2
+<END>
+
+## scene_3AA 0022 @0003C4 len=2
+<END>
+
+## scene_3AA 0023 @0003C6 len=8
+4い<$6300><END>
+
+## scene_3AA 0024 @0003CE len=2
+<END>
+
+## scene_3AA 0025 @0003D0 len=8
+4ぶ<$6300><END>
+
+## scene_3AA 0026 @0003D8 len=2
+<END>
+
+## scene_3AA 0027 @0003DA len=8
+28<$6300><END>
+
+## scene_3AA 0028 @0003E2 len=2
+<END>
+
+## scene_3AA 0029 @0003E4 len=36
+01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
+
+## scene_3AA 0030 @000408 len=2
+<END>

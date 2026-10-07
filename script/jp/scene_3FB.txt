@@ -1,0 +1,24 @@
+## scene_3FB 0000 @000018 len=18
+太きな滝だなぁ♥<END>
+
+## scene_3FB 0001 @00002A len=2
+<END>
+
+## scene_3FB 0002 @00002C len=36
+この水どこまで落ちてくんだろ…
+…？<END>
+
+## scene_3FB 0003 @000050 len=2
+<END>
+
+## scene_3FB 0004 @000052 len=12
+キレイ……<END>
+
+## scene_3FB 0005 @00005E len=2
+<END>
+
+## scene_3FB 0006 @000060 len=28
+あら、キレイな滝ですわね♥<END>
+
+## scene_3FB 0007 @00007C len=2
+<END>

@@ -1,0 +1,11 @@
+## scene_42B 0000 @000026 len=6
+ざく<END>
+
+## scene_42B 0001 @00002C len=2
+<END>
+
+## scene_42B 0002 @00002E len=14
+……ふう……<END>
+
+## scene_42B 0003 @00003C len=2
+<END>

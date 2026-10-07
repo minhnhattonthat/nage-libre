@@ -1,0 +1,50 @@
+## scene_3DD 0000 @000082 len=40
+あれ、この部屋…　　　…階段が
+ある……<END>
+
+## scene_3DD 0001 @0000AA len=2
+<END>
+
+## scene_3DD 0002 @0000AC len=66
+こんな所に　　　　　　つながっ
+てるんだぁ…　…あれ、宝箱があ
+る‼<END>
+
+## scene_3DD 0003 @0000EE len=2
+<END>
+
+## scene_3DD 0004 @0000F0 len=122
+……「料学部」のシンボルを　　
+　　　　　　　手に入れた‼……
+……これで料学部を　　　　　　
+　　　選択できるようになるぞ‼<END>
+
+## scene_3DD 0005 @00016A len=2
+<END>
+
+## scene_3DD 0006 @00016C len=12
+やったぁ‼<END>
+
+## scene_3DD 0007 @000178 len=2
+<END>
+
+## scene_3DD 0008 @00017A len=2
+<END>
+
+## scene_3DD 0009 @00017C len=24
+081808182<$0F00><$6300><END>
+
+## scene_3DD 0010 @000194 len=2
+<END>
+
+## scene_3DD 0011 @000196 len=8
+002<END>
+
+## scene_3DD 0012 @00019E len=8
+112<END>
+
+## scene_3DD 0013 @0001A6 len=8
+4ぶ<$6300><END>
+
+## scene_3DD 0014 @0001AE len=2
+<END>

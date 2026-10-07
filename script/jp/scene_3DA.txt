@@ -1,0 +1,105 @@
+## scene_3DA 0000 @000092 len=46
+あ…こんな所に階段が　ある……
+登ってみよっと<END>
+
+## scene_3DA 0001 @0000C0 len=2
+<END>
+
+## scene_3DA 0002 @0000C2 len=42
+階段があるよ。　　　　登ってみ
+ようっと‼<END>
+
+## scene_3DA 0003 @0000EC len=2
+<END>
+
+## scene_3DA 0004 @0000EE len=44
+こんな所に階段が…　　…登って
+みましょうか<END>
+
+## scene_3DA 0005 @00011A len=2
+<END>
+
+## scene_3DA 0006 @00011C len=90
+こんな所に出たわね…　　　　　
+　　　　　　　　　　　　　　　
+　　　　　　　…きゃあああ‼<END>
+
+## scene_3DA 0007 @000176 len=2
+<END>
+
+## scene_3DA 0008 @000178 len=44
+あー、ビックリした💧　落ちると
+ころだった…<END>
+
+## scene_3DA 0009 @0001A4 len=2
+<END>
+
+## scene_3DA 0010 @0001A6 len=44
+ふにい…　　　　　　　…アブな
+かったよぉ💧<END>
+
+## scene_3DA 0011 @0001D2 len=2
+<END>
+
+## scene_3DA 0012 @0001D4 len=62
+ここはスベりやすいわぁ落ちると
+こだっわね。　あぶないあぶない<END>
+
+## scene_3DA 0013 @000212 len=2
+<END>
+
+## scene_3DA 0014 @000214 len=90
+こんな所で意味もなく　落ちて、
+ケガでもしたらまた怒られちゃう
+わ…　…気をつけるのよ、美姫<END>
+
+## scene_3DA 0015 @00026E len=2
+<END>
+
+## scene_3DA 0016 @000270 len=78
+…きゅう…　　　　　　…危なか
+った💧　　　　危うく落ちてしま
+う　　所でしたわ<END>
+
+## scene_3DA 0017 @0002BE len=2
+<END>
+
+## scene_3DA 0018 @0002C0 len=36
+何にもないようだし、　戻ろっか
+……<END>
+
+## scene_3DA 0019 @0002E4 len=2
+<END>
+
+## scene_3DA 0020 @0002E6 len=2
+<END>
+
+## scene_3DA 0021 @0002E8 len=2
+<END>
+
+## scene_3DA 0022 @0002EA len=8
+7<$5500><$6300><END>
+
+## scene_3DA 0023 @0002F2 len=2
+<END>
+
+## scene_3DA 0024 @0002F4 len=24
+081808182<$0F00><$6300><END>
+
+## scene_3DA 0025 @00030C len=2
+<END>
+
+## scene_3DA 0026 @00030E len=6
+12<END>
+
+## scene_3DA 0027 @000314 len=2
+<END>
+
+## scene_3DA 0028 @000316 len=6
+02<END>
+
+## scene_3DA 0029 @00031C len=2
+<END>
+
+## scene_3DA 0030 @00031E len=8
+28<$6300><END>

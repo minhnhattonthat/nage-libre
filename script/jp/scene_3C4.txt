@@ -1,0 +1,47 @@
+## scene_3C4 0000 @000056 len=54
+　　　　　　　　　　　　　　　
+　　　…病院がある……<END>
+
+## scene_3C4 0001 @00008C len=2
+<END>
+
+## scene_3C4 0002 @00008E len=22
+あれ？　なんかあるぞ<END>
+
+## scene_3C4 0003 @0000A4 len=2
+<END>
+
+## scene_3C4 0004 @0000A6 len=22
+あれ？　なんかあるぞ<END>
+
+## scene_3C4 0005 @0000BC len=2
+<END>
+
+## scene_3C4 0006 @0000BE len=22
+何かありますわね……<END>
+
+## scene_3C4 0007 @0000D4 len=2
+<END>
+
+## scene_3C4 0008 @0000D6 len=52
+　　　　　　　　　　　　　　　
+　　　　回復のくすり<END>
+
+## scene_3C4 0009 @00010A len=2
+<END>
+
+## scene_3C4 0010 @00010C len=12
+ラッキー‼<END>
+
+## scene_3C4 0011 @000118 len=2
+<END>
+
+## scene_3C4 0012 @00011A len=56
+　　　　　　　　　　　　　　　
+　　　体力が全回復した‼<END>
+
+## scene_3C4 0013 @000152 len=2
+<END>
+
+## scene_3C4 0014 @000154 len=12
+4ぶ28<$6300><END>

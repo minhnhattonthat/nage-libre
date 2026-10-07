@@ -1,0 +1,67 @@
+## scene_3DE 0000 @00003A len=44
+さてと、こっからなら　プールに
+入れるな……<END>
+
+## scene_3DE 0001 @000066 len=2
+<END>
+
+## scene_3DE 0002 @000068 len=22
+プールに、はいろぉ‼<END>
+
+## scene_3DE 0003 @00007E len=2
+<END>
+
+## scene_3DE 0004 @000080 len=34
+プールに入るかぁ…　　…えいっ
+‼<END>
+
+## scene_3DE 0005 @0000A2 len=2
+<END>
+
+## scene_3DE 0006 @0000A4 len=38
+プールにボスがいますわね……え
+いっ‼<END>
+
+## scene_3DE 0007 @0000CA len=2
+<END>
+
+## scene_3DE 0008 @0000CC len=42
+まだちょっと、　　　　水はつめ
+たいな……<END>
+
+## scene_3DE 0009 @0000F6 len=2
+<END>
+
+## scene_3DE 0010 @0000F8 len=40
+わーい‼　　　　　　　キモチい
+いなぁ‼<END>
+
+## scene_3DE 0011 @000120 len=2
+<END>
+
+## scene_3DE 0012 @000122 len=60
+ちょっと冷たいっ‼　　でもま、
+いいかぁ‼　　気持ちいいし♥<END>
+
+## scene_3DE 0013 @00015E len=2
+<END>
+
+## scene_3DE 0014 @000160 len=56
+ぷるるるるるる💧　　　まだ、ち
+ょっと　　　　冷たいわね<END>
+
+## scene_3DE 0015 @000198 len=2
+<END>
+
+## scene_3DE 0016 @00019A len=42
+プールにはいるのも　　久しぶり
+ですわね♥<END>
+
+## scene_3DE 0017 @0001C4 len=2
+<END>
+
+## scene_3DE 0018 @0001C6 len=2
+<END>
+
+## scene_3DE 0019 @0001C8 len=6
+02<END>

@@ -1,0 +1,134 @@
+## scene_3FF 0000 @000098 len=60
+　　　　　　　　　　　　　　　
+　……洞窟の入り口がある……<END>
+
+## scene_3FF 0001 @0000D4 len=2
+<END>
+
+## scene_3FF 0002 @0000D6 len=42
+ここって、やっぱ……？入ってみ
+よっと……<END>
+
+## scene_3FF 0003 @000100 len=2
+<END>
+
+## scene_3FF 0004 @000102 len=40
+よぉし‼　　　　　　　入ってみ
+るぞぉ‼<END>
+
+## scene_3FF 0005 @00012A len=2
+<END>
+
+## scene_3FF 0006 @00012C len=62
+きっと、いいところに　つながっ
+ているわ‼　　行ってみよっと‼<END>
+
+## scene_3FF 0007 @00016A len=2
+<END>
+
+## scene_3FF 0008 @00016C len=66
+また、３カ月もウロウロしたら、
+たまんないなぁでも……入ってみ
+よう<END>
+
+## scene_3FF 0009 @0001AE len=2
+<END>
+
+## scene_3FF 0010 @0001B0 len=40
+さっそく、　　　　　　入ってみ
+ましょ♥<END>
+
+## scene_3FF 0011 @0001D8 len=2
+<END>
+
+## scene_3FF 0012 @0001DA len=18
+おっ‼　宝箱だ‼<END>
+
+## scene_3FF 0013 @0001EC len=2
+<END>
+
+## scene_3FF 0014 @0001EE len=16
+宝箱めーっけ‼<END>
+
+## scene_3FF 0015 @0001FE len=2
+<END>
+
+## scene_3FF 0016 @000200 len=18
+あっ‼　宝箱だ‼<END>
+
+## scene_3FF 0017 @000212 len=2
+<END>
+
+## scene_3FF 0018 @000214 len=16
+宝箱みつけた‼<END>
+
+## scene_3FF 0019 @000224 len=2
+<END>
+
+## scene_3FF 0020 @000226 len=36
+やっぱり‼　　　　　　宝箱です
+わ‼<END>
+
+## scene_3FF 0021 @00024A len=2
+<END>
+
+## scene_3FF 0022 @00024C len=92
+　　　　　　　　　　　　　　　
+……「ン」の宝玉を　　　　　　
+　　　　　　　手に入れた‼……<END>
+
+## scene_3FF 0023 @0002A8 len=2
+<END>
+
+## scene_3FF 0024 @0002AA len=20
+ほぉ、宝玉ねぇ……<END>
+
+## scene_3FF 0025 @0002BE len=2
+<END>
+
+## scene_3FF 0026 @0002C0 len=64
+宝玉？　　　　　　　　まぁ、も
+らえるものは　もらっとこーっと
+‼<END>
+
+## scene_3FF 0027 @000300 len=2
+<END>
+
+## scene_3FF 0028 @000302 len=24
+キレイ……うれしいな♥<END>
+
+## scene_3FF 0029 @00031A len=2
+<END>
+
+## scene_3FF 0030 @00031C len=24
+キレイな宝玉ですわね♥<END>
+
+## scene_3FF 0031 @000334 len=2
+<END>
+
+## scene_3FF 0032 @000336 len=2
+<END>
+
+## scene_3FF 0033 @000338 len=24
+081808182<$0F00><$6300><END>
+
+## scene_3FF 0034 @000350 len=2
+<END>
+
+## scene_3FF 0035 @000352 len=8
+4ぶ<$6300><END>
+
+## scene_3FF 0036 @00035A len=2
+<END>
+
+## scene_3FF 0037 @00035C len=36
+01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
+
+## scene_3FF 0038 @000380 len=6
+<$0100>2<END>
+
+## scene_3FF 0039 @000386 len=6
+<$0000>2<END>
+
+## scene_3FF 0040 @00038C len=2
+<END>

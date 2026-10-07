@@ -1,0 +1,35 @@
+## scene_38D 0000 @00002C len=66
+ああっ‼　　　　　　　やられち
+ゃったわ‼　　あたしが行かなき
+ゃ…<END>
+
+## scene_38D 0001 @00006E len=2
+<END>
+
+## scene_38D 0002 @000070 len=2
+<END>
+
+## scene_38D 0003 @000072 len=2
+<END>
+
+## scene_38D 0004 @000074 len=2
+<END>
+
+## scene_38D 0005 @000076 len=2
+<END>
+
+## scene_38D 0006 @000078 len=54
+えーん、　　　　　　　でも、恐
+くて飛び降りれないっ‼<END>
+
+## scene_38D 0007 @0000AE len=2
+<END>
+
+## scene_38D 0008 @0000B0 len=2
+<END>
+
+## scene_38D 0009 @0000B2 len=24
+081808182<$0F00><$6300><END>
+
+## scene_38D 0010 @0000CA len=2
+<END>

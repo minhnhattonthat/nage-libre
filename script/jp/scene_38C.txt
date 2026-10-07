@@ -1,0 +1,57 @@
+## scene_38C 0000 @00004C len=32
+さあ、行くわよ‼　　　えーい‼<END>
+
+## scene_38C 0001 @00006C len=2
+<END>
+
+## scene_38C 0002 @00006E len=2
+<END>
+
+## scene_38C 0003 @000070 len=2
+<END>
+
+## scene_38C 0004 @000072 len=2
+<END>
+
+## scene_38C 0005 @000074 len=2
+<END>
+
+## scene_38C 0006 @000076 len=18
+あなたも、さあ‼<END>
+
+## scene_38C 0007 @000088 len=2
+<END>
+
+## scene_38C 0008 @00008A len=2
+<END>
+
+## scene_38C 0009 @00008C len=2
+<END>
+
+## scene_38C 0010 @00008E len=2
+<END>
+
+## scene_38C 0011 @000090 len=2
+<END>
+
+## scene_38C 0012 @000092 len=42
+ええぇ、　　　　　　　やっぱ恐
+いよぉ……<END>
+
+## scene_38C 0013 @0000BC len=2
+<END>
+
+## scene_38C 0014 @0000BE len=2
+<END>
+
+## scene_38C 0015 @0000C0 len=12
+<$0100><$0100><$0100><$0100>2<END>
+
+## scene_38C 0016 @0000CC len=2
+<END>
+
+## scene_38C 0017 @0000CE len=24
+081808182<$0F00><$6300><END>
+
+## scene_38C 0018 @0000E6 len=2
+<END>

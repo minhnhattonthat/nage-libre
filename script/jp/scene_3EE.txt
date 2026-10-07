@@ -1,0 +1,104 @@
+## scene_3EE 0000 @0000CC len=122
+　　　　　　　　　　　　　　　
+……よく見ると　　　　　　　　
+　コンタクトレンズが　　　　　
+　　　　　　　　落ちている……<END>
+
+## scene_3EE 0001 @000146 len=2
+<END>
+
+## scene_3EE 0002 @000148 len=68
+あ……これは…　　　　…さっき
+の人が　　　　捜していたレンズ
+では…<END>
+
+## scene_3EE 0003 @00018C len=2
+<END>
+
+## scene_3EE 0004 @00018E len=24
+渡しに行ってやろっと‼<END>
+
+## scene_3EE 0005 @0001A6 len=2
+<END>
+
+## scene_3EE 0006 @0001A8 len=30
+よぉし‼　とどけにいくぞぉ‼<END>
+
+## scene_3EE 0007 @0001C6 len=2
+<END>
+
+## scene_3EE 0008 @0001C8 len=36
+渡してあげないと可哀想ですわね
+……<END>
+
+## scene_3EE 0009 @0001EC len=2
+<END>
+
+## scene_3EE 0010 @0001EE len=24
+いたいた‼　はいコレ‼<END>
+
+## scene_3EE 0011 @000206 len=2
+<END>
+
+## scene_3EE 0012 @000208 len=44
+まだいましたわね‼　　見つけま
+したよ、これ<END>
+
+## scene_3EE 0013 @000234 len=2
+<END>
+
+## scene_3EE 0014 @000236 len=40
+よぉし‼　まだいた‼　見つけた
+ぞコレ‼<END>
+
+## scene_3EE 0015 @00025E len=2
+<END>
+
+## scene_3EE 0016 @000260 len=2
+<END>
+
+## scene_3EE 0017 @000262 len=86
+あ…　　　　　　　　　ありがと
+うございます‼……これで物が　
+　　　はっきり見えます‼<END>
+
+## scene_3EE 0018 @0002B8 len=2
+<END>
+
+## scene_3EE 0019 @0002BA len=46
+おれいに……　　　　　この私の
+宝物をあげる‼<END>
+
+## scene_3EE 0020 @0002E8 len=2
+<END>
+
+## scene_3EE 0021 @0002EA len=2
+<END>
+
+## scene_3EE 0022 @0002EC len=92
+　　　　　　　　　　　　　　　
+……「シ」の宝玉を　　　　　　
+　　　　　　　もらった‼　……<END>
+
+## scene_3EE 0023 @000348 len=2
+<END>
+
+## scene_3EE 0024 @00034A len=36
+……キレイな石……　　ありがと
+う‼<END>
+
+## scene_3EE 0025 @00036E len=2
+<END>
+
+## scene_3EE 0026 @000370 len=44
+いえいえ、こちらこそ。じゃ、が
+んばってね♥<END>
+
+## scene_3EE 0027 @00039C len=2
+<END>
+
+## scene_3EE 0028 @00039E len=36
+01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
+
+## scene_3EE 0029 @0003C2 len=8
+4ぬ<$6300><END>

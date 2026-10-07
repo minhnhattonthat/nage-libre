@@ -71,12 +71,18 @@ Scene blocks are **compressed** (string bytes are not in ROM raw). Decompressor 
 
 ## Uncertain glyphs
 
-165 glyphs marked 〓 in `font/glyphs.txt` (unreadable at 12px). They decode as raw `<$XXXX>` and are resolved from context after the dump (Task 8+):
+75 font slots still marked 〓 in `font/glyphs.txt` (they decode as raw `<$XXXX>`). After context resolution only **20 codes / 36 uses** remain unresolved in real text, mostly staff-credit names (`0440-0460`, `0576`, `058A`, `05A6`) plus `02F6` (decorative mark in "ＴＨＩＳＩＳ〓ＮＡＧＥ〓"), `01FA` ("地下にある〓の神殿"), `053C`. Unused slots never appear in the script.
 
-`0152` `0154` `018E` `01E2` `01E6` `01E8` `01F6` `01F8` `01FA` `01FC` `0200` `020A` `022E` `0232` `0234` `0246` `0256` `0270` `0274` `0276` `0278` `027A` `0288` `028E` `0290` `0292` `0298` `029C` `029E` `02A8` `02B4` `02BC` `02C2` `02E2` `02E4` `02F6` `0308` `0326` `032C` `0332` `0336` `0342` `0344` `034C` `0368` `0372` `037A` `0380` `0382` `0388` `038C` `0394` `0396` `0398` `039A` `03B2` `03B4` `03B8` `03BE` `03C0` `03D2` `03D4` `03D8` `03DA` `03DC` `03E8` `03EC` `03F2` `03F4` `03F6` `0440` `0442` `0444` `0446` `0448` `044C` `044E` `0452` `0454` `0458` `045E` `0460` `046A` `048E` `0490` `0492` `04BC` `04C2` `04C8` `04CE` `04D2` `04D6` `04F2` `04F6` `0508` `050A` `0510` `0514` `051A` `0528` `052C` `0538` `053C` `0540` `054E` `0554` `0558` `0560` `0562` `0564` `0568` `056A` `0570` `0572` `0574` `0576` `0578` `0580` `0582` `058A` `059A` `05A4` `05A6` `05B4` `05BC` `05CC` `05DA` `05DE` `05E4` `05EC` `05F0` `05FE` `0600` `060A` `060C` `0614` `0616` `061E` `0626` `062E` `0632` `0686` `068A` `068C` `0690` `0696` `0698` `069A` `069C` `0700` `0702` `0704` `071A` `071C` `071E` `0728` `0780` `0788` `0792` `0796` `07AC` `07C6` `07C8` `07D6` `07E0`
-
-Resolved so far: `0330` = 私 (was misread as 秘; confirmed against screenshot `print_t00270`).
+Resolved by context and image (Task 8). Corrections to first readings: `0330` 私 (not 秘), `0266` 誰 (not 証), `0394` 嶺 (Ryoko = 葵 嶺子), `03D2` = sweat-drop emote (dumped as 💧). Another 91 codes resolved, e.g. `0308` 倒, `0372` 負, `051A` 後, `01F6` 塔, `039A` 唯, `071E` 迷 (雪迷宮).
 
 ## Table
 
 `nage.tbl` is generated: `python -I scripts/build_tbl.py` from `font/glyphs.txt`. Glyphs that appear twice in the font get an invisible variation selector (U+FE01…) so every code stays unique and round-trips.
+
+## Script dump
+
+`scripts/textmap.json` kind `scene`: resources `0x30F-0x45B` (333 compressed event blocks) → `script/jp/scene_XXX.txt`.
+Each block = 16-bit bytecode up to the first `FFFF` word, then the string area; every `FFFF`-terminated unit is one entry (offset relative to the decompressed block).
+Dialogue strings are usually followed by an empty `<END>` entry (double `FFFF`). Display lines are wrapped every 15 full-width glyphs (encoder ignores newlines).
+~354 entries in the string area are **non-text data** (small words like `0000`/`0001`/`0063`, digits). They round-trip but aren't for translation.
+Known bytecode ops: `002B off` / `0026 off` print the string at block offset `off`; `0020`, `0024 a b c`, `0025 a b`, `0027`, `0029 n`, `002C`, `003A` (meaning TBD, sub-project 2).

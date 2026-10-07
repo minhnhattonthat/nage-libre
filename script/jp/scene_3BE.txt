@@ -1,0 +1,31 @@
+## scene_3BE 0000 @000060 len=58
+　　　　　　　　　　　　　　　
+　……ゴオオオオオオオ……<END>
+
+## scene_3BE 0001 @00009A len=2
+<END>
+
+## scene_3BE 0002 @00009C len=8
+きゃ‼<END>
+
+## scene_3BE 0003 @0000A4 len=2
+<END>
+
+## scene_3BE 0004 @0000A6 len=40
+あり、すいこまれて……こんな場
+所に……<END>
+
+## scene_3BE 0005 @0000CE len=2
+<END>
+
+## scene_3BE 0006 @0000D0 len=36
+01<$0000>111<$0100>101<$0000>111<$0100>1<$6300><END>
+
+## scene_3BE 0007 @0000F4 len=2
+<END>
+
+## scene_3BE 0008 @0000F6 len=6
+02<END>
+
+## scene_3BE 0009 @0000FC len=6
+<$0100>2<END>
