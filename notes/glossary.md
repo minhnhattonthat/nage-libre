@@ -41,6 +41,11 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | スーパーバリアー | Super Barrier | |
 | 武道館 | martial arts hall | Budokan |
 | 〜が仲間になった‼ | X joined the party! | |
+| 部活 / 〜部のシンボル | club / X Club emblem (バスケ部 Basketball Club, 空手部 Karate Club) | |
+| 着がえカード | costume card | |
+| 腕力 / 防御力 / 素早さ / 精神力 / 体力 | Strength / Defense / Speed / Spirit / HP (matches the battle HUD) | |
+| 心に闇を持つ者 | those with darkness in their hearts / dark hearts | |
+| ＳＯＲＲＹ…… ＧＡＭＥ ＯＶＥＲ ……ＰＵＳＨ ＲＥＳＥＴ…… | SORRY…… GAME OVER ……PUSH RESET…… (kept in English, 4-line layout) | |
 | ステージＮ・クリア‼ | Stage N Clear! | |
 
 ## Compromises

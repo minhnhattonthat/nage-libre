@@ -1,0 +1,11 @@
+## scene_327 0002 @000096 len=66
+That was rather tough, but we managed to win somehow.<END>
+
+## scene_327 0004 @0000DA len=36
+Ayaka's in here, right?!<END>
+
+## scene_327 0006 @000100 len=42
+Okay, let's get in there!<END>
+
+## scene_327 0008 @00012C len=26
+<$FE03><$FE03>Stage 5 Clear!<END>

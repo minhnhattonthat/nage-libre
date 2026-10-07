@@ -1,0 +1,5 @@
+## scene_33D 0000 @000022 len=68
+Waaah<$D203> Nobody's left! Mai's running away too!<END>
+
+## scene_33D 0002 @000068 len=122
+SORRY……<BR><$FE03><$FE03><$FE03><$FE03><$FE03>GAME OVER<BR><BR><$FE03>……PUSH RESET……<END>

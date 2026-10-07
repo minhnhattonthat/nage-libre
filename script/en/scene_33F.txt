@@ -1,0 +1,5 @@
+## scene_33F 0000 @000022 len=58
+Nobody's left…… Miki can't go on either… …Ugh……<END>
+
+## scene_33F 0002 @00005E len=122
+SORRY……<BR><$FE03><$FE03><$FE03><$FE03><$FE03>GAME OVER<BR><BR><$FE03>……PUSH RESET……<END>

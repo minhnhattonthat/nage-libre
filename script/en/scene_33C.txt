@@ -1,0 +1,5 @@
+## scene_33C 0000 @000022 len=64
+Dammit! I'm the last one left! We got wiped out!<END>
+
+## scene_33C 0002 @000064 len=122
+SORRY……<BR><$FE03><$FE03><$FE03><$FE03><$FE03>GAME OVER<BR><BR><$FE03>……PUSH RESET……<END>

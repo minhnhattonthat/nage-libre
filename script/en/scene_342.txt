@@ -1,0 +1,47 @@
+## scene_342 0000 @000148 len=90
+Still, so many things we don't get. Before we knew it, we were in this weird world.<END>
+
+## scene_342 0002 @0001A4 len=38
+And everyone here is rather odd.<END>
+
+## scene_342 0004 @0001CC len=54
+And then they suddenly attack us!<END>
+
+## scene_342 0006 @000204 len=50
+But it seemed like they were all being controlled.<END>
+
+## scene_342 0008 @000238 len=32
+So were you, you know.<END>
+
+## scene_342 0010 @00025A len=14
+Say something?<END>
+
+## scene_342 0012 @00026A len=46
+…Oh no, I didn't say a thiiing. Ufufu…<END>
+
+## scene_342 0014 @00029A len=14
+…Hmph!<END>
+
+## scene_342 0016 @0002AA len=24
+Now, now. Play nice.<END>
+
+## scene_342 0018 @0002C4 len=82
+Yes, more importantly, let's sum up what we've heard so far.<END>
+
+## scene_342 0020 @000318 len=14
+Yeah, yeah!<END>
+
+## scene_342 0022 @000328 len=16
+Yeah, okay.<END>
+
+## scene_342 0024 @00033A len=60
+First, this is some other dimension or world, called "Nage".<END>
+
+## scene_342 0026 @000378 len=80
+On the way to school, everyone said they felt something strange, right?<END>
+
+## scene_342 0028 @0003CA len=64
+And at that moment, we were all taken to Nage…<END>
+
+## scene_342 0030 @00040C len=32
+But who on earth would do that…<END>

@@ -1,0 +1,71 @@
+## scene_341 0000 @000124 len=60
+<BR>In a distant world…… a voice echoes……<END>
+
+## scene_341 0002 @000162 len=62
+"This whole world shall be mine…… I shall gather those with dark hearts……"<END>
+
+## scene_341 0004 @0001A2 len=60
+<BR><$FE03>…… AM 6:12 ……<END>
+
+## scene_341 0006 @0001E0 len=60
+<BR><$FE03>…… AM 8:35 ……<END>
+
+## scene_341 0008 @00021E len=60
+<BR><$FE03>…… AM 10:28 ……<END>
+
+## scene_341 0010 @00025C len=60
+<BR><$FE03>…… AM 11:37 ……<END>
+
+## scene_341 0012 @00029A len=92
+Waaaaaah! I'm sooo totally laaate! Eek!<END>
+
+## scene_341 0014 @0002F8 len=84
+Right on cue, I've even got a toothbrush and toast in my mouth,<END>
+
+## scene_341 0016 @00034E len=90
+and on top of that, the thing I've been crunching on all this time was the toothbrush!<END>
+
+## scene_341 0018 @0003AA len=86
+My beautiful teeth, sharp as fangs, are gonna get wrecked!<END>
+
+## scene_341 0020 @000402 len=86
+……Huff, huff. Talking while running sure is tiring, though.<END>
+
+## scene_341 0022 @00045A len=92
+But once I get there, I can just sleep, so it's easy, really♥<END>
+
+## scene_341 0024 @0004B8 len=72
+……Huh? Did I just feel something weird…? …What was that?<END>
+
+## scene_341 0026 @000502 len=56
+Hmm…… Uhh…… ……No idea, so whatever!<END>
+
+## scene_341 0028 @00053C len=84
+…And while I was babbling, looks like I made it to school just in time! Yahoo!<END>
+
+## scene_341 0030 @000592 len=88
+Phew, that was close! School ends after 4th period today♪ I almost missed it all♥<END>
+
+## scene_341 0032 @0005EC len=80
+Alrighty, I'm here! ……But the school is quieter than usual… What's up?<END>
+
+## scene_341 0034 @00063E len=54
+Alright! I'm the first one here today! Let's get fired up!<END>
+
+## scene_341 0036 @000676 len=24
+……Huh…… was that……<END>
+
+## scene_341 0038 @000690 len=32
+Now then, right on time♥<END>
+
+## scene_341 0040 @0006B2 len=62
+Oh? I just felt something drift past me…… What could it be?<END>
+
+## scene_341 0043 @0006F4 len=52
+♪Ta-ra-ra-ran, ta-ra-ra-ran♪ Off to school♪ we go♪<END>
+
+## scene_341 0045 @00072A len=60
+If I go♪ right now♪ I'll be there♪ before lunch♪<END>
+
+## scene_341 0047 @000768 len=32
+Eek! Something just happened!<END>

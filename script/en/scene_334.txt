@@ -1,0 +1,17 @@
+## scene_334 0002 @000062 len=36
+Then Mai pushes this switch!<END>
+
+## scene_334 0004 @000088 len=62
+Okay! I just push this switch, right?<END>
+
+## scene_334 0006 @0000C8 len=54
+Well then. Push the switch. Oh my……<END>
+
+## scene_334 0008 @000100 len=24
+The door opened!<END>
+
+## scene_334 0010 @00011A len=24
+Now we can go inside.<END>
+
+## scene_334 0012 @000134 len=40
+Come on! Let's rescue Ayaka!<END>

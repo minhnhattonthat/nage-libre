@@ -1,0 +1,50 @@
+## scene_344 0000 @00019C len=40
+Five… maidens without darkness in their hearts, huh…<END>
+
+## scene_344 0002 @0001C6 len=46
+If five people untouched by Nage gather…<END>
+
+## scene_344 0004 @0001F6 len=32
+We can go home! Yaaay!<END>
+
+## scene_344 0006 @000218 len=18
+So, one more to go.<END>
+
+## scene_344 0008 @00022C len=62
+Then, first and foremost, we must find that person.<END>
+
+## scene_344 0010 @00026C len=46
+Easier said than done… in a world this huge…<END>
+
+## scene_344 0012 @00029C len=60
+<BR><$FE03>BOOM. A tremor shakes the forest.<END>
+
+## scene_344 0014 @0002DA len=36
+Huh? …Where am I?<END>
+
+## scene_344 0019 @000306 len=8
+Miki!<END>
+
+## scene_344 0021 @000310 len=38
+……Oh, Yui. And everyone…<END>
+
+## scene_344 0026 @00033E len=60
+Well, well. Looks like the last one is Miki.<END>
+
+## scene_344 0028 @00037C len=6
+Huh…<END>
+
+## scene_344 0030 @000384 len=18
+How wonderful.<END>
+
+## scene_344 0032 @000398 len=24
+Now we're all together!<END>
+
+## scene_344 0034 @0003B2 len=22
+Right. Let's go.<END>
+
+## scene_344 0036 @0003CA len=44
+Wh-wait, wait, where are we going?<END>
+
+## scene_344 0038 @0003F8 len=88
+<$FE03><$FE03><$FE03>Miki joined the party!<BR><BR><$FE03><$FE03><$FE03>Stage 7 Clear!<END>

@@ -1,0 +1,11 @@
+## scene_32C 0000 @00002A len=88
+Ukyakyakya♥ That didn't huuurt♪ But I'm running awaaay♪ …Spin spin spin…<END>
+
+## scene_32C 0002 @000084 len=18
+Hey, wait!<END>
+
+## scene_32C 0004 @000098 len=16
+Waaaaait!<END>
+
+## scene_32C 0006 @0000AA len=14
+She's escaping!<END>

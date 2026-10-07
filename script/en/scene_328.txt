@@ -1,0 +1,62 @@
+## scene_328 0000 @000198 len=26
+I wonder if Ayaka's here…?<END>
+
+## scene_328 0002 @0001B4 len=52
+Huh…. Isn't that Ayaka behind the door?<END>
+
+## scene_328 0004 @0001EA len=12
+Really?<END>
+
+## scene_328 0009 @0001FE len=90
+Yep, it's her! Heeey! Ayakaaa! We came to get you! Open the door already!<END>
+
+## scene_328 0011 @00025A len=64
+Hiii! It's Mai! We came to get you♥<END>
+
+## scene_328 0013 @00029C len=36
+Oh my. …Something seems off…<END>
+
+## scene_328 0015 @0002C2 len=90
+…Kyahahahahaha! You made it aaaall the way heeere! Kyaha!<END>
+
+## scene_328 0017 @00031E len=8
+Eek!<END>
+
+## scene_328 0019 @000328 len=82
+Buuuuut! Can little girls like yooou♪ beat meeee?<END>
+
+## scene_328 0021 @00037C len=90
+Riiight here♪ you'll aaall♪ get beaten up! Kyahahahahahaha!<END>
+
+## scene_328 0023 @0003D8 len=60
+Oh no! She's totally hypnotized!<END>
+
+## scene_328 0025 @000416 len=58
+…Ayaka has changed a little, hasn't she?<END>
+
+## scene_328 0027 @000452 len=24
+She talks funny!<END>
+
+## scene_328 0029 @00046C len=90
+She never talks like that normally… What kind of hypnosis did they use on her…<END>
+
+## scene_328 0031 @0004C8 len=70
+She'll be SO embarrassed when she finds out what she said…<END>
+
+## scene_328 0033 @000510 len=38
+Ayaka's funny now!<END>
+
+## scene_328 0035 @000538 len=82
+Indeed♥ Wouldn't it be more fun to just leave her like this?<END>
+
+## scene_328 0037 @00058C len=62
+That's so irresponsible! ……We have to change her back!<END>
+
+## scene_328 0039 @0005CC len=90
+<$FE03>Stage 6 Start<BR><BR><$FE03>Goal: Rescue Ayaka!<END>
+
+## scene_328 0041 @000628 len=68
+For now, let's beat the others and get some hints.<END>
+
+## scene_328 0043 @00066E len=58
+In that case, we'll need to open the door too.<END>

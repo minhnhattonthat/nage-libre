@@ -1,0 +1,5 @@
+## scene_340 0000 @000022 len=70
+No one is left… I believe it would be best to start over……<END>
+
+## scene_340 0002 @00006A len=122
+SORRY……<BR><$FE03><$FE03><$FE03><$FE03><$FE03>GAME OVER<BR><BR><$FE03>……PUSH RESET……<END>

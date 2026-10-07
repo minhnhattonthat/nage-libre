@@ -1,0 +1,8 @@
+## scene_335 0000 @00002E len=38
+What's with that weird outfit?!<END>
+
+## scene_335 0002 @000056 len=60
+Excuse me, why are you at our school?<END>
+
+## scene_335 0004 @000094 len=70
+Calling you girls into this world really was a mistake…<END>

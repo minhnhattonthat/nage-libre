@@ -1,0 +1,113 @@
+## scene_32D 0000 @0002E0 len=122
+<$FE03><$FE03><$FE03>…KABOOM!<BR>Ayaka…… hit her head on the<BR>ceiling and fell down!……<END>
+
+## scene_32D 0006 @000364 len=40
+Hey, Ayaka's twitching.<END>
+
+## scene_32D 0008 @00038E len=64
+I know we beat her and all, but is she all right?<END>
+
+## scene_32D 0010 @0003D0 len=16
+Ayaka… you okay?<END>
+
+## scene_32D 0012 @0003E2 len=14
+Ugh… uuugh……<END>
+
+## scene_32D 0014 @0003F2 len=24
+Oh! She's awake!<END>
+
+## scene_32D 0016 @00040C len=40
+She does seem a bit different.<END>
+
+## scene_32D 0018 @000436 len=62
+But we'd be in trouble if she goes wild, so let's tie her up.<END>
+
+## scene_32D 0020 @000476 len=14
+Good idea.<END>
+
+## scene_32D 0022 @000486 len=44
+Hiyaaah! ……Wrap wrap wrap……<END>
+
+## scene_32D 0024 @0004B4 len=62
+……Ayaka was tied up with a<BR><$FE03><$FE03>rope lying nearby……<END>
+
+## scene_32D 0026 @0004F4 len=16
+Huh… where am I…<END>
+
+## scene_32D 0028 @000506 len=40
+Hiii, Ayaka!<END>
+
+## scene_32D 0030 @000530 len=16
+How are you?<END>
+
+## scene_32D 0032 @000542 len=88
+Oh, hey… wait, I can't move! Why the heck am I tied up?!<END>
+
+## scene_32D 0034 @00059C len=32
+She seems back to normal.<END>
+
+## scene_32D 0036 @0005BE len=46
+No, we need to keep an eye on her a bit longer.<END>
+
+## scene_32D 0038 @0005EE len=66
+…You were hypnotized by the enemy and running wild, y'know.<END>
+
+## scene_32D 0040 @000632 len=88
+Gotta tie her tight or she'll wriggle out and go wild! …There, squeak!<END>
+
+## scene_32D 0042 @00068C len=46
+I said I'm FINE already!<END>
+
+## scene_32D 0044 @0006BC len=68
+It seems she's fine now. Beating her was the right call.<END>
+
+## scene_32D 0046 @000702 len=44
+…Oh, fine. I'll untie you.<END>
+
+## scene_32D 0048 @000730 len=50
+<$FE03><$FE03><$FE03>……Slip, slip……<BR><$FE03>The rope came loose.<END>
+
+## scene_32D 0050 @000764 len=56
+Th-thanks… Wait, something about this doesn't sit right.<END>
+
+## scene_32D 0052 @00079E len=26
+<$FE03><$FE03>Ayaka joined the party!<END>
+
+## scene_32D 0054 @0007BA len=38
+So anyway… what happened to you?<END>
+
+## scene_32D 0056 @0007E2 len=82
+Well, I suddenly ended up here, and they said "Help us invade the world!"<END>
+
+## scene_32D 0058 @000836 len=82
+I didn't get it, so I ignored them… Then they said "Okay, look at this coin…"<END>
+
+## scene_32D 0060 @00088A len=90
+I watched it, got kinda sleepy… and after that I don't remember a thing.<END>
+
+## scene_32D 0062 @0008E6 len=68
+……………How did you fall for such a corny trick?……<END>
+
+## scene_32D 0064 @00092C len=90
+Y'know, when a trick's THAT obvious, you kinda fall for it anyway.<END>
+
+## scene_32D 0066 @000988 len=36
+…Normal people don't…….<END>
+
+## scene_32D 0068 @0009AE len=36
+Well, anyway, it all worked out!<END>
+
+## scene_32D 0070 @0009D4 len=44
+More friends means more courage, after all.<END>
+
+## scene_32D 0072 @000A02 len=42
+…Then let's get out of here, now!<END>
+
+## scene_32D 0074 @000A2E len=38
+It'd be trouble if pursuers came.<END>
+
+## scene_32D 0076 @000A56 len=18
+Let's go! Yeah!<END>
+
+## scene_32D 0078 @000A6A len=56
+<BR><$FE03><$FE03>Stage 6 Clear!<END>

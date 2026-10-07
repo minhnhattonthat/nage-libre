@@ -1,0 +1,11 @@
+## scene_32A 0000 @00002C len=44
+You're strong. Fine, I'll tell you.<END>
+
+## scene_32A 0002 @00005A len=68
+…The hypnosis on Ayaka isn't very powerful.<END>
+
+## scene_32A 0004 @0000A0 len=84
+So a strong shock to her body should snap her out of it.<END>
+
+## scene_32A 0006 @0000F6 len=46
+Well then, byeee♪ Spin spin spin……<END>

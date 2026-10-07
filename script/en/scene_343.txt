@@ -1,0 +1,116 @@
+## scene_343 0000 @0002A0 len=24
+Did you hear anything else?<END>
+
+## scene_343 0002 @0002BA len=12
+Ummm…<END>
+
+## scene_343 0004 @0002C8 len=86
+For now, please tell us anything you remember, whatever it is.<END>
+
+## scene_343 0006 @000320 len=44
+Put together, it can add up to quite a lot.<END>
+
+## scene_343 0008 @00034E len=10
+Okaaay!<END>
+
+## scene_343 0010 @00035A len=72
+Come to think of it, Ayaka, you said they told you "help invade the world".<END>
+
+## scene_343 0012 @0003A4 len=50
+Oh yeah, they said that, they did. What was that about?<END>
+
+## scene_343 0014 @0003D8 len=42
+Ooh! Mai will say what Mai heard too!<END>
+
+## scene_343 0016 @000404 len=68
+"This created world, Nage, belongs entirely to that person!"<END>
+
+## scene_343 0018 @00044A len=36
+That's what Mai heard someone say!<END>
+
+## scene_343 0020 @000470 len=66
+Oh, they also said, "You can never go back……"<END>
+
+## scene_343 0022 @0004B4 len=6
+……<END>
+
+## scene_343 0024 @0004BC len=44
+Mai won't lose! Mai's got more!<END>
+
+## scene_343 0026 @0004EE len=82
+"Here, anyone with a dark heart can be controlled!" Mai heard!<END>
+
+## scene_343 0028 @00053E len=6
+……<END>
+
+## scene_343 0030 @000546 len=40
+I'm starting not to want to sum this up…<END>
+
+## scene_343 0032 @000570 len=54
+The more we hear, the worse the answer gets…<END>
+
+## scene_343 0034 @0005A8 len=16
+…Is it?<END>
+
+## scene_343 0036 @0005BA len=46
+…Ayaka, you're talking without thinking…<END>
+
+## scene_343 0038 @0005EA len=88
+"Invade" "world" "dark hearts" "control" "can't go back"… Now connect them.<END>
+
+## scene_343 0040 @000644 len=80
+Um… invade the world… control dark hearts… and we can't go back… AAAH!<END>
+
+## scene_343 0042 @000696 len=20
+NOW you get it…<END>
+
+## scene_343 0044 @0006AC len=40
+Can't go back?! Mai hates that!<END>
+
+## scene_343 0046 @0006D6 len=86
+Now, now. …We just pieced together hearsay. It might not even be true.<END>
+
+## scene_343 0048 @00072E len=54
+Exactly. It's surely nothing so dramatic.<END>
+
+## scene_343 0050 @000766 len=62
+Ahhahahahaaa! So you've figured that much out!<END>
+
+## scene_343 0052 @0007A6 len=8
+What?!<END>
+
+## scene_343 0054 @0007B0 len=24
+The girl from that town!<END>
+
+## scene_343 0056 @0007CA len=46
+And the one who got beaten so easily!<END>
+
+## scene_343 0058 @0007FA len=84
+Impressive, girls! From this world our master created, you……<END>
+
+## scene_343 0060 @000850 len=90
+can never go back! Because this time, the revived Kirika is gonna beat you!<END>
+
+## scene_343 0062 @0008AC len=20
+…She never learns.<END>
+
+## scene_343 0064 @0008C2 len=62
+Talk while you still can!<END>
+
+## scene_343 0066 @000902 len=66
+Just try and beat me, now that I've come back powered up!<END>
+
+## scene_343 0068 @000946 len=88
+This world has no need for people with no darkness in their hearts!<END>
+
+## scene_343 0070 @0009A0 len=20
+Ta-ta! Warp!<END>
+
+## scene_343 0072 @0009B6 len=40
+I'll be waiting right here!<END>
+
+## scene_343 0074 @0009E0 len=82
+Whoops… In that case, I'd better guard this hole!<END>
+
+## scene_343 0076 @000A34 len=90
+<$FE03>Stage 7 Start!<BR><BR>Goal: Defeat boss Kirika!<END>

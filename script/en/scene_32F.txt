@@ -1,0 +1,41 @@
+## scene_32F 0000 @0000D4 len=36
+Want me to tell you something good?<END>
+
+## scene_32F 0002 @0000FA len=6
+Huh?<END>
+
+## scene_32F 0004 @000102 len=36
+You know the costume cards?<END>
+
+## scene_32F 0006 @000128 len=52
+They don't just change your outfit!<END>
+
+## scene_32F 0008 @00015E len=88
+When you change, your stats like Strength, Defense, Speed and Spirit change too!<END>
+
+## scene_32F 0010 @0001B8 len=58
+Like, a swimsuit raises your Strength!<END>
+
+## scene_32F 0012 @0001F4 len=10
+Ohh……<END>
+
+## scene_32F 0014 @000200 len=64
+But, say you change into a swimsuit and your Strength goes up,<END>
+
+## scene_32F 0016 @000242 len=80
+your Defense might drop by that much. There are pluses and minuses.<END>
+
+## scene_32F 0018 @000294 len=84
+Change carefully for each stage and the game goes smoothly! Good luck!<END>
+
+## scene_32F 0020 @0002EA len=46
+Wow, thank you very much♥<END>
+
+## scene_32F 0022 @00031A len=22
+And now, let's fight!<END>
+
+## scene_32F 0024 @000332 len=72
+Uh, given how this talk was going, shouldn't there be no fight…<END>
+
+## scene_32F 0026 @00037C len=24
+No more talk! Fight!<END>

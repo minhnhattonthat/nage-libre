@@ -1,0 +1,14 @@
+## scene_332 0000 @000032 len=58
+I'm the one with the switch that opens the door!<END>
+
+## scene_332 0002 @00006E len=46
+If you want it… try and beat me!<END>
+
+## scene_332 0004 @00009E len=22
+Mai wants the switch!<END>
+
+## scene_332 0006 @0000B6 len=24
+I see… Then let's fight!<END>
+
+## scene_332 0008 @0000D0 len=60
+Then I shall defeat you and take that switch.<END>

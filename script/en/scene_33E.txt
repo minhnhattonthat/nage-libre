@@ -1,0 +1,5 @@
+## scene_33E 0000 @000022 len=60
+Ugh…<$D203> …I'd better start over this time……<END>
+
+## scene_33E 0002 @000060 len=122
+SORRY……<BR><$FE03><$FE03><$FE03><$FE03><$FE03>GAME OVER<BR><BR><$FE03>……PUSH RESET……<END>

@@ -5,11 +5,19 @@
  "0x004": "Miki",
  "0x005": "Ryoko",
  "0x006": "Ai",
+ "0x067": "club tutorial girl (stage 1)",
+ "0x068": "costume tutorial girl (stage 1)",
  "0x069": "Tomomi (stage 1 boss)",
  "0x0C9": "treasure guard (stage 2)",
  "0x0CF": "Yumika (stage 2 boss)",
  "0x139": "Himeka (stage 3 boss)",
+ "0x192": "town enemy (stage 4)",
  "0x19B": "Kirika (stage 4 boss)",
  "0x1F5": "hall guard (stage 5)",
- "0x1F9": "barrier girl (stage 5)"
+ "0x1F9": "barrier girl (stage 5)",
+ "0x259": "Ayaka, hypnotized (stage 6)",
+ "0x260": "switch keeper (stage 6)",
+ "0x262": "hypnosis informant (stage 6)",
+ "0x2BD": "Kirika, powered up (stage 7)",
+ "0x2BE": "hole guard (stage 7)"
 }

@@ -1,0 +1,47 @@
+## scene_32E 0000 @0000C6 len=58
+Hello! Can I talk to you for a sec?<END>
+
+## scene_32E 0002 @000102 len=6
+Huh?<END>
+
+## scene_32E 0004 @00010A len=12
+Okay then,<END>
+
+## scene_32E 0006 @000118 len=24
+let me explain clubs.<END>
+
+## scene_32E 0008 @000132 len=20
+Before you enter<END>
+
+## scene_32E 0010 @000148 len=16
+a new stage,<END>
+
+## scene_32E 0012 @00015A len=82
+the player chooses a club for each of the characters.<END>
+
+## scene_32E 0014 @0001AE len=62
+More clubs become available as you clear stages,<END>
+
+## scene_32E 0016 @0001EE len=90
+and some you get by opening treasure chests or clearing events along the way.<END>
+
+## scene_32E 0018 @00024A len=36
+…For example……. Here! Take this!<END>
+
+## scene_32E 0020 @000270 len=62
+………Yui received the Basketball<BR><$FE03><$FE03>Club emblem!……<END>
+
+## scene_32E 0022 @0002B0 len=88
+Like that. Now you can pick the "Basketball Club" from the next stage on.<END>
+
+## scene_32E 0024 @00030A len=82
+There are lots out there, so look hard and find them!<END>
+
+## scene_32E 0026 @00035E len=60
+Oh… thank you! You're such a nice person!<END>
+
+## scene_32E 0028 @00039C len=34
+…And with that, let's fight!<END>
+
+## scene_32E 0030 @0003C0 len=12
+Why?!<END>

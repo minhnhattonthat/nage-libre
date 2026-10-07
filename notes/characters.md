@@ -12,12 +12,15 @@ Polite ojou-sama register (〜ですわ, 〜ありますわ). English: refined, 
 - Addresses Yui as 唯さん: plain "Yui" in English. Calls Mai 舞ちゃん: "Mai".
 
 ## Ayaka Sakurai (id 1)
-Hypnotized by the enemy and held at the school (scene_31E). Not yet speaking as herself in batch 1.
+Hypnotized by the enemy and held at the school (scene_31E).
+- Rough, tomboyish speech (あたしゃ, 〜だな, 〜じゃんか, ちっくしょう). English: blunt and casual ("Why the heck am I tied up?!", "Dammit!", "Right. Let's go."). Talks before thinking (scene_343).
+- Hypnotized (id 0x259, scene_328/32B/32C): sing-song stretched vowels and cackling, "Kyahahaha!".
 
 ## Mai Himenogi (id 2)
 Childish, impulsive. Refers to herself in the third person (舞ちゃん → "Mai": "Mai is here!", "Mai's fine!"). Drinks unknown potions and throws things without thinking (scenes 319, 325). Long vowels and sing-song ♪.
 
 ## Miki Shizumoto (id 4)
+Joins in scene_344. Timid and polite (唯さん, "Wh-wait, where are we going?"). Cries easily (scene_33A "Waaaaah!"). Refers to herself by name once (美姫ももうダメ → "Miki can't go on either").
 
 ## Ai (id 6)
 

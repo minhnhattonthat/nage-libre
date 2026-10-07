@@ -1,0 +1,5 @@
+## scene_329 0000 @000020 len=84
+Beat me, and I'll tell you how to bring Ayaka back to normal!<END>
+
+## scene_329 0002 @000076 len=22
+…Come and get me!<END>

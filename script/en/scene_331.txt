@@ -1,0 +1,41 @@
+## scene_331 0000 @00007E len=46
+Beyond here…? Is there something there?<END>
+
+## scene_331 0002 @0000AE len=16
+Something there?<END>
+
+## scene_331 0004 @0000C0 len=44
+Then let's go on ahead!<END>
+
+## scene_331 0006 @0000EE len=60
+The beaten character walks off briskly…<END>
+
+## scene_331 0009 @00012E len=42
+Oh, there's a treasure chest here♥<END>
+
+## scene_331 0011 @00015A len=18
+Oh! A treasure chest!<END>
+
+## scene_331 0013 @00016E len=24
+Found a treasure chest!<END>
+
+## scene_331 0015 @000188 len=56
+The beaten character strikes a happy pose.<END>
+
+## scene_331 0016 @0001C0 len=74
+…Inside the treasure chest was<BR>the "Karate Club emblem"!<END>
+
+## scene_331 0018 @00020C len=52
+…Now you can choose the Karate Club from the next stage!<END>
+
+## scene_331 0020 @000242 len=44
+…goes back to where it was.<END>
+
+## scene_331 0023 @000272 len=56
+We got something good. Smile, smile.<END>
+
+## scene_331 0025 @0002AC len=22
+Ooh! Lucky!<END>
+
+## scene_331 0027 @0002C4 len=24
+Mai's on a roll!<END>

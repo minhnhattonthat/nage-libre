@@ -1,0 +1,11 @@
+## scene_32B 0000 @00002E len=68
+Kyahahahahaha! I'm gonna♪ beat you aaall♪<END>
+
+## scene_32B 0002 @000074 len=24
+She's still weird!<END>
+
+## scene_32B 0004 @00008E len=84
+Please! Snap out of it! And that way of talking is SO weird!<END>
+
+## scene_32B 0006 @0000E4 len=46
+Well, let's try fighting her……<END>

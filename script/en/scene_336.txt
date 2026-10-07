@@ -1,0 +1,11 @@
+## scene_336 0000 @00002E len=42
+Stop running and fight!<END>
+
+## scene_336 0002 @00005A len=38
+Don't run! Face us!<END>
+
+## scene_336 0004 @000082 len=14
+Here we go!<END>
+
+## scene_336 0006 @000092 len=88
+Oh, you're all here already. Can't be helped… Guess I'll fight…<END>
