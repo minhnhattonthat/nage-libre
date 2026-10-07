@@ -15,7 +15,10 @@ Tools: `python -I scripts/trace_diff.py work/trace/idle_rom.csv work/trace/print
   ⇒ **font offset = `0x28000 + code * 0x20`**. Codes `< 0x10` are half-width (`0x20` bytes, 8×16?); others full 16×16 (`0x40` bytes).
   Examples: `0x03FE` = blank (space/padding), `0x075A` 遠, `0x002A` く, `0x0068` の, `0x033A` 世, `0x033C` 界.
 - A second VRAM upload path exists: `808C8B` DMAs `$40` bytes from WRAM (`$7E....`) 200 times. Possibly another font (e.g. the "AM6:12" timestamp line) or the box border. Checked in Task 4.
-- Tile layout inside a glyph: tile order still to confirm when rendering (Task 5).
+- Tile order inside a 16×16 glyph: **column-major** (TL, BL, TR, BR).
+- Sheets: `font/jp_font_0{0..3}.png`, 256 glyphs each, row label = code of first glyph (codes step 2):
+  `python -I scripts/render_font.py "rom/Nage Libre - Seijaku no Suishin (Japan).sfc" $((0x28000 + base*0x20)) 256 --layout col --base $base --step 2 --scale 2 -o font/jp_font_0K.png` with base = K*0x200.
+- Layout: codes `0x00-0x0F` half-width digits 0-9 (8×16), `0x12-0x15F` kana and full-width digits, `0x180+` kanji.
 
 ## Trace candidates
 
