@@ -1,0 +1,44 @@
+## system 0002 @000000 len=0
+<END>
+
+## system 0068 @000000 len=0
+<END>
+
+## system 0102 @000000 len=0
+Yui<END>
+
+## system 0147 @000000 len=0
+Shizuko<END>
+
+## system 0248 @000000 len=0
+'s attack!<END>
+
+## system 0249 @000000 len=0
+ took <END>
+
+## system 0250 @000000 len=0
+ damage!<END>
+
+## system 0263 @000000 len=0
+ was defeated!<END>
+
+## system 0264 @000000 len=0
+ gold obtained!<END>
+
+## system 0288 @000000 len=0
+Are these birthdays OK?<END>
+
+## system 0307 @000000 len=0
+What now?<END>
+
+## system 0308 @000000 len=0
+Shop<END>
+
+## system 0309 @000000 len=0
+Clubs<END>
+
+## system 0310 @000000 len=0
+Save<END>
+
+## system 0311 @000000 len=0
+Start<END>

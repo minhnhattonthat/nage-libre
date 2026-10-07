@@ -125,6 +125,10 @@ def system_texts(path, entries, table):
         except ValueError as x:
             raise BuildError(f"{where}: {x}") from None
         out[t.index] = b
+    try:
+        syswidth.check_names(out)
+    except ValueError as x:
+        raise BuildError(f"{SYSTEM_EN}: {x}") from None
     return out
 
 

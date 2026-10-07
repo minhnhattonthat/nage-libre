@@ -112,6 +112,13 @@ class Build(unittest.TestCase):
         with self.assertRaisesRegex(build.BuildError, "system.txt entry 0000"):
             build.build(self.clean, d)
 
+    def test_system_name_field_enforced(self):
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:
+            f.write("## system 0002 @0 len=0\nKirishima<END>\n\n## system 0147 @0 len=0\nShizuko<END>\n")
+        with self.assertRaisesRegex(build.BuildError, "system.txt: name field"):
+            build.build(self.clean, d)
+
     def test_system_en_text_lands(self):
         import sysrefs
         d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
