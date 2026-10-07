@@ -115,6 +115,7 @@ class Table:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")          # console is cp1252; -I ignores PYTHONIOENCODING
     t = Table.load(sys.argv[-1])
     for v, codes in t.duplicates:
         print(f"duplicate {v!r}: {' '.join(codes)} (later codes dump as <$XX>)")
