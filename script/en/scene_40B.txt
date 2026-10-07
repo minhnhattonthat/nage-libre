@@ -1,0 +1,14 @@
+## scene_40B 0000 @00001E len=42
+Owww! I got stuck by a spike!<END>
+
+## scene_40B 0002 @00004A len=24
+The spikes are scary!<END>
+
+## scene_40B 0004 @000064 len=66
+Ugh…… gotta be careful not to get stuck by the spikes……<END>
+
+## scene_40B 0006 @0000A8 len=36
+A spike got me… …it hurts……<END>
+
+## scene_40B 0008 @0000CE len=90
+Everyone! If you're not careful, you'll get stuck by spikes!<END>

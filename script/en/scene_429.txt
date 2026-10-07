@@ -1,0 +1,14 @@
+## scene_429 0000 @000068 len=90
+Grr! To think you'd beat me, captain of the Basketball Squad! In that case! ……<END>
+
+## scene_429 0002 @0000C4 len=14
+Gulp…… what?<END>
+
+## scene_429 0004 @0000D4 len=42
+In tribute! I bestow this upon you!<END>
+
+## scene_429 0006 @000100 len=116
+……Received a<BR><$FE03>"Defense Booster"!……<BR><BR>Defense went up by 3!<END>
+
+## scene_429 0008 @000176 len=18
+You're a good person!<END>

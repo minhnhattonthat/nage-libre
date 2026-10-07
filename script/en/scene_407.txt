@@ -1,0 +1,11 @@
+## scene_407 0000 @00001E len=42
+What IS this? Gross……<END>
+
+## scene_407 0002 @00004A len=38
+Waaah! It's gross!<END>
+
+## scene_407 0004 @000072 len=46
+It's kind of jiggly……<END>
+
+## scene_407 0006 @0000A2 len=42
+This is…… not cute at all……<END>

@@ -1,0 +1,29 @@
+## scene_41C 0000 @000058 len=38
+……Okay then, let's swap.<END>
+
+## scene_41C 0002 @000080 len=40
+Sure, let's swap♪<END>
+
+## scene_41C 0004 @0000AA len=42
+Here you go, take this♥<END>
+
+## scene_41C 0006 @0000D6 len=58
+So we trade for this one? All right♪<END>
+
+## scene_41C 0008 @000112 len=16
+Thank youuu♪<END>
+
+## scene_41C 0010 @000124 len=92
+<BR>……All stock cards turned into<BR><$FE03>SP cards!……<END>
+
+## scene_41C 0012 @000182 len=42
+Alright! Talk about lucky!<END>
+
+## scene_41C 0014 @0001AE len=42
+Yay! Battles just got easier!<END>
+
+## scene_41C 0016 @0001DA len=40
+Lucky! This is great♥<END>
+
+## scene_41C 0018 @000204 len=18
+What a bargain♥<END>

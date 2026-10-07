@@ -1,0 +1,5 @@
+## scene_411 0000 @000022 len=62
+…The bookshelf is lined<BR><$FE03>with lots of books…<END>
+
+## scene_411 0002 @000062 len=34
+But there's nothing I want to read…<END>

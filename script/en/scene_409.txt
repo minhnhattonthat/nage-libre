@@ -1,0 +1,11 @@
+## scene_409 0000 @000030 len=60
+<BR>……The right eye spoke to them……<END>
+
+## scene_409 0002 @00006E len=84
+I am Nage's other heart…… I place my hope in this eye… …and tell you……<END>
+
+## scene_409 0004 @0000C4 len=90
+Nage…… placed absolute trust in the one who opened its closed heart……<END>
+
+## scene_409 0006 @000120 len=84
+So…… now, together with her, it seeks to destroy even the real world……<END>

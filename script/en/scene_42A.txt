@@ -1,0 +1,11 @@
+## scene_42A 0000 @00002E len=82
+Heh heh! The boss is in the building next door! You're getting the runaround!<END>
+
+## scene_42A 0002 @000082 len=64
+Nuh-uh! We're just beating you 'cause we're passing by!<END>
+
+## scene_42A 0004 @0000C4 len=46
+Ugh…… she's right. She ran off that way<$D203><END>
+
+## scene_42A 0006 @0000F4 len=60
+Oh dear……. But that's that…… let's fight!<END>

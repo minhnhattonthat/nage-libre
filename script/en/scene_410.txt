@@ -1,0 +1,14 @@
+## scene_410 0000 @000058 len=62
+…The bookshelf is lined<BR><$FE03>with lots of books…<END>
+
+## scene_410 0002 @000098 len=40
+"World Monster Encyclopedia"…… let's see……<END>
+
+## scene_410 0004 @0000C2 len=8
+……!<END>
+
+## scene_410 0006 @0000CC len=58
+<BR><$FE03>……Silently put the book back……<END>
+
+## scene_410 0008 @000108 len=24
+Shouldn't have read that……<END>

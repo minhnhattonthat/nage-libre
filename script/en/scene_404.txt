@@ -1,0 +1,8 @@
+## scene_404 0000 @000018 len=62
+Yay, we're flowing along! But we can't go back!<END>
+
+## scene_404 0002 @000058 len=38
+A conveyor belt…… oh, can't go back!<END>
+
+## scene_404 0004 @000080 len=64
+Oh my, we can't go back on this conveyor belt……<END>

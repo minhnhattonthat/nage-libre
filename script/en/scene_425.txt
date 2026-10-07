@@ -1,0 +1,35 @@
+## scene_425 0000 @0000D0 len=80
+Oh! There's someone all frilly over there! Let's go!<END>
+
+## scene_425 0002 @000122 len=44
+Oh! Who's that? Let's go see!<END>
+
+## scene_425 0004 @000150 len=44
+Oh my, someone's there. Let's go see<$D203><END>
+
+## scene_425 0006 @00017E len=42
+Yay! The water's shallow just here!<END>
+
+## scene_425 0008 @0001AA len=46
+The water's shallow enough to walk through……<END>
+
+## scene_425 0010 @0001DA len=46
+The water's shallow, so we can walk through…<END>
+
+## scene_425 0012 @00020A len=60
+Nice to meet you! I'm the goddess of water!<END>
+
+## scene_425 0014 @000248 len=14
+Hello!<END>
+
+## scene_425 0016 @000258 len=86
+Thanks for coming to see me! Today I'll give you this!<END>
+
+## scene_425 0018 @0002B0 len=118
+……Received the "Occult Club<BR><$FE03><$FE03><$FE03><$FE03>emblem"!……<BR>From the next stage, you can<BR><$FE03>choose the Occult Club!<END>
+
+## scene_425 0020 @000328 len=14
+Thank you!<END>
+
+## scene_425 0022 @000338 len=46
+You're welcome♥ See you agaaain♪<END>

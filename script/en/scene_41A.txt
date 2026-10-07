@@ -1,0 +1,23 @@
+## scene_41A 0000 @000068 len=60
+<BR>……Rumble rumble rumble……<END>
+
+## scene_41A 0004 @0000AA len=10
+Kyaaa!<END>
+
+## scene_41A 0006 @0000B6 len=10
+Whoaaa!<END>
+
+## scene_41A 0008 @0000C2 len=12
+Kyaaan!<END>
+
+## scene_41A 0012 @0000D4 len=44
+I'm dizzy…… but it made a shortcut!<END>
+
+## scene_41A 0014 @000102 len=66
+We spun around! But…… it made a shortcut!<END>
+
+## scene_41A 0016 @000146 len=34
+Ah! A shortcut! Lucky!<END>
+
+## scene_41A 0018 @00016A len=66
+Kyuu…… …what happened? Oh, there's a shortcut!<END>

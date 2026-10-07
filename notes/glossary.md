@@ -74,6 +74,10 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | 素早さのモト / 体力アップのくすり / 回復のくすり | Speed Booster / HP Up Potion / Healing medicine | |
 | 腕力のモト / 防御力のモト | Power Booster / Defense Booster | |
 | 待機 | stand by (map command) | |
+| ＨＰまんたん剤 | Full HP Potion | |
+| 超必殺技カード / ストックカード | SP card / stock cards | |
+| 演劇部 / 手芸部 / オカルト研 | Drama Club / Crafts Club / Occult Club | |
+| 隠しコマンド (scene_42D) | birthdays Jan 23 / Apr 5 / Jun 7 / Aug 9 / Oct 11 (Ayaka / Mai / Yui / Miki / Ryoko) | |
 | 料学部 | Cooking Club (official club name; 料 = cooking) | |
 | ○○ (placeholder name) | XX | |
 | ■ (debug/unused text) | `<$FC03>` (■ is not in en.tbl) | |

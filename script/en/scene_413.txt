@@ -1,0 +1,11 @@
+## scene_413 0000 @00005E len=68
+Anything at the tree roots? Let's dig it up!<END>
+
+## scene_413 0002 @0000A4 len=54
+<BR><$FE03><$FE03><$FE03><$FE03>……Squish……<END>
+
+## scene_413 0004 @0000DC len=8
+Huh?<END>
+
+## scene_413 0007 @0000E8 len=44
+That feeling just now… …was that a frog…<END>

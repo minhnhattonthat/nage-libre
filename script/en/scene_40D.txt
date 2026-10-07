@@ -1,0 +1,14 @@
+## scene_40D 0000 @000024 len=66
+It won't open! …At this rate, they'll catch up!<END>
+
+## scene_40D 0002 @000068 len=28
+Waaah<$D203> It won't open……<END>
+
+## scene_40D 0004 @000086 len=64
+It won't open! We can't get to Nage!<END>
+
+## scene_40D 0006 @0000C8 len=64
+Aaah<$D203> If the door won't open, they'll catch us……<END>
+
+## scene_40D 0008 @00010A len=68
+It won't open! We're like rats in a trap!<END>

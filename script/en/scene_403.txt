@@ -1,0 +1,11 @@
+## scene_403 0000 @000018 len=66
+Yay, the other way! But we can't go back again!<END>
+
+## scene_403 0002 @00003C len=36
+Alright! The final battle! …Let's go!<END>
+
+## scene_403 0004 @000082 len=44
+Come on, do your best, Miki!<END>
+
+## scene_403 0006 @0000B0 len=44
+Once we climb this, there's no going back……<END>

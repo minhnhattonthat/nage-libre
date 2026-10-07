@@ -1,0 +1,5 @@
+## scene_42B 0000 @000026 len=6
+Stab<END>
+
+## scene_42B 0002 @00002E len=14
+……Phew……<END>

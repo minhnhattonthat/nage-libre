@@ -1,0 +1,17 @@
+## scene_416 0000 @00002E len=34
+Hey, know how to open the door?<END>
+
+## scene_416 0002 @000052 len=38
+Hey, hey! Open the door!<END>
+
+## scene_416 0004 @00007A len=56
+Do you know how to open the door?<END>
+
+## scene_416 0006 @0000B4 len=42
+How do we open that door?<END>
+
+## scene_416 0008 @0000E0 len=86
+Excuse me, we'd like to enter the school. Could you open the door?<END>
+
+## scene_416 0010 @000138 len=40
+Huh? Door? What door? Never mind, fight me!<END>

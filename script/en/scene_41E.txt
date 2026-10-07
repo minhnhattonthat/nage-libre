@@ -1,0 +1,5 @@
+## scene_41E 0000 @00002E len=86
+C'mon, let's dance! Come, honey! This is the main stage! Let's fight here♪<END>
+
+## scene_41E 0002 @000086 len=46
+Someone has NO idea what's going on…<END>

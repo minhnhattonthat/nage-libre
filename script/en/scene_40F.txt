@@ -1,0 +1,17 @@
+## scene_40F 0000 @000034 len=92
+<BR>……The locker is locked……<END>
+
+## scene_40F 0002 @000092 len=36
+Isn't it just broken?<END>
+
+## scene_40F 0004 @0000B8 len=16
+It's broken!<END>
+
+## scene_40F 0006 @0000CA len=20
+Looks broken.<END>
+
+## scene_40F 0008 @0000E0 len=66
+There's surely nothing important in a locker anyway.<END>
+
+## scene_40F 0010 @000124 len=86
+It seems broken. …No point looking at other people's clothes anyway.<END>

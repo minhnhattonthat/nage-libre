@@ -1,0 +1,20 @@
+## scene_428 0000 @00004A len=90
+<BR>……Inside the treasure chest<BR><$FE03>was the "RA" Jewel!<END>
+
+## scene_428 0002 @0000A6 len=10
+What is it?<END>
+
+## scene_428 0005 @0000B4 len=40
+Ooh! No idea what, but it's amazing!<END>
+
+## scene_428 0008 @0000E0 len=62
+Yay♪ A pretty jewel! Like a princess♥<END>
+
+## scene_428 0011 @000122 len=58
+No idea what it is, but it looks good! Yahoo!<END>
+
+## scene_428 0014 @000160 len=88
+Thank goodness… it's a pretty jewel♥ Something weird would get me scolded.<END>
+
+## scene_428 0017 @0001BC len=64
+Quite a fine thing♥ What a beautiful jewel♥<END>

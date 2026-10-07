@@ -1,0 +1,26 @@
+## scene_422 0000 @00007E len=66
+Sniff, sniff… …you WERE after my body……<END>
+
+## scene_422 0002 @0000C2 len=18
+I said NO!<END>
+
+## scene_422 0004 @0000D6 len=34
+Ugh…… I said no! Waaah!<END>
+
+## scene_422 0006 @0000FA len=88
+Listen! …Not that she seems the listening type……<END>
+
+## scene_422 0008 @000154 len=40
+I said no… Honestly……<END>
+
+## scene_422 0010 @00017E len=86
+Liar! You're after this thing I always wear on my body, right?<END>
+
+## scene_422 0012 @0001D6 len=122
+……Received the "Crafts Club<BR><$FE03><$FE03><$FE03><$FE03>emblem"!……<BR>From the next stage, you can<BR><$FE03>choose the Crafts Club!<END>
+
+## scene_422 0014 @000252 len=44
+Aaah…… you took it!<END>
+
+## scene_422 0016 @000280 len=90
+Yay♥ ……but it's a little warm……<END>

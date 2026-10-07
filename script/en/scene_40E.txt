@@ -1,0 +1,17 @@
+## scene_40E 0000 @000060 len=18
+Ah! A treasure chest!<END>
+
+## scene_40E 0002 @000074 len=40
+Alright! Found a treasure chest!<END>
+
+## scene_40E 0004 @00009E len=92
+……Inside the treasure chest<BR><$FE03>was a "Full HP Potion"!……<END>
+
+## scene_40E 0006 @0000FC len=10
+Yaaay!<END>
+
+## scene_40E 0008 @000108 len=12
+Okay!<END>
+
+## scene_40E 0011 @000118 len=60
+<BR><$FE03>……HP fully restored!……<END>

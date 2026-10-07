@@ -1,0 +1,11 @@
+## scene_406 0000 @00001E len=24
+Yuck! It looked at me!<END>
+
+## scene_406 0002 @000038 len=18
+It's staring at us!<END>
+
+## scene_406 0004 @00004C len=20
+This eye is moving!<END>
+
+## scene_406 0006 @000062 len=68
+Hellooo♥ …No, I don't even feel like greeting it.<END>

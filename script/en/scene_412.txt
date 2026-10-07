@@ -1,0 +1,17 @@
+## scene_412 0000 @000022 len=62
+<BR>……"World of Wonders Encyclopedia"……<END>
+
+## scene_412 0003 @000064 len=16
+Hmm, hmm…….<END>
+
+## scene_412 0005 @000076 len=12
+Hmm……<END>
+
+## scene_412 0007 @000084 len=38
+Not a very interesting book.<END>
+
+## scene_412 0009 @0000AC len=14
+Weird book……<END>
+
+## scene_412 0011 @0000BC len=88
+World's biggest head… world's oldest person… so full of useless info……<END>

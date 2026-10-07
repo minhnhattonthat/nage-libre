@@ -1,0 +1,14 @@
+## scene_405 0000 @00001E len=46
+This mound is… …whoa! It's squishy!<END>
+
+## scene_405 0002 @00004E len=46
+Look closely, it's kinda cu… …nope, not cute!<END>
+
+## scene_405 0004 @00007E len=46
+I'd rather not touch it……<END>
+
+## scene_405 0006 @0000AE len=20
+Don't want to touch it……<END>
+
+## scene_405 0008 @0000C4 len=60
+This is softer than I expected… …how unpleasant.<END>

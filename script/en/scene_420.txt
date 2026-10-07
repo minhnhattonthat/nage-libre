@@ -1,0 +1,50 @@
+## scene_420 0000 @000120 len=88
+La-lalala♪ Lalalalalalaa♪ ……Now! Sing out loud with me!<END>
+
+## scene_420 0002 @00017A len=38
+She's the weirdest one yet……<END>
+
+## scene_420 0004 @0001A2 len=24
+Waaah! A weirdo!<END>
+
+## scene_420 0006 @0001BC len=66
+When it's cold, singing is best! And a musical, at that!<END>
+
+## scene_420 0008 @000200 len=90
+Let's dance together! ……Come on!<END>
+
+## scene_420 0010 @00025C len=14
+L…like this?<END>
+
+## scene_420 0012 @00026C len=88
+Mai can't! Mai gets all sluggish when it's cold!<END>
+
+## scene_420 0014 @0002C6 len=46
+……NO! Zat is not eet!<END>
+
+## scene_420 0016 @0002F6 len=24
+……Are you a foreigner?……<END>
+
+## scene_420 0018 @000310 len=68
+I'll give you this! With it, you'll find your voice!<END>
+
+## scene_420 0020 @000356 len=122
+……Received the "Drama Club<BR><$FE03><$FE03><$FE03><$FE03>emblem"!……<BR>From the next stage, you can<BR><$FE03>choose the Drama Club!<END>
+
+## scene_420 0022 @0003D2 len=20
+Ooh♥ Thank you!<END>
+
+## scene_420 0024 @0003E8 len=38
+Now you can sing out loud!<END>
+
+## scene_420 0026 @000410 len=46
+So I can! ……Well, bye-byeee…<END>
+
+## scene_420 0028 @000440 len=52
+And now that we're warmed up, let's fight!<END>
+
+## scene_420 0030 @000476 len=14
+Figures……<END>
+
+## scene_420 0032 @000486 len=20
+I knew iiiit!<END>

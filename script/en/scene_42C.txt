@@ -1,0 +1,11 @@
+## scene_42C 0000 @00004A len=84
+Thank you! I won't do wrong anymore! When I get home, I'll rest a while,<END>
+
+## scene_42C 0002 @0000A0 len=90
+then find someone wonderful! …Build a big house, and live happily, just us two♥<END>
+
+## scene_42C 0004 @0000FC len=38
+I'll be happy, I promise! Bye!<END>
+
+## scene_42C 0006 @000124 len=66
+But when will this green body go back to normal……?<END>

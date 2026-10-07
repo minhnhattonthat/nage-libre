@@ -1,0 +1,23 @@
+## scene_41B 0000 @00007C len=46
+Hmm… can't we jump here?<END>
+
+## scene_41B 0002 @0000AC len=46
+Phew… that worked…… Huh, there's something here!<END>
+
+## scene_41B 0004 @0000DC len=46
+Big success! And there's something here!<END>
+
+## scene_41B 0006 @00010C len=56
+That worked♥ Well then, this treasure chest……<END>
+
+## scene_41B 0009 @000148 len=18
+<$FC03><$FC03>Open the chest<END>
+
+## scene_41B 0012 @00015E len=92
+……Inside the treasure chest<BR><$FE03><$FE03><$FE03>was a "Power Booster"!……<END>
+
+## scene_41B 0014 @0001BC len=56
+<BR><$FE03><$FE03>Strength went up by 3!<END>
+
+## scene_41B 0018 @0001FA len=60
+Oh, I feel power surging through me……<END>

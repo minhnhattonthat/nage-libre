@@ -1,0 +1,26 @@
+## scene_421 0000 @00006E len=58
+You…… coming all this way around… …could it be……<END>
+
+## scene_421 0002 @0000AA len=10
+Could it be?<END>
+
+## scene_421 0004 @0000B6 len=40
+……you're after my body!<END>
+
+## scene_421 0006 @0000E0 len=24
+As if!<END>
+
+## scene_421 0008 @0000FA len=78
+No we're nooot<$D203> She's even weirder than usual…… …eek!<END>
+
+## scene_421 0010 @00014A len=18
+……Noooo!<END>
+
+## scene_421 0012 @00015E len=64
+Um, it's not that…… we just thought there might be something over here……<END>
+
+## scene_421 0014 @0001A0 len=44
+That could be nice too… …wait, no it couldn't!<END>
+
+## scene_421 0017 @0001D0 len=56
+Nope, it's decided! Fight me!<END>

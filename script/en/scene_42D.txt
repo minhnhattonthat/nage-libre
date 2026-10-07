@@ -1,0 +1,62 @@
+## scene_42D 0000 @000150 len=66
+Now. This is the last. Let us proceed solemnly……<END>
+
+## scene_42D 0002 @000194 len=16
+Oh, her again<$D203><END>
+
+## scene_42D 0004 @0001A6 len=90
+I am the "Last Goddess"…… I shall give you one final bit of help……<END>
+
+## scene_42D 0006 @000202 len=10
+Yay♥<END>
+
+## scene_42D 0008 @00020E len=64
+Yes, the six jewels you carry…… with them……<END>
+
+## scene_42D 0010 @000250 len=42
+you can defeat Nage……<END>
+
+## scene_42D 0012 @00027C len=42
+To you…… ……the power to strike the darkness!<END>
+
+## scene_42D 0014 @0002A8 len=92
+……Every jewel shines,<BR><$FE03>and a warm light<BR><$FE03><$FE03>drives back the darkness!……<END>
+
+## scene_42D 0016 @000306 len=122
+……Strength, Defense,<BR><$FE03>Speed, Spirit……<BR>All four stats…<BR><$FE03>…went way up!<END>
+
+## scene_42D 0018 @000382 len=44
+Whoa, amazing! Thanks, goddess!<END>
+
+## scene_42D 0020 @0003B0 len=44
+Amaaazing! Thanks, goddess!<END>
+
+## scene_42D 0022 @0003DE len=46
+Wonderful! Thank you so much!<END>
+
+## scene_42D 0024 @00040E len=68
+And so… …praying for your victory……<END>
+
+## scene_42D 0026 @000454 len=60
+……She's gone… …Will we never see her again……<END>
+
+## scene_42D 0028 @000492 len=66
+…She's gone…… This really is the end, isn't it……<END>
+
+## scene_42D 0030 @0004D6 len=66
+Oh, I forgot to tell you! Next time you start a new game……<END>
+
+## scene_42D 0032 @00051A len=68
+first, set Ayaka's birthday to January 23……<END>
+
+## scene_42D 0034 @000560 len=66
+Mai's to April 5, Yui's to June 7, Miki's to August 9,<END>
+
+## scene_42D 0036 @0005A4 len=86
+and set Ryoko's birthday to October 11…… and something good will happen!<END>
+
+## scene_42D 0038 @0005FC len=62
+Remember: "Enter 1 through 11 in order!"<END>
+
+## scene_42D 0040 @00063C len=60
+And now, for real this time… …bye-byeee!<END>

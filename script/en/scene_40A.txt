@@ -1,0 +1,8 @@
+## scene_40A 0000 @000028 len=60
+<BR>……The left eye spoke to them……<END>
+
+## scene_40A 0002 @000066 len=86
+I am Nage's other heart…… I place my hope in this eye… …and tell you……<END>
+
+## scene_40A 0004 @0000BE len=114
+Nage itself wishes for this world to be destroyed… …Please, defeat Nage……<END>

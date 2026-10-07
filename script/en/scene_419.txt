@@ -1,0 +1,17 @@
+## scene_419 0002 @00003E len=80
+Waaah, I lost<$D203> Here, take this! Bye-bye!<END>
+
+## scene_419 0004 @000090 len=92
+……Received a "Restorative"!……<BR><BR><$FE03><$FE03><$FE03>HP fully restored!<END>
+
+## scene_419 0006 @0000E6 len=36
+Yaaay! We did it♥ Thanks!<END>
+
+## scene_419 0008 @000114 len=38
+Power's flowing through me! ……Thanks!<END>
+
+## scene_419 0010 @00013C len=68
+Ah…… that feels nice…… Thank you very much♪<END>
+
+## scene_419 0012 @000182 len=22
+I feel refreshed♥<END>

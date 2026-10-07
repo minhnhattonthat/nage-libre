@@ -1,0 +1,11 @@
+## scene_408 0000 @00001E len=40
+Ugh… my feet are getting all muddy……<END>
+
+## scene_408 0002 @000048 len=80
+I don't wanna walk here, it's dirty… And the gauge fills up slower……<END>
+
+## scene_408 0004 @00009A len=36
+My feet got dirty! Waaaah!<END>
+
+## scene_408 0006 @0000C0 len=88
+My feet will get dirty. And it seems the gauge fills more slowly here, too……<END>

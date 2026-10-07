@@ -1,0 +1,5 @@
+## scene_427 0000 @000020 len=86
+You didn't have to come all the way out here, the boss is over there!<END>
+
+## scene_427 0002 @000078 len=78
+You girls…… you're blatantly after this treasure! Fight me!<END>
