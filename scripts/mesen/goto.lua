@@ -1,6 +1,8 @@
 -- Play ROUTE, screenshot every SHOT_EVERY frames to shots/<SAVE>_NNNNN.png, save state <SAVE> at the end.
+-- CHEATS: optional comma-separated Pro Action Replay codes (e.g. "7E10CCFF,7E10D163").
 local every = SHOT_EVERY or 60
 local function begin()
+  for code in tostring(CHEATS or ""):gmatch("[^,]+") do emu.addCheat(emu.cheatType.snesProActionReplay, code) end
   local start, saving = L.frame, false
   L.load_route(ROUTE)
   L.on_frame(function(f)

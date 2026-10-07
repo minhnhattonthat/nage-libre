@@ -17,3 +17,5 @@ Notes:
 | battle1 | `wait150.txt` | stage1b | 150 | Battle: 霧島唯 vs 梨田静子, card row ATK/DEF/HP/CHG |
 | map1 | `map1.txt` | stage1 | 2420 | Stage 1 map, boss dialogue 「問答無用‼行くわよ‼」 |
 | map2 | `map2.txt` | stage1 | 3480 | Stage 1 map, free roam (TIME SPEED panel) |
+| s1c | `stage1_clear.txt` (cheats `7E10CCFF,7E10D163,7E17790F,7E177A27`) | stage1b | 12000 | Several battles won; party at the school door (boss not yet present). Stage clear NOT reached (see notes/system-text.md) |
+| — | `battle_a.txt` (cheats) | stage1b | 2400 | First battle(s) won in one hit; victory messages |
