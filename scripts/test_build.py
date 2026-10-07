@@ -85,3 +85,49 @@ class Build(unittest.TestCase):
             f.write(f"## scene_310 {data.index:04d} @000000 len=0 data\nあ<END>\n")
         with self.assertRaisesRegex(build.BuildError, "data entry"):
             build.build(self.clean, d)
+
+
+@unittest.skipUnless(os.path.exists(rom.ROM_PATH), "ROM not present")
+class TranslationInputValidation(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.clean = rom.load()
+
+    def en(self, files):
+        d = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, d)
+        for name, body in files.items():
+            with open(os.path.join(d, name), "w", encoding="utf-8") as f:
+                f.write(body)
+        return d
+
+    def fails(self, files, msg):
+        with self.assertRaisesRegex(build.BuildError, msg):
+            build.build(self.clean, self.en(files))
+
+    def test_data_op_target_digits_entry_rejected(self):
+        # scene_310 0025 decodes as "012<END>" but is a data table read by op 09/0A
+        self.fails({"scene_310.txt": "## scene_310 0025 @000000 len=0\n111<END>\n"}, "scene_310.txt entry 0025: data entry")
+
+    def test_malformed_en_files_name_the_file(self):
+        self.fails({"scene_341.txt": "## scene_341 x\nあ<END>\n"}, "scene_341.txt")
+        self.fails({"scene_341.txt": "あ<END>\n## scene_341 0000 @000000 len=0\nあ<END>\n"}, "scene_341.txt")
+
+    def test_empty_en_file_is_identity(self):
+        self.assertEqual(build.build(self.clean, self.en({"scene_341.txt": ""})), build.build(self.clean))
+
+    def test_bad_filenames_rejected(self):
+        for name in ("scene_0341.txt", "scene_zz.txt", "scene_300.txt", "notes.txt"):
+            self.fails({name: ""}, name)
+
+    def test_duplicate_index_and_foreign_header_rejected(self):
+        self.fails({"scene_341.txt": "## scene_341 0000 @0 len=0\nあ<END>\n\n## scene_341 0000 @0 len=0\nい<END>\n"}, "duplicate")
+        self.fails({"scene_341.txt": "## scene_342 0000 @000000 len=0\nあ<END>\n"}, "scene_342")
+
+    def test_missing_en_dir_rejected(self):
+        with self.assertRaisesRegex(build.BuildError, "no-such-dir"):
+            build.build(self.clean, os.path.join(tempfile.gettempdir(), "no-such-dir"))
+
+    def test_odd_length_and_inner_end_rejected(self):
+        self.fails({"scene_341.txt": "## scene_341 0000 @000000 len=0\nあ<$12><END>\n"}, "odd")
+        self.fails({"scene_341.txt": "## scene_341 0000 @000000 len=0\nあ<END>い<END>\n"}, "<END> before")

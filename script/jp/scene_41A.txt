@@ -74,7 +74,7 @@
 ## scene_41A 0022 @0001BE len=6 data
 <$0100>2<END>
 
-## scene_41A 0023 @0001C4 len=6
+## scene_41A 0023 @0001C4 len=6 data
 02<END>
 
 ## scene_41A 0024 @0001CA len=36 data

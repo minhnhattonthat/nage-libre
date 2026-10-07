@@ -1,7 +1,7 @@
 ## scene_313 0000 @0000F2 len=8 data
 <$0000><$0000>2<END>
 
-## scene_313 0001 @0000FA len=8
+## scene_313 0001 @0000FA len=8 data
 112<END>
 
 ## scene_313 0002 @000102 len=18 data

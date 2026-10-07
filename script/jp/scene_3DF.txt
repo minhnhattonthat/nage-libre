@@ -63,5 +63,5 @@
 ## scene_3DF 0018 @0001C4 len=2
 <END>
 
-## scene_3DF 0019 @0001C6 len=6
+## scene_3DF 0019 @0001C6 len=6 data
 12<END>

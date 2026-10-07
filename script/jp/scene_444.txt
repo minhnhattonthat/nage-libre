@@ -71,7 +71,7 @@
 ## scene_444 0021 @0001CE len=8 data
 28<$6300><END>
 
-## scene_444 0022 @0001D6 len=6
+## scene_444 0022 @0001D6 len=6 data
 12<END>
 
 ## scene_444 0023 @0001DC len=6 data

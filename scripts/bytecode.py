@@ -4,7 +4,7 @@
     python -I scripts/bytecode.py --check      # parse every scene block, report failures
 """
 import json, os, sys
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import rom
 
@@ -18,6 +18,7 @@ class Op:
     opcode: int
     operands: list
     offset_operands: list
+    data_operands: list = field(default_factory=list)   # subset of offset_operands pointing at data tables
 
 
 def load_table(path=TABLE):
@@ -46,8 +47,8 @@ def parse(block, table=None):
         n = table[op]["words"]
         if not isinstance(n, int) or n < 1:
             raise ValueError(f"opcode {op:04X} at {pos:#x}: table entry has words={n!r} (must be >= 1)")
-        words =[int.from_bytes(block[pos + 2 * k: pos + 2 * k + 2], "little") for k in range(1, n)]
-        ops.append(Op(pos, op, words, list(table[op].get("offsets", []))))
+        words = [int.from_bytes(block[pos + 2 * k: pos + 2 * k + 2], "little") for k in range(1, n)]
+        ops.append(Op(pos, op, words, list(table[op].get("offsets", [])), list(table[op].get("data_offsets", []))))
         pos += 2 * n
     if pos + 2 != code_end(block):
         raise ValueError(f"terminator mismatch: parse ends at {pos:#x}, first FFFF word at {code_end(block) - 2:#x}")

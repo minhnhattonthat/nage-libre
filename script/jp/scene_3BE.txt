@@ -24,7 +24,7 @@
 ## scene_3BE 0007 @0000F4 len=2
 <END>
 
-## scene_3BE 0008 @0000F6 len=6
+## scene_3BE 0008 @0000F6 len=6 data
 02<END>
 
 ## scene_3BE 0009 @0000FC len=6 data

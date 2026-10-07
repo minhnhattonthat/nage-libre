@@ -37,10 +37,10 @@
 ## scene_3DD 0010 @000194 len=2
 <END>
 
-## scene_3DD 0011 @000196 len=8
+## scene_3DD 0011 @000196 len=8 data
 002<END>
 
-## scene_3DD 0012 @00019E len=8
+## scene_3DD 0012 @00019E len=8 data
 112<END>
 
 ## scene_3DD 0013 @0001A6 len=8 data

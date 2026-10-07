@@ -2,7 +2,7 @@
 
     python -I scripts/build.py [--en script/en] [--out build]
 """
-import argparse, glob, os, sys
+import argparse, glob, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bps, compress, decompress, dump, layout, rom, romimage
 from tbl import Table
@@ -34,10 +34,24 @@ def relocation_patches(base):
 
 def en_texts(path, entries, table):
     """{index: encoded bytes} for one translated scene file, validated against the JP entries."""
+    fname = os.path.basename(path)
+    block = os.path.splitext(fname)[0]
+    raw = dump.read_text(path)
+    if not raw.strip():
+        return {}
+    try:
+        parsed = dump.parse_block(raw)
+    except ValueError as x:
+        raise BuildError(f"{fname}: {x}") from None
     by_index = {e.index: e for e in entries}
-    out = {}
-    for t in dump.parse_block(dump.read_text(path)):
-        where = f"{os.path.basename(path)} entry {t.index:04d}"
+    out, seen = {}, set()
+    for t in parsed:
+        where = f"{fname} entry {t.index:04d}"
+        if t.block != block:
+            raise BuildError(f"{where}: header names {t.block}, expected {block}")
+        if t.index in seen:
+            raise BuildError(f"{where}: duplicate entry index")
+        seen.add(t.index)
         e = by_index.get(t.index)
         if e is None:
             raise BuildError(f"{where}: the block has no such entry")
@@ -48,9 +62,14 @@ def en_texts(path, entries, table):
         if not t.text.endswith("<END>"):
             raise BuildError(f"{where}: text must end with <END>")
         try:
-            out[t.index] = table.encode(t.text)
+            b = table.encode(t.text)
         except ValueError as x:
             raise BuildError(f"{where}: {x}") from None
+        if len(b) % 2:
+            raise BuildError(f"{where}: encodes to an odd number of bytes (a raw <$..> code is 1 byte short)")
+        if any(b[i:i + 2] == dump.END for i in range(0, len(b) - 2, 2)):
+            raise BuildError(f"{where}: <END> before the end of the text (text after it would never show)")
+        out[t.index] = b
     return out
 
 
@@ -59,10 +78,12 @@ def build(clean, en_dir=None):
         raise BuildError("input is not the clean 1.5 MB Nage Libre ROM (size/checksum mismatch)")
     table = Table.load(dump.TBL)
     if en_dir:
+        if not os.path.isdir(en_dir):
+            raise BuildError(f"translation directory not found: {en_dir}")
         for p in glob.glob(os.path.join(en_dir, "*.txt")):
-            name = os.path.splitext(os.path.basename(p))[0]
-            if not (name.startswith("scene_") and FIRST <= int(name[6:], 16) <= LAST):
-                raise BuildError(f"{p}: not a scene file (expected scene_30F..scene_45B)")
+            m = re.fullmatch(r"scene_([0-9A-F]{3})\.txt", os.path.basename(p))
+            if not (m and FIRST <= int(m.group(1), 16) <= LAST):
+                raise BuildError(f"{os.path.basename(p)}: not a scene file name (expected scene_30F.txt .. scene_45B.txt)")
     img = romimage.expand(clean, SIZE)
     free, over = FREE_START, []
     for r in range(FIRST, LAST + 1):
@@ -100,12 +121,13 @@ def build(clean, en_dir=None):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
-    ap.add_argument("--en", default=os.path.join(rom.ROOT, "script", "en"))
+    ap.add_argument("--en", default=None, help="translation dir (default: script/en if it exists)")
     ap.add_argument("--out", default=os.path.join(rom.ROOT, "build"))
     a = ap.parse_args()
     clean = rom.load()
     try:
-        img = build(clean, a.en if os.path.isdir(a.en) else None)
+        default_en = os.path.join(rom.ROOT, "script", "en")
+        img = build(clean, a.en if a.en is not None else (default_en if os.path.isdir(default_en) else None))
     except BuildError as e:
         print("BUILD FAILED:", e)
         sys.exit(1)

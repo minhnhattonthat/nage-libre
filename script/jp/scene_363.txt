@@ -179,7 +179,7 @@
 ## scene_363 0052 @000550 len=2
 <END>
 
-## scene_363 0053 @000552 len=6
+## scene_363 0053 @000552 len=6 data
 12<END>
 
 ## scene_363 0054 @000558 len=20 data

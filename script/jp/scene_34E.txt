@@ -135,13 +135,13 @@
 ## scene_34E 0040 @000524 len=2
 <END>
 
-## scene_34E 0041 @000526 len=20
+## scene_34E 0041 @000526 len=20 data
 111111112<END>
 
 ## scene_34E 0042 @00053A len=2
 <END>
 
-## scene_34E 0043 @00053C len=20
+## scene_34E 0043 @00053C len=20 data
 000000002<END>
 
 ## scene_34E 0044 @000550 len=2

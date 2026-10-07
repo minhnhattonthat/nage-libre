@@ -85,11 +85,11 @@
 ## scene_393 0024 @0002F8 len=2
 <END>
 
-## scene_393 0025 @0002FA len=6
+## scene_393 0025 @0002FA len=6 data
 02<END>
 
 ## scene_393 0026 @000300 len=2
 <END>
 
-## scene_393 0027 @000302 len=10
+## scene_393 0027 @000302 len=10 data
 1112<END>

@@ -69,7 +69,7 @@
 ## scene_3CD 0020 @000238 len=2
 <END>
 
-## scene_3CD 0021 @00023A len=8
+## scene_3CD 0021 @00023A len=8 data
 112<END>
 
 ## scene_3CD 0022 @000242 len=2
@@ -87,5 +87,5 @@
 ## scene_3CD 0026 @000272 len=2
 <END>
 
-## scene_3CD 0027 @000274 len=8
+## scene_3CD 0027 @000274 len=8 data
 002<END>

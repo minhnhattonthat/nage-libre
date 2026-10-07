@@ -81,6 +81,11 @@ def extract_scene(blk, table, name):
         raw = [int(c[2:] + c[:2], 16) for c in re.findall(r"<\$([0-9A-F]{4})>", text)]
         out.append(Entry(name, len(out), pos, end - pos, text, data=any(c < GLYPH_MIN for c in raw)))
         pos = end
+    import bytecode                       # entries read by data ops (09/0A) are data even if they decode as digits
+    targets = {op.operands[k - 1] for op in bytecode.parse(blk) for k in op.data_operands}
+    for e in out:
+        if e.offset in targets:
+            e.data = True
     return out
 
 

@@ -107,3 +107,13 @@ class DataFlag(unittest.TestCase):
         self.assertIn("## s 0000 @000002 len=6 data\n", s)
         self.assertEqual([(x.offset, x.length, x.text, x.data) for x in dump.parse_block(s)],
                          [(x.offset, x.length, x.text, x.data) for x in e])
+
+
+@unittest.skipUnless(os.path.exists(__import__("rom").ROM_PATH), "ROM not present")
+class DataOpTargets(unittest.TestCase):
+    def test_entries_read_by_data_ops_are_flagged_data(self):
+        import rom
+        from tbl import Table
+        blk = dump.source(rom.load(), "scene_310", dump.load_map())
+        e = dump.extract_scene(blk, Table.load(dump.TBL), "scene_310")
+        self.assertEqual((e[25].text, e[25].data), ("012<END>", True))

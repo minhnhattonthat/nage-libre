@@ -56,7 +56,10 @@
    "offsets": [
     2
    ],
-   "note": "data-table op: operand 2 = block offset of data entry (adc #$64C0 @838755)"
+   "note": "data-table op: operand 2 = block offset of data entry (adc #$64C0 @838755)",
+   "data_offsets": [
+    2
+   ]
   },
   "0x0A": {
    "handler": "8388A2",
@@ -64,7 +67,10 @@
    "offsets": [
     2
    ],
-   "note": "character + data offset: op1 member id, op2 block offset (adc @8388E9); handler reads table pairs until 0063 - verified (draft 5 wrong)"
+   "note": "character + data offset: op1 member id, op2 block offset (adc @8388E9); handler reads table pairs until 0063 - verified (draft 5 wrong)",
+   "data_offsets": [
+    2
+   ]
   },
   "0x0B": {
    "handler": "838444",

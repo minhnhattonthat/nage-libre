@@ -27,5 +27,5 @@
 ## scene_3BF 0008 @0000F6 len=6 data
 <$0000>2<END>
 
-## scene_3BF 0009 @0000FC len=6
+## scene_3BF 0009 @0000FC len=6 data
 12<END>

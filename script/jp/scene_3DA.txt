@@ -89,13 +89,13 @@
 ## scene_3DA 0025 @00030C len=2
 <END>
 
-## scene_3DA 0026 @00030E len=6
+## scene_3DA 0026 @00030E len=6 data
 12<END>
 
 ## scene_3DA 0027 @000314 len=2
 <END>
 
-## scene_3DA 0028 @000316 len=6
+## scene_3DA 0028 @000316 len=6 data
 02<END>
 
 ## scene_3DA 0029 @00031C len=2

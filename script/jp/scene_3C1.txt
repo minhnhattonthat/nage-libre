@@ -4,10 +4,10 @@
 ## scene_3C1 0001 @00004E len=2
 <END>
 
-## scene_3C1 0002 @000050 len=6
+## scene_3C1 0002 @000050 len=6 data
 12<END>
 
-## scene_3C1 0003 @000056 len=6
+## scene_3C1 0003 @000056 len=6 data
 02<END>
 
 ## scene_3C1 0004 @00005C len=8 data
