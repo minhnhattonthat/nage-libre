@@ -1,0 +1,2 @@
+# idle 60 frames so fades/prints settle before comparing screens
+60 -

@@ -13,3 +13,13 @@ class MesenSmoke(unittest.TestCase):
         self.assertGreater(int(vals["reads"]), 0)
         self.assertLess(int(vals["maxRom"]), 0x180000)
         self.assertIn(int(vals["loadedFrame"]), range(118, 124))
+
+@unittest.skipUnless(os.path.exists(rom.ROM_PATH), "ROM not present")
+class RomPath(unittest.TestCase):
+    def test_runs_another_rom(self):
+        import shutil, tempfile
+        d = tempfile.mkdtemp()
+        copy = os.path.join(d, "copy.sfc")
+        shutil.copy(rom.ROM_PATH, copy)
+        self.assertEqual(mesen.run(os.path.join(rom.ROOT, "scripts", "mesen", "smoke.lua"), timeout=120, rom_path=copy), 0)
+        shutil.rmtree(d)

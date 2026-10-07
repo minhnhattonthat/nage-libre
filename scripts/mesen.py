@@ -2,7 +2,7 @@
 
     python -I scripts/mesen.py scripts/mesen/goto.lua ROUTE=... SAVE=dialogue1
 
-lib.lua is prepended, preceded by WORK=<abs work dir> and the KEY=VALUE params
+ROM=<path> runs another ROM (e.g. build/nage_en.sfc). lib.lua is prepended, preceded by WORK=<abs work dir> and the KEY=VALUE params
 (numbers/0x.. stay numbers, anything else becomes a Lua string).
 """
 import os, subprocess, sys
@@ -22,7 +22,7 @@ def lua_value(v):
     return '"' + v.replace("\\", "/").replace('"', '\\"') + '"'
 
 
-def run(script, params=None, timeout=600):
+def run(script, params=None, timeout=600, rom_path=None):
     for d in SUBDIRS:
         os.makedirs(os.path.join(WORK, d), exist_ok=True)
     name = os.path.splitext(os.path.basename(script))[0]
@@ -38,7 +38,7 @@ def run(script, params=None, timeout=600):
     err = os.path.join(WORK, "lua_error.txt")
     if os.path.exists(err):
         os.remove(err)
-    p = subprocess.run([MESEN, "--testRunner", rom.ROM_PATH, combined], capture_output=True,
+    p = subprocess.run([MESEN, "--testRunner", rom_path or rom.ROM_PATH, combined], capture_output=True,
                        text=True, encoding="utf-8", errors="replace", timeout=timeout)
     with open(os.path.join(WORK, "run", name + ".out"), "w", encoding="utf-8") as f:
         f.write(p.stdout + p.stderr)
@@ -50,6 +50,7 @@ def run(script, params=None, timeout=600):
 
 if __name__ == "__main__":
     params = dict(a.split("=", 1) for a in sys.argv[2:])
-    rc = run(sys.argv[1], params)
+    rom_path = params.pop("ROM", None)
+    rc = run(sys.argv[1], params, rom_path=rom_path)
     print("exit", rc)
     sys.exit(rc)
