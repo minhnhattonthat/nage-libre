@@ -21,5 +21,13 @@ class Scan(unittest.TestCase):
         confirmed = {int(x["at"], 16) for x in sysrefs.load_manual()["confirmed_imm16"]}
         self.assertEqual({r.at for r in self.refs if r.kind == "imm16"}, confirmed)
 
+    def test_every_long_read_pointer_table_is_configured(self):
+        # code that reads `lda $bbhhll,X` (or `lda $bbhhll`) from a table of pointers into the system block
+        spans = [(int(t["at"], 16), int(t["at"], 16) + t["count"] * t.get("stride", 3))
+                 for t in sysrefs.load_manual()["ptr24_tables"]]
+        found = sysrefs.long_read_tables(self.d)
+        self.assertTrue(found, "scanner found no tables at all")
+        self.assertEqual(sorted(hex(t) for t in found if not any(a <= t < b for a, b in spans)), [])
+
     def test_full_coverage(self):
         self.assertEqual(sysrefs.coverage(self.refs, self.es, sysrefs.load_manual()), [])

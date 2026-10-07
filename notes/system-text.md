@@ -15,6 +15,7 @@
 | split (`lda #lo/sta dp; lda #hi/sta dp+1; lda #$87/sta dp+2`) | 101 sites | 62 strings: battle messages, prompts, menus, jewels (indexes 244-318 minus birthstones) |
 | ptr24 table `$81AF58` (3-byte, index×3) | 244 pointers | names, bosses, clubs (0-243) |
 | ptr24 table `$87DABB` (3-byte + pad, stride 4) | 12 pointers | birthstones (295-306) |
+| ptr24 table `$87E346` (3-byte + pad, stride 4) | 16 pointers | club names (227-242), read by `lda $87E346,X` at `$87E32B` / `$8392B8` (club select, shop). Missed at first: per-entry coverage can't see a second table for already-covered entries. Guard: `test_every_long_read_pointer_table_is_configured` (every `lda long[,X]` that hits a pointer to a system entry must fall in a configured table) |
 | list by adjacency | — | 253 (入れかえるカードを選んでね): no direct reference; follows split-referenced 252 |
 
 - `confirmed_imm16` is empty. Every 16-bit candidate from brainstorming (`81BCCE`, `81BCE2`, `81EDAA`, `82F01D`, `87F721`) was a misdecode of 8-bit code or a club-list base already covered by the `$81AF58` table.
@@ -42,8 +43,12 @@
 
 ## Width budgets (`scripts/syswidth.py`)
 
-- **Names:** the name builder writes surname + given name into **one** 5-cell buffer (10 half-width letters). The Japanese-style surname+given pair was cut off: 「KirishimaY」, 「NashidaShi」.
-  - Enemy names pair a random surname with a random given name, so the build enforces **widest translated surname + widest translated given name ≤ 10**.
-  - **Recommended convention:** empty surnames (`<END>`), given names only. That's what the fixture uses.
+- **Names:** the name builder writes surname + given name into **one** 0x140-byte buffer (`$7F2A40` player / `$7F2B80` enemy): 10 half-width letters. Overflow writes past it into WRAM. The Japanese-style pair was cut off: 「KirishimaY」, 「NashidaShi」.
+  - Pairs are fixed per stage (indexes from the stage data stream at `$82934D` → enemy record +$1D/+$1E), so the bound is widest surname + widest given name ≤ 10.
+  - Once any name is translated, **all surnames 0-99 must be** (an untranslated 3-kanji surname is 6 columns); untranslated given names count at their Japanese width.
+  - **Recommended convention:** empty surnames (`<END>`), given names only. The fixture does this.
+- **Battle lines:** messages are assembled from pieces, so the build checks whole lines against the 28-column window (the width of the line-clear string, entry 244):
+  - name + 249 + number + 250/251, name + 248/263/277, number + 264, 271 + number + 274
+  - name = widest given/boss name (100-226, translated or Japanese); numbers = 5 digits
 - **Prompts:** 24 half-columns (measured on the birthday confirmation window).
-- **Other categories:** the Japanese maximum (battle 28, birthstones 14, menu items 14, clubs 10). Not yet measured on screen; the menus weren't reached (see Routes).
+- **Other categories:** the Japanese maximum (birthstones 14, menu items 14, clubs 10). Not measured on screen; the menus weren't reached (see Routes).

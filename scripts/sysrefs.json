@@ -2,7 +2,8 @@
  "confirmed_imm16": [],
  "ptr24_tables": [
   {"at": "0xAF58", "count": 245, "note": "$81AF58: name/boss/club pointers, index*3 (name builder 81BAA5, 81BB03); entry 0 = $81A981 (not system text)"},
-  {"at": "0x3DABB", "count": 12, "stride": 4, "note": "$87DABB: birthstone pointers (entries 295-306), 3-byte pointer + pad byte per record"}
+  {"at": "0x3DABB", "count": 12, "stride": 4, "note": "$87DABB: birthstone pointers (entries 295-306), 3-byte pointer + pad byte per record"},
+  {"at": "0x3E346", "count": 16, "stride": 4, "note": "$87E346: club-name pointers (entries 227-242), 3-byte pointer + pad; read by lda $87E346,X at $87E32B and $8392B8 (club select/shop)"}
  ],
  "lists": [
   {"first": 252, "last": 253, "base_index": 252, "note": "entry 253 (入れかえるカードを選んでね) has no direct reference (static search for $8715 found only misdecodes); it immediately follows split-referenced 252, so it is reached by adjacency or unused. Layout keeps adjacency; the old-block marker exposes any missed absolute pointer."}

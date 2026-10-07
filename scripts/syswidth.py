@@ -33,11 +33,36 @@ def check(index, encoded):
     raise ValueError(f"system entry {index}: no width category")
 
 
-def check_names(texts):
-    """Translated surnames and given names share one field: widest surname + widest given name must fit."""
-    sur = [(width(b), i) for i, b in texts.items() if SURNAMES[0] <= i <= SURNAMES[1]]
-    giv = [(width(b), i) for i, b in texts.items() if GIVEN[0] <= i <= GIVEN[1]]
-    if sur and giv and max(sur)[0] + max(giv)[0] > NAME_FIELD:
-        (ws, s), (wg, g) = max(sur), max(giv)
+def check_names(texts, original=None):
+    """Surname + given name share one 10-column buffer ($7F2A40/$7F2B80, 0x140 bytes); overflow corrupts WRAM.
+    Pairs come from per-stage data, so bound by widest surname + widest given name. Once any name is translated,
+    all surnames must be (an untranslated 3-kanji surname is 6 columns); untranslated given names count as Japanese."""
+    if not any(SURNAMES[0] <= i <= GIVEN[1] for i in texts):
+        return
+    missing = [i for i in range(SURNAMES[0], SURNAMES[1] + 1) if i not in texts]
+    if missing:
+        raise ValueError(f"name field: surnames (entries {SURNAMES[0]}-{SURNAMES[1]}) must be translated as a "
+                         f"complete set once any name is ({len(missing)} missing, first {missing[0]:04d})")
+    eff = {**(original or {}), **texts}
+    (ws, s) = max((width(eff[i]), i) for i in range(SURNAMES[0], SURNAMES[1] + 1))
+    (wg, g) = max((width(eff[i]), i) for i in range(GIVEN[0], GIVEN[1] + 1) if i in eff)
+    if ws + wg > NAME_FIELD:
         raise ValueError(f"name field: widest surname (entry {s}, {ws}) + widest given name (entry {g}, {wg}) "
-                         f"> {NAME_FIELD} columns; enemy names pair any surname with any given name")
+                         f"> {NAME_FIELD} columns")
+
+
+BATTLE_LINE = 28                  # message window = width of the line-clear string, entry 244
+NAME, NUM = "name", "num"         # battle names are given names (100-220) or boss names (221-226); numbers <= 5 digits
+BATTLE_LINES = [(NAME, 249, NUM, 250), (NAME, 249, NUM, 251), (NAME, 248), (NAME, 263), (NAME, 277),
+                (NUM, 264), (271, NUM, 274)]
+
+
+def check_battle(texts, original):
+    """Battle messages are assembled from pieces; each whole line must fit the window."""
+    eff = {**original, **texts}
+    name = max(width(eff[i]) for i in range(GIVEN[0], 227))
+    for line in BATTLE_LINES:
+        w = sum(name if p == NAME else 5 if p == NUM else width(eff[p]) for p in line)
+        if w > BATTLE_LINE:
+            raise ValueError(f"battle line {'+'.join(str(p) for p in line)}: {w} columns > {BATTLE_LINE} "
+                             f"(widest name {name}, numbers 5 digits)")

@@ -119,6 +119,13 @@ class Build(unittest.TestCase):
         with self.assertRaisesRegex(build.BuildError, "system.txt: name field"):
             build.build(self.clean, d)
 
+    def test_system_battle_line_enforced(self):
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:
+            f.write("## system 0250 @0 len=0\n damage was dealt!!<END>\n")      # JP name 6 + 1 + 5 + 19 > 28
+        with self.assertRaisesRegex(build.BuildError, "system.txt: battle line"):
+            build.build(self.clean, d)
+
     def test_system_en_text_lands(self):
         import sysrefs
         d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)

@@ -98,7 +98,7 @@ def en_texts(path, entries, table, boxes, jp_block=b""):
     return out
 
 
-def system_texts(path, entries, table):
+def system_texts(path, entries, table, original):
     """{index: encoded bytes} from script/en/system.txt (no box wrapping; per-category width check)."""
     raw = dump.read_text(path)
     if not raw.strip():
@@ -126,7 +126,8 @@ def system_texts(path, entries, table):
             raise BuildError(f"{where}: {x}") from None
         out[t.index] = b
     try:
-        syswidth.check_names(out)
+        syswidth.check_names(out, original)
+        syswidth.check_battle(out, original)
     except ValueError as x:
         raise BuildError(f"{SYSTEM_EN}: {x}") from None
     return out
@@ -139,7 +140,8 @@ def system_patches(clean, en_dir, img):
     if missing:
         raise BuildError(f"system text entries without a known reference: {missing} (run scripts/sysrefs.py)")
     path = os.path.join(en_dir, SYSTEM_EN) if en_dir else None
-    texts = system_texts(path, entries, Table.load(EN_TBL)) if path and os.path.exists(path) else {}
+    original = {e.index: clean[e.offset:e.offset + e.length] for e in entries}
+    texts = system_texts(path, entries, Table.load(EN_TBL), original) if path and os.path.exists(path) else {}
     strides = {i: lst["stride"] for lst in sysrefs.load_manual()["lists"] if "stride" in lst
                for i in range(lst["first"], lst["last"] + 1)}
     try:

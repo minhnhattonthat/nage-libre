@@ -56,6 +56,27 @@ def scan(data):
     return refs
 
 
+def long_read_tables(data):
+    """File offsets of pointer tables that code reads with `lda $bbhhll,X` (BF) or `lda $bbhhll` (AF), where the
+    table's first record is a 3-byte pointer to a system entry. Reads of the middle/high byte (+1/+2) count too.
+    Guards against tables the per-entry coverage can't see (an entry reached through two different tables)."""
+    starts = {rom.pc_to_lorom(e.offset) for e in entries(data)}
+    found = set()
+    for i in range(CODE_END - 3):
+        if data[i] not in (0xBF, 0xAF):
+            continue
+        target = int.from_bytes(data[i + 1:i + 4], "little")
+        if not target & 0x8000 or (target >> 16) & 0xFE == 0x7E:
+            continue
+        t = rom.lorom_to_pc(target)
+        for k in (0, 1, 2):
+            p = t - k
+            if p >= 0 and int.from_bytes(data[p:p + 3], "little") in starts:
+                found.add(p)
+                break
+    return found
+
+
 def coverage(refs, es, manual):
     covered = {r.index for r in refs}
     for lst in manual["lists"]:
