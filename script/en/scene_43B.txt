@@ -1,0 +1,5 @@
+## scene_43B 0000 @000084 len=58
+…As expected… you are strong… …Then!<END>
+
+## scene_43B 0002 @0000C0 len=10
+Ah……!<END>

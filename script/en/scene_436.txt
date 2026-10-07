@@ -1,0 +1,17 @@
+## scene_436 0000 @000022 len=42
+Ow, hot! This bridge is kinda hot!<END>
+
+## scene_436 0002 @00004E len=78
+Fuwaaah! Mai touched the bridge and almost got burned!<END>
+
+## scene_436 0004 @00009E len=46
+Hot hot hot! What is this, it's so hot!<END>
+
+## scene_436 0006 @0000CE len=68
+Ukyaa! Hot!…… Oh dear, I made a weird noise…<END>
+
+## scene_436 0008 @000114 len=72
+Fuuu… so hot… even my manners are worn out……<END>
+
+## scene_436 0010 @00015E len=92
+……The heat<BR><$FE03>took away some HP!!……<END>

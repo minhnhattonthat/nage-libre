@@ -1,0 +1,14 @@
+## scene_43A 0000 @000022 len=92
+<BR>……The chest is empty now……<END>
+
+## scene_43A 0002 @000080 len=46
+Tch, guess we really only get one…<END>
+
+## scene_43A 0004 @0000B0 len=22
+Mai wanted them all!<END>
+
+## scene_43A 0006 @0000C8 len=44
+I guess we really only get one……<END>
+
+## scene_43A 0008 @0000F6 len=90
+Just as she said, we only get one… We mustn't be greedy.<END>

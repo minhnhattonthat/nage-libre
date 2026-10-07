@@ -1,0 +1,8 @@
+## scene_434 0000 @000022 len=40
+Eek! There are spikes on the floor!<END>
+
+## scene_434 0002 @00004C len=66
+Kyaa! Ouch! ……There are spikes on the floor……<END>
+
+## scene_434 0004 @000090 len=92
+……The floor spikes<BR><$FE03>took away some HP!!……<END>

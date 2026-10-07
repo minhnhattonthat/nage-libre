@@ -1,0 +1,35 @@
+## scene_432 0000 @000056 len=22
+Alright! This one!<END>
+
+## scene_432 0002 @00006E len=22
+Mai picks this one!<END>
+
+## scene_432 0004 @000086 len=90
+This one! I'm sure of it! It's gotta be! See? I'm opening it!<END>
+
+## scene_432 0006 @0000E2 len=20
+I like this one……<END>
+
+## scene_432 0008 @0000F8 len=44
+Surely this one must be the best!<END>
+
+## scene_432 0010 @000126 len=90
+<BR>……Inside the chest<BR><$FE03>was the "O" Jewel!<END>
+
+## scene_432 0012 @000182 len=40
+Ooh! No idea what, but it's amazing!<END>
+
+## scene_432 0014 @0001AC len=62
+Yay♪ A pretty jewel! Like a princess♥<END>
+
+## scene_432 0016 @0001EC len=58
+No idea what, but it looks good! Yahoo!<END>
+
+## scene_432 0018 @000228 len=88
+Thank goodness… it's a pretty jewel♥ Something weird would get me scolded.<END>
+
+## scene_432 0020 @000282 len=64
+Quite a fine thing♥ What a beautiful jewel♥<END>
+
+## scene_432 0022 @0002C4 len=92
+……And then the other chests<BR><$FE03><$FE03>all opened,<BR><$FE03>and their contents vanished……<END>

@@ -1,0 +1,35 @@
+## scene_433 0000 @000056 len=22
+Alright! This one!<END>
+
+## scene_433 0002 @00006E len=22
+Mai picks this one!<END>
+
+## scene_433 0004 @000086 len=90
+This one! I'm sure of it! It's gotta be! See? I'm opening it!<END>
+
+## scene_433 0006 @0000E2 len=20
+I like this one……<END>
+
+## scene_433 0008 @0000F8 len=44
+Surely this one must be the best!<END>
+
+## scene_433 0010 @000126 len=92
+<BR>……Inside the chest<BR><$FE03>was 5000 gold!<END>
+
+## scene_433 0012 @000184 len=22
+Ooh! Tons of money!<END>
+
+## scene_433 0014 @00019C len=24
+Yay♪ We're rich!<END>
+
+## scene_433 0016 @0001B6 len=36
+We're rich! Yahoo!<END>
+
+## scene_433 0018 @0001DC len=38
+Thank goodness… …it's something good♥<END>
+
+## scene_433 0020 @000204 len=40
+Quite a fine thing♥<END>
+
+## scene_433 0022 @00022E len=92
+……And then the other chests<BR><$FE03><$FE03>all opened,<BR><$FE03>and their contents vanished……<END>

@@ -1,0 +1,77 @@
+## scene_445 0000 @0000D8 len=92
+Ayaka: Hey, it's great we got saved and all…… but I can't see land anywhere…<END>
+
+## scene_445 0003 @000138 len=28
+Ryoko: Oh dear, what a bother……<END>
+
+## scene_445 0006 @000158 len=56
+Yui: Eh, we'll be fine! It'll work out!<END>
+
+## scene_445 0009 @000194 len=14
+Miki: ……Ah<END>
+
+## scene_445 0012 @0001A6 len=84
+Yui: After all, we're the five heroes who saved the world!<END>
+
+## scene_445 0015 @0001FE len=32
+Yui: I bet a rescue team's out!<END>
+
+## scene_445 0017 @000220 len=88
+Yui: And when we get home, every TV show will be fighting over us!<END>
+
+## scene_445 0020 @00027C len=24
+Miki: ……Ah-uh ah-uh……<END>
+
+## scene_445 0023 @000298 len=58
+Ayaka: I sure hope so……<END>
+
+## scene_445 0026 @0002D6 len=88
+Ryoko: Oh, Miki, what's the matter? You look like you're having fun.<END>
+
+## scene_445 0029 @000332 len=82
+Miki: Um…… I…… can't… …swim… …glub glub……<END>
+
+## scene_445 0032 @000388 len=26
+Mai: ……Aaaaaah!<END>
+
+## scene_445 0035 @0003A6 len=18
+Yui: What is it?<END>
+
+## scene_445 0038 @0003BC len=78
+Mai: Fishy! A great big fishy is coming♥<END>
+
+## scene_445 0041 @00040E len=16
+Ryoko: My……<END>
+
+## scene_445 0044 @000422 len=26
+Mai: Look! Over there!<END>
+
+## scene_445 0047 @000440 len=16
+Miki: Glub glub<END>
+
+## scene_445 0050 @000454 len=60
+Yui: Oh, you're right. ……Wait, isn't that……<$D203><END>
+
+## scene_445 0053 @000494 len=28
+Miki: Glub glub glub glub……<END>
+
+## scene_445 0056 @0004B4 len=52
+Ayaka: That dorsal fin, any way you look at it……<END>
+
+## scene_445 0059 @0004EC len=24
+Ryoko: A shark, I'd say<$D203><END>
+
+## scene_445 0062 @000508 len=62
+Miki: Glub glub…… glub… …glub……… gl……………<END>
+
+## scene_445 0066 @00054C len=62
+……As Nage vanished, every world returned to normal……<END>
+
+## scene_445 0069 @00058E len=92
+People lost all memory of Nage, as if nothing had ever happened.<END>
+
+## scene_445 0072 @0005EE len=92
+<$FE03><$FE03><$FE03>……And so……<BR>though these five girls had saved the world,<END>
+
+## scene_445 0075 @00064E len=62
+no one ever knew of their deeds……<END>

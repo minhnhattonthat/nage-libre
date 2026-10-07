@@ -1,0 +1,8 @@
+## scene_430 0000 @000024 len=64
+No choice… …You may open the chests ……but……<END>
+
+## scene_430 0002 @000066 len=58
+you can only take one!<END>
+
+## scene_430 0004 @0000A2 len=42
+Think hard and pick just one!<END>

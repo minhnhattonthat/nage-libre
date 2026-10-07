@@ -1,0 +1,35 @@
+## scene_42E 0000 @00015E len=62
+<BR>……The door disappeared!……<END>
+
+## scene_42E 0003 @0001A0 len=16
+Alright, let's go!<END>
+
+## scene_42E 0005 @0001B2 len=22
+Alriiight! Let's go!<END>
+
+## scene_42E 0007 @0001CA len=16
+Let's go!<END>
+
+## scene_42E 0010 @0001DE len=90
+My power is fading…… But with my last strength… come forth, my other selves!<END>
+
+## scene_42E 0013 @00023C len=14
+Ah…… again!<END>
+
+## scene_42E 0016 @00024E len=16
+……I've had it!<END>
+
+## scene_42E 0019 @000262 len=90
+I tagged along because of how things went, but I hate it here! I wanna go home!<END>
+
+## scene_42E 0021 @0002BE len=42
+Now she's being a brat……<END>
+
+## scene_42E 0023 @0002EA len=38
+But she does seem sorry……<END>
+
+## scene_42E 0025 @000312 len=40
+What a mess… …What should we do?<END>
+
+## scene_42E 0027 @00033C len=38
+Beat her?<BR><$FE03><$FE03><$FE03><END>

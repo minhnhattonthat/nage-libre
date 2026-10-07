@@ -1,0 +1,23 @@
+## scene_444 0000 @000068 len=60
+<BR>……Rumble rumble rumble……<END>
+
+## scene_444 0004 @0000AA len=10
+Kyaaa!<END>
+
+## scene_444 0006 @0000B6 len=10
+Whoaaa!<END>
+
+## scene_444 0008 @0000C2 len=12
+Kyaaan!<END>
+
+## scene_444 0012 @0000D4 len=64
+I'm dizzy…… and we've been sent back……<END>
+
+## scene_444 0014 @000116 len=64
+We spun around! ……And now it's a detour!<END>
+
+## scene_444 0016 @000158 len=18
+Ah! Sent back!<END>
+
+## scene_444 0018 @00016C len=88
+Kyuu…… what happened? …Waaah, we got sent back!<END>

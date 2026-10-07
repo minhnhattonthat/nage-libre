@@ -1,0 +1,56 @@
+## scene_439 0000 @0000E8 len=60
+<BR>Character Profiles<END>
+
+## scene_439 0002 @000126 len=50
+<$FE03><$FE03><$FE03>Yui Kirishima<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$A003><$A203><$FE03><$9A03><END>
+
+## scene_439 0004 @00015A len=50
+<$FE03><$FE03><$FE03>Ryoko Aoi<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$AC03><$FE03><$9403><$5E02><END>
+
+## scene_439 0006 @00018E len=50
+<$FE03><$FE03><$FE03>Mai Himenogi<BR><$FE03><$FE03><$FE03><$FE03><$8E03><$0A01><$A803><$FE03><$9E03><END>
+
+## scene_439 0008 @0001C2 len=50
+<$FE03><$FE03><$FE03>Ayaka Sakurai<BR><$FE03><$FE03><$FE03><$FE03><$A403><$A603><$FE03><$8403><$8603><END>
+
+## scene_439 0010 @0001F6 len=50
+<$FE03><$FE03><$FE03>Miki Shizumoto<BR><$FE03><$FE03><$FE03><$FE03><$AA03><$AE03><$FE03><$8402><$8E03><END>
+
+## scene_439 0012 @00022A len=92
+<BR><$FE03><$FE03><$FE03><$FE03>Misty<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>……Final boss<END>
+
+## scene_439 0015 @00028A len=88
+AGE<$FE03><$FE03><$FE03><$FE03>17<BR>HEIGHT<$FE03><$FE03>162cm<BR>BLOOD TYPE<$FE03>B<END>
+
+## scene_439 0018 @0002E6 len=88
+AGE<$FE03><$FE03><$FE03><$FE03>17<BR>HEIGHT<$FE03><$FE03>165cm<BR>BLOOD TYPE<$FE03>A<END>
+
+## scene_439 0021 @000342 len=88
+AGE<$FE03><$FE03><$FE03><$FE03>17<BR>HEIGHT<$FE03><$FE03>155cm<BR>BLOOD TYPE<$FE03>A<END>
+
+## scene_439 0024 @00039E len=88
+AGE<$FE03><$FE03><$FE03><$FE03>17<BR>HEIGHT<$FE03><$FE03>166cm<BR>BLOOD TYPE<$FE03>O<END>
+
+## scene_439 0027 @0003FA len=88
+AGE<$FE03><$FE03><$FE03><$FE03>17<BR>HEIGHT<$FE03><$FE03>160cm<BR>BLOOD TYPE<$FE03>A<END>
+
+## scene_439 0030 @000456 len=90
+AGE<$FE03><$FE03><$FE03><$FE03>26<BR>HEIGHT<$FE03><$FE03>171cm<BR>BLOOD TYPE<$FE03>AB<END>
+
+## scene_439 0033 @0004B4 len=44
+I'm here from the very start! Nice to meet you!<END>
+
+## scene_439 0036 @0004E4 len=62
+I appear after you clear Stage 1♥ Please wait just a little♥<END>
+
+## scene_439 0039 @000526 len=46
+Mai shows up partway through Stage 3!<END>
+
+## scene_439 0042 @000558 len=90
+I join after Stage 6! I'm the only one who's an enemy at first! Wait for me!<END>
+
+## scene_439 0045 @0005B6 len=92
+Um, I appear after Stage 7… I'm late, but please don't give up on me…<END>
+
+## scene_439 0048 @000616 len=84
+Nice to meet you♥ ……Hey hey, am I even allowed in here?<END>

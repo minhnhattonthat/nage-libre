@@ -1,0 +1,8 @@
+## scene_43E 0000 @00002A len=10
+Ugh!<END>
+
+## scene_43E 0002 @000036 len=92
+…Each time an enemy Nage made is defeated, Nage's power weakens……<END>
+
+## scene_43E 0004 @000094 len=92
+……As Nage weakens, the door…… begins to waver……<END>

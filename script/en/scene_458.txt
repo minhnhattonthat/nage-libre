@@ -1,0 +1,32 @@
+## scene_458 0000 @000162 len=60
+<BR>Extra Stage Clear!<END>
+
+## scene_458 0002 @0001A0 len=40
+Yahoo! We beat them all!<END>
+
+## scene_458 0004 @0001CA len=84
+……By the way, did you collect all the jewels during the game?<END>
+
+## scene_458 0006 @000220 len=68
+Collect them all and something good might happen! Or rather, it will!<END>
+
+## scene_458 0008 @000266 len=46
+Do your best and look for them!<END>
+
+## scene_458 0010 @000296 len=42
+And finally, a little trick for you!<END>
+
+## scene_458 0012 @0002C2 len=52
+<BR><$FE03><$FE03><$FE03><$FE03><$FE03>The Wave!<END>
+
+## scene_458 0015 @0002FA len=40
+Wow! Total failure!<END>
+
+## scene_458 0017 @000324 len=62
+No teamwork right to the very end, how lovely!<END>
+
+## scene_458 0019 @000364 len=24
+Well then, well then!<END>
+
+## scene_458 0021 @00037E len=88
+Bye-byeee! If you wanna play again♪ just hit reset♥<END>

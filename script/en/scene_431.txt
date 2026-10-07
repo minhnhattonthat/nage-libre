@@ -1,0 +1,38 @@
+## scene_431 0000 @00006C len=22
+Alright! This one!<END>
+
+## scene_431 0002 @000084 len=22
+Mai picks this one!<END>
+
+## scene_431 0004 @00009C len=90
+This one! I'm sure of it! It's gotta be! See? I'm opening it!<END>
+
+## scene_431 0006 @0000F8 len=20
+I like this one……<END>
+
+## scene_431 0008 @00010E len=44
+Surely this one must be the best!<END>
+
+## scene_431 0010 @00013C len=122
+……Inside the chest were……<BR>"HP Booster"<BR>"Speed Booster"<BR>"Spirit Booster"!<END>
+
+## scene_431 0012 @0001B8 len=86
+……HP went up by 10!<BR><$FE03>Speed went up by 5!<BR><$FE03>Spirit went up by 5!<END>
+
+## scene_431 0016 @000214 len=40
+Ooh! I can feel the power!<END>
+
+## scene_431 0018 @00023E len=38
+Yay♪ Mai got stronger!<END>
+
+## scene_431 0020 @000266 len=36
+I got stronger! Yahoo!<END>
+
+## scene_431 0022 @00028C len=86
+Thank goodness… …I'm stronger… Now I can fight alongside everyone♥<END>
+
+## scene_431 0024 @0002E4 len=56
+How nice♪ I've grown stronger♥ Ufufufu<END>
+
+## scene_431 0026 @00031E len=92
+……And then the other chests<BR><$FE03><$FE03>all opened,<BR><$FE03>and their contents vanished……<END>

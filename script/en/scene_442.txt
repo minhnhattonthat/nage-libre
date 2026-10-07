@@ -1,0 +1,20 @@
+## scene_442 0000 @000078 len=24
+Okay! Let's see…<END>
+
+## scene_442 0002 @000092 len=68
+♪What could it be, what could it be, what could it beee♪<END>
+
+## scene_442 0004 @0000D8 len=68
+This says… "Neutralizer 1."<END>
+
+## scene_442 0006 @00011E len=92
+<BR>……The three got<BR><$FE03>"Neutralizer 1"!……<END>
+
+## scene_442 0008 @00017C len=84
+But is this stuff even useful…… …Eh, whatever. Keep it, keep it.<END>
+
+## scene_442 0010 @0001D2 len=24
+♪Neutra, neutra♪<END>
+
+## scene_442 0012 @0001EC len=22
+What a lucky start.<END>

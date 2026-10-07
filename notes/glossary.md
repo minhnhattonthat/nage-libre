@@ -23,8 +23,8 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | 霧島唯 / 唯 | Yui Kirishima / Yui | Yuki |
 | 桜井彩香 / 彩香 | Ayaka Sakurai / Ayaka | Ayka |
 | 姫ノ木舞 / 舞 | Mai Himenogi / Mai | |
-| 美姫 | Miki (surname per guide: Shizumoto; not seen in script yet) | |
-| 嶺子 | Ryoko (surname per guide: Aoi; not seen in script yet) | Ryouko |
+| 静本美姫 / 美姫 | Miki Shizumoto / Miki (profile, scene_439) | |
+| 葵嶺子 / 嶺子 | Ryoko Aoi / Ryoko (profile, scene_439) | Ryouko |
 | 愛 | Ai | |
 | ナージュ | Nage | Naju |
 | ニンフ | nymph | |
@@ -92,4 +92,5 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 
 - `scene_35B 0000`, `scene_35D 0002`: 「…<$FA01>の神殿」. The glyph `<$FA01>` is code 0x01FA, unmapped in nage.tbl (between 殿 and 催). Rendered from the ROM font it shows a top stroke over a 2×2 field of crosses, possibly 爾 or 爽. English avoids naming it ("the temple underground" / "the temple"). Which kanji is it?
 - `scene_361 0002`: `<$F602>` around ＮＡＧＥ is unresolved; assumed to be quote marks → `"NAGE"`.
+- `scene_447` (staff credits): staff names are kept in their original kanji (raw codes, they render correctly) because several glyphs are unmapped (0x0460, 0x0448, 0x058A, 0x0440, 0x0444, 0x0446, 0x044C, 0x044E, 0x0576, 0x0452, 0x0454, 0x02B4, 0x0458, 0x0292) and guessing real people's names is worse than leaving them. Hiragana/katakana nicknames are romanized (Gaku, Shichi Michihiko, Chiyou, Yonewo, Ukkii, R. Rira). Credit-heading typos fixed (IVENT → EVENT, EXECTIVE → EXECUTIVE). Romanize the names?
 - `scene_384 0015` (password entry screen): only the prompt is translated. The cursor row `○` and the full-width `Ａ…Ｚ` rows are kept byte-identical (raw codes) so the cursor still lines up with the letters. Playtest: does entering LISTEN TO THE RAINDROPS still work and display correctly?

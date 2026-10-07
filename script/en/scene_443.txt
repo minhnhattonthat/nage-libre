@@ -1,0 +1,23 @@
+## scene_443 0000 @000086 len=24
+What are you talking about?!<END>
+
+## scene_443 0002 @0000A0 len=90
+This kind of thing is good luck! Obviously we should take it! Let's see…<END>
+
+## scene_443 0004 @0000FC len=68
+♪What could it be, what could it be, what could it beee♪<END>
+
+## scene_443 0006 @000142 len=64
+This says… "Neutralizer 1."<END>
+
+## scene_443 0008 @000184 len=62
+……The three got<BR><$FE03>"Neutralizer 1"!……<END>
+
+## scene_443 0010 @0001C4 len=86
+But is this stuff even useful…… …Eh, whatever. Keep it, keep it.<END>
+
+## scene_443 0012 @00021C len=24
+♪Neutra, neutra♪<END>
+
+## scene_443 0014 @000236 len=22
+What a lucky start.<END>

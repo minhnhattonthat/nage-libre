@@ -1,0 +1,2 @@
+## scene_456 0000 @000018 len=66
+This is my second stage, but it's a bonus stage, so I'm pretty strong!<END>

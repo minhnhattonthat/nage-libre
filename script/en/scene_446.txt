@@ -1,0 +1,23 @@
+## scene_446 0000 @000088 len=54
+The birthstones shine even brighter! Birthstone Bingo GO!<END>
+
+## scene_446 0002 @0000C0 len=60
+This playthrough, every card you draw gets your birthstone!<END>
+
+## scene_446 0004 @0000FE len=30
+Yaaay! Diamonds!<END>
+
+## scene_446 0006 @00011E len=60
+…Hey, hey, isn't a moonstone a "stone from the moon"?<END>
+
+## scene_446 0008 @00015C len=58
+It looks different from the one I saw at the Expo as a kid……<END>
+
+## scene_446 0010 @000198 len=28
+……How old ARE you?!<END>
+
+## scene_446 0012 @0001B6 len=58
+How wonderful♥ Well then, let's start the game♪<END>
+
+## scene_446 0014 @0001F2 len=22
+Agate is so pretty♥<END>

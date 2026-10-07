@@ -1,0 +1,2 @@
+## scene_457 0000 @000018 len=42
+I haven't transformed yet, but I'm pretty strong!<END>

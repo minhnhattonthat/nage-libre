@@ -1,0 +1,11 @@
+## scene_459 0000 @000050 len=68
+Hiii! Hellooo! I'm the Extra goddess!<END>
+
+## scene_459 0003 @000098 len=82
+Thanks for coming all this way! For everyone who cleared the game……<END>
+
+## scene_459 0005 @0000EC len=82
+we're starting the all-bosses bonus stage! Good luck!<END>
+
+## scene_459 0007 @000140 len=62
+<BR>Extra Stage Start!<END>

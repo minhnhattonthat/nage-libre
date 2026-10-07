@@ -1,0 +1,8 @@
+## scene_45B 0000 @00002C len=68
+So sorry! The card shop is closed now♥<END>
+
+## scene_45B 0002 @000072 len=18
+Whaaat?! Already?!<END>
+
+## scene_45B 0004 @000086 len=40
+Waaah! Mai wanted more cards!<END>

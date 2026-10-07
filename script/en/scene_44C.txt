@@ -1,0 +1,8 @@
+## scene_44C 0000 @000028 len=64
+You know, originally I was supposed to use magic to become all the clubs!<END>
+
+## scene_44C 0002 @00006A len=86
+……But that'd be a total magical princess rip-off, so they dropped it!<END>
+
+## scene_44C 0004 @0000C2 len=34
+Anyway, let's fight♥<END>

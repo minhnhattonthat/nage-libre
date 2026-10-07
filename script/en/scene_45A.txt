@@ -1,0 +1,23 @@
+## scene_45A 0000 @000128 len=60
+No fair♥ Giving all five the same birthday♪<END>
+
+## scene_45A 0002 @000166 len=56
+Come on, try all sorts of birthdays♥<END>
+
+## scene_45A 0004 @0001A0 len=50
+Besides, that day is MY birthday♥<END>
+
+## scene_45A 0006 @0001D4 len=26
+Let's all sing together!<END>
+
+## scene_45A 0008 @0001F0 len=90
+♪Happy birthday to me♪<BR>♪Happy birthday to me♪<BR>♪Happy birthday dear meee♪<END>
+
+## scene_45A 0010 @00024C len=62
+<BR>…Continues until you reset……<END>
+
+## scene_45A 0012 @00028C len=62
+……I didn't think you'd<BR><$FE03><$FE03><$FE03><$FE03><$FE03>hold out this long……<END>
+
+## scene_45A 0014 @0002CC len=48
+I'm sorry! Please reset!<END>

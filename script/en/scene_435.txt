@@ -1,0 +1,17 @@
+## scene_435 0000 @000022 len=8
+Ouch!<END>
+
+## scene_435 0002 @00002C len=66
+Kyaaan! Mai didn't see the spikes!<END>
+
+## scene_435 0004 @000070 len=40
+Eek! There are spikes on the floor!<END>
+
+## scene_435 0006 @00009A len=36
+Ow…… spikes…… waaah……<$D203><END>
+
+## scene_435 0008 @0000C0 len=66
+Ah! Ouch! ……There are spikes on the floor……<END>
+
+## scene_435 0010 @000104 len=92
+……The damage floor<BR><$FE03>took away some HP!!……<END>
