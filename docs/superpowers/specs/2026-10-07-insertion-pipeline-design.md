@@ -1,7 +1,7 @@
 # Nage Libre EN — Sub-project 2a: Re-insertion Pipeline
 
 Date: 2026-10-07
-Status: draft, awaiting review
+Status: approved
 
 ## Context
 
