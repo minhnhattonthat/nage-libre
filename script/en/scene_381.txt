@@ -1,0 +1,35 @@
+## scene_381 0000 @0000B4 len=80
+Whoa there! Just in time! You're not getting past here!<END>
+
+## scene_381 0002 @000106 len=68
+…Because I can't let you into the cave beyond this forest!<END>
+
+## scene_381 0004 @00014C len=18
+Oh, we know.<END>
+
+## scene_381 0006 @000160 len=64
+We'll beat you quick and be on our way, so don't mind us.<END>
+
+## scene_381 0008 @0001A2 len=46
+Huh? So you know the password too?<END>
+
+## scene_381 0010 @0001D2 len=6
+Yes.<END>
+
+## scene_381 0012 @0001DA len=44
+And where the cave leads?<END>
+
+## scene_381 0014 @000208 len=18
+The Water Temple, right?<END>
+
+## scene_381 0016 @00021C len=68
+……Right. Kinda lonely, huh…… Hey, this is no time to get mopey!<END>
+
+## scene_381 0018 @000262 len=52
+…Now that you know that much…… you shall not pass!<END>
+
+## scene_381 0020 @000298 len=68
+This time, feel the might of Kirika at her final power-up stage!<END>
+
+## scene_381 0022 @0002DE len=120
+<$FE03>Stage 17 Start!<BR><BR>Goal: Defeat boss Kirika and<BR><$FE03><$FE03><$FE03><$FE03>enter the cave!<END>

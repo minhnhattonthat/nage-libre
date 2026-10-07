@@ -1,0 +1,65 @@
+## scene_36E 0000 @00022C len=62
+So Nage's influence is appearing in the real world too?<END>
+
+## scene_36E 0002 @00026C len=48
+……Then this place is no different from Nage!<END>
+
+## scene_36E 0004 @00029E len=6
+……<END>
+
+## scene_36E 0006 @0002A6 len=56
+<BR><$FE03>Stage 14 Clear!<END>
+
+## scene_36E 0008 @0002E0 len=80
+But it seems Nage's influence hasn't fully taken hold of the real world yet…<END>
+
+## scene_36E 0010 @000332 len=82
+…Then we have to go back to Nage and do something about Nage itself!<END>
+
+## scene_36E 0012 @000386 len=72
+If we five are about the only ones unaffected by Nage…<END>
+
+## scene_36E 0014 @0003D0 len=60
+Then it's up to us! That settles it! Let's GO again!<END>
+
+## scene_36E 0016 @00040E len=34
+Yeah, yeah, GO GO!<END>
+
+## scene_36E 0018 @000432 len=6
+……<END>
+
+## scene_36E 0020 @00043A len=66
+What's up, Miki? Everyone's fired up, almost too much.<END>
+
+## scene_36E 0022 @00047E len=86
+…I've had it! I thought we were finally home! Miki wants to go hoooome!<END>
+
+## scene_36E 0024 @0004D6 len=44
+Uh-oh… …she's regressed to a toddler.<END>
+
+## scene_36E 0026 @000504 len=18
+How embarrassing!<END>
+
+## scene_36E 0028 @000518 len=42
+…When YOU say that, it's all over…<END>
+
+## scene_36E 0030 @000544 len=8
+Oh my!<END>
+
+## scene_36E 0032 @00054E len=40
+Okay! I'm taking this girl!<END>
+
+## scene_36E 0034 @000578 len=8
+Miki!<END>
+
+## scene_36E 0036 @000582 len=8
+Wait!<END>
+
+## scene_36E 0038 @00058C len=16
+Aaaaah……<END>
+
+## scene_36E 0040 @00059E len=46
+Oh no! She's been taken away!<END>
+
+## scene_36E 0042 @0005CE len=14
+After her!<END>

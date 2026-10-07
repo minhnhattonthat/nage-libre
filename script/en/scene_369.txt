@@ -1,0 +1,35 @@
+## scene_369 0000 @00006C len=8
+Huh?<END>
+
+## scene_369 0002 @000076 len=40
+She's right. It's blocked, we can't get through…….<END>
+
+## scene_369 0004 @0000A0 len=46
+It's no good! We can't get through!<END>
+
+## scene_369 0006 @0000D0 len=50
+She's right. There's no way through this…<END>
+
+## scene_369 0008 @000104 len=46
+It's completely buried…. We can't get through…<END>
+
+## scene_369 0010 @000134 len=90
+It's completely buried. There was no need to bury it with such gusto……<END>
+
+## scene_369 0012 @000190 len=42
+Oh, great. Now what?<END>
+
+## scene_369 0014 @0001BC len=16
+What do we do?!<END>
+
+## scene_369 0016 @0001CE len=88
+Oh well! There's gotta be a key or something somewhere! ……Let's look!<END>
+
+## scene_369 0018 @000228 len=24
+Ahh… just my luck.<END>
+
+## scene_369 0020 @000242 len=90
+Well, it can't be helped. Let's pull ourselves together and figure something out.<END>
+
+## scene_369 0023 @0002A0 len=68
+Heh heh heh! You can't get in without opening the door!<END>

@@ -1,0 +1,5 @@
+## scene_376 0000 @000038 len=12
+Can't get through!<END>
+
+## scene_376 0002 @000046 len=88
+That's right♥ I've got a powerful barrier around me♪<END>

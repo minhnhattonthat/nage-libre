@@ -1,0 +1,17 @@
+## scene_378 0000 @000054 len=30
+Got page 1 of the book!<END>
+
+## scene_378 0002 @000074 len=14
+Let's see……<END>
+
+## scene_378 0004 @000084 len=120
+In a space like a gentle stream…… drifts a creator god…… …for reasons unknown, it sleeps in endless space…<END>
+
+## scene_378 0006 @0000FE len=66
+…People call that being "Nage," and think of it always, even in fear…<END>
+
+## scene_378 0008 @000142 len=10
+Ah……!<END>
+
+## scene_378 0010 @00014E len=62
+……The barrier around Kyoko<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>begins to waver……<END>

@@ -56,6 +56,12 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | バスケ部部隊６人衆 | Basketball Squad Six | |
 | ベルベット・ボイス | Velvet Voice | |
 | 現実世界 | the real world | |
+| 美夕 / 紗夜子 / 京子 | Miyu / Sayoko / Kyoko (stage 14/15/16 bosses) | |
+| 創造神 | creator god | |
+| 結界 | barrier | |
+| 水の神殿 | Water Temple | |
+| ＬＩＳＴＥＮ ＴＯ ＴＨＥ ＲＡＩＮＤＯＲＯＰＳ | LISTEN TO THE RAINDROPS (password; kept in English) | |
+| 図書館 | library | |
 
 ## Compromises
 
@@ -67,3 +73,4 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 
 - `scene_35B 0000`, `scene_35D 0002`: 「…<$FA01>の神殿」. The glyph `<$FA01>` is code 0x01FA, unmapped in nage.tbl (between 殿 and 催). Rendered from the ROM font it shows a top stroke over a 2×2 field of crosses, possibly 爾 or 爽. English avoids naming it ("the temple underground" / "the temple"). Which kanji is it?
 - `scene_361 0002`: `<$F602>` around ＮＡＧＥ is unresolved; assumed to be quote marks → `"NAGE"`.
+- `scene_384 0015` (password entry screen): only the prompt is translated. The cursor row `○` and the full-width `Ａ…Ｚ` rows are kept byte-identical (raw codes) so the cursor still lines up with the letters. Playtest: does entering LISTEN TO THE RAINDROPS still work and display correctly?

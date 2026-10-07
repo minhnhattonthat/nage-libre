@@ -1,0 +1,8 @@
+## scene_382 0000 @000028 len=68
+Shining liiight! Shields at full! Final stage power-up!<END>
+
+## scene_382 0002 @00006E len=84
+Back thrusters ON! Missiles from my hands! Even a resume function, what a deal!<END>
+
+## scene_382 0004 @0000C4 len=16
+Now, fight!<END>

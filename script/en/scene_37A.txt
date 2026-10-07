@@ -1,0 +1,14 @@
+## scene_37A 0000 @000054 len=30
+Got page 3 of the book!<END>
+
+## scene_37A 0002 @000074 len=14
+Let's see……<END>
+
+## scene_37A 0004 @000084 len=104
+Perhaps Nage is a creator god that does not exist, made up by the human heart……<END>
+
+## scene_37A 0006 @0000EE len=10
+Ah……!<END>
+
+## scene_37A 0008 @0000FA len=62
+……The barrier around Kyoko<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>begins to waver……<END>

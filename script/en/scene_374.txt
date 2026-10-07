@@ -1,0 +1,20 @@
+## scene_374 0000 @00007C len=16
+A library, huh……<END>
+
+## scene_374 0002 @00008E len=42
+That woman said something rather intriguing…<END>
+
+## scene_374 0004 @0000BA len=26
+Let's go in for now.<END>
+
+## scene_374 0006 @0000D6 len=32
+There might be something inside!<END>
+
+## scene_374 0008 @0000F8 len=88
+If there's no way to run anymore… …let's get information!<END>
+
+## scene_374 0010 @000152 len=52
+What exactly Nage is, and what we should do…<END>
+
+## scene_374 0012 @000188 len=58
+…and why I had to get dragged into this!<END>

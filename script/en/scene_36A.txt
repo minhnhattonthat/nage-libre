@@ -1,0 +1,20 @@
+## scene_36A 0000 @000046 len=90
+So you figured it out! That I'm the one with the switch that opens the door!<END>
+
+## scene_36A 0002 @0000A2 len=46
+Uh, that's not really why we're here……<END>
+
+## scene_36A 0004 @0000D2 len=46
+Mai was just fighting whoever!<END>
+
+## scene_36A 0006 @000102 len=64
+Er, we were just fighting everybody we ran into……<END>
+
+## scene_36A 0008 @000144 len=88
+Eek! Sorry! I had no idea… wait, so if we beat you, the door opens!<END>
+
+## scene_36A 0010 @00019E len=68
+My, is that so? How very convenient♥<END>
+
+## scene_36A 0012 @0001E4 len=44
+If you want the door open, fight me! En garde!<END>

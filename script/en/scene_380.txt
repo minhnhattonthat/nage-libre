@@ -1,0 +1,26 @@
+## scene_380 0000 @0000C2 len=60
+So in the end, is Nage the name of some ancient god or something?<END>
+
+## scene_380 0002 @000100 len=60
+I thought "Nage" was what they called that other world……<END>
+
+## scene_380 0004 @00013E len=48
+But if we sum up what the book says…<END>
+
+## scene_380 0006 @000170 len=88
+wouldn't it mean someone was summoned by Nage and created the world……?<END>
+
+## scene_380 0008 @000218 len=76
+Aaah! I was gonna sum it up and show how smart I am!<END>
+
+## scene_380 0010 @000218 len=30
+Eep! I'm sorry!<END>
+
+## scene_380 0012 @000238 len=24
+Eep! Eep!<END>
+
+## scene_380 0014 @000252 len=16
+Okay, the forest!<END>
+
+## scene_380 0016 @000264 len=50
+I do hope this will explain everything……<END>

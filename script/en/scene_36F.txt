@@ -1,0 +1,8 @@
+## scene_36F 0000 @000044 len=18
+Which way did she go?<END>
+
+## scene_36F 0002 @000058 len=28
+Toward the town over there!<END>
+
+## scene_36F 0004 @000076 len=10
+After her!<END>

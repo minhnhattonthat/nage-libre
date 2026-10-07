@@ -1,0 +1,104 @@
+## scene_385 0000 @0002AC len=14
+1 hour later……<END>
+
+## scene_385 0002 @0002BC len=26
+Yaaay, it's so big!<END>
+
+## scene_385 0004 @0002D8 len=90
+To think the underground cave goes on this far……. Nature is wonderful!<END>
+
+## scene_385 0006 @000334 len=44
+Lady, that's OBVIOUSLY man-made!<END>
+
+## scene_385 0008 @000362 len=46
+The five proceed happily through the underground cave……<END>
+
+## scene_385 0010 @000392 len=14
+6 hours later……<END>
+
+## scene_385 0012 @0003A2 len=16
+I'm tired……<END>
+
+## scene_385 0014 @0003B4 len=44
+When it goes on forever like this, it gets dull.<END>
+
+## scene_385 0016 @0003E2 len=16
+36 hours later……<END>
+
+## scene_385 0018 @0003F4 len=10
+Zzz……<END>
+
+## scene_385 0020 @000400 len=32
+Mmh…… I'm getting sleepy…<END>
+
+## scene_385 0022 @000422 len=22
+How long does this go on?!<END>
+
+## scene_385 0024 @00043A len=82
+Oh, there are nuts lying here♥ …Let's eat these and rest for now.<END>
+
+## scene_385 0026 @00048E len=12
+Yeah……<END>
+
+## scene_385 0028 @00049C len=14
+2 weeks later……<END>
+
+## scene_385 0030 @0004AC len=92
+Hey, a wild rabbit! Let's catch it! I'm sick of nuts! …Meat at last!<END>
+
+## scene_385 0032 @00050A len=34
+Ahh…… she's gone totally feral……<END>
+
+## scene_385 0034 @00052E len=86
+I'm a vegetarian, you see, so these nuts are quite tasty once you're used to them.<END>
+
+## scene_385 0036 @000586 len=88
+Handy that nuts keep turning up, but how can you eat the same thing over and over……<END>
+
+## scene_385 0038 @0005E0 len=14
+3 months later……<END>
+
+## scene_385 0040 @0005F0 len=6
+……<END>
+
+## scene_385 0042 @0005F8 len=6
+……<END>
+
+## scene_385 0044 @000600 len=16
+……Wanna go home?<END>
+
+## scene_385 0046 @000612 len=22
+……Let's do that.<END>
+
+## scene_385 0048 @00062A len=32
+Who even cares about the world.<END>
+
+## scene_385 0050 @00064C len=8
+Yeah.<END>
+
+## scene_385 0052 @000656 len=58
+The world's probably been destroyed by now anyway, thanks to Nage.<END>
+
+## scene_385 0054 @000692 len=46
+……Ahh, everyone's just given up……<END>
+
+## scene_385 0056 @0006C2 len=28
+Miki's tougher than she looks.<END>
+
+## scene_385 0058 @0006E0 len=54
+Well, I've always been good with hardship……… Huh?<END>
+
+## scene_385 0060 @000718 len=14
+What's up?<END>
+
+## scene_385 0062 @000728 len=22
+Over there…… someone!<END>
+
+## scene_385 0064 @000740 len=10
+Really?<END>
+
+## scene_385 0066 @00074C len=16
+Find something?<END>
+
+## scene_385 0068 @00075E len=70
+Well then, let's go see! This might be our breakthrough!<END>

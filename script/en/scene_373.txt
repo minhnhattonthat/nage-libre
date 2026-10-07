@@ -1,0 +1,17 @@
+## scene_373 0000 @0000E0 len=58
+<BR><$FE03><$FE03>Stage 15 Clear!<END>
+
+## scene_373 0002 @00011C len=30
+Waaah, that was so scary<$D203><END>
+
+## scene_373 0004 @00013C len=10
+There, there.<END>
+
+## scene_373 0006 @000148 len=42
+Being all together is the best after all!<END>
+
+## scene_373 0008 @000174 len=54
+No wandering off on your own again, okay?<END>
+
+## scene_373 0010 @0001AC len=24
+Okaaay…… sniffle……<END>

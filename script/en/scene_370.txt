@@ -1,0 +1,8 @@
+## scene_370 0000 @000034 len=58
+Tch… they caught up with me…. No choice.<END>
+
+## scene_370 0002 @000070 len=88
+I'll hide her in the library. …I just have to beat you four! Here I come!<END>
+
+## scene_370 0004 @0000CA len=122
+<$FE03>Stage 15 Start!<BR><BR><$FE03>Goal: Defeat Sayoko<BR><$FE03><$FE03>in the library!<END>

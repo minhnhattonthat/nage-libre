@@ -1,0 +1,59 @@
+## scene_36C 0000 @000146 len=38
+Ahh, nice weather in this world too♥<END>
+
+## scene_36C 0002 @00016E len=64
+It truly is♥ So wide open, with such a lovely view…<END>
+
+## scene_36C 0004 @0001B0 len=84
+…You dummy! We said the exact same thing last time! Where ARE we?<END>
+
+## scene_36C 0006 @000206 len=20
+A desert… looks like.<END>
+
+## scene_36C 0008 @00021C len=24
+There are weird trees!<END>
+
+## scene_36C 0010 @000236 len=8
+Uuu…<END>
+
+## scene_36C 0012 @000240 len=66
+…It seems our escape from Nage has failed.<END>
+
+## scene_36C 0014 @000284 len=16
+Looks that way.<END>
+
+## scene_36C 0016 @000296 len=46
+……Waaah…… I thought we could go home…<END>
+
+## scene_36C 0018 @0002C6 len=38
+Dammit, that woman lied to us!<END>
+
+## scene_36C 0020 @0002EE len=14
+She did not!<END>
+
+## scene_36C 0022 @0002FE len=6
+Huh?<END>
+
+## scene_36C 0024 @000306 len=36
+This is the true world, the real world.<END>
+
+## scene_36C 0026 @00032C len=88
+Is that so? But there was no desert near my house…<END>
+
+## scene_36C 0028 @000386 len=68
+The other world, "Nage," has seeped into the real world.<END>
+
+## scene_36C 0030 @0003CC len=70
+Soon this world too will all become Nage, and belong to that person!<END>
+
+## scene_36C 0032 @000414 len=10
+WHAT?!<END>
+
+## scene_36C 0034 @000420 len=68
+Nage, created by that person, is one step from conquering the real world!<END>
+
+## scene_36C 0036 @000466 len=86
+And for that, nuisances like you must be defeated! Come at me!<END>
+
+## scene_36C 0038 @0004BE len=90
+<$FE03>Stage 14 Start!<BR><BR><$FE03><$FE03><$FE03>Goal: Defeat Miyu!<END>

@@ -1,0 +1,17 @@
+## scene_37C 0000 @000054 len=30
+Got page 5 of the book!<END>
+
+## scene_37C 0002 @000074 len=14
+Let's see……<END>
+
+## scene_37C 0004 @000084 len=70
+Someday, Nage may summon someone…… seeking an answer…<END>
+
+## scene_37C 0006 @0000CC len=62
+…The answer that person gives Nage will become reality itself……<END>
+
+## scene_37C 0008 @00010C len=10
+Ah……!<END>
+
+## scene_37C 0010 @000118 len=62
+……The barrier around Kyoko<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>begins to waver……<END>

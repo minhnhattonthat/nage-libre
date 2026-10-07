@@ -1,0 +1,32 @@
+## scene_375 0000 @0000B6 len=8
+Yikes!<END>
+
+## scene_375 0002 @0000C0 len=44
+Whoa, there are tons of enemies in there.<END>
+
+## scene_375 0004 @0000EE len=42
+What is everyone doing?<END>
+
+## scene_375 0006 @00011A len=36
+Hurry, burn that book! That book has…!<END>
+
+## scene_375 0008 @000140 len=24
+…Mai heard that!<END>
+
+## scene_375 0010 @00015A len=52
+That a book with something important is hidden here.<END>
+
+## scene_375 0012 @000190 len=80
+No choice. Either way, it's all the same once I beat you…….<END>
+
+## scene_375 0014 @0001E2 len=24
+Hyaaah! Bang bang!<END>
+
+## scene_375 0016 @0001FC len=122
+<$FE03>Stage 16 Start!<BR><BR><$FE03>Goal:<BR><$FE03><$FE03>Find the hidden book!<END>
+
+## scene_375 0018 @000278 len=80
+Now! If we jump out from here and attack, victory is guaranteed!<END>
+
+## scene_375 0020 @0002CA len=82
+…But our heads are sticking out, so this isn't really hiding, is it……<END>

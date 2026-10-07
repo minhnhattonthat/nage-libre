@@ -1,0 +1,47 @@
+## scene_37D 0000 @0000D8 len=46
+Is that all of them? Let's read them together.<END>
+
+## scene_37D 0005 @00010E len=26
+<$FE03><$FE03><$FE03>……Page 1……<END>
+
+## scene_37D 0007 @00012A len=120
+In a space like a gentle stream…… drifts a creator god…… …for reasons unknown, it sleeps in endless space…<END>
+
+## scene_37D 0009 @0001A4 len=66
+…People call that being "Nage," and think of it always, even in fear…<END>
+
+## scene_37D 0012 @0001EA len=26
+<$FE03><$FE03><$FE03>……Page 2……<END>
+
+## scene_37D 0014 @000206 len=98
+Nage cannot be summoned…. For its existence must never be known to humankind……<END>
+
+## scene_37D 0017 @00026C len=26
+<$FE03><$FE03><$FE03>……Page 3……<END>
+
+## scene_37D 0019 @000288 len=104
+Perhaps Nage is a creator god that does not exist, made up by the human heart……<END>
+
+## scene_37D 0022 @0002F4 len=26
+<$FE03><$FE03><$FE03>……Page 4……<END>
+
+## scene_37D 0024 @000310 len=114
+In its closed space, Nage keeps searching…… for what it is…… for someone to give it an answer……<END>
+
+## scene_37D 0027 @000386 len=26
+<$FE03><$FE03><$FE03>……Page 5……<END>
+
+## scene_37D 0029 @0003A2 len=70
+Someday, Nage may summon someone…… seeking an answer…<END>
+
+## scene_37D 0031 @0003EA len=62
+…The answer that person gives Nage will become reality itself……<END>
+
+## scene_37D 0034 @00042C len=16
+Huh…… oh?<END>
+
+## scene_37D 0036 @00043E len=108
+……Once every page was read,<BR>the book vanished…<BR>…the barrier wavered…<BR>…and disappeared…<END>
+
+## scene_37D 0038 @0004AC len=26
+Now we can fight the boss♥<END>

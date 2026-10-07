@@ -1,0 +1,29 @@
+## scene_36B 0000 @000066 len=62
+<BR><$FE03>Got the door switch!<END>
+
+## scene_36B 0002 @0000A6 len=36
+This'll open the door!<END>
+
+## scene_36B 0004 @0000CC len=22
+Yay, door's opening!<END>
+
+## scene_36B 0006 @0000E4 len=40
+Let's open the door right away!<END>
+
+## scene_36B 0008 @00010E len=44
+Well then, let's try opening the door.<END>
+
+## scene_36B 0010 @00013C len=22
+Now then, open sesame!<END>
+
+## scene_36B 0012 @000154 len=12
+We did it!<END>
+
+## scene_36B 0014 @000162 len=16
+We did it♪<END>
+
+## scene_36B 0016 @000174 len=22
+Good job, Miki♥<END>
+
+## scene_36B 0018 @00018C len=8
+Yikes!<END>

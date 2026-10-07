@@ -1,0 +1,62 @@
+## scene_37F 0000 @0001D0 len=58
+<BR><$FE03><$FE03>Stage 16 Clear!<END>
+
+## scene_37F 0002 @00020C len=14
+Let's see……<END>
+
+## scene_37F 0004 @00021C len=10
+Gulp.<END>
+
+## scene_37F 0006 @000228 len=26
+The book says……<END>
+
+## scene_37F 0008 @000244 len=116
+How to make delicious spaghetti… First, add plenty of water. Then add just a little salt. This way……<END>
+
+## scene_37F 0010 @0002BA len=6
+……<END>
+
+## scene_37F 0012 @0002C2 len=56
+Did they really need to guard a book like this……?<END>
+
+## scene_37F 0014 @0002FC len=36
+Nyuu. Mai doesn't get it.<END>
+
+## scene_37F 0016 @000322 len=26
+……Flip…… a note fell out.<END>
+
+## scene_37F 0018 @00033E len=22
+Oh, what's this?<END>
+
+## scene_37F 0020 @000356 len=12
+Let me see?<END>
+
+## scene_37F 0022 @000364 len=108
+Password for the cave entrance in the forest: "LISTEN TO THE RAINDROPS" …to the Water Temple……<END>
+
+## scene_37F 0024 @0003D2 len=28
+Looks like a password.<END>
+
+## scene_37F 0026 @0003F0 len=10
+The forest……<END>
+
+## scene_37F 0028 @0003FC len=24
+We have no choice but to go.<END>
+
+## scene_37F 0030 @000416 len=42
+But was there a "cave entrance" anywhere?<END>
+
+## scene_37F 0032 @000442 len=88
+…Um… what about that gate-like thing on the hill we passed on the way?<END>
+
+## scene_37F 0034 @00049C len=6
+Oh my.<END>
+
+## scene_37F 0036 @0004A4 len=40
+Come to think of it, there was something.<END>
+
+## scene_37F 0038 @0004CE len=54
+If you noticed, you should've said so! Hmph!<END>
+
+## scene_37F 0040 @000506 len=68
+But…… I thought everyone had noticed…… I'm sorry, sniff sniff.<END>

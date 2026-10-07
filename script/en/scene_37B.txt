@@ -1,0 +1,14 @@
+## scene_37B 0000 @000054 len=30
+Got page 4 of the book!<END>
+
+## scene_37B 0002 @000074 len=14
+Let's see……<END>
+
+## scene_37B 0004 @000084 len=114
+In its closed space, Nage keeps searching…… for what it is…… for someone to give it an answer……<END>
+
+## scene_37B 0006 @0000F8 len=10
+Ah……!<END>
+
+## scene_37B 0008 @000104 len=62
+……The barrier around Kyoko<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>begins to waver……<END>

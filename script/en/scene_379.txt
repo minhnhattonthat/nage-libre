@@ -1,0 +1,14 @@
+## scene_379 0000 @000054 len=30
+Got page 2 of the book!<END>
+
+## scene_379 0002 @000074 len=14
+Let's see……<END>
+
+## scene_379 0004 @000084 len=98
+Nage cannot be summoned…. For its existence must never be known to humankind……<END>
+
+## scene_379 0006 @0000E8 len=10
+Ah……!<END>
+
+## scene_379 0008 @0000F4 len=62
+……The barrier around Kyoko<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>begins to waver……<END>

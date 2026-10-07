@@ -20,6 +20,7 @@
  "0x262": "hypnosis informant (stage 6)",
  "0x2BD": "Kirika, powered up (stage 7)",
  "0x2BE": "hole guard (stage 7)",
+ "0x2C5": "door-switch girl (stage 7)",
  "0x321": "Kikuko (stage 8 boss, Himegami clan)",
  "0x32C": "Himegami guard A (stage 8)",
  "0x32D": "Himegami guard B (stage 8)",
@@ -38,5 +39,11 @@
  "0x3F2": "Basketball Squad #6 (bench)",
  "0x44D": "Sara (stage 11 boss, race queen)",
  "0x4B1": "Aria (stage 12 boss)",
- "0x515": "Aria (stage 13)"
+ "0x515": "Aria (stage 13)",
+ "0x579": "Miyu (stage 14 boss)",
+ "0x5DD": "Sayoko (stage 15 boss)",
+ "0x641": "Kyoko (stage 16 boss)",
+ "0x649": "library minion A (stage 16)",
+ "0x64A": "library minion B (stage 16)",
+ "0x6A5": "Kirika, final power-up (stage 17)"
 }

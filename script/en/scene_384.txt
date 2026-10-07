@@ -1,0 +1,50 @@
+## scene_384 0000 @0001F6 len=18
+So, this is the cave.<END>
+
+## scene_384 0002 @00020A len=12
+Let's go!<END>
+
+## scene_384 0007 @00021E len=62
+……The cave entrance is covered<BR><$FE03>by an invisible wall.<END>
+
+## scene_384 0009 @00025E len=46
+Owww! Mai bonked her nose!<END>
+
+## scene_384 0011 @00028E len=46
+…Oh yes, let's try saying the password.<END>
+
+## scene_384 0013 @0002BE len=30
+Shoulda done that first…<END>
+
+## scene_384 0015 @0002DE len=114
+Please enter the password.<BR><$FE03><$FE03><$FE03><$F202><BR><$0004><$0204><$0404><$0604><$0804><$0A04><$0C04><$0E04><$1004><$1204><$1404><$1604><$1804><$1A04><$1C04><BR><$1E04><$2004><$2204><$2404><$2604><$2804><$2A04><$2C04><$2E04><$3004><$3204><END>
+
+## scene_384 0019 @000356 len=84
+Wait, the password is "LISTEN TO THE RAINDROPS", isn't it?<END>
+
+## scene_384 0021 @0003AC len=98
+……Rumble rumble…… The invisible wall at the cave seems to be gone, though you can't see it……<END>
+
+## scene_384 0023 @000410 len=40
+Can we get through now?<END>
+
+## scene_384 0028 @000440 len=12
+You okay?<END>
+
+## scene_384 0030 @00044E len=42
+Huh, she's braver than she looks.<END>
+
+## scene_384 0035 @000480 len=44
+Alright! Mai's going this time for sure!<END>
+
+## scene_384 0040 @0004B4 len=62
+Well then, shall we? It seems safe.<END>
+
+## scene_384 0042 @0004F4 len=12
+Yeah……<END>
+
+## scene_384 0044 @000502 len=40
+Wouldn't want anyone getting lost in here.<END>
+
+## scene_384 0046 @00052C len=58
+<BR><$FE03><$FE03>Stage 17 Clear!<END>
