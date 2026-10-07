@@ -63,6 +63,13 @@ class EntryBoxes(unittest.TestCase):
         self.assertEqual(boxes[0x16], wrap.FULL)
         self.assertEqual(boxes[0x1A], wrap.FULL4)
 
+    def test_narration_reused_as_op13_filler_keeps_op0B_box(self):
+        # op 0B narration that op 13 also names in absent members' slots (scene_315 0008): the JP is 30-wide
+        blk = words(0x13, 0x0010, 0x0010, 0x0016, 0x0010, 0x0016, 0x0B, 0x0010, 0xFFFF, 0x41, 0xFFFF, 0x42, 0xFFFF)
+        boxes = wrap.entry_boxes(blk)
+        self.assertEqual(boxes[0x10], wrap.FULL4)
+        self.assertEqual(boxes[0x16], wrap.PORTRAIT)
+
     def test_mixed_widths_get_one_line_of_the_narrower(self):
         blk = words(0x01, 0x0008, 0x2B, 0x0008, 0xFFFF, 0x41, 0xFFFF)
         box = wrap.entry_boxes(blk)[0x08]

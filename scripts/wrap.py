@@ -88,7 +88,7 @@ def _why(box):
 
 def entry_boxes(block, ops=None):
     ops = bytecode.parse(block) if ops is None else ops
-    seen = {}
+    seen, by_op = {}, {}
     for o in ops:
         box = BOXES.get(o.opcode)
         if box is None:
@@ -96,10 +96,13 @@ def entry_boxes(block, ops=None):
         for k in o.offset_operands:
             if k not in o.data_operands:
                 seen.setdefault(o.operands[k - 1], set()).add(box)
+                by_op.setdefault(o.operands[k - 1], set()).add(o.opcode)
     out = {}
     for off, boxes in seen.items():
         widths = sorted({b.cols for b in boxes})
-        if len(widths) > 1:
+        if by_op[off] == {0x0B, 0x13}:      # op-0B narration reused as op-13 filler for absent members: JP is 30-wide
+            out[off] = Box(FULL4.cols, FULL4.lines, "op-0B narration, also op-13 filler")
+        elif len(widths) > 1:
             out[off] = Box(widths[0], 1, f"printed by {'- and '.join(map(str, widths))}-column boxes: "
                                          f"must fit one {widths[0]}-column line")
         else:
