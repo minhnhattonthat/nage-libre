@@ -86,3 +86,19 @@ Each block = 16-bit bytecode up to the first `FFFF` word, then the string area; 
 Dialogue strings are usually followed by an empty `<END>` entry (double `FFFF`). Display lines are wrapped every 15 full-width glyphs (encoder ignores newlines).
 ~354 entries in the string area are **non-text data** (small words like `0000`/`0001`/`0063`, digits). They round-trip but aren't for translation.
 Known bytecode ops: `002B off` / `0026 off` print the string at block offset `off`; `0020`, `0024 a b c`, `0025 a b`, `0027`, `0029 n`, `002C`, `003A` (meaning TBD, sub-project 2).
+
+## Spot checks
+
+| Scene | Entry | Screenshot | Match |
+|---|---|---|---|
+| Opening narration | `scene_341 0000`, `0002` | `dialogue1_idle_final`, `print_t00270` | yes (after `0330` 私 fix) |
+| Yui, school yard | `scene_341 0024` 「……ありり？　今なんかヘンな／感じがしたような気が…／…何だろ？」 | `stage1_03400` | yes, including the 3 line breaks (15-glyph display wrap matches the box) |
+| Stage 1 boss | `scene_310 0012` 「問答無用‼　行くわよ‼」 | `map1_final` | yes (blank shown as gap) |
+| Birthday screen | `system 0288` 「これで誕生日はいいかな？」 | `stage1_final` | yes |
+
+## Coverage
+
+- Round-trip: `scripts/test_roundtrip.py` re-encodes **every** dumped entry (5537 scene + 319 system) and matches the source bytes exactly. A deliberately corrupted entry is caught.
+- Scenes: 333 files, string areas covered end to end (no gaps, last entry ends at block end). System list: 319 entries, no gaps.
+- Raw codes: 1114 in 354 non-text data entries (expected). **28 uses of 20 codes in real text**: 01FA 0290 0292 02B4 02F6 0440 0444 0446 0448 044C 044E 0452 0454 0458 0460 053C 0576 058A 05E4 0702. Mostly staff-credit names (`scene_447`) and rare name kanji, left raw rather than guessed.
+- Not dumped (graphics, sub-project 4): battle HUD labels and cards, map HUD, title screen, map command menu. All appear to be English already, except the unconfirmed command menu (see `notes/text-inventory.md`).
