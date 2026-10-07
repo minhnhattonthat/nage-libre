@@ -1,0 +1,4 @@
+# Script dumps, table and sources must stay LF: dump.py/tbl.py parse line-by-line.
+* text=auto eol=lf
+*.png binary
+*.sfc binary

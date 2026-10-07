@@ -84,3 +84,11 @@ class ListKind(unittest.TestCase):
         data = bytes(4) + words(0x10, 0xFFFF, 0x02, 0x10, 0xFFFF) + words(0x10, 0xFFFF)
         e = dump.extract(data, W, {"name": "sys", "kind": "list", "start": "0x4", "end": "0xE"})
         self.assertEqual([(x.offset, x.length, x.text) for x in e], [(4, 4, "あ<END>"), (8, 6, "1あ<END>")])
+
+class LineEndings(unittest.TestCase):
+    def test_crlf_file_parses_like_lf(self):
+        s = dump.format_block(dump.extract_scene(Scene.BLK, W, "scene_341"), W)
+        fd, p = tempfile.mkstemp(suffix=".txt"); os.close(fd)
+        with open(p, "w", encoding="utf-8", newline="\r\n") as f:     # what a Windows checkout/editor produces
+            f.write(s)
+        self.assertEqual(dump.parse_block(dump.read_text(p)), dump.parse_block(s))

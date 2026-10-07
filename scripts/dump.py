@@ -32,7 +32,7 @@ def write_text(path, s):
 
 
 def read_text(path):
-    with open(path, encoding="utf-8", newline="") as f:
+    with open(path, encoding="utf-8") as f:          # universal newlines: CRLF checkouts/editors read as LF
         return f.read()
 
 
