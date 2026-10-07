@@ -1,0 +1,8 @@
+## scene_3BE 0000 @000060 len=58
+<BR><$FE03>……Whoooooosh……<END>
+
+## scene_3BE 0002 @00009C len=8
+Eek!<END>
+
+## scene_3BE 0004 @0000A6 len=40
+Huh, I got sucked in…… and ended up here……<END>

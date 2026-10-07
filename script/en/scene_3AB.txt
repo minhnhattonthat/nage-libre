@@ -1,0 +1,11 @@
+## scene_3AB 0000 @0000BE len=16
+Okay, let's go!<END>
+
+## scene_3AB 0002 @0000D0 len=18
+This is so exciting!<END>
+
+## scene_3AB 0004 @0000E4 len=88
+Is it? I'm scared…… Our opponent is Nage, the one who made this whole world…<END>
+
+## scene_3AB 0006 @00013E len=60
+<BR><$FE03><$FE03><$FE03>Stage 22 Clear!<END>

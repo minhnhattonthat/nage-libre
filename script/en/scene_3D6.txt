@@ -1,0 +1,11 @@
+## scene_3D6 0000 @000062 len=66
+Huh? Another "Jewel Shard"… …That makes seven….<END>
+
+## scene_3D6 0002 @0000A6 len=66
+Oh… put all seven together…… and it's a proper jewel!<END>
+
+## scene_3D6 0004 @0000EA len=92
+<BR>…The five got the "BE" Jewel!…<END>
+
+## scene_3D6 0007 @00014A len=90
+We did it! …But still… …what IS this? Maybe we'll use it later.<END>

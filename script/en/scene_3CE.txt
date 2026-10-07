@@ -1,0 +1,23 @@
+## scene_3CE 0000 @00007C len=46
+Hmm… can't we jump here?<END>
+
+## scene_3CE 0002 @0000AC len=46
+Phew… that worked…… Huh, there's something here!<END>
+
+## scene_3CE 0004 @0000DC len=46
+Big success! And there's something here!<END>
+
+## scene_3CE 0006 @00010C len=56
+That worked♥ Well then, this treasure chest……<END>
+
+## scene_3CE 0009 @000148 len=18
+<$FC03><$FC03>Open the chest<END>
+
+## scene_3CE 0012 @00015E len=90
+……Inside the treasure chest<BR><$FE03><$FE03><$FE03>was a "Speed Booster"!……<END>
+
+## scene_3CE 0014 @0001BA len=58
+<BR><$FE03><$FE03>Speed went up by 3!<END>
+
+## scene_3CE 0018 @0001FA len=60
+Oh, my body feels lighter……<END>

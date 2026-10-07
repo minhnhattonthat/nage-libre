@@ -1,0 +1,11 @@
+## scene_3E0 0000 @000058 len=30
+Is today a holiday or something?<END>
+
+## scene_3E0 0002 @000078 len=86
+No, it is not. That much I can say with all my heart.<END>
+
+## scene_3E0 0004 @0000D0 len=78
+Right. No way Ryoko and I would BOTH forget it was a day off♥<END>
+
+## scene_3E0 0006 @000120 len=82
+Well, lucky us, in a way. Let's relax and watch soap operas today♥<END>

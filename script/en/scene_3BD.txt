@@ -1,0 +1,8 @@
+## scene_3BD 0000 @00002E len=60
+<BR><$FE03>……A fire extinguisher sits here……<END>
+
+## scene_3BD 0002 @00006C len=66
+If there's a fire, normal people just run before using one of these……<END>
+
+## scene_3BD 0004 @0000B0 len=88
+If I sprayed this, surely… everyone would be startled…… Shall I try… ufufu<END>

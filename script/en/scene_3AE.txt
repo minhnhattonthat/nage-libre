@@ -1,0 +1,11 @@
+## scene_3AE 0000 @000030 len=80
+Now… for her sake… …a battle of vengeance… …I will… …defeat you…<END>
+
+## scene_3AE 0002 @000082 len=42
+…If you can defeat me……<END>
+
+## scene_3AE 0004 @0000AE len=80
+this world will vanish… …and you… may be able… to return to your world…<END>
+
+## scene_3AE 0006 @000100 len=40
+…So… fight me… ……with all you have!<END>

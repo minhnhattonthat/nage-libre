@@ -1,0 +1,71 @@
+## scene_3B0 0000 @0001DC len=44
+Nage's tower… …is crumbling……<END>
+
+## scene_3B0 0002 @00020A len=36
+Now we can go back to our world……<END>
+
+## scene_3B0 0004 @000230 len=48
+……Come to think of it, she was kind of pitiful too.<END>
+
+## scene_3B0 0006 @000262 len=62
+I don't think she was a person…… she was only being used.<END>
+
+## scene_3B0 0008 @0002A2 len=66
+But hey, we can go back to our world now, so whatever♪<END>
+
+## scene_3B0 0010 @0002E6 len=12
+Hey, hey?<END>
+
+## scene_3B0 0012 @0002F4 len=8
+Yes?<END>
+
+## scene_3B0 0014 @0002FE len=68
+The floor's getting cold! …Water's flooding in!<END>
+
+## scene_3B0 0016 @000344 len=14
+……So it is.<END>
+
+## scene_3B0 0018 @000354 len=6
+……<END>
+
+## scene_3B0 0020 @00035C len=6
+……<END>
+
+## scene_3B0 0022 @000364 len=6
+……<END>
+
+## scene_3B0 0024 @00036C len=18
+Um…… Yui?<END>
+
+## scene_3B0 0026 @000380 len=8
+Yes?<END>
+
+## scene_3B0 0028 @00038A len=16
+In our world……<END>
+
+## scene_3B0 0030 @00039C len=6
+Uh-huh.<END>
+
+## scene_3B0 0032 @0003A4 len=44
+where… …will we come out?<END>
+
+## scene_3B0 0034 @0003D2 len=6
+Dunno.<END>
+
+## scene_3B0 0036 @0003DA len=42
+We've traveled pretty far, haven't we<$D203><END>
+
+## scene_3B0 0038 @000406 len=14
+I guess……<END>
+
+## scene_3B0 0040 @000416 len=62
+At least a hundred-some kilometers from Tokyo……<END>
+
+## scene_3B0 0042 @000456 len=6
+Yep.<END>
+
+## scene_3B0 0044 @00045E len=62
+If we moved that far in the real world too……<END>
+
+## scene_3B0 0046 @00049E len=14
+The sea, then.<END>

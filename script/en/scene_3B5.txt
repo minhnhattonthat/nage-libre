@@ -1,0 +1,5 @@
+## scene_3B5 0000 @000028 len=46
+Is Ayaka… …in the martial arts hall?<END>
+
+## scene_3B5 0002 @000058 len=24
+Doesn't look like it… hmm.<END>

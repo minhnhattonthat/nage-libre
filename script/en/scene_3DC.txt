@@ -1,0 +1,14 @@
+## scene_3DC 0000 @000024 len=90
+Ooh, the people below look like bugs from here… wait, it's not THAT high<$D203><END>
+
+## scene_3DC 0002 @000080 len=66
+This side's high too! Yahoo! Hey, people over there! Can you hear me?<END>
+
+## scene_3DC 0004 @0000C4 len=88
+Come to think of it, I never climbed up here. …It's higher than I thought…… Yahoooo!<END>
+
+## scene_3DC 0006 @00011E len=58
+Maybe I'll jump down…… What are you thinking, Miki?!<END>
+
+## scene_3DC 0008 @00015A len=84
+High places really are lovely♪ …I never learn, do I♥<END>

@@ -1,0 +1,14 @@
+## scene_3AC 0000 @00006C len=18
+……Huff, huff, huff<END>
+
+## scene_3AC 0002 @000080 len=30
+This seems to be the top floor.<END>
+
+## scene_3AC 0004 @0000A0 len=34
+So Nage's true form is up here?<END>
+
+## scene_3AC 0006 @0000C4 len=30
+Look! The tower's collapsing!<END>
+
+## scene_3AC 0008 @0000E4 len=14
+We have to hurry!<END>

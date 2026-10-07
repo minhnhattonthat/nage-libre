@@ -1,0 +1,5 @@
+## scene_3BA 0000 @00001E len=44
+Nobody seems to be in this classroom.<END>
+
+## scene_3BA 0002 @00004C len=54
+There's no one here, friend or foe.<END>

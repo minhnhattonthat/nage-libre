@@ -1,0 +1,8 @@
+## scene_3BB 0000 @000028 len=60
+…Difficult-looking books<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>line the shelves…<END>
+
+## scene_3BB 0002 @000066 len=60
+Does anyone actually read these? They make me sleepy……<END>
+
+## scene_3BB 0004 @0000A4 len=78
+Oh! The book I was looking for is here! I'll come borrow it next time. Smile♪<END>

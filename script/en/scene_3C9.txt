@@ -1,0 +1,8 @@
+## scene_3C9 0000 @000018 len=46
+Huh… look closely, this sword's a toy……<END>
+
+## scene_3C9 0003 @00004A len=42
+What's this sword? It's a toy!<END>
+
+## scene_3C9 0006 @000078 len=88
+If this were a real sword it would be useful, but a toy won't do.<END>

@@ -1,0 +1,17 @@
+## scene_3B2 0000 @000080 len=30
+None of our students inside?<END>
+
+## scene_3B2 0002 @0000A0 len=54
+No. The classrooms seem different somehow, too.<END>
+
+## scene_3B2 0004 @0000D8 len=12
+Hmm……<END>
+
+## scene_3B2 0006 @0000E6 len=50
+Instead, there are lots of odd people.<END>
+
+## scene_3B2 0008 @00011A len=14
+Odd people?<END>
+
+## scene_3B2 0010 @00012A len=32
+Well, you'll see when we go in.<END>

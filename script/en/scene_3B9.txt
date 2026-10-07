@@ -1,0 +1,8 @@
+## scene_3B9 0000 @000028 len=92
+<BR>……The locker is locked……<END>
+
+## scene_3B9 0002 @000086 len=46
+I'm not a burglar, so no need to open it!<END>
+
+## scene_3B9 0004 @0000B6 len=80
+This isn't my locker, so there's no need to open it.<END>

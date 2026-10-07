@@ -1,0 +1,14 @@
+## scene_3D9 0000 @000018 len=64
+Lots of people inside, enemies?! ……Eh, I'll save it for later.<END>
+
+## scene_3D9 0002 @00005A len=88
+Someone's in the gym too! But Mai's got her hands full over here!<END>
+
+## scene_3D9 0004 @0000B4 len=66
+People in the gym too… …What a lively school♥<END>
+
+## scene_3D9 0006 @0000F8 len=60
+They're playing basketball… I should do some sports once in a while…<END>
+
+## scene_3D9 0008 @000136 len=76
+Lots of people in the gym too… …Such a lively, nice school♥<END>

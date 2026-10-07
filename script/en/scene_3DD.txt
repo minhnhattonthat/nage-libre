@@ -1,0 +1,11 @@
+## scene_3DD 0000 @000082 len=40
+Huh, this room… …has stairs……<END>
+
+## scene_3DD 0002 @0000AC len=66
+So it connects here… …Huh, a treasure chest!<END>
+
+## scene_3DD 0004 @0000F0 len=122
+……Got the "Cooking Club"<BR><$FE03><$FE03><$FE03><$FE03><$FE03>emblem!……<BR>……Now you can choose<BR><$FE03><$FE03><$FE03>the Cooking Club!<END>
+
+## scene_3DD 0006 @00016C len=12
+We did it!<END>

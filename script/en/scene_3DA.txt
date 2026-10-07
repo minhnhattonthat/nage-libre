@@ -1,0 +1,29 @@
+## scene_3DA 0000 @000092 len=46
+Oh… there's a staircase here…… Let's climb it.<END>
+
+## scene_3DA 0002 @0000C2 len=42
+There are stairs! Let's climb!<END>
+
+## scene_3DA 0004 @0000EE len=44
+Stairs in a place like this… …Shall we climb?<END>
+
+## scene_3DA 0006 @00011C len=90
+So this is where it leads… …Kyaaaah!<END>
+
+## scene_3DA 0008 @000178 len=44
+Whoa, that scared me<$D203> I almost fell…<END>
+
+## scene_3DA 0010 @0001A6 len=44
+Fuwah… …that was close<$D203><END>
+
+## scene_3DA 0012 @0001D4 len=62
+It's slippery here. I almost fell. Careful, careful.<END>
+
+## scene_3DA 0014 @000214 len=90
+If I fell here for no reason and got hurt, I'd get scolded again… Careful, Miki.<END>
+
+## scene_3DA 0016 @000270 len=78
+…Kyuu… …that was close<$D203> I very nearly fell.<END>
+
+## scene_3DA 0018 @0002C0 len=36
+Nothing here, so let's head back……<END>

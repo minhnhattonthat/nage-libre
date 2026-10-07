@@ -1,0 +1,5 @@
+## scene_3B6 0000 @000024 len=62
+<BR><$FE03>…No one seems to be in the club room…<END>
+
+## scene_3B6 0002 @000064 len=42
+Guess nobody's here right now……<END>

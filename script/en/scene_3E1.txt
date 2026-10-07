@@ -1,0 +1,41 @@
+## scene_3E1 0000 @000102 len=22
+So this is the town…<END>
+
+## scene_3E1 0002 @00011A len=86
+I've never seen it before… Hmm, where on earth…… are we?<END>
+
+## scene_3E1 0004 @000172 len=80
+Mai knows! Mai came out of here just a little while ago!<END>
+
+## scene_3E1 0006 @0001C4 len=6
+Huh?<END>
+
+## scene_3E1 0008 @0001CC len=84
+Oh, so you know this town well. Then, do you know where this is?<END>
+
+## scene_3E1 0010 @000222 len=24
+Ummm… Mai doesn't know!<END>
+
+## scene_3E1 0012 @00023C len=6
+Huh?<END>
+
+## scene_3E1 0014 @000244 len=54
+Mai got brought here a little while ago too.<END>
+
+## scene_3E1 0016 @00027C len=58
+Then some weird people almost did something, so Mai ran away!<END>
+
+## scene_3E1 0018 @0002B8 len=50
+They said something like "Join us!"<END>
+
+## scene_3E1 0020 @0002EC len=92
+Whaaat? Then I still don't get ANYTHING! What's going on, anyway?!<END>
+
+## scene_3E1 0022 @00034A len=20
+Oh dear, what a bother…<END>
+
+## scene_3E1 0024 @000360 len=90
+Ahahahahahaha! You've got some nerve coming back here, Mai Himenogi!<END>
+
+## scene_3E1 0026 @0003BC len=6
+Who's that?<END>

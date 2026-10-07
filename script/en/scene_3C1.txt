@@ -1,0 +1,11 @@
+## scene_3C1 0000 @00003E len=16
+Whoa whoa whoa……<END>
+
+## scene_3C1 0006 @000088 len=24
+Eek! That scared me!<END>
+
+## scene_3C1 0008 @0000A2 len=46
+Whoooa! I almost fell……<END>
+
+## scene_3C1 0010 @0000D2 len=60
+That was close. I was drawn in, wandering without thinking……<END>

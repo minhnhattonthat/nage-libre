@@ -1,0 +1,8 @@
+## scene_3C5 0000 @00001E len=38
+This traffic light's broken!<END>
+
+## scene_3C5 0002 @000046 len=40
+It's broken. Stuck on green……<END>
+
+## scene_3C5 0004 @000070 len=64
+A broken traffic light really ought to be repaired quickly.<END>

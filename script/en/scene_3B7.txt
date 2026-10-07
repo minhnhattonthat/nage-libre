@@ -1,0 +1,8 @@
+## scene_3B7 0000 @000050 len=42
+Eek! The door won't open!<END>
+
+## scene_3B7 0002 @00007C len=44
+Only this door opens, nyah nyah♪<END>
+
+## scene_3B7 0004 @0000AA len=14
+Dammit……<END>

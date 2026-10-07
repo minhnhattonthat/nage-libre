@@ -1,0 +1,17 @@
+## scene_3D7 0000 @0000B4 len=64
+Alright! Ignore the enemies and get into the school!<END>
+
+## scene_3D7 0002 @0000F6 len=42
+Mai's going inside first!<END>
+
+## scene_3D7 0004 @000122 len=44
+If we go in here, we won't have to fight, right?<END>
+
+## scene_3D7 0006 @000150 len=62
+Let's ignore the enemies here and go inside first♪<END>
+
+## scene_3D7 0009 @000192 len=20
+I won't allow that!<END>
+
+## scene_3D7 0012 @0001AA len=88
+Ah! They're all coming this way! And the door won't open! …Guess we fight…<END>

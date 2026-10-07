@@ -1,0 +1,26 @@
+## scene_3CA 0000 @0000B6 len=60
+<BR>……There's a big hole here……<END>
+
+## scene_3CA 0002 @0000F4 len=22
+What a big hole…….<END>
+
+## scene_3CA 0004 @00010C len=44
+How dangerous. A hole in a place like this……<END>
+
+## scene_3CA 0006 @00013A len=42
+This hall is surprisingly run-down…….<END>
+
+## scene_3CA 0008 @000166 len=68
+Hellooo! I'm the goddess of the martial arts hall!<END>
+
+## scene_3CA 0011 @0001AE len=24
+Eek! You scared me!<END>
+
+## scene_3CA 0014 @0001CA len=90
+Thanks for finding me! As thanks, I'll give you an "HP Up Potion"!<END>
+
+## scene_3CA 0017 @000228 len=62
+<BR>……Max HP went up by 5!…<END>
+
+## scene_3CA 0019 @000268 len=14
+Thank you!<END>

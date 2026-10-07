@@ -1,0 +1,14 @@
+## scene_3DB 0000 @00001E len=40
+Ugh, can't get past the back of the school.<END>
+
+## scene_3DB 0002 @000048 len=60
+Mai thought the back of the school was a shortcut, but it's blocked…<END>
+
+## scene_3DB 0004 @000086 len=64
+Hmm, I thought the back way was a shortcut… …Can't get in.<END>
+
+## scene_3DB 0006 @0000C8 len=58
+The back of the school seems to be a dead end……<END>
+
+## scene_3DB 0008 @000104 len=46
+It seems we can't go any further.<END>

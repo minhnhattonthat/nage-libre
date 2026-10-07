@@ -1,0 +1,8 @@
+## scene_3D3 0000 @000042 len=38
+Anything at the tree roots?<END>
+
+## scene_3D3 0002 @00006A len=92
+<BR>……The five got "Jewel Shard 5"!……<END>
+
+## scene_3D3 0005 @0000CA len=64
+What's this? Does collecting them make something?<END>

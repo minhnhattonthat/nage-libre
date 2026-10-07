@@ -1,0 +1,11 @@
+## scene_3CC 0000 @00001E len=68
+Scary… …If there's a landslide, we'll be in big trouble.<END>
+
+## scene_3CC 0002 @000064 len=62
+The mountains are so high, so nice…… Mai wants to go climbing too!<END>
+
+## scene_3CC 0004 @0000A4 len=46
+If the cliff collapsed here…… that'd be a disaster.<END>
+
+## scene_3CC 0006 @0000D4 len=90
+Lure the enemies here and drop the cliff on them…… so cool, like a war sim game.<END>

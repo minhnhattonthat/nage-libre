@@ -1,0 +1,8 @@
+## scene_3C3 0000 @000018 len=66
+Not this way! The enemies are in the building next door<$D203><END>
+
+## scene_3C3 0002 @00005C len=52
+Not here… …The enemies seem to be over there.<END>
+
+## scene_3C3 0004 @000092 len=68
+Let's see… "XX Cleaning Center"… What a fine building♥<END>

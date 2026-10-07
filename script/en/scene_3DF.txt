@@ -1,0 +1,26 @@
+## scene_3DF 0000 @00003A len=44
+Okay, from here we can get into the pool……<END>
+
+## scene_3DF 0002 @000068 len=22
+Let's get in the pool!<END>
+
+## scene_3DF 0004 @000080 len=34
+Into the pool, then… …Hup!<END>
+
+## scene_3DF 0006 @0000A4 len=38
+The boss is in the pool…… Hup!<END>
+
+## scene_3DF 0008 @0000CC len=40
+The water's still a little cold……<END>
+
+## scene_3DF 0010 @0000F6 len=40
+Yay! This feels great!<END>
+
+## scene_3DF 0012 @000120 len=60
+Kinda cold! But eh, whatever! Feels nice♥<END>
+
+## scene_3DF 0014 @00015E len=56
+Brrrrrr<$D203> It's still a little cold.<END>
+
+## scene_3DF 0016 @000198 len=42
+It's been ages since I was in a pool♥<END>

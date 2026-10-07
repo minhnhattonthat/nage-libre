@@ -1,0 +1,14 @@
+## scene_3D8 0000 @00001E len=38
+Huh, someone's in the pool……<END>
+
+## scene_3D8 0002 @000046 len=68
+Huh, someone's in the pool? Is a class going on?<END>
+
+## scene_3D8 0004 @00008C len=82
+Lots of people in the pool… Better not go in right now……<END>
+
+## scene_3D8 0006 @0000E0 len=74
+There are lots of people in the pool…… Better not go in now……<END>
+
+## scene_3D8 0008 @00012C len=36
+Someone seems to be in the pool……<END>

@@ -1,0 +1,8 @@
+## scene_3C7 0000 @00002A len=56
+Kyuuu? I feel like I just floated up!<END>
+
+## scene_3C7 0002 @000064 len=42
+What, what? I just floated up here!<END>
+
+## scene_3C7 0004 @000090 len=68
+What was that feeling? It felt as though I rose a little……<END>

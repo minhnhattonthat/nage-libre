@@ -1,0 +1,5 @@
+## scene_3B4 0000 @000024 len=60
+<BR>……There's no one in the gym……<END>
+
+## scene_3B4 0002 @000062 len=46
+Where did everybody go?<END>

@@ -1,0 +1,29 @@
+## scene_3AD 0000 @000092 len=42
+Look! Nage's over there!<END>
+
+## scene_3AD 0002 @0000BE len=42
+So you have made it this far!<END>
+
+## scene_3AD 0004 @0000EA len=34
+Is that Nage's true form?<END>
+
+## scene_3AD 0006 @00010E len=60
+No… This tower you stand in… this entire world is me…<END>
+
+## scene_3AD 0008 @00014C len=68
+…However… …without my ruler, my power has weakened…<END>
+
+## scene_3AD 0010 @000192 len=74
+…So… I will take the same form as her, and as you, and fight…<END>
+
+## scene_3AD 0012 @0001DE len=90
+Makes sense. If this whole world were Nage, we could never win.<END>
+
+## scene_3AD 0014 @00023A len=38
+It's our only chance……<END>
+
+## scene_3AD 0016 @000262 len=92
+<$FE03>Final Stage Start!<BR><BR><$FE03><$FE03>Goal: Defeat Nage!<END>
+
+## scene_3AD 0018 @0002C0 len=56
+Now, let us…… settle this at last. Come!<END>

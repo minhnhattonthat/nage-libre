@@ -1,0 +1,20 @@
+## scene_3C4 0000 @000056 len=54
+<BR><$FE03><$FE03><$FE03>…There's a hospital……<END>
+
+## scene_3C4 0002 @00008E len=22
+Huh? There's something here.<END>
+
+## scene_3C4 0004 @0000A6 len=22
+Huh? There's something here.<END>
+
+## scene_3C4 0006 @0000BE len=22
+There's something here……<END>
+
+## scene_3C4 0008 @0000D6 len=52
+<BR><$FE03><$FE03><$FE03><$FE03>Healing medicine<END>
+
+## scene_3C4 0010 @00010C len=12
+Lucky!<END>
+
+## scene_3C4 0012 @00011A len=56
+<BR><$FE03><$FE03><$FE03>HP fully restored!<END>

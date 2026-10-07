@@ -1,0 +1,8 @@
+## scene_3C6 0000 @00001E len=38
+Not this way! The martial arts hall!<END>
+
+## scene_3C6 0002 @000046 len=44
+Wrong way! We have to go to the hall!<END>
+
+## scene_3C6 0004 @000074 len=60
+Not this way. We must go to the martial arts hall♥<END>

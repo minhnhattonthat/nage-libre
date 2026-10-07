@@ -1,0 +1,8 @@
+## scene_3C8 0000 @000018 len=88
+The pooool! I wanna swim! But first, let's go to the hall and save Ayaka!<END>
+
+## scene_3C8 0002 @000072 len=68
+I haven't swum in ages. Let's all go together next time.<END>
+
+## scene_3C8 0004 @0000B8 len=90
+A swim before we save Ayaka would be nice♥ …Kidding♥ Nobody heard, right♪<END>
