@@ -1,0 +1,8 @@
+## scene_38A 0000 @000044 len=12
+It's beautiful……<END>
+
+## scene_38A 0002 @000052 len=66
+So this is the temple. Pass through here again and we can get to Nage……<END>
+
+## scene_38A 0004 @000096 len=36
+At last. How thrilling.<END>

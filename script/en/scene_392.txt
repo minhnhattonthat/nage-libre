@@ -1,0 +1,44 @@
+## scene_392 0000 @000124 len=92
+……Rumble rumble rumble……<BR><BR><$FE03><$FE03><$FE03><$FE03>The temple collapsed…<END>
+
+## scene_392 0002 @000182 len=30
+So this is Nage again…<END>
+
+## scene_392 0004 @0001A2 len=58
+Right! Now let's beat whoever's controlling this world!<END>
+
+## scene_392 0006 @0001DE len=26
+Alright! I'm itching to go!<END>
+
+## scene_392 0008 @0001FA len=42
+But where might that person be?<END>
+
+## scene_392 0010 @000226 len=20
+…Over that way!<END>
+
+## scene_392 0012 @00023C len=14
+You know?<END>
+
+## scene_392 0014 @00024C len=62
+Intuition! Mai's got a tingly feeling right here! It's true!<END>
+
+## scene_392 0016 @00028C len=32
+…Then shall we go this way?<END>
+
+## scene_392 0018 @0002AE len=10
+Sure.<END>
+
+## scene_392 0020 @0002BA len=32
+Noooo! It's THIS way!<END>
+
+## scene_392 0022 @0002DC len=26
+Isn't it this way……<END>
+
+## scene_392 0024 @0002F8 len=62
+Brr, kinda cold. Think I'll try going this way♪<END>
+
+## scene_392 0026 @000338 len=76
+…What a group. Not an ounce of teamwork, it's almost funny……<END>
+
+## scene_392 0028 @000386 len=20
+……Ohohohoho!<END>

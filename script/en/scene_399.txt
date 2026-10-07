@@ -1,0 +1,14 @@
+## scene_399 0000 @0000D0 len=58
+<BR><$FE03><$FE03>Stage 20 Clear!<END>
+
+## scene_399 0002 @00010C len=22
+The snow is stopping…<END>
+
+## scene_399 0004 @000124 len=14
+Alriiight!<END>
+
+## scene_399 0006 @000134 len=22
+Now we can go on!<END>
+
+## scene_399 0008 @00014C len=48
+It feels like it's warming up little by little…<END>

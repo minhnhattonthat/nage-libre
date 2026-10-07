@@ -1,0 +1,32 @@
+## scene_391 0003 @0001B0 len=8
+Well then.<END>
+
+## scene_391 0005 @0001BA len=18
+The reverse of last time!<END>
+
+## scene_391 0007 @0001CE len=58
+Yeah, this time we're going to Nage on our own.<END>
+
+## scene_391 0009 @00020A len=10
+Scary……<END>
+
+## scene_391 0011 @000216 len=42
+Aw, things can't get any worse!<END>
+
+## scene_391 0013 @000242 len=84
+More importantly, she said it'll self-destruct, so let's hurry!<END>
+
+## scene_391 0015 @000298 len=12
+Right!<END>
+
+## scene_391 0021 @0002AE len=62
+Alrighty, I'm finally warmed up. Just you wait!<END>
+
+## scene_391 0023 @0002EE len=44
+I'll beat every last one of you!<END>
+
+## scene_391 0028 @000322 len=38
+Huh? That's weird? Nobody's here……<END>
+
+## scene_391 0030 @00034A len=56
+<BR><$FE03>Stage 19 Clear!<END>

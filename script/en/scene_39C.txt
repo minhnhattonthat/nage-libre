@@ -1,0 +1,17 @@
+## scene_39C 0000 @00007A len=68
+It's all right! Leave this to us, and please wait inside!<END>
+
+## scene_39C 0002 @0000C0 len=40
+I see… …Then I'm counting on you.<END>
+
+## scene_39C 0004 @0000EA len=46
+This tower, at least, must be protected…<END>
+
+## scene_39C 0006 @00011A len=42
+This tower is the heart of Nage……<END>
+
+## scene_39C 0008 @000146 len=86
+If that person in this tower is defeated, Nage itself will cease to exist!<END>
+
+## scene_39C 0010 @00019E len=122
+<$FE03>Stage 21 Start!<BR><BR><$FE03>Goal: Defeat boss Yumiko and<BR><$FE03><$FE03><$FE03><$FE03>enter the tower!<END>

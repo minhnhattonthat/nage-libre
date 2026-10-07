@@ -62,6 +62,15 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | 水の神殿 | Water Temple | |
 | ＬＩＳＴＥＮ ＴＯ ＴＨＥ ＲＡＩＮＤＯＲＯＰＳ | LISTEN TO THE RAINDROPS (password; kept in English) | |
 | 図書館 | library | |
+| まみ / サティ / 弓子 / ミスティ | Mami / Saty / Yumiko / Misty (stage 18-19 / 20 / 21 / 22) | Misti |
+| 雪迷宮 / 雪女 | Snow Labyrinth / snow woman | |
+| クリスタルパレス | Crystal Palace | |
+| 光の壁 | wall of light | |
+| 回復剤 | Restorative | |
+| あの方 / あの人 (Misty) | that person / that woman | |
+| エコエコアザラク プリリンパ | Eko Eko Azarak, Pirilimpa (Mami's spell) | |
+| ステージ２２・再スタート / 再々スタート | Stage 22 Restart / Re-Restart | |
+| ■ (debug/unused text) | `<$FC03>` (■ is not in en.tbl) | |
 
 ## Compromises
 

@@ -1,0 +1,29 @@
+## scene_3AA 0000 @000136 len=88
+Oh, I know! As an apology, take this! …Bye now♪<END>
+
+## scene_3AA 0003 @000192 len=92
+……Got a "Restorative"!<BR><BR><$FE03>Everyone's HP fully restored!…<END>
+
+## scene_3AA 0006 @0001F2 len=60
+Yaaay! And the one-way path got reversed!<END>
+
+## scene_3AA 0008 @000230 len=32
+Now we can go back.<END>
+
+## scene_3AA 0010 @000252 len=44
+Ah! But the enemies are all revived again!<END>
+
+## scene_3AA 0012 @000280 len=42
+There's no end to this… …In that case……<END>
+
+## scene_3AA 0014 @0002AC len=40
+We'll have to climb the tower and fight Nage!<END>
+
+## scene_3AA 0016 @0002D6 len=92
+<$FE03>Stage 22 Re-Restart!<BR><BR>Goal: Reach the stairs!<END>
+
+## scene_3AA 0018 @000334 len=24
+<$FE03><$FE03><$FE03>……A voice echoes……<END>
+
+## scene_3AA 0020 @00034E len=116
+So you mean to come this far… …Very well… ……Come, if you can…… ……to the final battle……<END>

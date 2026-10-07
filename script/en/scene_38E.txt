@@ -1,0 +1,5 @@
+## scene_38E 0000 @00001C len=86
+Yikes! It's wearing off! Gotta transform again! Eko Eko…<END>
+
+## scene_38E 0002 @000074 len=34
+…Aww, wait till I transform!<END>

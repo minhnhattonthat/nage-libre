@@ -1,0 +1,53 @@
+## scene_386 0000 @00012A len=20
+Ah! A kid!<END>
+
+## scene_386 0002 @000140 len=46
+You took so long, I came out to get you!<END>
+
+## scene_386 0004 @000170 len=54
+……Hey, how DARE you build such a huge cave!<END>
+
+## scene_386 0006 @0001A8 len=68
+That was a labyrinth trap! You were going in circles the whole time!<END>
+
+## scene_386 0008 @0001EE len=6
+Huh?<END>
+
+## scene_386 0010 @0001F6 len=12
+Seriously?<END>
+
+## scene_386 0012 @000204 len=86
+Yes! I set that trap to wear you out on the way here……<END>
+
+## scene_386 0014 @00025C len=46
+and you just kept marching on, never noticing!<END>
+
+## scene_386 0016 @00028C len=82
+Now I'M the one worn out from waiting! Give me a break!<END>
+
+## scene_386 0018 @0002E0 len=30
+…Oh, um, I'm sorry……<END>
+
+## scene_386 0020 @000300 len=42
+You needn't apologize so meekly…<END>
+
+## scene_386 0022 @00032C len=74
+Come on, come on, fight me! I'm totally exhausted, you know!<END>
+
+## scene_386 0024 @000378 len=122
+<$FE03>Stage 18 Start!<BR><BR>Goal: Defeat boss Mami and<BR><$FE03><$FE03>reach the temple entrance!<END>
+
+## scene_386 0026 @0003F4 len=38
+Here we go! Intercept them!<END>
+
+## scene_386 0028 @00041C len=16
+No pushing!<END>
+
+## scene_386 0030 @00042E len=16
+You can't pass!<END>
+
+## scene_386 0032 @000440 len=20
+It's a one-way path!<END>
+
+## scene_386 0034 @000456 len=14
+Uh-oh!<END>

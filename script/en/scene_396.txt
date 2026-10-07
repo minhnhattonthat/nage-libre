@@ -1,0 +1,17 @@
+## scene_396 0000 @000072 len=38
+You fell for it! That's poison!<END>
+
+## scene_396 0002 @00009A len=90
+What?! Ugh…… huh, I'm fine. Actually, it's warming me up, feels nice…♥<END>
+
+## scene_396 0004 @0000F6 len=72
+Oh no! "Warming food" isn't poison to normal people!<END>
+
+## scene_396 0006 @000140 len=22
+HP fully restored!<END>
+
+## scene_396 0008 @000158 len=14
+Thank youuu!<END>
+
+## scene_396 0010 @000168 len=44
+Ugh. Somehow I feel cheated……<END>

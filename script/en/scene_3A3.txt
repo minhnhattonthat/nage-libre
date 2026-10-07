@@ -1,0 +1,17 @@
+## scene_3A3 0000 @00002E len=90
+A god who can create worlds is on my side… …and yet I'm in such danger!<END>
+
+## scene_3A3 0002 @00008A len=46
+So you were the cause of everything!<END>
+
+## scene_3A3 0004 @0000BA len=62
+People who cause everyone trouble are BAD!<END>
+
+## scene_3A3 0006 @0000FA len=40
+You're the reason we went through all this!<END>
+
+## scene_3A3 0008 @000124 len=68
+Because of you, we went through all this… sniff… I'll get you for thiiis!<END>
+
+## scene_3A3 0010 @00016A len=88
+Whatever you have on your side, you're no match for me♥ Ohohohohohoho!<END>

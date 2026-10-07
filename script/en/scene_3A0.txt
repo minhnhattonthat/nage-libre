@@ -1,0 +1,5 @@
+## scene_3A0 0000 @00002E len=62
+<BR><$FE03>A wall of light blocks the way!<END>
+
+## scene_3A0 0002 @00006E len=74
+She really won't get her own hands dirty. …I'll force it open, no matter what!<END>

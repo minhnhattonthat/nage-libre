@@ -1,0 +1,8 @@
+## scene_38C 0000 @00004C len=32
+Come on, let's go! Hyaaa!<END>
+
+## scene_38C 0006 @000076 len=18
+You too, come on!<END>
+
+## scene_38C 0012 @000092 len=42
+Eeeh, it's too scary……<END>

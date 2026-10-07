@@ -1,0 +1,5 @@
+## scene_395 0000 @00002E len=14
+No thanks!<END>
+
+## scene_395 0002 @00003E len=68
+I see. You won't fall for such a simple trick……<END>

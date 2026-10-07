@@ -1,0 +1,23 @@
+## scene_38B 0000 @0000A6 len=16
+Hu hu hu……<END>
+
+## scene_38B 0002 @0000B8 len=38
+Ah, it's her again! She's back!<END>
+
+## scene_38B 0004 @0000E0 len=44
+See? I'm finally ready! Here goes!<END>
+
+## scene_38B 0009 @000114 len=64
+♪Eko Eko Azarak, Pirilimpa♪ ……Transfoooorm!<END>
+
+## scene_38B 0014 @00015C len=72
+Ta-da! Now I'm invincible! I won't let you go to Nage!<END>
+
+## scene_38B 0016 @0001A6 len=120
+<$FE03>Stage 19 Start!<BR><BR>Goal: Defeat boss Mami and<BR><$FE03><$FE03>re-enter Nage!<END>
+
+## scene_38B 0018 @000220 len=84
+Jump down from here and attack! They'll be so shocked, we can't lose!<END>
+
+## scene_38B 0020 @000276 len=24
+But it's kinda scary…<END>

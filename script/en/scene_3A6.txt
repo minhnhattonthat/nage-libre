@@ -1,0 +1,95 @@
+## scene_3A6 0000 @000184 len=24
+This voice…… is Nage?<END>
+
+## scene_3A6 0002 @00019E len=38
+Yikes! The tower transformed!<END>
+
+## scene_3A6 0004 @0001C6 len=42
+The crystal is peeling off… something underneath……!<END>
+
+## scene_3A6 0006 @0001F2 len=78
+For a long…… long time…… I had lost my memory… Even now… I don't know who I am……<END>
+
+## scene_3A6 0008 @000242 len=76
+I have power over all things… …yet I alone do not know what I am…<END>
+
+## scene_3A6 0010 @000290 len=92
+…So I decided to call someone from another world… …thinking someone…… might…… know me<END>
+
+## scene_3A6 0012 @0002EE len=60
+……or…… might give me a purpose……<END>
+
+## scene_3A6 0013 @00032A len=62
+The one who answered my call… …was that woman…… She…<END>
+
+## scene_3A6 0015 @00036A len=90
+…ordered me to create a world, and then to let her take your world for her own……<END>
+
+## scene_3A6 0017 @0003C6 len=118
+…I sensed, faintly, that it was wrong… …for darkness showed strongly in her heart……<END>
+
+## scene_3A6 0019 @00043E len=118
+But…… while I obeyed her orders…… I truly existed. As "a being that obeys her orders"……<END>
+
+## scene_3A6 0021 @0004B6 len=58
+But! You… …defeated her…<END>
+
+## scene_3A6 0023 @0004F2 len=86
+…You, with no darkness in your hearts, untouched by this world, never doing as she said……<END>
+
+## scene_3A6 0025 @00054A len=116
+…that you were drawn into this world…… and that she… was destroyed by you… perhaps that…… was her fate<END>
+
+## scene_3A6 0027 @0005C0 len=86
+But… because of it… …I have lost… …my existence once again…<END>
+
+## scene_3A6 0029 @000618 len=18
+Poor thing……<END>
+
+## scene_3A6 0031 @00062C len=60
+This world she made…… this tower will soon collapse……<END>
+
+## scene_3A6 0033 @00066A len=10
+Huh…<END>
+
+## scene_3A6 0035 @000676 len=12
+…WHAT?!<END>
+
+## scene_3A6 0037 @000684 len=14
+We have to run!<END>
+
+## scene_3A6 0039 @000694 len=122
+That would be far too sad for her…… So…… …you too…… …please go with her…<END>
+
+## scene_3A6 0041 @000710 len=10
+WHAT?!<END>
+
+## scene_3A6 0043 @00071C len=106
+Now, for the first time… I act of my own will… Her memories, all painted red…… red meadows, red fluff…<END>
+
+## scene_3A6 0045 @000788 len=84
+…In this tower… built from them… she… you…… and I… …shall perish together……<END>
+
+## scene_3A6 0047 @0007DE len=14
+That's……<END>
+
+## scene_3A6 0049 @0007EE len=60
+…That's just taking it out on us! We have to get out of this tower, right now!<END>
+
+## scene_3A6 0051 @00082C len=92
+<$FE03>Stage 22 Restart!<BR><BR>Goal: Escape from this tower!<END>
+
+## scene_3A6 0053 @00088A len=20
+To the entrance!<END>
+
+## scene_3A6 0055 @0008A0 len=40
+Ugh, this is so gross<$D203><END>
+
+## scene_3A6 0057 @0008CA len=66
+To Nage, does this look like meadows and fluff…<END>
+
+## scene_3A6 0059 @00090E len=54
+…That woman's heart is showing in this tower……<END>
+
+## scene_3A6 0061 @000946 len=22
+How sad… for her.<END>

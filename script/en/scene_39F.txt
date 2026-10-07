@@ -1,0 +1,11 @@
+## scene_39F 0000 @00004C len=88
+Welcome to the Crystal Palace. Let us settle this here, once and for all.<END>
+
+## scene_39F 0002 @0000A6 len=78
+You or I: whoever loses shall be sealed away in this Nage!<END>
+
+## scene_39F 0004 @0000F6 len=122
+<$FE03>Stage 22 Start!<BR>Goal:<BR>Defeat Misty, the one who<BR><$FE03><$FE03><$FE03>created "Nage"!<END>
+
+## scene_39F 0006 @000172 len=58
+Looks like we have to get serious this time… …Here we go!<END>

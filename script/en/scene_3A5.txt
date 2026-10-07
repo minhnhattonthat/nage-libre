@@ -1,0 +1,68 @@
+## scene_3A5 0000 @000188 len=14
+Yahoooo!<END>
+
+## scene_3A5 0002 @000198 len=40
+So it's all over now!<END>
+
+## scene_3A5 0004 @0001C2 len=36
+Indeed. This time for sure……<END>
+
+## scene_3A5 0006 @0001E8 len=90
+One who gained Nage's power tried to gain everything else, and lost it all, huh.<END>
+
+## scene_3A5 0008 @000244 len=10
+Um……<END>
+
+## scene_3A5 0010 @000250 len=8
+Yes?<END>
+
+## scene_3A5 0012 @00025A len=64
+By the way, how do we get back to our world?<END>
+
+## scene_3A5 0014 @00029C len=44
+Well, obviously, through the temple…… huh?<END>
+
+## scene_3A5 0016 @0002CA len=48
+The temple collapsed a while ago, didn't it……<END>
+
+## scene_3A5 0018 @0002FC len=6
+……<END>
+
+## scene_3A5 0020 @000304 len=6
+……<END>
+
+## scene_3A5 0022 @00030C len=74
+Normally, when a world's creator falls, everything goes back to how it was……<END>
+
+## scene_3A5 0024 @000358 len=16
+You girls……<END>
+
+## scene_3A5 0026 @00036A len=62
+<BR>……A voice echoes from far off……<END>
+
+## scene_3A5 0028 @0003AA len=38
+Eek! You scared me!<END>
+
+## scene_3A5 0030 @0003D2 len=6
+Who's there?<END>
+
+## scene_3A5 0032 @0003DA len=76
+This world<BR>will soon cease to exist<BR>……However……<END>
+
+## scene_3A5 0034 @000428 len=16
+……However……<END>
+
+## scene_3A5 0036 @00043A len=60
+I cannot allow you to return to your world……<END>
+
+## scene_3A5 0038 @000478 len=8
+What?<END>
+
+## scene_3A5 0040 @000482 len=18
+Who are you?<END>
+
+## scene_3A5 0042 @000496 len=30
+……My name is…… Nage……<END>
+
+## scene_3A5 0044 @0004B6 len=64
+<$FC03><$FC03>No level-up, INTERMISSION, or menu<$FC03><END>

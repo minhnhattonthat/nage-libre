@@ -1,0 +1,5 @@
+## scene_38D 0000 @00002C len=66
+Oh no! She got beaten! I have to go…<END>
+
+## scene_38D 0006 @000078 len=54
+Waaah, but I'm too scared to jump!<END>

@@ -1,0 +1,14 @@
+## scene_39B 0000 @000074 len=60
+Welcome, honored guests. Ha, just kidding, getting all formal♪<END>
+
+## scene_39B 0002 @0000B2 len=68
+…Okay, I'll melt the wall of snow for you♥ ♪Here goes, lalalaa♪<END>
+
+## scene_39B 0004 @0000F8 len=62
+……The dead end of snow<BR><$FE03><$FE03><$FE03><$FE03><$FE03><$FE03>has disappeared!<END>
+
+## scene_39B 0006 @000138 len=14
+Thank youuu!<END>
+
+## scene_39B 0008 @000148 len=64
+No problem, no problem. Good luck♥ You're almost there.<END>

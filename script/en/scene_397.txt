@@ -1,0 +1,32 @@
+## scene_397 0000 @0000AC len=40
+Ah! We can't go any further!<END>
+
+## scene_397 0002 @0000D6 len=36
+Dead end! What do we do?<END>
+
+## scene_397 0004 @0000FC len=42
+We're totally stuck! What should we do?<END>
+
+## scene_397 0006 @000128 len=62
+Waaah, we finally got this far and now we can't go on.<END>
+
+## scene_397 0008 @000168 len=42
+Oh dear. It seems to be a dead end…<END>
+
+## scene_397 0010 @000194 len=60
+Ohohohohoho! You can't get past here!<END>
+
+## scene_397 0012 @0001D2 len=60
+Can you break the Snow Labyrinth I made?<END>
+
+## scene_397 0014 @000210 len=16
+Great, now what……<END>
+
+## scene_397 0016 @000222 len=86
+No need to worry! Nice to meet you! I'm the goddess of the Snow Labyrinth!<END>
+
+## scene_397 0018 @00027A len=16
+Oh, her again<$D203><END>
+
+## scene_397 0020 @00028C len=40
+Come over here! I'll help you!<END>

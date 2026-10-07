@@ -1,0 +1,8 @@
+## scene_387 0000 @00003C len=48
+Alriiight… here I gooo… Special move, magical……<END>
+
+## scene_387 0002 @00006E len=10
+Let's go!<END>
+
+## scene_387 0004 @00007A len=46
+Ah, wait a sec! I'm not ready yet……<END>

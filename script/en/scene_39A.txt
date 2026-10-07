@@ -1,0 +1,50 @@
+## scene_39A 0000 @00013E len=32
+The Snow Labyrinth…… is fading away…<END>
+
+## scene_39A 0002 @000160 len=24
+It's clearing up completely!<END>
+
+## scene_39A 0004 @00017A len=18
+Oh? Over there…<END>
+
+## scene_39A 0006 @00018E len=24
+A tower! That's the place!<END>
+
+## scene_39A 0008 @0001A8 len=24
+The tower at the heart of Nage…<END>
+
+## scene_39A 0010 @0001C2 len=78
+Whoever created Nage is probably in there, right?<END>
+
+## scene_39A 0012 @000212 len=12
+Yeah!<END>
+
+## scene_39A 0014 @000220 len=56
+Will this really be the end?<END>
+
+## scene_39A 0016 @00025A len=62
+Well, we won't know till we go!<END>
+
+## scene_39A 0018 @00029A len=58
+But there are lots of people around it!<END>
+
+## scene_39A 0020 @0002D6 len=32
+They seem to be guarding the tower.<END>
+
+## scene_39A 0022 @0002F8 len=78
+See?! That's the proof! Let's go to that tower!<END>
+
+## scene_39A 0024 @000348 len=38
+<$FC03><$FC03>Background becomes the Crystal Palace<$FC03><END>
+
+## scene_39A 0027 @000372 len=52
+So they've finally come this far…<END>
+
+## scene_39A 0029 @0003A8 len=60
+…As if answering that voice… …a voice echoes from the depths of darkness……<END>
+
+## scene_39A 0031 @0003E6 len=62
+<BR>……What shall we do……<END>
+
+## scene_39A 0033 @000426 len=30
+I suppose I must go myself……<END>

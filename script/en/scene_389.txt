@@ -1,0 +1,23 @@
+## scene_389 0000 @000120 len=18
+Huff huff huff……<END>
+
+## scene_389 0002 @000134 len=46
+Not satisfying at all. I want to defeat more enemies……<END>
+
+## scene_389 0004 @000164 len=40
+Ahh…… everyone's getting more and more feral……<END>
+
+## scene_389 0006 @00018E len=24
+That cave really got to her.<END>
+
+## scene_389 0008 @0001A8 len=44
+But now we can finally move on!<END>
+
+## scene_389 0010 @0001D6 len=32
+Yes, let me calm myself……<END>
+
+## scene_389 0015 @0001FE len=62
+Smile. ……There, I'm calm. Shall we go♥<END>
+
+## scene_389 0018 @000240 len=58
+<BR><$FE03><$FE03>Stage 18 Clear!<END>

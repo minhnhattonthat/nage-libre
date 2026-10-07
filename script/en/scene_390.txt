@@ -1,0 +1,11 @@
+## scene_390 0003 @00005E len=46
+Alright, I'm jumping after all!<END>
+
+## scene_390 0008 @000094 len=60
+…Phew. That was nothing… Now, let's fight!<END>
+
+## scene_390 0013 @0000D8 len=68
+…Ugh… a transformation that only lasts 3 minutes is rough…….<END>
+
+## scene_390 0015 @00011E len=84
+……But you're coming with me! Switch on! Temple, self-destruct!<END>

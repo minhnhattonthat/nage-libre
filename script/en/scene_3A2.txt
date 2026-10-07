@@ -1,0 +1,8 @@
+## scene_3A2 0000 @00005A len=92
+<$FE03><$FE03>……The wall of light vanished……<BR><$FE03>Now you can take on the boss!<END>
+
+## scene_3A2 0002 @0000B8 len=12
+Yahoo!<END>
+
+## scene_3A2 0004 @0000C6 len=36
+Grr…… Go! All of you!<END>

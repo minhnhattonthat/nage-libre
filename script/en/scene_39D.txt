@@ -1,0 +1,26 @@
+## scene_39D 0000 @000118 len=42
+Phew. Looks like we can finally get inside.<END>
+
+## scene_39D 0002 @000144 len=18
+What a big tower♥<END>
+
+## scene_39D 0004 @000158 len=60
+So this "person" inside is the cause of everything……<END>
+
+## scene_39D 0006 @000196 len=62
+……Come on, Miki. Calm down. You can do it……<END>
+
+## scene_39D 0008 @0001D6 len=44
+Well then, let's go right in♥<END>
+
+## scene_39D 0010 @000204 len=64
+Alright! In and out, quick, and back home quick!<END>
+
+## scene_39D 0012 @000246 len=14
+Go, go!<END>
+
+## scene_39D 0014 @000256 len=32
+Ahh, they're so casual about this……<END>
+
+## scene_39D 0016 @000278 len=56
+<BR><$FE03>Stage 21 Clear!<END>

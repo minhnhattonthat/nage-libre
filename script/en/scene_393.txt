@@ -1,0 +1,26 @@
+## scene_393 0000 @0000B0 len=64
+I was agonizing over how to split you all up,<END>
+
+## scene_393 0002 @0000F2 len=38
+and you went and split up on your own!<END>
+
+## scene_393 0004 @00011A len=8
+Huh?<END>
+
+## scene_393 0009 @00012A len=14
+Can't get through……<END>
+
+## scene_393 0011 @00013A len=90
+Welcome to my Snow Labyrinth! Here you'll be defeated one by one!<END>
+
+## scene_393 0013 @000196 len=46
+Oh great, and I've got no sense of direction……<END>
+
+## scene_393 0015 @0001C6 len=40
+It looks passable but isn't… What do we do?<END>
+
+## scene_393 0017 @0001F0 len=76
+There has to be a way somewhere! We just beat that snow woman, right? Let's go!<END>
+
+## scene_393 0019 @00023E len=122
+<$FE03>Stage 20 Start!<BR><BR>Goal: Defeat boss Saty and<BR><$FE03>escape the Snow Labyrinth!<END>

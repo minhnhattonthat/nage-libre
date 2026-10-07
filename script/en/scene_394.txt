@@ -1,0 +1,5 @@
+## scene_394 0000 @000020 len=88
+You made it this far! It must have been hard. Here, have something to eat.<END>
+
+## scene_394 0003 @00007C len=42
+Eat it?<BR><$FE03><$FE03><$FE03><$FE03><$FE03><END>
