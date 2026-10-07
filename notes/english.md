@@ -19,3 +19,30 @@ op 3B box Box(cols=30, lines=3): JP lines {1: 5, 2: 2, 3: 12}
   - ops `26`/`2B`/`3B`: 30×3
 - Op `13`'s 12 five-line cases (`scene_315 0008`, `scene_3B9 0000`, …) are narration-style strings (a 15-blank first line). Handler `838BE8` sets column 8 / limit `0x1E` unconditionally, so they already print through the portrait geometry in the original. English keeps the stricter 22×4.
 - Entries printed by ops of different widths (8 entries) must fit one line of 22 columns. Unreferenced entries use 30×3.
+
+## Font
+
+- `font/en_glyphs.txt`: 95 hand-drawn glyphs (6×13 art). `python -I scripts/fontgen.py --preview font/en_preview.png` renders the review sheet.
+- In-game look: white strokes with the dark outline, matching the Japanese glyphs (screenshots below).
+
+## Emulator acceptance (`python -I scripts/accept.py english`, fixtures in `scripts/fixtures/en_sample/`)
+
+| Entry | Box | Screenshot | Result |
+|---|---|---|---|
+| `scene_341 0000` `<BR>In a distant world… a voice echoes…` | full 30×3 | `english_narration_next_00120.png` | word-wrapped at "voice / echoes…"; leading blank line sits above the visible area of the black-screen narration box (same as the Japanese convention) |
+| `scene_341 0002` 3-line quote | full 30×3 | `english_narration_next_00390.png` | exactly 3 full lines, ends at the box edge |
+| `scene_341 0004` `<BR>…  AM 6:12  …` | full 30×3 | `english_narration_next_00570.png` | correct; doubled spaces collapse to one (by design) |
+| `scene_310 0012` four 22-char lines | portrait 22×4 | `english_settle240_final.png` (map1 + 240 idle frames, route `settle240`) | exactly fills the portrait box, nothing outside the frame |
+
+Untranslated lines show hiragana as Latin letters (e.g. the boss's previous line in `english_map1_01050.png`). Expected until those lines are translated; kanji and katakana are unaffected.
+
+## Identity acceptance after 2b
+
+`accept.py identity` now compares the identity build against **clean ROM + the same font patches** (no block relocation): 4/4 MATCH. The font patch changes hiragana rendering, so comparing against the untouched clean ROM would differ wherever hiragana appears (3 of 4 routes).
+
+## Notes for translators
+
+- Write plain English per entry; newlines inside an entry count as spaces. `<BR>` forces a line break.
+- Black-screen narration (`scene_341`-style) keeps a leading `<BR>` like the Japanese blank first line.
+- Literal `<`/`>` can't be used. `… ♥ ♪ ‼` are available as full-width symbols (2 columns each).
+- The build fails with file, entry, box and line count when text doesn't fit.

@@ -1,0 +1,2 @@
+# idle 240 frames (let a long line finish printing)
+240 -
