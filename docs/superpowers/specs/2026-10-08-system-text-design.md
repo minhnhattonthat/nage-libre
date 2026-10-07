@@ -1,7 +1,7 @@
 # Nage Libre EN — Sub-project 2c: System Text
 
 Date: 2026-10-08
-Status: draft, awaiting review
+Status: approved
 
 ## Context
 
