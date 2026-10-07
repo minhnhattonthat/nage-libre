@@ -4,7 +4,7 @@
 """
 import argparse, glob, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import bps, compress, decompress, dump, entable, fontgen, layout, rom, romimage, wrap
+import bps, compress, decompress, dump, entable, fontgen, layout, rom, romimage, syslayout, sysrefs, syswidth, wrap
 from tbl import Table
 
 CLEAN_CHECKSUM = 0xC895
@@ -20,6 +20,11 @@ EN_TBL = entable.OUT
 THRESHOLD_SITES = [0x80F3AE, 0x80F3C7, 0x80F426]   # operand of cmp #$0010 (half-width glyph threshold)
 BLANK = bytes([0xFE, 0x03])                        # full-width blank glyph 03FE
 FONT_AT = 0x28000 + 0x20 * 0x20                    # glyphs for codes 0x20-0x7F (English = ASCII)
+NAME_HOOKS = [0x81BACC, 0x81BB2A]                  # ldy #$0040 in the name builder's glyph copy loops
+NAME_HELPER = 0x81F1B0                             # free space in bank $81
+# ldy #$0040 / cpx #$1000 / bcs +3 / ldy #$0020 / rts : half-width codes (< 0x80, X = code<<5 < 0x1000) copy 0x20 bytes
+NAME_HELPER_BYTES = bytes([0xA0, 0x40, 0x00, 0xE0, 0x00, 0x10, 0xB0, 0x03, 0xA0, 0x20, 0x00, 0x60])
+SYSTEM_EN = "system.txt"
 
 
 class BuildError(Exception):
@@ -93,6 +98,60 @@ def en_texts(path, entries, table, boxes, jp_block=b""):
     return out
 
 
+def system_texts(path, entries, table):
+    """{index: encoded bytes} from script/en/system.txt (no box wrapping; per-category width check)."""
+    raw = dump.read_text(path)
+    if not raw.strip():
+        return {}
+    try:
+        parsed = dump.parse_block(raw, joiner=" ")
+    except ValueError as x:
+        raise BuildError(f"{SYSTEM_EN}: {x}") from None
+    out = {}
+    for t in parsed:
+        where = f"{SYSTEM_EN} entry {t.index:04d}"
+        if t.block != "system" or not 0 <= t.index < len(entries):
+            raise BuildError(f"{where}: no such system entry")
+        if t.index in out:
+            raise BuildError(f"{where}: duplicate entry index")
+        text = t.text.rstrip()
+        if not text.endswith("<END>"):
+            raise BuildError(f"{where}: text must end with <END>")
+        try:
+            b = table.encode(text)
+            if len(b) % 2 or any(b[i:i + 2] == dump.END for i in range(0, len(b) - 2, 2)):
+                raise ValueError("bad encoding (odd length or <END> inside the text)")
+            syswidth.check(t.index, b)
+        except ValueError as x:
+            raise BuildError(f"{where}: {x}") from None
+        out[t.index] = b
+    return out
+
+
+def system_patches(clean, en_dir, img):
+    """Relocate the bank-$87 system text to bank $BF: blob, reference patches, old-block markers, name-renderer hook."""
+    entries, refs = sysrefs.entries(clean), sysrefs.scan(clean)
+    missing = sysrefs.coverage(refs, entries, sysrefs.load_manual())
+    if missing:
+        raise BuildError(f"system text entries without a known reference: {missing} (run scripts/sysrefs.py)")
+    path = os.path.join(en_dir, SYSTEM_EN) if en_dir else None
+    texts = system_texts(path, entries, Table.load(EN_TBL)) if path and os.path.exists(path) else {}
+    strides = {i: lst["stride"] for lst in sysrefs.load_manual()["lists"] if "stride" in lst
+               for i in range(lst["first"], lst["last"] + 1)}
+    try:
+        blob, new = syslayout.layout(entries, texts, clean, strides)
+    except ValueError as x:
+        raise BuildError(str(x)) from None
+    at = syslayout.BASE_FILE
+    p = [(at, bytes(img[at:at + len(blob)]), blob)]
+    p += syslayout.patches(refs, new, clean)
+    p += syslayout.marker_fill(entries, clean)
+    p += [(rom.lorom_to_pc(h), bytes([0xA0, 0x40, 0x00]), bytes([0x20, 0xB0, 0xF1])) for h in NAME_HOOKS]
+    h = rom.lorom_to_pc(NAME_HELPER)
+    p.append((h, bytes([0xFF]) * len(NAME_HELPER_BYTES), NAME_HELPER_BYTES))
+    return p
+
+
 def build(clean, en_dir=None):
     if len(clean) != 0x180000 or romimage.checksum(clean) != CLEAN_CHECKSUM:
         raise BuildError("input is not the clean 1.5 MB Nage Libre ROM (size/checksum mismatch)")
@@ -102,6 +161,8 @@ def build(clean, en_dir=None):
         if not os.path.isdir(en_dir):
             raise BuildError(f"translation directory not found: {en_dir}")
         for p in glob.glob(os.path.join(en_dir, "*.txt")):
+            if os.path.basename(p) == SYSTEM_EN:
+                continue
             m = re.fullmatch(r"scene_([0-9A-F]{3})\.txt", os.path.basename(p))
             if not (m and FIRST <= int(m.group(1), 16) <= LAST):
                 raise BuildError(f"{os.path.basename(p)}: not a scene file name (expected scene_30F.txt .. scene_45B.txt)")
@@ -131,7 +192,9 @@ def build(clean, en_dir=None):
         free += len(packed)
     if over:
         raise BuildError("blocks exceed the WRAM window (shorten text or relocate the buffer):\n  " + "\n  ".join(over))
-    for off, old, new in relocation_patches(WRAM_BASE) + english_patches(clean):
+    if free > syslayout.BASE_FILE:
+        raise BuildError("scene blocks overlap the system text bank (file 0x1F8000)")
+    for off, old, new in relocation_patches(WRAM_BASE) + english_patches(clean) + system_patches(clean, en_dir, img):
         if img[off:off + len(old)] != old:
             raise BuildError(f"patch at {off:#x}: unexpected original bytes {img[off:off + len(old)].hex()}")
         img[off:off + len(new)] = new

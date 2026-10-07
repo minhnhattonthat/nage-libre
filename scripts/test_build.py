@@ -33,6 +33,8 @@ class Build(unittest.TestCase):
         allowed = set(range(0x50000 + 3 * 0x30F, 0x50000 + 3 * 0x45C)) | set(range(0x7FDC, 0x7FE0))
         allowed |= {at + k for at, old, new in build.relocation_patches(build.WRAM_BASE) for k in range(len(new))}
         allowed |= {at + k for at, old, new in build.english_patches(self.clean) for k in range(len(new))}
+        sysp = build.system_patches(self.clean, None, romimage.expand(self.clean, build.SIZE))
+        allowed |= {at + k for at, old, new in sysp for k in range(len(new))}
         self.assertEqual([i for i in diff if i not in allowed], [])
 
     def test_deterministic_and_clean_untouched(self):
@@ -77,6 +79,49 @@ class Build(unittest.TestCase):
             build.build(self.clean, self._en("## scene_341 0000 @000000 len=0\n" + "word " * 40 + "<END>\n"))
         self.assertEqual(str(cm.exception).count("30"), 1, str(cm.exception))
         self.assertIn("columns over", str(cm.exception))
+
+    def test_system_identity_relocation(self):
+        import sysrefs
+        es = sysrefs.entries(self.clean)
+        for r in sysrefs.scan(self.clean):
+            e = es[r.index]
+            if r.kind == "ptr24":
+                a = int.from_bytes(self.img[r.at:r.at + 3], "little")
+            elif r.kind == "imm16":
+                a = 0xBF0000 | int.from_bytes(self.img[r.at + 1:r.at + 3], "little")
+            else:
+                a = self.img[r.at + 9] << 16 | self.img[r.at + 5] << 8 | self.img[r.at + 1]
+            self.assertEqual(a >> 16, 0xBF, f"ref {r}")
+            off = rom.lorom_to_pc(a)
+            self.assertEqual(self.img[off:off + e.length], self.clean[e.offset:e.offset + e.length], f"ref {r}")
+
+    def test_old_system_block_marked(self):
+        self.assertEqual(self.img[0x38077:0x3807D], bytes([0xFC, 0x03, 0xFC, 0x03, 0xFF, 0xFF]))   # 桜井<END> -> ■■<END>
+        self.assertEqual(self.img[rom.lorom_to_pc(0x878017)], 0x87)                         # window helper untouched
+
+    def test_name_renderer_hooked(self):
+        for a in build.NAME_HOOKS:
+            self.assertEqual(self.img[rom.lorom_to_pc(a):rom.lorom_to_pc(a) + 3], bytes([0x20, 0xB0, 0xF1]))
+        h = rom.lorom_to_pc(build.NAME_HELPER)
+        self.assertEqual(self.img[h:h + 12], build.NAME_HELPER_BYTES)
+
+    def test_system_en_width_enforced(self):
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:
+            f.write("## system 0000 @000000 len=0\nAVeryLongSurnameIndeed<END>\n")
+        with self.assertRaisesRegex(build.BuildError, "system.txt entry 0000"):
+            build.build(self.clean, d)
+
+    def test_system_en_text_lands(self):
+        import sysrefs
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:
+            f.write("## system 0248 @000000 len=0\n's attack!<END>\n")
+        img = build.build(self.clean, d)
+        r = next(r for r in sysrefs.scan(self.clean) if r.index == 248)
+        a = img[r.at + 9] << 16 | img[r.at + 5] << 8 | img[r.at + 1]
+        off = rom.lorom_to_pc(a)
+        self.assertEqual(img[off:off + 22], Table.load(build.EN_TBL).encode("'s attack!<END>"))
 
     def test_rejects_non_clean_rom(self):
         bad = bytearray(self.clean); bad[0x1000] ^= 1
