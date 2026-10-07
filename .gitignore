@@ -5,3 +5,4 @@ tools/
 *.srm
 *.mss
 work/
+build/
