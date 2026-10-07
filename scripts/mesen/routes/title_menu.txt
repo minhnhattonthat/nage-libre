@@ -1,0 +1,9 @@
+# title menu, cursor on NEW GAME (dialogue1 route minus the final A press)
+# boot -> intro; START skips to title
+900 -
+4 start
+# title fades in
+400 -
+4 start
+# title -> menu (NEW GAME)
+300 -
