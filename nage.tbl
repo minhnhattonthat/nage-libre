@@ -1,0 +1,4 @@
+# Nage Libre table. Codes are 16-bit LE glyph indices (font offset 0x28000 + code*0x20), written in ROM byte order.
+# Strings end with FFFF. No in-string control codes; lines wrap by width, padded with the blank glyph 03FE.
+FFFF=<END>!
+FE03=　
