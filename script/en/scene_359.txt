@@ -1,0 +1,2 @@
+## scene_359 0000 @000018 len=64
+If you want the "Green Jewel", fight me!<END>

@@ -1,0 +1,11 @@
+## scene_34F 0000 @00004C len=86
+Maybe there's a gem or something lying around in the gym?<END>
+
+## scene_34F 0002 @0000A4 len=74
+Yaaay, the gyyym! There are stairs! Let's climb!<END>
+
+## scene_34F 0004 @0000F0 len=46
+Mai, you mustn't wander about.<END>
+
+## scene_34F 0006 @000120 len=90
+…That said, I adore looking down on people from up high, so I'll join you. …Oh my<END>

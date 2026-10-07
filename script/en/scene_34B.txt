@@ -1,0 +1,5 @@
+## scene_34B 0000 @00002E len=84
+Bold of you to fight us. Do you really think you can win?<END>
+
+## scene_34B 0002 @000084 len=16
+She's strong…<END>

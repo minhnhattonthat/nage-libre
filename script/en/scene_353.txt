@@ -1,0 +1,5 @@
+## scene_353 0000 @000030 len=88
+If we're going to the pool, we've gotta change into swimsuits♥<END>
+
+## scene_353 0002 @00008A len=12
+Yeah, yeah♥<END>

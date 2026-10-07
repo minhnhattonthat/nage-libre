@@ -1,0 +1,23 @@
+## scene_360 0000 @000106 len=24
+What did she mean?<END>
+
+## scene_360 0002 @000120 len=42
+Who knows, who cares♪ We can go home now, right?<END>
+
+## scene_360 0004 @00014C len=38
+Should we stand on this platform?<END>
+
+## scene_360 0006 @000174 len=38
+It still feels so strange…<END>
+
+## scene_360 0008 @00019C len=46
+But now that it's over, it was pretty fun♥<END>
+
+## scene_360 0010 @0001CC len=20
+That was fun!<END>
+
+## scene_360 0012 @0001E2 len=34
+Well, it was a rare experience.<END>
+
+## scene_360 0014 @000206 len=58
+<BR><$FE03><$FE03>Stage 13 Clear!<END>

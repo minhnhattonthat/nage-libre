@@ -1,0 +1,29 @@
+## scene_356 0000 @0000C4 len=50
+So we just fit these two into that door.<END>
+
+## scene_356 0002 @0000F8 len=38
+They're just the right size, too♥<END>
+
+## scene_356 0004 @000120 len=80
+But y'know, we could've just busted the door down instead of all this hassle.<END>
+
+## scene_356 0006 @000172 len=20
+Ka-BOOM, right!<END>
+
+## scene_356 0008 @000188 len=84
+That's how these things go. Well then, let's pop them in… click♪<END>
+
+## scene_356 0010 @0001DE len=92
+……The two jewels fit perfectly into the holes in the door!……<END>
+
+## scene_356 0012 @00023C len=22
+The door is vanishing…<END>
+
+## scene_356 0014 @000254 len=58
+Now we can get through♥<END>
+
+## scene_356 0016 @000290 len=24
+The ruby and emerald…<END>
+
+## scene_356 0018 @0002AA len=28
+Alright! Let's go inside!<END>

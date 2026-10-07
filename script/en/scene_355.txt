@@ -1,0 +1,17 @@
+## scene_355 0000 @0000DA len=40
+The five got the "Green Jewel"!<END>
+
+## scene_355 0002 @000104 len=36
+This one looks like a glass marble too…<END>
+
+## scene_355 0004 @00012A len=30
+It does shine rather cheaply.<END>
+
+## scene_355 0006 @00014A len=22
+Marbles, marbles!<END>
+
+## scene_355 0008 @000162 len=56
+Um, that one looks like an emerald any way you slice it…<END>
+
+## scene_355 0010 @00019C len=58
+<BR><$FE03><$FE03>Stage 11 Clear!<END>

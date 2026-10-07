@@ -1,0 +1,35 @@
+## scene_35E 0000 @0000C4 len=10
+Whoa!<END>
+
+## scene_35E 0002 @0000D0 len=14
+Amaaazing!<END>
+
+## scene_35E 0004 @0000E0 len=46
+To think this was underground…<END>
+
+## scene_35E 0006 @000110 len=86
+What IS all this? This has to be a dream, right? Pinch. Ow, that hurts……<END>
+
+## scene_35E 0008 @000168 len=66
+Now, now, they said we can get home by passing through here.<END>
+
+## scene_35E 0010 @0001AC len=60
+Even if it's a dream, just hang in there a bit longer …Huh?<END>
+
+## scene_35E 0012 @0001EA len=62
+Yes! I was right to go on ahead! You shall not pass!<END>
+
+## scene_35E 0014 @00022A len=30
+You JUST lost to us.<END>
+
+## scene_35E 0016 @00024A len=24
+You never learn!<END>
+
+## scene_35E 0018 @000264 len=82
+Say what you like! My duty is to keep you from going any further!<END>
+
+## scene_35E 0020 @0002B8 len=44
+And for that, I was granted power once more!<END>
+
+## scene_35E 0022 @0002E6 len=120
+<$FE03>Stage 13 Start!<BR><$FE03>Goal:<BR><$FE03><$FE03><$FE03>Defeat boss Aria and<BR><$FE03><$FE03><$FE03>escape from Nage!<END>

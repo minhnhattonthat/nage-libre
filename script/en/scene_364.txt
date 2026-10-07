@@ -1,0 +1,32 @@
+## scene_364 0000 @0000B8 len=80
+Hmm…. Noriko's down too…… Then you're next! Now, go!<END>
+
+## scene_364 0002 @00010A len=22
+What?! Me?!<END>
+
+## scene_364 0004 @000122 len=38
+Yes! Hurry up and go!<END>
+
+## scene_364 0006 @00014A len=16
+……Okaaay……<END>
+
+## scene_364 0008 @00015C len=64
+Kyuuuu. I made it…… Now then, fight me!<END>
+
+## scene_364 0011 @0001A0 len=62
+……A fierce wind blasts out of<BR><$FE03>the anti-gravity zone!…<END>
+
+## scene_364 0013 @0001E0 len=34
+Whoa! We have to back off!<END>
+
+## scene_364 0015 @000204 len=36
+Kyuuuu… …What a wind!<END>
+
+## scene_364 0017 @00022A len=42
+In this wind…… we can't move forward!<END>
+
+## scene_364 0019 @000256 len=60
+What a wind… …Everyone, gather together!<END>
+
+## scene_364 0021 @000294 len=38
+It's dangerous unless we gather!<END>

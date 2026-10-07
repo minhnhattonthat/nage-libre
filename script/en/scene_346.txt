@@ -1,0 +1,44 @@
+## scene_346 0000 @000144 len=58
+Wow, you can see sooo far!<END>
+
+## scene_346 0002 @000180 len=60
+Sure can. Looks like we just need to head over there.<END>
+
+## scene_346 0004 @0001BE len=82
+We'd have gone the wrong way otherwise. Good thing we climbed the hill♥<END>
+
+## scene_346 0006 @000212 len=68
+…That's what you think, right? But it's actually a trap!<END>
+
+## scene_346 0008 @000258 len=42
+Ah! We're surrounded!<END>
+
+## scene_346 0010 @000284 len=42
+So you've tracked down the Himegami Forest!<END>
+
+## scene_346 0012 @0002B0 len=46
+Well, we have to pass through here to get to school……<END>
+
+## scene_346 0014 @0002E0 len=84
+You have come to steal the treasure of us, the Himegami clan!<END>
+
+## scene_346 0016 @000336 len=58
+Yet another group that doesn't listen to a word anyone says……<END>
+
+## scene_346 0018 @000372 len=90
+Now! Have at you, fair and square! I won't hand over the treasure I buried!<END>
+
+## scene_346 0020 @0003CE len=122
+<$FE03>Stage 8 Start<BR><BR><$FE03>Goal: Run through the forest<BR><$FE03>and defeat boss Kikuko!<END>
+
+## scene_346 0022 @00044A len=24
+Whaaat? I have to fight too?<END>
+
+## scene_346 0024 @000464 len=12
+Naturally.<END>
+
+## scene_346 0026 @000472 len=22
+We're strooong!<END>
+
+## scene_346 0028 @00048A len=44
+Think you can get away……?<END>

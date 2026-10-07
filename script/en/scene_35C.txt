@@ -1,0 +1,2 @@
+## scene_35C 0000 @00008A len=58
+<BR><$FE03><$FE03>Stage 12 Clear!<END>

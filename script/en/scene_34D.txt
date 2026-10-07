@@ -1,0 +1,65 @@
+## scene_34D 0000 @000132 len=68
+…So you have made it this far! Come up here, if you can!<END>
+
+## scene_34D 0002 @000178 len=44
+Then I shall deign to face you!<END>
+
+## scene_34D 0004 @0001A6 len=66
+Not that I think you'll ever make it! Ohohohoho…<END>
+
+## scene_34D 0006 @0001EA len=44
+Who's that person talking like a period drama?<END>
+
+## scene_34D 0008 @000218 len=8
+An enemy.<END>
+
+## scene_34D 0010 @000222 len=14
+We beat her.<END>
+
+## scene_34D 0012 @000232 len=38
+Why do we have to beat her?<END>
+
+## scene_34D 0014 @00025A len=22
+That's just how it is.<END>
+
+## scene_34D 0016 @000272 len=8
+But…<END>
+
+## scene_34D 0018 @00027C len=76
+If we don't, she'll beat us and kill us, and nobody will bury us…<END>
+
+## scene_34D 0020 @0002CA len=74
+We'll rot out in the open and stray dogs will go munch munch on us!<END>
+
+## scene_34D 0022 @000316 len=6
+……<END>
+
+## scene_34D 0024 @00031E len=86
+And if we run away, we can't go home, and we'll drop dead somewhere,<END>
+
+## scene_34D 0026 @000376 len=68
+and still nobody buries us, so stray dogs go munch munch on us!<END>
+
+## scene_34D 0028 @0003BC len=32
+Munch munch either way, then…<END>
+
+## scene_34D 0030 @0003DE len=24
+Not much of a choice, huh?<END>
+
+## scene_34D 0032 @0003F8 len=20
+…Is that so?<END>
+
+## scene_34D 0034 @00040E len=36
+Ahh, the rooftop has such a nice view♥<END>
+
+## scene_34D 0036 @000434 len=44
+Yep, up here we just get to watch♪<END>
+
+## scene_34D 0038 @000462 len=22
+Look! What a pretty sky!<END>
+
+## scene_34D 0040 @00047A len=22
+Feels so peaceful……<END>
+
+## scene_34D 0042 @000492 len=90
+<$FE03>Stage 9 Start!<BR><BR><$FE03>Goal: Wipe out the enemies!<END>

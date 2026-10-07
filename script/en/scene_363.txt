@@ -1,0 +1,62 @@
+## scene_363 0000 @000118 len=84
+Hmm…. At this rate… there's no choice! Go! Jump, Noriko!<END>
+
+## scene_363 0006 @000176 len=46
+Whaaat?! No way…! I'll die…!<END>
+
+## scene_363 0008 @0001A6 len=78
+You'll be fine! Look down! There's an anti-gravity zone! Jump there!<END>
+
+## scene_363 0010 @0001F6 len=18
+…Really?<END>
+
+## scene_363 0012 @00020A len=24
+Why would I lie?!<END>
+
+## scene_363 0014 @000224 len=10
+Okaaay.<END>
+
+## scene_363 0016 @000230 len=58
+……So THIS is why they called us up to the roof…<END>
+
+## scene_363 0018 @00026C len=10
+Hyaaa!<END>
+
+## scene_363 0023 @00027E len=68
+Whoooa! ……Phew. Looks like I made it.<END>
+
+## scene_363 0025 @0002C4 len=20
+Now, let's fight!<END>
+
+## scene_363 0029 @0002DE len=62
+……A fierce wind blasts out of<BR><$FE03>the anti-gravity zone!…<END>
+
+## scene_363 0031 @00031E len=64
+What a wind… …It's dangerous near the school, everyone!<END>
+
+## scene_363 0033 @000360 len=46
+Kyuuuu… …I'm gonna blow away!<END>
+
+## scene_363 0035 @000390 len=82
+With this wind…… it's dangerous near the school! We have to get away!<END>
+
+## scene_363 0037 @0003E4 len=40
+What a wind… …We have to get away!<END>
+
+## scene_363 0039 @00040E len=38
+Everyone, get away from the school!<END>
+
+## scene_363 0043 @00043A len=48
+Heh heh, nobody left! Now what?<END>
+
+## scene_363 0045 @00046C len=68
+Alright! Beat 'em all! You on the roof, did you see that?<END>
+
+## scene_363 0047 @0004B2 len=64
+Yay! Mai beat everybody!<END>
+
+## scene_363 0049 @0004F4 len=28
+Phew… looks like that's all of them…<END>
+
+## scene_363 0051 @000512 len=62
+Well then…… No one is left♥ What will you do?<END>

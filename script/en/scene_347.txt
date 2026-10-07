@@ -1,0 +1,23 @@
+## scene_347 0003 @000130 len=46
+Hey, a school just appeared over there!<END>
+
+## scene_347 0005 @000160 len=16
+Huh? Where, where?<END>
+
+## scene_347 0007 @000172 len=38
+Look, look, over there.<END>
+
+## scene_347 0009 @00019A len=14
+Oh, it really is.<END>
+
+## scene_347 0011 @0001AA len=32
+…It wasn't there a moment ago.<END>
+
+## scene_347 0013 @0001CC len=62
+Bet it was set up to appear once we beat her, right?<END>
+
+## scene_347 0015 @000218 len=10
+…Huh.<END>
+
+## scene_347 0017 @000218 len=56
+<BR><$FE03><$FE03>Stage 8 Clear!<END>

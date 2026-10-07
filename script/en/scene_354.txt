@@ -1,0 +1,26 @@
+## scene_354 0000 @00007E len=84
+Ohohohoho! I'm the one with the "Green Jewel"!<END>
+
+## scene_354 0002 @0000D4 len=78
+By the way, I'm a race queen! Not just any swimsuit!<END>
+
+## scene_354 0004 @000124 len=46
+Mai's in a swimsuit too! Look!<END>
+
+## scene_354 0006 @000154 len=18
+Now if she…<END>
+
+## scene_354 0008 @000168 len=14
+What is it?<END>
+
+## scene_354 0010 @000178 len=64
+Now if she drops the "Green Jewel" in the pool,<END>
+
+## scene_354 0012 @0001BA len=76
+and we have to dive for it… it'll be just like a celebrity pool special on TV.<END>
+
+## scene_354 0014 @000208 len=8
+Uh-huh…<END>
+
+## scene_354 0016 @000212 len=122
+<$FE03>Stage 11 Start!<BR><BR>Goal: Defeat boss Sara and<BR><$FE03>get the Green Jewel!<END>

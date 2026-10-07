@@ -1,0 +1,17 @@
+## scene_349 0000 @00002E len=88
+In the name of the Himegami clan! I shall not let you go one step further!<END>
+
+## scene_349 0002 @000088 len=44
+C'mon, we're just passing through……<END>
+
+## scene_349 0004 @0000B6 len=40
+We're just in a hurry!<END>
+
+## scene_349 0006 @0000E0 len=60
+Like I said, we're only passing through<$D203><END>
+
+## scene_349 0008 @00011E len=80
+I don't get it, but I guess we have to fight… …Waaah…<END>
+
+## scene_349 0010 @000170 len=44
+We only wish to move on……<$D203><END>

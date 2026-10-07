@@ -1,0 +1,38 @@
+## scene_34C 0000 @000104 len=54
+…Um, is there something at that school ahead……?<END>
+
+## scene_34C 0002 @00013C len=52
+Umm, there's a way back to our world!<END>
+
+## scene_34C 0004 @000172 len=10
+…Pardon?<END>
+
+## scene_34C 0006 @00017E len=40
+She STILL hasn't figured it out?<END>
+
+## scene_34C 0008 @0001A8 len=90
+Listen. This is another world, "Nage". We were brought here to Nage.<END>
+
+## scene_34C 0010 @000204 len=78
+To escape from this world, we need your power too. ……Got it?<END>
+
+## scene_34C 0012 @000254 len=24
+Huh…… WHAAAT?<END>
+
+## scene_34C 0014 @00026E len=54
+…You've been fighting all along and didn't notice?<END>
+
+## scene_34C 0016 @0002A6 len=34
+How was I supposed to know that…<END>
+
+## scene_34C 0018 @0002CA len=14
+Say something?<END>
+
+## scene_34C 0020 @0002DA len=18
+No…… waaah.<END>
+
+## scene_34C 0022 @0002EE len=50
+For now, let's go into the school!<END>
+
+## scene_34C 0024 @000322 len=80
+Indeed. After all, we did hear a hint about returning to our world.<END>

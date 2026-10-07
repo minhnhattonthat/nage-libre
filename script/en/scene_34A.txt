@@ -1,0 +1,5 @@
+## scene_34A 0000 @00002E len=60
+With your strength, you can't beat us!<END>
+
+## scene_34A 0002 @00006C len=26
+We might not beat her…<END>

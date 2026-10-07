@@ -1,0 +1,47 @@
+## scene_350 0000 @000110 len=90
+So you found this place! But I won't hand over this "Red Jewel" for free!<END>
+
+## scene_350 0002 @00016C len=56
+Well, the door did say "Gym" on it…<END>
+
+## scene_350 0004 @0001A6 len=80
+Coming somewhere you can't escape from! What silly girls you are!<END>
+
+## scene_350 0006 @0001F8 len=36
+Mai's not silly! Hmph, hmph!<END>
+
+## scene_350 0008 @00021E len=36
+And I'm Basketball Squad Six, #1!<END>
+
+## scene_350 0010 @000244 len=64
+You won't get the jewel unless you beat us!<END>
+
+## scene_350 0012 @000286 len=24
+I'm Basketball Squad #2!<END>
+
+## scene_350 0014 @0002A0 len=24
+I'm Basketball Squad #3!<END>
+
+## scene_350 0016 @0002BA len=24
+I'm Basketball Squad #4!<END>
+
+## scene_350 0018 @0002D4 len=24
+I'm Basketball Squad #5!<END>
+
+## scene_350 0020 @0002EE len=24
+I'm Basketball Squad #6!<END>
+
+## scene_350 0022 @000308 len=10
+…Huh?<END>
+
+## scene_350 0024 @000314 len=54
+Isn't basketball played with five people?<END>
+
+## scene_350 0026 @00034C len=82
+Yes! Good catch! I'm the bench warmer! So I'm weak!<END>
+
+## scene_350 0028 @0003A0 len=6
+……<END>
+
+## scene_350 0030 @0003A8 len=122
+<$FE03>Stage 10 Start!<BR><BR>Goal: Defeat boss Rika and<BR><$FE03>get the Red Jewel!<END>

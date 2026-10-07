@@ -1,0 +1,8 @@
+## scene_361 0000 @000026 len=90
+<$FE03><$FE03><$FE03>……The real world……<BR>That day, radios everywhere<BR><$FE03><$FE03>played the same voice……<END>
+
+## scene_361 0002 @000082 len=84
+THIS IS "NAGE" THIS IS "NAGE" ……OBEY……<END>
+
+## scene_361 0004 @0000D8 len=90
+…The radios fell silent… ……a quiet hum… …and the world began to change…<END>

@@ -1,0 +1,44 @@
+## scene_34E 0000 @0001C4 len=88
+…Grr. Don't get cocky just because you beat the small fry in the schoolyard!<END>
+
+## scene_34E 0002 @00021E len=64
+If you want to see me, come inside!<END>
+
+## scene_34E 0007 @000266 len=58
+Then why doesn't she just jump down here herself……<END>
+
+## scene_34E 0009 @0002A2 len=84
+…Perhaps there's no anti-gravity zone or whatnot under her?<END>
+
+## scene_34E 0011 @0002F8 len=24
+How careless can ya get……<END>
+
+## scene_34E 0013 @000312 len=24
+…Huh? It won't open?<END>
+
+## scene_34E 0015 @00032C len=28
+<$FE03>The door glows a pale blue.<END>
+
+## scene_34E 0017 @00034A len=16
+Kinda creepy…<END>
+
+## scene_34E 0019 @00035C len=44
+This door won't… …open either.<END>
+
+## scene_34E 0021 @00038A len=58
+Ah! There are two round holes here!<END>
+
+## scene_34E 0023 @0003C6 len=18
+Um…… could these be…<END>
+
+## scene_34E 0025 @0003DA len=60
+We probably have to fit gems or something into these holes.<END>
+
+## scene_34E 0027 @000418 len=64
+And how thoughtful, it says "Gym" and "Pool" above them.<END>
+
+## scene_34E 0029 @00045A len=42
+Then let's start with the gym!<END>
+
+## scene_34E 0031 @000486 len=58
+<BR><$FE03><$FE03><$FE03>Stage 9 Clear!<END>

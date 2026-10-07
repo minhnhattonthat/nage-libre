@@ -1,0 +1,11 @@
+## scene_348 0000 @00002C len=86
+Think you've won? How naive! …But to escape from Nage…<END>
+
+## scene_348 0002 @000084 len=88
+five maidens untouched by Nage must gather and go to that place, you know!<END>
+
+## scene_348 0004 @0000DE len=88
+…There are only four of you! Can you find the last one?<END>
+
+## scene_348 0006 @000138 len=22
+That's all for now!<END>

@@ -1,0 +1,14 @@
+## scene_357 0000 @00004A len=44
+Huh, isn't she in here?<END>
+
+## scene_357 0002 @000078 len=22
+Maybe a higher floor…<END>
+
+## scene_357 0004 @000090 len=86
+So you have finally come this far! Then I shall grant you a match!<END>
+
+## scene_357 0006 @0000E8 len=60
+Beat me, and I might just tell you the way home!<END>
+
+## scene_357 0008 @000126 len=92
+<$FE03>Stage 12 Start!<BR><BR>Goal: Defeat boss Aria!<END>

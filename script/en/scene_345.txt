@@ -1,0 +1,56 @@
+## scene_345 0000 @00016E len=62
+So if we get through this forest… we'll find the way back to our world?<END>
+
+## scene_345 0002 @0001AE len=62
+Um… …where exactly is this place?<END>
+
+## scene_345 0004 @0001EE len=70
+Still… for all her big talk, she wasn't much of anything.<END>
+
+## scene_345 0006 @000236 len=30
+Yes, same as last time.<END>
+
+## scene_345 0008 @000256 len=88
+Why am I here, when I was on my way to school…?<END>
+
+## scene_345 0010 @0002B0 len=20
+Can we go home now?<END>
+
+## scene_345 0012 @0002C6 len=30
+This forest is deeper than I thought…<END>
+
+## scene_345 0014 @0002E6 len=44
+Dammit, it's all trees, I can't see a thing!<END>
+
+## scene_345 0016 @000314 len=30
+Are we really going the right way?<END>
+
+## scene_345 0018 @000334 len=46
+I can't quite tell which way we're heading.<END>
+
+## scene_345 0020 @000364 len=40
+Maybe we're just going in circles…<END>
+
+## scene_345 0022 @00038E len=62
+Huh… there's a hill over there. Let's try climbing it.<END>
+
+## scene_345 0024 @0003CE len=44
+Bet the view's great! I'm in!<END>
+
+## scene_345 0026 @0003FC len=30
+…Um… do I have to go too?<END>
+
+## scene_345 0028 @00041C len=24
+Just hurry up and come on!<END>
+
+## scene_345 0030 @000436 len=20
+Okay……. Sniff, sniff.<END>
+
+## scene_345 0032 @00044C len=62
+……At that moment,<BR><$FE03><$FE03><$FE03>a voice echoes beyond the dark……<END>
+
+## scene_345 0034 @00048C len=56
+That Kirika, blabbing things she had no need to say…<END>
+
+## scene_345 0036 @0004C6 len=90
+…So the five have finally gathered… But I cannot let them escape from Nage!<END>

@@ -47,6 +47,15 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | 心に闇を持つ者 | those with darkness in their hearts / dark hearts | |
 | ＳＯＲＲＹ…… ＧＡＭＥ ＯＶＥＲ ……ＰＵＳＨ ＲＥＳＥＴ…… | SORRY…… GAME OVER ……PUSH RESET…… (kept in English, 4-line layout) | |
 | ステージＮ・クリア‼ | Stage N Clear! | |
+| 喜久子 / 姫神一族 / 姫神の森 | Kikuko / the Himegami clan / Himegami Forest | |
+| りか / 紗羅 / アリア | Rika / Sara / Aria (stage 10/11/12-13 bosses) | |
+| 典子 / 美由紀 / 智恵子 | Noriko / Miyuki / Chieko (stage 9 rooftop girls) | |
+| 赤のジュエル / 緑のジュエル | Red Jewel / Green Jewel | |
+| 反重力ゾーン | anti-gravity zone | |
+| 体育館 / プール | Gym / Pool | |
+| バスケ部部隊６人衆 | Basketball Squad Six | |
+| ベルベット・ボイス | Velvet Voice | |
+| 現実世界 | the real world | |
 
 ## Compromises
 
@@ -55,3 +64,6 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 ## Needs user check
 
 (uncertain readings or interpretations: `file index`: question)
+
+- `scene_35B 0000`, `scene_35D 0002`: 「…<$FA01>の神殿」. The glyph `<$FA01>` is code 0x01FA, unmapped in nage.tbl (between 殿 and 催). Rendered from the ROM font it shows a top stroke over a 2×2 field of crosses, possibly 爾 or 爽. English avoids naming it ("the temple underground" / "the temple"). Which kanji is it?
+- `scene_361 0002`: `<$F602>` around ＮＡＧＥ is unresolved; assumed to be quote marks → `"NAGE"`.

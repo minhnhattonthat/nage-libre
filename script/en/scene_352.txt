@@ -1,0 +1,29 @@
+## scene_352 0000 @000122 len=62
+The five got the "Red Jewel"!<END>
+
+## scene_352 0002 @000162 len=42
+Hehh. So this is the "Red Jewel".<END>
+
+## scene_352 0004 @00018E len=16
+It's beautiful.<END>
+
+## scene_352 0006 @0001A0 len=60
+Is it? Looks like a plain old glass marble to me.<END>
+
+## scene_352 0008 @0001DE len=42
+Could this be… …a ruby…?<END>
+
+## scene_352 0010 @00020A len=86
+Eh, who cares if it's glass. With this, we can get inside.<END>
+
+## scene_352 0012 @000262 len=8
+True.<END>
+
+## scene_352 0014 @00026C len=42
+Then next is the pool! Let's go!<END>
+
+## scene_352 0016 @000298 len=44
+No… that's probably a ruby… worth a fortune…<END>
+
+## scene_352 0018 @0002C6 len=58
+<BR><$FE03><$FE03>Stage 10 Clear!<END>
