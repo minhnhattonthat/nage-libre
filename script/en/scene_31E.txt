@@ -1,0 +1,17 @@
+## scene_31E 0000 @00003C len=46
+Grr, you girls… …are stronger than I thought!<END>
+
+## scene_31E 0002 @00006C len=82
+But…… even if you escape this town, you can't go back to your own world!<END>
+
+## scene_31E 0004 @0000C0 len=86
+Ayaka Sakurai wouldn't listen to us either, so we had no choice but to…<END>
+
+## scene_31E 0006 @000118 len=90
+hypnotize her into obeying! She's at the school over there right now!<END>
+
+## scene_31E 0008 @000174 len=44
+Yes, just leave this town, head a little east,<END>
+
+## scene_31E 0010 @0001A2 len=64
+then go this way and that, and you're there! Remember that!<END>

@@ -1,0 +1,35 @@
+## scene_320 0000 @0000B4 len=38
+So, Ayaka's in here.<END>
+
+## scene_320 0002 @0000DC len=44
+We got here so easily.<END>
+
+## scene_320 0004 @00010A len=64
+I was sure someone would be waiting along the way……<END>
+
+## scene_320 0006 @00014C len=54
+Heeey! Ayakaaa! Where are you?<END>
+
+## scene_320 0008 @000184 len=42
+As expected, she's nowhere to be seen.<END>
+
+## scene_320 0010 @0001B0 len=68
+Hohoho! So you found this place! Impressive, girls!<END>
+
+## scene_320 0012 @0001F6 len=34
+Ayaka is inside the martial arts hall!<END>
+
+## scene_320 0014 @00021A len=58
+If you want in, you'll have to fight us first!<END>
+
+## scene_320 0016 @000256 len=22
+See, there WERE enemies.<END>
+
+## scene_320 0018 @00026E len=54
+…Well, a kind person did guide us here.<END>
+
+## scene_320 0020 @0002A6 len=68
+Who cares! Get 'em, get 'em!<END>
+
+## scene_320 0022 @0002EC len=122
+<$FE03>Stage 5 Start!<BR><BR><$FE03>Goal: Defeat the enemies and<BR><$FE03>enter the martial arts hall!<END>

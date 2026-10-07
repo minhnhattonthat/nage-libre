@@ -1,0 +1,74 @@
+## scene_325 0000 @000190 len=120
+<$FE03>…Beep beep beep…<BR><$FE03><$FE03>An invisible wall!<BR>………………………………………<BR>The three can go no further!<END>
+
+## scene_325 0002 @00020A len=68
+Ohohoho! You can't get past here, can you!<END>
+
+## scene_325 0004 @000250 len=64
+…And I can't get out either! …What do I do?!<END>
+
+## scene_325 0006 @000292 len=24
+Ugh, what should we do…<END>
+
+## scene_325 0008 @0002AC len=84
+…Oh, I know! Why don't we try using that "Neutralizer"?<END>
+
+## scene_325 0010 @000302 len=22
+Ooh, good idea!<END>
+
+## scene_325 0012 @00031A len=42
+Use the♪ ♪neutralizer!<END>
+
+## scene_325 0014 @000346 len=88
+Isn't it? Now then…. Yui, take that bottle…… and hurl yourself at it!<END>
+
+## scene_325 0016 @0003A0 len=12
+Okay!<END>
+
+## scene_325 0018 @0003AE len=40
+…Wait, wait, wait! Why would I do that?!<END>
+
+## scene_325 0020 @0003D8 len=90
+…Well, charge in holding it and surely the barrier will break… So flashy♥<END>
+
+## scene_325 0022 @000434 len=86
+……It doesn't NEED to be flashy<$D203> Stop treating my body like a stunt prop<$D203><END>
+
+## scene_325 0024 @00048C len=44
+…Hmm… Let's just throw both!<END>
+
+## scene_325 0026 @0004BA len=10
+Ah!<END>
+
+## scene_325 0028 @0004C6 len=46
+Acting on pure impulse again without thinking!<END>
+
+## scene_325 0030 @0004F6 len=28
+<$FE03>……Whoooosh……<END>
+
+## scene_325 0032 @000514 len=26
+<$FE03>……CRASH!……<END>
+
+## scene_325 0034 @000530 len=122
+<$FE03>Mai threw "Neutralizer 1" and "Neutralizer 2" at the barrier, and thick smoke billowed up!……<END>
+
+## scene_325 0036 @0005AC len=24
+Whoa! So much smoke!<END>
+
+## scene_325 0038 @0005C6 len=24
+What will happen……<END>
+
+## scene_325 0040 @0005E0 len=90
+<$FE03>…Squeeeak…<BR>The barrier shrieked and<BR><$FE03>vanished without a trace!<END>
+
+## scene_325 0042 @00063C len=6
+Wow!<END>
+
+## scene_325 0044 @000644 len=90
+…Ah, so those people earlier brought the neutralizer to rescue their friend.<END>
+
+## scene_325 0046 @0006A0 len=24
+Okay, now we can fight!<END>
+
+## scene_325 0048 @0006BA len=68
+Yes! Now I can get out! ……Time to fight!<END>

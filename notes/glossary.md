@@ -10,6 +10,11 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 - Leading blank line in the Japanese → English starts with `<BR>` (build enforces).
 - Op-13 placeholder slots (`…` only) → `…`.
 - Stage banner: `Stage N Start`. Victory condition: `Goal: Defeat <name>`.
+- Layout in 30×4 narration boxes (op 0B): consecutive prints share the box, so keep the Japanese line structure.
+  - Indent with `<$FE03>` (full-width blank, 2 columns). A literal `　` or spaces collapse.
+  - A trailing blank line is `<BR><BR>`. Verified in the emulator: `Stage 1 Start` / blank / `Goal: Defeat Tomomi!`.
+- 💧 (sweat drop) is `<$D203>`. ♥ ♪ … are typed directly.
+- Op-13 filler slots for absent members often hold the enemy's line or the chest narration, not `…`. Translate by content.
 
 ## Names and terms
 
@@ -27,6 +32,16 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | 宝玉 | jewel | |
 | 誕生石 | birthstone | |
 | ATK DEF HP ESC SP CHG COS カード | ATK / DEF / HP / ESC / SP / CHG / COS card | |
+| 「リ」「ベ」「ラ」「シ」「オ」「ン」の宝玉 | "LI" / "BE" / "RA" / "TI" / "O" / "N" Jewel (spells LIBERATION; JP リベラシオン) | Ri Jewel |
+| ともみ | Tomomi (stage 1 boss) | |
+| 弓香 | Yumika (stage 2 boss) | |
+| 姫香 | Himeka (stage 3 boss) | |
+| 霧香 | Kirika (stage 4 boss) | |
+| 中和剤１／２ | Neutralizer 1 / 2 | |
+| スーパーバリアー | Super Barrier | |
+| 武道館 | martial arts hall | Budokan |
+| 〜が仲間になった‼ | X joined the party! | |
+| ステージＮ・クリア‼ | Stage N Clear! | |
 
 ## Compromises
 

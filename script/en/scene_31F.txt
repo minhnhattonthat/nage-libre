@@ -1,0 +1,32 @@
+## scene_31F 0000 @000106 len=64
+Hmm. So Ayaka's here too…. Guess we'd better go save her.<END>
+
+## scene_31F 0002 @000148 len=76
+Still, she was surprisingly kind. She even told us the way.<END>
+
+## scene_31F 0004 @000196 len=46
+Buuut it might be a trap, y'know.<END>
+
+## scene_31F 0006 @0001C6 len=86
+It's fine! She didn't look smart enough for that!<END>
+
+## scene_31F 0008 @00021E len=36
+…When you put it like that… hmm….<END>
+
+## scene_31F 0010 @000244 len=80
+Well, shall we go and see anyway? It's not as if we have any other leads.<END>
+
+## scene_31F 0012 @000296 len=40
+Yeah, let's goooo!<END>
+
+## scene_31F 0014 @0002C0 len=64
+Uuu……. Okay! Let's go!<END>
+
+## scene_31F 0016 @000302 len=86
+Staying here won't get us anywhere! Thinking too hard is a pain, so I quit!<END>
+
+## scene_31F 0018 @00035A len=46
+Okay, let's go! Ba-dum ba-dum, toot toot♪<END>
+
+## scene_31F 0020 @00038A len=56
+<BR><$FE03><$FE03>Stage 4 Clear!<END>

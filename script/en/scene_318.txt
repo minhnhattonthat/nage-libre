@@ -1,0 +1,62 @@
+## scene_318 0000 @0001BE len=22
+Ahh, what nice weather♥<END>
+
+## scene_318 0002 @0001D6 len=46
+It truly is. Such wide, open hills,<END>
+
+## scene_318 0004 @000206 len=46
+and meadows you can see for miles……<END>
+
+## scene_318 0006 @000236 len=86
+…Wait, WHAT?! Where ARE we?! The school wasn't anywhere like this!<END>
+
+## scene_318 0008 @00028E len=42
+It's certainly not where we came from… is it.<END>
+
+## scene_318 0010 @0002BA len=46
+…What on earth happened?!<END>
+
+## scene_318 0012 @0002EA len=88
+All I did was show up a little late! Now everything's gone totally nuts!<END>
+
+## scene_318 0014 @000344 len=78
+TV seems out of the question… I wonder where my house went…<END>
+
+## scene_318 0016 @000394 len=62
+Judging by direction… I believe it was this way……<END>
+
+## scene_318 0018 @0003D4 len=46
+…Oh my, it's turned into a meadow…<END>
+
+## scene_318 0020 @000404 len=66
+And I ended up fighting weirdos without knowing why……<END>
+
+## scene_318 0022 @000448 len=64
+…Oh, and where your house was, Yui, there's a forest now.<END>
+
+## scene_318 0024 @00048A len=40
+…Look, look! How curious! Ahahahaha<END>
+
+## scene_318 0026 @0004B4 len=56
+…And Ryoko here isn't fazed one bit…<$D203><END>
+
+## scene_318 0028 @0004EE len=44
+…Sigh. What's going to happen to us…<END>
+
+## scene_318 0032 @00053A len=90
+Oh, there's a town over there. …Shall we try heading that way for now?<END>
+
+## scene_318 0034 @000596 len=68
+Hmm. Guess we've got no choice… There's nothing else around…<END>
+
+## scene_318 0036 @0005DC len=68
+Then it's settled! Let's go! Surely something nice awaits in town!<END>
+
+## scene_318 0038 @000622 len=54
+Hmhmm, too bad~ It won't be that easy.<END>
+
+## scene_318 0040 @00065A len=38
+Now, minions… …ATTAAACK!<END>
+
+## scene_318 0042 @000682 len=122
+<$FE03>Stage 3 Start!<BR><BR>Goal: Defeat boss Himeka and enter the town!<END>

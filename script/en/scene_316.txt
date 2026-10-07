@@ -1,0 +1,8 @@
+## scene_316 0000 @00002E len=24
+Aww, I lost!<END>
+
+## scene_316 0002 @000048 len=26
+Byeee-byeeee……<END>
+
+## scene_316 0004 @000064 len=24
+Hey, wait a minute!<END>

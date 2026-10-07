@@ -1,0 +1,50 @@
+## scene_321 0000 @0000F8 len=64
+Alrighty, let's beat 'em quick and rescue Ayaka!<END>
+
+## scene_321 0002 @00013A len=16
+Here we gooo!<END>
+
+## scene_321 0004 @00014C len=88
+I'm afraid you'll be rust on my blade! …Not that I own a sword, mind you.<END>
+
+## scene_321 0006 @0001A6 len=84
+Too naive! You can't even get near this place!<END>
+
+## scene_321 0008 @0001FC len=120
+<$FE03>…Beep beep beep…<BR><$FE03><$FE03>An invisible wall!<BR>………………………………………<BR>The three can go no further!<END>
+
+## scene_321 0010 @000276 len=34
+Whaaat?! What is this?!<END>
+
+## scene_321 0012 @00029A len=22
+We can't go on?!<END>
+
+## scene_321 0014 @0002B2 len=84
+…It doesn't seem to be glass. …Knock, knock… My, it's quite hard.<END>
+
+## scene_321 0016 @000308 len=40
+Well, this is a problem. What now?<END>
+
+## scene_321 0018 @000332 len=56
+…Couldn't we just go in through the back?<END>
+
+## scene_321 0020 @00036C len=90
+……Oh, right. If she got in, there must be another way inside.<END>
+
+## scene_321 0022 @0003C8 len=88
+Ahahahahaha! How naive! This is a Super Barrier, built with ultra-technology!<END>
+
+## scene_321 0024 @000422 len=86
+It covers the whole building! Thanks to it, you can't get any further!<END>
+
+## scene_321 0026 @00047A len=90
+Ohohoho! …Wait… then I can't get out either…? Waaah, someone help!<END>
+
+## scene_321 0028 @0004D6 len=6
+……<END>
+
+## scene_321 0030 @0004DE len=46
+Seems like she's got it rough too.<END>
+
+## scene_321 0032 @00050E len=66
+Oh well. Let's think of another way and come back.<END>

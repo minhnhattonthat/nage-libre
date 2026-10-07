@@ -1,0 +1,14 @@
+## scene_30F 0000 @00005C len=38
+Something's weird about the school today.<END>
+
+## scene_30F 0002 @000084 len=22
+Did something happen?<END>
+
+## scene_30F 0004 @00009C len=82
+Gwahahahaha! If you want to go any further, you'll have to beat me first!<END>
+
+## scene_30F 0005 @0000EE len=52
+So that's how it is. Then let the battle begiiin!<END>
+
+## scene_30F 0007 @000124 len=84
+Stage 1 begins! Beat the boss and wipe out the enemies to clear it. Go, go!<END>

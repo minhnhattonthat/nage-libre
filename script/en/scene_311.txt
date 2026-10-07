@@ -1,0 +1,17 @@
+## scene_311 0000 @00005E len=20
+…Heh. Not bad.<END>
+
+## scene_311 0002 @000074 len=24
+To think you'd beat me…<END>
+
+## scene_311 0004 @00008E len=38
+Hey, who ARE you?<END>
+
+## scene_311 0006 @0000B6 len=40
+…But you can't escape.<END>
+
+## scene_311 0008 @0000E0 len=38
+…Not from… this place.<END>
+
+## scene_311 0010 @000108 len=68
+Argh! We are NOT having the same conversation!<END>

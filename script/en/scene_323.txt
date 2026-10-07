@@ -1,0 +1,8 @@
+## scene_323 0000 @000036 len=44
+Oh, hey, she dropped something.<END>
+
+## scene_323 0002 @000064 len=44
+What is it? Let's pick it up!<END>
+
+## scene_323 0004 @000092 len=40
+Pick it up?<BR><$FE03><$FE03><$FE03><$FE03><END>

@@ -1,0 +1,98 @@
+## scene_319 0000 @000386 len=66
+Fight me! I'm beating you, then going into town!<END>
+
+## scene_319 0002 @0003CA len=32
+Come, then! Let us fight!<END>
+
+## scene_319 0004 @0003EC len=64
+Impressive, making it this far! But… you're SO naive!<END>
+
+## scene_319 0006 @00042E len=46
+Here goes! Flying poooootion!<END>
+
+## scene_319 0011 @000464 len=42
+…Uuu… I feel like I'm flying through the sky…<END>
+
+## scene_319 0013 @000490 len=56
+No, you dummy! We literally ARE flying!<END>
+
+## scene_319 0015 @0004CA len=86
+…Aaah! While we were talking, she sent us all the way back here<$D203><END>
+
+## scene_319 0017 @000522 len=46
+And theeen! Revival potiooon!<END>
+
+## scene_319 0022 @000558 len=46
+And on top of thaaat! Multiplying potiooon!<END>
+
+## scene_319 0027 @00058E len=90
+The enemies have come back… That woman certainly carries a lot of odd potions.<END>
+
+## scene_319 0029 @0005EA len=42
+I've got killing fluid and preserving fluid too♥<END>
+
+## scene_319 0031 @000616 len=36
+What is that, a bug-collecting kit?!<END>
+
+## scene_319 0033 @00063C len=62
+…In any case, we can't go on like this.<END>
+
+## scene_319 0035 @00067C len=86
+At this rate, she'll keep sending us back however many times we try… What do we do…<END>
+
+## scene_319 0040 @0006DA len=62
+Mai is here! …Hmm? So these potions are the problem!<END>
+
+## scene_319 0042 @00071A len=66
+Then Mai just does this! …Glug glug… Pwah!<END>
+
+## scene_319 0044 @00075E len=10
+Whoa!<END>
+
+## scene_319 0046 @00076A len=40
+That girl drank them all…<END>
+
+## scene_319 0048 @000794 len=40
+Heeey! You okaaay?<END>
+
+## scene_319 0050 @0007BE len=64
+Mai's fine! 'Cause Mai is super tough!<END>
+
+## scene_319 0052 @000800 len=46
+…Uh, that's not really the point<$D203><END>
+
+## scene_319 0054 @000830 len=84
+Grr! How did she know all my potions turn harmless when mixed?!<END>
+
+## scene_319 0056 @000886 len=24
+Told ya! Ta-dah!<END>
+
+## scene_319 0058 @0008A0 len=60
+…No, you totally did that without thinking…<$D203><END>
+
+## scene_319 0060 @0008DE len=46
+Ugh, I'm cornered! There's nothing left I can do!<END>
+
+## scene_319 0062 @00090E len=64
+…Or so you thought! Hya! My last spare! Flying potiooon!<END>
+
+## scene_319 0064 @000950 len=56
+Whaaat? ……Mai's been sent flyiiiing!<END>
+
+## scene_319 0069 @000990 len=82
+…Well, at least now, if we just defeat her, we can enter the town, right?<END>
+
+## scene_319 0071 @0009E4 len=80
+Right. Let's pull ourselves together…… and go!<END>
+
+## scene_319 0073 @000A36 len=46
+Mai will help too!<END>
+
+## scene_319 0075 @000A66 len=56
+<BR><$FE03><$FE03><$FE03>Mai joined the party!<END>
+
+## scene_319 0077 @000AA0 len=84
+……Ufufu♪ I'm the goddess of water♥ I'm waiting here for all of you♥<END>
+
+## scene_319 0079 @000AF6 len=86
+Come by the waterside and you'll find me♥ Drop in and play sometime♥<END>

@@ -1,0 +1,32 @@
+## scene_313 0004 @000126 len=38
+Well then, shall we go?<END>
+
+## scene_313 0006 @00014E len=10
+This way?<END>
+
+## scene_313 0009 @000172 len=16
+It's just nearby.<END>
+
+## scene_313 0011 @000184 len=44
+Ooh, so you two beat Tomomi?<END>
+
+## scene_313 0013 @0001B2 len=16
+Not baaad.<END>
+
+## scene_313 0015 @0001C4 len=42
+She seems to be the boss.<END>
+
+## scene_313 0017 @0001F0 len=62
+But I'm tough, y'know! …Think you can win?<END>
+
+## scene_313 0021 @000240 len=62
+<$FE03>Stage 2 Start<BR><BR><END>
+
+## scene_313 0023 @000280 len=32
+<$FE03>Goal: Defeat boss Yumika!<END>
+
+## scene_313 0025 @0002A2 len=16
+…Oh, right!<END>
+
+## scene_313 0027 @0002B4 len=66
+My job was to guard the treasure over here!<END>

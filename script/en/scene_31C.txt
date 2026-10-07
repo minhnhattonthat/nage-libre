@@ -1,0 +1,14 @@
+## scene_31C 0000 @0000AA len=44
+Okay, let's head inside right away!<END>
+
+## scene_31C 0002 @0000D8 len=32
+Let's do our best, Mai.<END>
+
+## scene_31C 0004 @0000FA len=22
+Yeah! Let's do it!<END>
+
+## scene_31C 0006 @000112 len=38
+Now, I wonder if anyone's inside…<END>
+
+## scene_31C 0008 @00013A len=56
+<BR><$FE03><$FE03>Stage 3 Clear!<END>

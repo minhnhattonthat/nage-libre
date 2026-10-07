@@ -1,0 +1,56 @@
+## scene_312 0000 @000128 len=24
+…She's gone.<END>
+
+## scene_312 0002 @000142 len=42
+What on earth was that all about?<END>
+
+## scene_312 0004 @00016E len=18
+…Oh, Yui.<END>
+
+## scene_312 0006 @000182 len=22
+Good morning.<END>
+
+## scene_312 0008 @00019A len=16
+What lovely<END>
+
+## scene_312 0010 @0001AC len=18
+weather again today.<END>
+
+## scene_312 0012 @0001C0 len=40
+Oh, Ryoko, morning… Wait, this is no<END>
+
+## scene_312 0014 @0001EA len=16
+time for that!<END>
+
+## scene_312 0016 @0001FC len=44
+Pardon? Is something the matter?<END>
+
+## scene_312 0018 @00022A len=16
+Some weirdos<END>
+
+## scene_312 0020 @00023C len=42
+suddenly attacked me!<END>
+
+## scene_312 0022 @000268 len=42
+…Ah, there are plenty more of those inside.<END>
+
+## scene_312 0024 @000294 len=8
+Huh?<END>
+
+## scene_312 0026 @00029E len=20
+If we defeat them,<END>
+
+## scene_312 0028 @0002B4 len=34
+perhaps they'll know something.<END>
+
+## scene_312 0030 @0002D8 len=42
+…Whaaat? So I have to fight again…?<END>
+
+## scene_312 0032 @000304 len=40
+Oh, I shall help too♥<END>
+
+## scene_312 0034 @00032E len=56
+<$FE03><$FE03>Ryoko joined the party!<BR><BR><END>
+
+## scene_312 0037 @00036A len=26
+<$FE03><$FE03>Stage 1 Clear!<END>

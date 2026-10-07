@@ -1,0 +1,26 @@
+## scene_317 0000 @0000F4 len=28
+…She's gone…<$D203><END>
+
+## scene_317 0002 @000112 len=44
+Aaargh! We still don't know anything!<END>
+
+## scene_317 0004 @000140 len=22
+It can't be helped.<END>
+
+## scene_317 0006 @000158 len=62
+Oh well…… Doesn't look like anyone else is here.<END>
+
+## scene_317 0008 @000198 len=18
+Shall we go home?<END>
+
+## scene_317 0010 @0001AC len=20
+Yeah, let's head home.<END>
+
+## scene_317 0012 @0001C2 len=62
+There's a TV show I wanted to watch, anyway.<END>
+
+## scene_317 0014 @000202 len=42
+…I'm beat. Gonna go home and sleep…<END>
+
+## scene_317 0016 @00022E len=56
+<BR><$FE03><$FE03>Stage 2 Clear!<END>

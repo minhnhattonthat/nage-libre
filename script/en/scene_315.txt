@@ -1,0 +1,26 @@
+## scene_315 0000 @00007A len=36
+Oh, there's a treasure chest here!<END>
+
+## scene_315 0002 @0000A0 len=42
+My, there's a treasure chest here…<END>
+
+## scene_315 0004 @0000CC len=56
+Let's open it right away! How exciting♥<END>
+
+## scene_315 0006 @000106 len=14
+What could it be?<END>
+
+## scene_315 0008 @000116 len=92
+<BR>……Got the "LI" Jewel!……<END>
+
+## scene_315 0010 @000174 len=16
+Wow, amazing.<END>
+
+## scene_315 0011 @000184 len=24
+No idea what it is, but…<END>
+
+## scene_315 0013 @00019E len=42
+But is this thing actually good for anything?<END>
+
+## scene_315 0015 @0001CA len=68
+Who knows…. But let's take it anyway.<END>

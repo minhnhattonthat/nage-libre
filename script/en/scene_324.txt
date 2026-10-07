@@ -1,0 +1,44 @@
+## scene_324 0000 @0000FA len=54
+<BR><$FE03><$FE03><$FE03><$FE03>……Clunk……<END>
+
+## scene_324 0002 @000132 len=28
+Oh, something's on the ground.<END>
+
+## scene_324 0004 @000150 len=84
+Okay, it's mine! Finders keepers, like they always say♥<END>
+
+## scene_324 0006 @0001A6 len=36
+Er, nobody says that…<END>
+
+## scene_324 0008 @0001CC len=46
+♪What's on the grouuund, what could it beee♪<END>
+
+## scene_324 0010 @0001FC len=84
+Let's see, it's a bottle… The label says…… "Neutralizer 2."<END>
+
+## scene_324 0012 @000252 len=16
+……What's that?<END>
+
+## scene_324 0014 @000264 len=40
+Yaaay! Looks yummy! Gimme!<END>
+
+## scene_324 0016 @00028E len=38
+Hey! Don't drink it! You can't have it!<END>
+
+## scene_324 0018 @0002B6 len=88
+Ryoko, don't give it to her either! She really WILL drink it!<END>
+
+## scene_324 0020 @000310 len=68
+Well, I was just wondering what would happen if she drank it.<END>
+
+## scene_324 0022 @000356 len=40
+Wondering doesn't mean you DO it!<END>
+
+## scene_324 0024 @000380 len=92
+……The three got a bottle of<BR><$FE03><$FE03><$FE03>"Neutralizer 2"!……<END>
+
+## scene_324 0026 @0003DE len=22
+What a lucky start.<END>
+
+## scene_324 0028 @0003F6 len=86
+Yeah! It's bound to come in handy somehow!<END>

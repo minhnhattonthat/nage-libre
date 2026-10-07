@@ -1,0 +1,11 @@
+## scene_322 0000 @000032 len=28
+<$FE03>…Beep beep beep…<END>
+
+## scene_322 0002 @000050 len=80
+…Still can't get in. Let's think of something and come back.<END>
+
+## scene_322 0004 @0000A2 len=66
+Let us through! …Waah, no good? Okay, Mai'll come back!<END>
+
+## scene_322 0006 @0000E6 len=76
+Unless we deal with this wall, we can't go any further……<END>

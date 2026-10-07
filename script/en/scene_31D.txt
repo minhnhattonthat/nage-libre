@@ -1,0 +1,56 @@
+## scene_31D 0000 @00011E len=42
+Oh? Didn't I just hear a voice… Who's there?<END>
+
+## scene_31D 0002 @00014A len=16
+Over there!<END>
+
+## scene_31D 0004 @00015C len=84
+Not just Mai, but you've brought Yui and Ryoko too, the ones I was looking for!<END>
+
+## scene_31D 0006 @0001B2 len=86
+Talk about ducks delivering themselves! It's Christmas come early! What luck!<END>
+
+## scene_31D 0008 @00020A len=22
+Um, who exactly are you?<END>
+
+## scene_31D 0010 @000222 len=62
+…Yes, this world we created, "Nage"…<END>
+
+## scene_31D 0012 @000262 len=38
+Bringing you girls here was a mistake!<END>
+
+## scene_31D 0014 @00028A len=90
+Anyone who enters this world usually does as we say! But you keep getting in the way!<END>
+
+## scene_31D 0016 @0002E6 len=84
+Huh…? "Nage," you say? A created world? We were brought here?<END>
+
+## scene_31D 0018 @00033C len=90
+Now that I think of it… I felt something weird going into school… Was that it?<END>
+
+## scene_31D 0020 @000398 len=68
+Now that you mention it, Mai felt something like that too!<END>
+
+## scene_31D 0022 @0003DE len=68
+But…… you can't escape from this world!<END>
+
+## scene_31D 0024 @000424 len=56
+Because nobody can leave this town……<END>
+
+## scene_31D 0026 @00045E len=44
+Not unless you defeat me, that is!<END>
+
+## scene_31D 0028 @00048C len=8
+…Oho.<END>
+
+## scene_31D 0030 @000496 len=18
+…Which means…<END>
+
+## scene_31D 0032 @0004AA len=42
+If we beat her, we can get out!<END>
+
+## scene_31D 0034 @0004D6 len=40
+Well then…… let's give it a shot!<END>
+
+## scene_31D 0036 @000500 len=92
+<$FE03>Stage 4 Start!<BR><BR><$FE03>Goal: Defeat boss Kirika!<END>
