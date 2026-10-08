@@ -38,3 +38,10 @@ Where these tiles also occur: the WHO and command-menu blank and frame tiles als
 | `g_item6` | `g_open` + down×6, A | Save NO/YES (English) |
 
 Not reached: status screen, club select, shop, after-stage menu, and whatever uses the `0x295` words. X / Y / Select / L / R on the map do nothing visible; X / Y in the menu do nothing.
+
+## Edits applied (`gfx/edits.json`)
+
+| Screen | Resource | Result | Screenshot |
+|---|---|---|---|
+| Command menu | `0x27B` | Wait / Attack / Item / Trade / Pager / Anime / Save. Greyed items stay grey (palette 1, same colour indices), the cursor highlight works, the frame is intact | `gx_open_final.png` |
+| WHO window | `0x28B` | Ayaka / Mai / Yui / Miki / Ryoko. Members not on the map stay dimmed as in the original. "Mai" / "Yui" use condensed spacing in their 16-px cells | `gx_who_final.png` |

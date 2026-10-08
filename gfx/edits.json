@@ -1,1 +1,20 @@
-[]
+[
+ {"res": "0x27B", "bpp": 2, "stride": 16, "note": "map command menu (BG3 tiles 0x80+)",
+  "labels": [
+   {"tile": "0x10", "w": 5, "h": 2, "text": "Wait"},
+   {"tile": "0x35", "w": 5, "h": 2, "text": "Attack"},
+   {"tile": "0x15", "w": 5, "h": 2, "text": "Item"},
+   {"tile": "0x1A", "w": 5, "h": 2, "text": "Trade"},
+   {"tile": "0x30", "w": 5, "h": 2, "text": "Pager"},
+   {"tile": "0x50", "w": 5, "h": 2, "text": "Anime"},
+   {"tile": "0x3A", "w": 5, "h": 2, "text": "Save"}
+  ]},
+ {"res": "0x28B", "bpp": 2, "stride": 16, "note": "Pager -> WHO window party names",
+  "labels": [
+   {"tile": "0x20", "w": 4, "h": 2, "text": "Ayaka"},
+   {"tile": "0x24", "w": 2, "h": 2, "text": "Mai"},
+   {"tile": "0x26", "w": 2, "h": 2, "text": "Yui"},
+   {"tile": "0x28", "w": 4, "h": 2, "text": "Miki"},
+   {"tile": "0x2C", "w": 4, "h": 2, "text": "Ryoko"}
+  ]}
+]
