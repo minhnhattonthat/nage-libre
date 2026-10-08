@@ -20,3 +20,9 @@ The main loop (`8093DD…`) calls the after-stage menu `87CA0F` right before the
 | Shop | A | `am_shop_final.png` | "Switch characters" prompt (system 281), card prices G100-G700, gold: English |
 | Club select | down, A | `am_club2_final.png` | stat panel LV/AT/AG/HP/DF/MT (graphics, English); club name "Student" (system 242) |
 | Save | down×2, A | `am_save_final.png` | "Save to which file?" File 1-3 / none: English |
+
+Not reached:
+- **Status screen (`0x274`).** Club select ignores X/Y/Select/Start/L/R (`cs_*_final.png`); B goes back to the menu.
+- **Rest? prompt.**
+
+Both edits are checked statically only (labels.py render + tile test).
