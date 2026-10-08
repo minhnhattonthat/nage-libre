@@ -5,7 +5,7 @@
 Yaaay, it's so big!<END>
 
 ## scene_385 0004 @0002D8 len=90
-To think the underground cave goes on this far……. Nature is wonderful!<END>
+To think the underground cave goes on this far…… Nature is wonderful!<END>
 
 ## scene_385 0006 @000334 len=44
 Lady, that's OBVIOUSLY man-made!<END>

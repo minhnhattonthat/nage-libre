@@ -1,5 +1,5 @@
 ## scene_363 0000 @000118 len=84
-Hmm…. At this rate… there's no choice! Go! Jump, Noriko!<END>
+Hmm… At this rate… there's no choice! Go! Jump, Noriko!<END>
 
 ## scene_363 0006 @000176 len=46
 Whaaat?! No way…! I'll die…!<END>

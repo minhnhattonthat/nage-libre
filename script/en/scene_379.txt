@@ -5,7 +5,7 @@ Got page 2 of the book!<END>
 Let's see……<END>
 
 ## scene_379 0004 @000084 len=98
-Nage cannot be summoned…. For its existence must never be known to humankind……<END>
+Nage cannot be summoned… For its existence must never be known to humankind……<END>
 
 ## scene_379 0006 @0000E8 len=10
 Ah……!<END>

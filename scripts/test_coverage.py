@@ -46,3 +46,10 @@ class Coverage(unittest.TestCase):
         write(self.en, "scene_900.txt", "## scene_900 0000 @000010 len=8\nYuki? No, Yukiko.<END>\n\n"
                                         "## scene_900 0005 @000026 len=8\nyuki<END>\n")
         self.assertEqual(coverage.avoided(self.en, g), [("scene_900", 0, "Yuki")])
+
+    def test_avoided_punctuation(self):
+        g = os.path.join(self.jp, "glossary.md")
+        write(self.jp, "glossary.md", "| Japanese | English | Avoid |\n|---|---|---|\n| ……。 | …… | …. |\n")
+        write(self.en, "scene_900.txt", "## scene_900 0000 @000010 len=8\nWho knows….<END>\n\n"
+                                        "## scene_900 0005 @000026 len=8\nWait… what?<END>\n")
+        self.assertEqual(coverage.avoided(self.en, g), [("scene_900", 0, "….")])

@@ -8,4 +8,4 @@ Nuh-uh! We're just beating you 'cause we're passing by!<END>
 Ugh…… she's right. She ran off that way<$D203><END>
 
 ## scene_42A 0006 @0000F4 len=60
-Oh dear……. But that's that…… let's fight!<END>
+Oh dear…… But that's that…… let's fight!<END>

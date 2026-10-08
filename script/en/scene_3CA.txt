@@ -2,13 +2,13 @@
 <BR>……There's a big hole here……<END>
 
 ## scene_3CA 0002 @0000F4 len=22
-What a big hole…….<END>
+What a big hole……<END>
 
 ## scene_3CA 0004 @00010C len=44
 How dangerous. A hole in a place like this……<END>
 
 ## scene_3CA 0006 @00013A len=42
-This hall is surprisingly run-down…….<END>
+This hall is surprisingly run-down……<END>
 
 ## scene_3CA 0008 @000166 len=68
 Hellooo! I'm the goddess of the martial arts hall!<END>

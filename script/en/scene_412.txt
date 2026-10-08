@@ -2,7 +2,7 @@
 <BR>……"World of Wonders Encyclopedia"……<END>
 
 ## scene_412 0003 @000064 len=16
-Hmm, hmm…….<END>
+Hmm, hmm……<END>
 
 ## scene_412 0005 @000076 len=12
 Hmm……<END>

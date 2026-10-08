@@ -1,5 +1,5 @@
 ## scene_3D6 0000 @000062 len=66
-Huh? Another "Jewel Shard"… …That makes seven….<END>
+Huh? Another "Jewel Shard"… …That makes seven…<END>
 
 ## scene_3D6 0002 @0000A6 len=66
 Oh… put all seven together…… and it's a proper jewel!<END>

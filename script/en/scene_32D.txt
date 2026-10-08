@@ -92,7 +92,7 @@ I watched it, got kinda sleepy… and after that I don't remember a thing.<END>
 Y'know, when a trick's THAT obvious, you kinda fall for it anyway.<END>
 
 ## scene_32D 0066 @000988 len=36
-…Normal people don't…….<END>
+…Normal people don't……<END>
 
 ## scene_32D 0068 @0009AE len=36
 Well, anyway, it all worked out!<END>

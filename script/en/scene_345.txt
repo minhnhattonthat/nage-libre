@@ -44,7 +44,7 @@ Bet the view's great! I'm in!<END>
 Just hurry up and come on!<END>
 
 ## scene_345 0030 @000436 len=20
-Okay……. Sniff, sniff.<END>
+Okay…… Sniff, sniff.<END>
 
 ## scene_345 0032 @00044C len=62
 ……At that moment,<BR><$FE03><$FE03><$FE03>a voice echoes beyond the dark……<END>

@@ -2,7 +2,7 @@
 Anything at the roots of this tree?<END>
 
 ## scene_3F9 0002 @00008C len=90
-Nothing, huh…. Looks like nothing at the roots this time……… Huh?<END>
+Nothing, huh… Looks like nothing at the roots this time……… Huh?<END>
 
 ## scene_3F9 0004 @0000E8 len=92
 <BR>……Letters are carved<BR><$FE03><$FE03><$FE03><$FE03>into the tree with a knife……<END>

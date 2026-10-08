@@ -60,7 +60,9 @@ def avoid_list(glossary):
 
 
 def avoided(en_dir, glossary):
-    words = [(w, re.compile(r"\b" + re.escape(w) + r"\b")) for w in avoid_list(glossary)]
+    def pattern(w):     # whole-word only at word-character edges, so punctuation like "…." still matches
+        return re.compile((r"\b" if re.match(r"\w", w) else "") + re.escape(w) + (r"\b" if re.search(r"\w$", w) else ""))
+    words = [(w, pattern(w)) for w in avoid_list(glossary)]
     out = []
     for name in _names(en_dir):
         for e in _read(os.path.join(en_dir, name + ".txt")):

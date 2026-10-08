@@ -26,7 +26,7 @@ More clubs become available as you clear stages,<END>
 and some you get by opening treasure chests or clearing events along the way.<END>
 
 ## scene_32E 0018 @00024A len=36
-…For example……. Here! Take this!<END>
+…For example…… Here! Take this!<END>
 
 ## scene_32E 0020 @000270 len=62
 ………Yui received the Basketball<BR><$FE03><$FE03>Club emblem!……<END>

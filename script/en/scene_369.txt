@@ -2,7 +2,7 @@
 Huh?<END>
 
 ## scene_369 0002 @000076 len=40
-She's right. It's blocked, we can't get through…….<END>
+She's right. It's blocked, we can't get through……<END>
 
 ## scene_369 0004 @0000A0 len=46
 It's no good! We can't get through!<END>
@@ -11,7 +11,7 @@ It's no good! We can't get through!<END>
 She's right. There's no way through this…<END>
 
 ## scene_369 0008 @000104 len=46
-It's completely buried…. We can't get through…<END>
+It's completely buried… We can't get through…<END>
 
 ## scene_369 0010 @000134 len=90
 It's completely buried. There was no need to bury it with such gusto……<END>

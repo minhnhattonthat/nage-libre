@@ -14,10 +14,11 @@ PORTRAIT_OPS = (0x08, 0x02)          # first operand = character id
 
 @dataclass(frozen=True)
 class Ctx:
-    speaker: int | None
+    speaker: int | tuple | None     # tuple of ids when several op-13 slots share the entry
     box: wrap.Box
     op: int
-    slot: int | None
+    slot: int | None                # first op-13 slot
+    slots: tuple = ()               # every op-13 slot that prints the entry
 
 
 def context(data, name, m=None):
@@ -33,10 +34,15 @@ def context(data, name, m=None):
             continue
         for k in o.offset_operands:
             e = by_off.get(o.operands[k - 1])
-            if e is None or e.index in out:
+            if e is None:
                 continue
-            slot = k - 1 if o.opcode == 0x13 else None
-            out[e.index] = Ctx(slot + 1 if slot is not None else speaker, boxes.get(e.offset, wrap.FULL), o.opcode, slot)
+            prev = out.get(e.index)
+            if o.opcode == 0x13 and (prev is None or prev.op == 0x13):
+                slots = tuple(sorted(set(prev.slots if prev else ()) | {k - 1}))
+                ids = tuple(s + 1 for s in slots)
+                out[e.index] = Ctx(ids[0] if len(ids) == 1 else ids, boxes.get(e.offset, wrap.FULL), 0x13, slots[0], slots)
+            elif prev is None:
+                out[e.index] = Ctx(speaker, boxes.get(e.offset, wrap.FULL), o.opcode, None)
     return out
 
 
@@ -52,6 +58,8 @@ def speaker_name(sid, names=None):
     if sid is None:
         return "-"
     names = _speakers() if names is None else names
+    if isinstance(sid, tuple):
+        return "any member" if len(sid) == 5 else "/".join(speaker_name(s, names) for s in sid)
     return names.get(sid, f"id 0x{sid:03X} (?)")
 
 

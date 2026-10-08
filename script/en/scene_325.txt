@@ -20,7 +20,7 @@ Ooh, good idea!<END>
 Use the♪ ♪neutralizer!<END>
 
 ## scene_325 0014 @000346 len=88
-Isn't it? Now then…. Yui, take that bottle…… and hurl yourself at it!<END>
+Isn't it? Now then… Yui, take that bottle…… and hurl yourself at it!<END>
 
 ## scene_325 0016 @0003A0 len=12
 Okay!<END>

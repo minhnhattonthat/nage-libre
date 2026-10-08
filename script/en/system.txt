@@ -704,7 +704,7 @@ Gymnastics<END>
 Occult<END>
 
 ## system 0235 @000000 len=0
-Cooking<END>
+Science<END>
 
 ## system 0236 @000000 len=0
 Dance<END>

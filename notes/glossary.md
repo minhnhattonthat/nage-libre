@@ -47,6 +47,7 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | 心に闇を持つ者 | those with darkness in their hearts / dark hearts | |
 | ＳＯＲＲＹ…… ＧＡＭＥ ＯＶＥＲ ……ＰＵＳＨ ＲＥＳＥＴ…… | SORRY…… GAME OVER ……PUSH RESET…… (kept in English, 4-line layout) | |
 | ステージＮ・クリア‼ | Stage N Clear! | |
+| ……。 (ellipsis + period) | …… (drop the period) | …. |
 | 喜久子 / 姫神一族 / 姫神の森 | Kikuko / the Himegami clan / Himegami Forest | |
 | りか / 紗羅 / アリア | Rika / Sara / Aria (stage 10/11/12-13 bosses) | |
 | 典子 / 美由紀 / 智恵子 | Noriko / Miyuki / Chieko (stage 9 rooftop girls) | |
@@ -78,7 +79,7 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 | 超必殺技カード / ストックカード | SP card / stock cards | |
 | 演劇部 / 手芸部 / オカルト研 | Drama Club / Crafts Club / Occult Club | |
 | 隠しコマンド (scene_42D) | birthdays Jan 23 / Apr 5 / Jun 7 / Aug 9 / Oct 11 (Ayaka / Mai / Yui / Miki / Ryoko) | |
-| 料学部 | Cooking Club (official club name; 料 = cooking) | |
+| 料学部 (really 科学部: glyph B401 is 科, mislabelled 料 in nage.tbl) | Science Club | Cooking |
 | ○○ (placeholder name) | XX | |
 | ■ (debug/unused text) | `<$FC03>` (■ is not in en.tbl) | |
 

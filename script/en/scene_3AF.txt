@@ -1,5 +1,5 @@
 ## scene_3AF 0000 @000024 len=58
-At last…. At last, my time to fall… has come… Now…<END>
+At last… At last, my time to fall… has come… Now…<END>
 
 ## scene_3AF 0002 @000060 len=84
 …Now… I no longer have to wonder… what I am…<END>

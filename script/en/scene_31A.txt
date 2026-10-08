@@ -8,4 +8,4 @@ Fight!<END>
 Have at you!<END>
 
 ## scene_31A 0006 @00006C len=90
-So you came after all……. Fine, I'll take you on. …Bring it ooon!<END>
+So you came after all…… Fine, I'll take you on. …Bring it ooon!<END>

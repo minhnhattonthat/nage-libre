@@ -2,7 +2,7 @@
 I wonder if Ayaka's here…?<END>
 
 ## scene_328 0002 @0001B4 len=52
-Huh…. Isn't that Ayaka behind the door?<END>
+Huh… Isn't that Ayaka behind the door?<END>
 
 ## scene_328 0004 @0001EA len=12
 Really?<END>

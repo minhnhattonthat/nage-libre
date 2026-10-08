@@ -17,7 +17,7 @@ Hurry, burn that book! That book has…!<END>
 That a book with something important is hidden here.<END>
 
 ## scene_375 0012 @000190 len=80
-No choice. Either way, it's all the same once I beat you…….<END>
+No choice. Either way, it's all the same once I beat you……<END>
 
 ## scene_375 0014 @0001E2 len=24
 Hyaaah! Bang bang!<END>

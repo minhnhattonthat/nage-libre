@@ -23,7 +23,15 @@ class Context(unittest.TestCase):
         self.assertTrue(slots)
         for x in slots:
             self.assertIn(x.slot, range(5))
-            self.assertEqual(x.speaker, x.slot + 1)
+            if len(x.slots) == 1:
+                self.assertEqual(x.speaker, x.slot + 1)
+
+    def test_op13_entry_shared_by_several_slots(self):
+        c = context.context(self.d, "scene_37D")
+        x = c[38]                                     # これでボスと戦えるわね♥: one entry in all five slots
+        self.assertEqual(x.slots, (0, 1, 2, 3, 4))
+        self.assertEqual(context.speaker_name(x.speaker), "any member")
+        self.assertEqual(context.speaker_name((2, 5)), "Mai/Ryoko")
 
     def test_unknown_speaker_label(self):
         self.assertEqual(context.speaker_name(0x03), "Yui")

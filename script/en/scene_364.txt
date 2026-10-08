@@ -1,5 +1,5 @@
 ## scene_364 0000 @0000B8 len=80
-Hmm…. Noriko's down too…… Then you're next! Now, go!<END>
+Hmm… Noriko's down too…… Then you're next! Now, go!<END>
 
 ## scene_364 0002 @00010A len=22
 What?! Me?!<END>

@@ -1,5 +1,5 @@
 ## scene_31F 0000 @000106 len=64
-Hmm. So Ayaka's here too…. Guess we'd better go save her.<END>
+Hmm. So Ayaka's here too… Guess we'd better go save her.<END>
 
 ## scene_31F 0002 @000148 len=76
 Still, she was surprisingly kind. She even told us the way.<END>
@@ -11,7 +11,7 @@ Buuut it might be a trap, y'know.<END>
 It's fine! She didn't look smart enough for that!<END>
 
 ## scene_31F 0008 @00021E len=36
-…When you put it like that… hmm….<END>
+…When you put it like that… hmm…<END>
 
 ## scene_31F 0010 @000244 len=80
 Well, shall we go and see anyway? It's not as if we have any other leads.<END>
@@ -20,7 +20,7 @@ Well, shall we go and see anyway? It's not as if we have any other leads.<END>
 Yeah, let's goooo!<END>
 
 ## scene_31F 0014 @0002C0 len=64
-Uuu……. Okay! Let's go!<END>
+Uuu…… Okay! Let's go!<END>
 
 ## scene_31F 0016 @000302 len=86
 Staying here won't get us anywhere! Thinking too hard is a pain, so I quit!<END>

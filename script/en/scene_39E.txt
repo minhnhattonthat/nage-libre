@@ -11,10 +11,10 @@ But I will not let you interfere any longer!<END>
 If it was chance that you were untouched by Nage, without darkness in your hearts,<END>
 
 ## scene_39E 0008 @00015A len=92
-then so too was Nage leading me to build this world and reach for yours……<END>
+then my being led by Nage to build this world and conquer yours……<END>
 
 ## scene_39E 0010 @0001B8 len=28
-both of them, mere chance…<END>
+was just as much chance…<END>
 
 ## scene_39E 0012 @0001D6 len=84
 …If we are both children of chance, let us find out here which holds the greater power!<END>
