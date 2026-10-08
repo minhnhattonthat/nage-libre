@@ -1,5 +1,5 @@
 [
- {"res": "0x27B", "bpp": 2, "stride": 16, "note": "map command menu (BG3 tiles 0x80+)",
+ {"res": "0x27B", "bpp": 2, "stride": 16, "note": "map command menu (BG3 tiles 0x80+); verified g_open",
   "labels": [
    {"tile": "0x10", "w": 5, "h": 2, "text": "Wait"},
    {"tile": "0x35", "w": 5, "h": 2, "text": "Attack"},
@@ -9,12 +9,28 @@
    {"tile": "0x50", "w": 5, "h": 2, "text": "Anime"},
    {"tile": "0x3A", "w": 5, "h": 2, "text": "Save"}
   ]},
- {"res": "0x28B", "bpp": 2, "stride": 16, "note": "Pager -> WHO window party names",
+ {"res": "0x27B", "bpp": 2, "stride": 16, "note": "眠りますか？ prompt above NO/YES (static tilemaps 0x285/0x286); UNVERIFIED, playtest",
+  "labels": [
+   {"cols": ["0x5B", "0x5C", "0x5D", "0x5E",
+             ["0x70", "0x72"], ["0x71", "0x73"], ["0x74", "0x76"], ["0x75", "0x77"],
+             ["0x78", "0x7A"], ["0x79", "0x7B"], ["0x7C", "0x7E"], ["0x7D", "0x7F"]], "h": 2, "text": "Rest?"}
+  ]},
+ {"res": "0x28B", "bpp": 2, "stride": 16, "note": "Pager -> WHO window party names; verified g_item4",
   "labels": [
    {"tile": "0x20", "w": 4, "h": 2, "text": "Ayaka"},
    {"tile": "0x24", "w": 2, "h": 2, "text": "Mai"},
    {"tile": "0x26", "w": 2, "h": 2, "text": "Yui"},
    {"tile": "0x28", "w": 4, "h": 2, "text": "Miki"},
    {"tile": "0x2C", "w": 4, "h": 2, "text": "Ryoko"}
+  ]},
+ {"res": "0x274", "bpp": 2, "stride": 16, "note": "status screen stat names (static tilemaps 0x275/0x276); 力 shared by 4 words and さ blanked; UNVERIFIED, playtest",
+  "labels": [
+   {"tile": "0x30", "w": 2, "h": 2, "text": "HP"},
+   {"tile": "0x32", "w": 2, "h": 2, "text": ""},
+   {"tile": "0x34", "w": 2, "h": 2, "text": "ST"},
+   {"tile": "0x36", "w": 4, "h": 2, "text": "DEF"},
+   {"tile": "0x3A", "w": 4, "h": 2, "text": "SPD"},
+   {"tile": "0x1B", "w": 2, "h": 2, "text": ""},
+   {"cols": ["0x3E", "0x3F", "0x50", "0x51"], "h": 2, "text": "SPI"}
   ]}
 ]

@@ -46,6 +46,11 @@ def fits(text, width_px):
 
 
 def render(text, width_px, height_px=16, ink=1, outline=2):
+    if not text:                                  # blank out an area (e.g. a cell whose glyph is not needed)
+        return [[0] * width_px for _ in range(height_px)]
+    glyph_h = len(_glyph(text[0]))
+    if glyph_h > height_px:
+        raise ValueError(f"label {text!r} is {glyph_h} px tall, area is {height_px} px")
     gap = _gap(text, width_px)
     if gap is None:
         raise ValueError(f"label {text!r} is {width(text)} px, area is {width_px} px")

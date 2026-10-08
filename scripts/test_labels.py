@@ -23,6 +23,13 @@ class Labels(unittest.TestCase):
         self.assertEqual(len(t), 10)                         # 5 wide x 2 high
         self.assertTrue(all(len(x) == 8 and len(x[0]) == 8 for x in t))
 
+    def test_too_short_area_raises(self):
+        with self.assertRaisesRegex(ValueError, "13 px tall"):
+            labels.render("Wait", 40, 8)
+
+    def test_blank_label(self):
+        self.assertEqual({v for row in labels.render("", 16) for v in row}, {0})
+
     def test_condensed_spacing_for_one_cell_names(self):
         # 舞 / 唯 are single 16-px cells in the WHO window: fall back to 0 px letter spacing
         self.assertEqual(labels.width("Mai"), 17)

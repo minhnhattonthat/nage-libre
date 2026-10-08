@@ -148,6 +148,20 @@ class Build(unittest.TestCase):
         self.assertTrue(all(ot[i] == nt[i] for i in range(len(ot)) if i not in label))
         self.assertTrue(any(ot[i] != nt[i] for i in label))
 
+    def test_gfx_label_columns(self):
+        # a word spread over non-adjacent cells: 精 (0x3E-0x3F) + 神 (0x50-0x51) in 0x274, and explicit [top, bottom] pairs
+        import resources, tiles
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        p = os.path.join(d, "edits.json")
+        with open(p, "w") as f:
+            f.write('[{"res": "0x274", "bpp": 2, "stride": 16, "labels": '
+                    '[{"cols": ["0x3E", "0x3F", "0x50", ["0x51", "0x61"]], "h": 2, "text": "SPI"}]}]')
+        img = build.build(self.clean, gfx=p)
+        ot, nt = tiles.decode(resources.load(self.clean, 0x274), 2), tiles.decode(resources.load(img, 0x274), 2)
+        touched = {0x3E, 0x3F, 0x50, 0x51, 0x4E, 0x4F, 0x60, 0x61}
+        self.assertTrue(all(ot[i] == nt[i] for i in range(len(ot)) if i not in touched))
+        self.assertTrue(any(ot[i] != nt[i] for i in touched))
+
     def test_gfx_label_too_long(self):
         d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
         p = os.path.join(d, "edits.json")

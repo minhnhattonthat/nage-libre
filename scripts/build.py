@@ -167,13 +167,18 @@ def gfx_resources(clean, edits):
         data = out.get(rid) or resources.load(clean, rid)
         ts = tiles.decode(data, bpp)
         for lb in ed["labels"]:
-            t0, w, h = int(lb["tile"], 16), lb["w"], lb["h"]
+            # columns: "tile" + "w" (consecutive tiles), or "cols": each a top tile (rows below via stride)
+            # or an explicit [top, bottom, ...] list, for words spread over non-adjacent cells
+            cols = lb.get("cols") or [f"{int(lb['tile'], 16) + c:#x}" for c in range(lb["w"])]
+            w, h = len(cols), lb["h"]
+            where = lb.get("tile") or cols[0] if isinstance(cols[0], str) else cols[0][0]
             try:
                 grid = labels.render(lb["text"], 8 * w, 8 * h, lb.get("ink", 1), lb.get("outline", 2))
             except ValueError as x:
-                raise BuildError(f"graphics resource {ed['res']} tile {lb['tile']}: {x}") from None
+                raise BuildError(f"graphics resource {ed['res']} tile {where}: {x}") from None
             for i, tile in enumerate(labels.to_tiles(grid)):
-                ts[t0 + (i % w) + stride * (i // w)] = tile
+                spec, row = cols[i % w], i // w
+                ts[int(spec[row], 16) if isinstance(spec, list) else int(spec, 16) + stride * row] = tile
         new = tiles.encode(ts, bpp)
         if len(new) != len(data):
             raise BuildError(f"graphics resource {ed['res']}: size changed")
