@@ -52,7 +52,7 @@ What is left is Japanese drawn as **graphics**: labels baked into tiles, which t
 | `scripts/resources.py` | Resource table access | `pointer(data, rid) -> file offset`; `load(data, rid) -> bytes` (decompressed); `ids(data) -> range` |
 | `scripts/gfxsurvey.py` | Survey CLI | writes `work/gfx/res_XXX_2bpp.png` / `_4bpp.png` for every decompressible non-scene resource, plus `work/gfx/index.txt` (id, size, plausible bpp) |
 | `scripts/labels.py` | English label renderer | `render(text, width_px, height_px, ink, outline) -> tile pixel grid`; `fits(text, width_px) -> bool`. Glyphs come from `font/en_glyphs.txt` with blank columns trimmed and 1 px spacing |
-| `gfx/edits.json` | Edit list | `[{"res": "0x27B", "bpp": 2, "labels": [{"tile": "0x90", "w": 5, "h": 2, "text": "Wait"}, …]}]` (`tile` = top-left tile index relative to the resource's first tile; `w`/`h` in tiles; tiles laid out row-major within the resource as the tilemap uses them) |
+| `gfx/edits.json` | Edit list | `[{"res": "0x27B", "bpp": 2, "labels": [{"tile": "0x90", "w": 5, "h": 2, "text": "Wait"}, …]}]` (`tile` = top-left tile index counted from the resource's first tile (resource 0x27B starts at VRAM tile 0x80, so 待機 = 0x10); `w`/`h` in tiles; the tile below tile *t* is *t* + `stride`, default 16, as in the probe: 0x90-0x94 above 0xA0-0xA4) |
 | `scripts/build.py` (modify) | Apply `gfx/edits.json`: load, render labels into the tile area, encode, compress, place, repoint | `gfx_resources(clean) -> dict[rid, bytes]` (compressed), merged into the relocation loop |
 | `scripts/mesen/dump_screen.lua` | VRAM / OAM / CGRAM / PPU state of a screen | exists (written during the probe) |
 | `notes/graphics.md` | Inventory and results | prose and tables |
