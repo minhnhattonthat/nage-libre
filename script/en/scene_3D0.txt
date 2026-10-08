@@ -2,7 +2,7 @@
 Anything at the tree roots?<END>
 
 ## scene_3D0 0002 @00006A len=92
-<BR>……The five got "Jewel Shard 2"!……<END>
+<BR>……The five got<BR>"Jewel Shard 2"!……<END>
 
 ## scene_3D0 0005 @0000CA len=64
 What's this? Does collecting them make something?<END>

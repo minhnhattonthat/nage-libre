@@ -8,7 +8,7 @@ Ah, it's her again! She's back!<END>
 See? I'm finally ready! Here goes!<END>
 
 ## scene_38B 0009 @000114 len=64
-♪Eko Eko Azarak, Pirilimpa♪ ……Transfoooorm!<END>
+♪Eko Eko Azarak,<BR>Pirilimpa♪<BR>……Transfoooorm!<END>
 
 ## scene_38B 0014 @00015C len=72
 Ta-da! Now I'm invincible! I won't let you go to Nage!<END>

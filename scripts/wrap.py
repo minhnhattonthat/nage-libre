@@ -44,6 +44,7 @@ def _pad(n):
 def fit(text, box, table):
     if not text.endswith("<END>"):
         raise FitError("text must end with <END>")
+    text = balance(text, box, table)
     out, cur, curw, wrapped = [], "", 0, False      # out: (text, width) per line
 
     def end_line(pad):
@@ -80,6 +81,50 @@ def fit(text, box, table):
         raise FitError(f"{len(out)} lines, box holds {box.lines} lines of {box.cols} columns: "
                        f"{over} columns over" + _why(box))
     return "".join(t for t, _ in out) + "<END>"
+
+
+INDENT = "<$FE03>"
+
+
+def _lines(seg, box, table):
+    """Greedy word lines of one <BR>-free segment."""
+    lines, w = [[]], 0
+    for word in seg.split():
+        ww = sum(_width(t, table) for t in _TOK.findall(word))
+        if lines[-1] and w + 1 + ww > box.cols:
+            lines.append([])
+        w = w + 1 + ww if lines[-1] else ww
+        lines[-1].append(word)
+    return lines
+
+
+def _balance_seg(seg, box, table):
+    lines = _lines(seg, box, table)
+    while len(lines) > 1 and seg.lstrip().startswith(INDENT):      # an indented line that spills loses its indent
+        seg = seg.lstrip()[len(INDENT):]
+        lines = _lines(seg, box, table)
+    if len(lines) > 1 and len(lines[-1]) == 1 and len(lines[-2]) > 1:
+        moved = [lines[-2][-1], lines[-1][0]]
+        if len(_lines(" ".join(moved), box, table)) == 1:         # widow: take a word from the line above
+            lines[-2].pop()
+            lines[-1] = moved
+            seg = "<BR>".join(" ".join(l) for l in lines)
+    return seg, lines
+
+
+def balance(text, box, table):
+    """Even out greedy wrapping without changing the line count: no widows, no indented line spilling over."""
+    return "<BR>".join(_balance_seg(s, box, table)[0] for s in text[:-5].split("<BR>")) + "<END>"
+
+
+def orphans(text, box, table):
+    """<BR>-separated segments that still end with a lone word after balance(): rewording needed."""
+    out = []
+    for seg in text[:-5].split("<BR>"):
+        lines = _balance_seg(seg, box, table)[1]
+        if len(lines) > 1 and len(lines[-1]) == 1:
+            out.append(seg.strip())
+    return out
 
 
 def _why(box):

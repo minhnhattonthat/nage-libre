@@ -26,7 +26,7 @@ Alrighty, I'm finally warmed up. Just you wait!<END>
 I'll beat every last one of you!<END>
 
 ## scene_391 0028 @000322 len=38
-Huh? That's weird? Nobody's here……<END>
+Huh? That's weird. Nobody's here……<END>
 
 ## scene_391 0030 @00034A len=56
 <BR><$FE03>Stage 19 Clear!<END>

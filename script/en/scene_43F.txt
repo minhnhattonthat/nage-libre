@@ -2,7 +2,7 @@
 Ugh!<END>
 
 ## scene_43F 0002 @000036 len=92
-…Each time an enemy Nage made is defeated, Nage's power weakens……<END>
+…Each time one of Nage's creations is defeated, Nage's power weakens……<END>
 
 ## scene_43F 0004 @000094 len=92
 ……As Nage weakens, the door…… begins to waver……<END>

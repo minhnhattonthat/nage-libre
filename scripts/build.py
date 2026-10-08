@@ -50,6 +50,9 @@ def english_patches(clean):
     return p
 
 
+WARNINGS = []      # non-fatal text-layout findings of the last build (orphan words after a wrap)
+
+
 def en_texts(path, entries, table, boxes, jp_block=b""):
     """{index: encoded bytes} for one translated scene file, validated against the JP entries."""
     fname = os.path.basename(path)
@@ -87,6 +90,7 @@ def en_texts(path, entries, table, boxes, jp_block=b""):
             raise BuildError(f"{where}: {x}") from None
         except ValueError as x:
             raise BuildError(f"{where}: {x} (box {box.cols}x{box.lines})") from None
+        WARNINGS.extend(f"{where}: awkward wrap: {seg}" for seg in wrap.orphans(text, box, table))
         if len(b) % 2:
             raise BuildError(f"{where}: encodes to an odd number of bytes (a raw <$..> code is 1 byte short)")
         if any(b[i:i + 2] == dump.END for i in range(0, len(b) - 2, 2)):
@@ -200,6 +204,7 @@ def build(clean, en_dir=None, gfx=None):
             m = re.fullmatch(r"scene_([0-9A-F]{3})\.txt", os.path.basename(p))
             if not (m and FIRST <= int(m.group(1), 16) <= LAST):
                 raise BuildError(f"{os.path.basename(p)}: not a scene file name (expected scene_30F.txt .. scene_45B.txt)")
+    WARNINGS.clear()
     img = romimage.expand(clean, SIZE)
     state, over = {"free": FREE_START}, []
 
@@ -258,6 +263,8 @@ def main():
     except BuildError as e:
         print("BUILD FAILED:", e)
         sys.exit(1)
+    for w in WARNINGS:
+        print("warning:", w)
     os.makedirs(a.out, exist_ok=True)
     with open(os.path.join(a.out, "nage_en.sfc"), "wb") as f:
         f.write(img)

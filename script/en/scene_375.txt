@@ -14,7 +14,7 @@ Hurry, burn that book! That book has…!<END>
 …Mai heard that!<END>
 
 ## scene_375 0010 @00015A len=52
-That a book with something important is hidden here.<END>
+That there's a book about something important hidden here.<END>
 
 ## scene_375 0012 @000190 len=80
 No choice. Either way, it's all the same once I beat you……<END>

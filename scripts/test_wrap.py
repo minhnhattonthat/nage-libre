@@ -75,3 +75,26 @@ class EntryBoxes(unittest.TestCase):
         box = wrap.entry_boxes(blk)[0x08]
         self.assertEqual((box.cols, box.lines), (22, 1))
         self.assertIn("22- and 30-column", box.note)
+
+
+class Orphans(unittest.TestCase):
+    def test_clean_wraps_pass(self):
+        self.assertEqual(wrap.orphans("hello there my<BR>ok<END>", B, T), [])
+
+
+class Balance(unittest.TestCase):
+    def test_widow_takes_a_word_from_the_line_above(self):
+        self.assertEqual(wrap.balance("hello abc there<END>", B, T), "hello<BR>abc there<END>")
+
+    def test_spilling_indent_is_trimmed_until_it_fits(self):
+        self.assertEqual(wrap.balance("hi<BR><$FE03><$FE03>abc defg<END>", B, T), "hi<BR><$FE03>abc defg<END>")
+
+    def test_indent_dropped_when_line_wraps_anyway(self):
+        self.assertEqual(wrap.balance("<$FE03>ab cd ef gh ij<END>", B, T), "ab cd ef gh ij<END>")
+
+    def test_fit_balances(self):
+        self.assertEqual(wrap.fit("hello abc there<END>", B, T), "hello" + pad(5) + "abc there<END>")
+
+    def test_orphans_reports_what_balance_cannot_fix(self):
+        self.assertEqual(wrap.orphans("hello abc there<END>", B, T), [])
+        self.assertEqual(wrap.orphans("abcdefghij k<END>", B, T), ["abcdefghij k"])

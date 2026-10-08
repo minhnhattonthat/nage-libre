@@ -1,5 +1,5 @@
 ## scene_402 0000 @0000B6 len=66
-Now. This is the last. Let us proceed solemnly……<END>
+Now then. This is the last one. Let us proceed with due solemnity……<END>
 
 ## scene_402 0002 @0000FA len=16
 Oh, her again<$D203><END>

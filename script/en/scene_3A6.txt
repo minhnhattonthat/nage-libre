@@ -5,7 +5,7 @@ This voice…… is Nage?<END>
 Yikes! The tower transformed!<END>
 
 ## scene_3A6 0004 @0001C6 len=42
-The crystal is peeling off… something underneath……!<END>
+The crystal is peeling<BR>away… Something's<BR>underneath……!<END>
 
 ## scene_3A6 0006 @0001F2 len=78
 For a long…… long time…… I had lost my memory… Even now… I don't know who I am……<END>

@@ -26,7 +26,7 @@ I was just thirsty, so let's drink♪<END>
 <$FE03>……Gulp gulp……<END>
 
 ## scene_401 0018 @0001DC len=68
-……………… This water is weirdly delicious……………<END>
+………………<BR>This water is weirdly<BR>delicious……………<END>
 
 ## scene_401 0020 @000222 len=24
 <$FE03>……Glug glug……<END>

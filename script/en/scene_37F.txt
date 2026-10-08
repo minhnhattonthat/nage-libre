@@ -29,7 +29,7 @@ Nyuu. Mai doesn't get it.<END>
 Oh, what's this?<END>
 
 ## scene_37F 0020 @000356 len=12
-Let me see?<END>
+Let's see…<END>
 
 ## scene_37F 0022 @000364 len=108
 Password for the cave entrance in the forest: "LISTEN TO THE RAINDROPS" …to the Water Temple……<END>

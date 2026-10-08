@@ -8,7 +8,7 @@ What a big hole……<END>
 How dangerous. A hole in a place like this……<END>
 
 ## scene_3CA 0006 @00013A len=42
-This hall is surprisingly run-down……<END>
+This hall is rather<BR>run-down, isn't it……<END>
 
 ## scene_3CA 0008 @000166 len=68
 Hellooo! I'm the goddess of the martial arts hall!<END>

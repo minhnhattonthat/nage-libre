@@ -22,13 +22,14 @@ def _shots(tag, scene):
                   if int(p[-9:-4]) >= FIRST_LOADER_FRAME)
 
 
-def run(rom_path, tag, scenes):
+def run(rom_path, tag, scenes, every=None):
+    """every: shoot every N frames instead of on op 06 (timed narration scenes have no key waits)."""
     failed = []
     for s in scenes:
         for old in glob.glob(os.path.join(mesen.WORK, "shots", f"tour_{tag}_{s:03X}_*.png")):
             os.remove(old)
         params = {"FROM": "stage1", "ROUTE": BASE_ROUTE.replace("\\", "/"), "NAME": f"tour_{tag}_{s:03X}", "AUTO": 1,
-                  "SCENE": str(s), "SHOT_ON": WAIT_OP}
+                  "SCENE": str(s), **({"SHOT_EVERY": every, "IDLE": 3600} if every else {"SHOT_ON": WAIT_OP})}
         rc = mesen.run(HOOK, params, rom_path=rom_path)
         print(f"{tag} scene {s:03X}: rc={rc} shots={len(_shots(tag, s))}", flush=True)
         if rc != 0:
@@ -85,12 +86,26 @@ def main():
         tag, rom_path, a, b = sys.argv[2:6]
         failed = run(rom_path, tag, _range(a, b))
         print("failed:", " ".join(f"{s:03X}" for s in failed) or "none")
+    elif cmd == "run-timed":
+        # python -I scripts/tour.py run-timed TAG ROM 032,033,... : timed narration scenes, a shot every 60 frames
+        tag, rom_path, lst = sys.argv[2:5]
+        failed = run(rom_path, tag, [int(x, 16) for x in lst.split(",")], every=60)
+        print("failed:", " ".join(f"{s:03X}" for s in failed) or "none")
     elif cmd == "strips":
         with open(os.path.join(ROOT, "index.txt"), "a", encoding="utf-8") as idx:
             for s in _range(*sys.argv[2:4]):
                 out, ne, nj = strip(s)
                 idx.write(f"{s:03X} scene_{s + 0x30F:03X} en={ne} jp={nj}\n")
                 print(out, ne, nj)
+    elif cmd == "sheets":
+        # full-size 4x4 pages per scene and ROM, legible for text review: work/tour/review/<tag>_<SSS>_<k>.png
+        out_dir = os.path.join(ROOT, "review")
+        os.makedirs(out_dir, exist_ok=True)
+        for s in _range(*sys.argv[2:4]):
+            for tag in ("en", "jp"):
+                ps = select(_shots(tag, s))
+                for k in range(0, len(ps), 16):
+                    shots.sheet(ps[k:k + 16], 4, os.path.join(out_dir, f"{tag}_{s + 0x30F:03X}_{k // 16}.png"))
 
 
 if __name__ == "__main__":

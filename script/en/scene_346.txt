@@ -20,7 +20,7 @@ So you've tracked down the Himegami Forest!<END>
 Well, we have to pass through here to get to school……<END>
 
 ## scene_346 0014 @0002E0 len=84
-You have come to steal the treasure of us, the Himegami clan!<END>
+You've come to steal the treasure of our Himegami clan!<END>
 
 ## scene_346 0016 @000336 len=58
 Yet another group that doesn't listen to a word anyone says……<END>
