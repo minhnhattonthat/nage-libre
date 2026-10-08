@@ -8,4 +8,4 @@ Yaaay, the gyyym! There are stairs! Let's climb!<END>
 Mai, you mustn't wander about.<END>
 
 ## scene_34F 0006 @000120 len=90
-…That said, I adore looking down on people from up high, so I'll join you. …Oh my<END>
+…That said, I adore looking down on people from up high, so I'll join you. …Oh my.<END>

@@ -29,7 +29,7 @@ def run(rom_path, tag, scenes, every=None):
         for old in glob.glob(os.path.join(mesen.WORK, "shots", f"tour_{tag}_{s:03X}_*.png")):
             os.remove(old)
         params = {"FROM": "stage1", "ROUTE": BASE_ROUTE.replace("\\", "/"), "NAME": f"tour_{tag}_{s:03X}", "AUTO": 1,
-                  "SCENE": str(s), **({"SHOT_EVERY": every, "IDLE": 3600} if every else {"SHOT_ON": WAIT_OP})}
+                  "SCENE": str(s), **({"SHOT_EVERY": every, "IDLE": 9000} if every else {"SHOT_ON": WAIT_OP})}
         rc = mesen.run(HOOK, params, rom_path=rom_path)
         print(f"{tag} scene {s:03X}: rc={rc} shots={len(_shots(tag, s))}", flush=True)
         if rc != 0:
@@ -103,7 +103,7 @@ def main():
         os.makedirs(out_dir, exist_ok=True)
         for s in _range(*sys.argv[2:4]):
             for tag in ("en", "jp"):
-                ps = select(_shots(tag, s))
+                ps = select(_shots(tag, s), max_frames=200, threshold=0.003)   # keep completed timed lines
                 for k in range(0, len(ps), 16):
                     shots.sheet(ps[k:k + 16], 4, os.path.join(out_dir, f"{tag}_{s + 0x30F:03X}_{k // 16}.png"))
 

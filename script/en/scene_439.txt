@@ -41,7 +41,7 @@ AGE<$FE03><$FE03><$FE03><$FE03>26<BR>HEIGHT<$FE03><$FE03>171cm<BR>BLOOD TYPE<$FE
 I'm here from the very start! Nice to meet you!<END>
 
 ## scene_439 0036 @0004E4 len=62
-I appear after you clear Stage 1♥ Please wait just a little♥<END>
+I appear after you clear<BR>Stage 1♥ Please wait just a little♥<END>
 
 ## scene_439 0039 @000526 len=46
 Mai shows up partway through Stage 3!<END>

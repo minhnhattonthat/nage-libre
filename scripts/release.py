@@ -7,10 +7,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bps, build, coverage, dump, rom
 
 TEMPLATE = os.path.join(rom.ROOT, "docs", "README.release.txt")
-KNOWN_ISSUES = """- Some graphics labels on screens not reached in testing are still Japanese: costume and floor words,
-  battle-command words, the status screen's "next", and a row of small kanji near the battle HUD
-  (see notes/graphics.md).
-- Shop, club select and later-stage menus were checked statically, not in play (see notes/playtest.md).
+KNOWN_ISSUES = """- Some graphics labels on screens not reached in testing are still in Japanese: costume and floor words,
+  battle-command words, the status screen's "next", and a row of small kanji near the battle HUD.
+- The status screen labels and the "Rest?" prompt were checked as graphics but not seen in play; the after-stage
+  menu, shop, club select and save screens were.
+- Some indented narration lines start one blank further left than the script intends (an engine quirk).
 - One temple name uses a glyph that could not be read with certainty; the English avoids naming the temple."""
 
 
