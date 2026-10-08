@@ -22,25 +22,30 @@ def lua_value(v):
     return '"' + v.replace("\\", "/").replace('"', '\\"') + '"'
 
 
+def script_paths(name, tag):
+    """Per-run combined Lua script and error file, so parallel runs of one script don't clobber each other."""
+    return {"lua": os.path.join(WORK, "run", f"{name}_{tag}.lua"), "err": os.path.join(WORK, "run", f"{name}_{tag}.err")}
+
+
 def run(script, params=None, timeout=600, rom_path=None):
     for d in SUBDIRS:
         os.makedirs(os.path.join(WORK, d), exist_ok=True)
     name = os.path.splitext(os.path.basename(script))[0]
-    head = ['WORK = "%s/"' % WORK.replace("\\", "/")]
+    paths = script_paths(name, f"{os.getpid()}_{id(params)}")
+    combined, err = paths["lua"], paths["err"]
+    head = ['WORK = "%s/"' % WORK.replace("\\", "/"), 'ERRFILE = "%s"' % err.replace("\\", "/")]
     head += ["%s = %s" % (k, lua_value(v)) for k, v in (params or {}).items()]
     with open(LIB, encoding="utf-8") as f:
         lib = f.read()
     with open(script, encoding="utf-8") as f:
         body = f.read()
-    combined = os.path.join(WORK, "run", name + ".lua")
     with open(combined, "w", encoding="utf-8") as f:
         f.write("\n".join(head) + "\n" + lib + "\n" + body)
-    err = os.path.join(WORK, "lua_error.txt")
     if os.path.exists(err):
         os.remove(err)
     p = subprocess.run([MESEN, "--testRunner", rom_path or rom.ROM_PATH, combined], capture_output=True,
                        text=True, encoding="utf-8", errors="replace", timeout=timeout)
-    with open(os.path.join(WORK, "run", name + ".out"), "w", encoding="utf-8") as f:
+    with open(combined[:-4] + ".out", "w", encoding="utf-8") as f:
         f.write(p.stdout + p.stderr)
     if os.path.exists(err):
         with open(err, encoding="utf-8") as f:

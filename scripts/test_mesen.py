@@ -14,6 +14,14 @@ class MesenSmoke(unittest.TestCase):
         self.assertLess(int(vals["maxRom"]), 0x180000)
         self.assertIn(int(vals["loadedFrame"]), range(118, 124))
 
+class ScriptFiles(unittest.TestCase):
+    def test_combined_script_is_per_run(self):
+        # parallel runs of the same script must not share the combined Lua file or the error file
+        a, b = mesen.script_paths("scene_hook", "1"), mesen.script_paths("scene_hook", "2")
+        self.assertNotEqual(a["lua"], b["lua"])
+        self.assertNotEqual(a["err"], b["err"])
+
+
 @unittest.skipUnless(os.path.exists(rom.ROM_PATH), "ROM not present")
 class RomPath(unittest.TestCase):
     def test_runs_another_rom(self):

@@ -10,7 +10,7 @@ function L.read_file(rel) local f = assert(io.open(WORK .. rel, "rb")); local d 
 function L.shot(rel) L.write_file(rel, emu.takeScreenshot()) end
 function L.finish(code) emu.stop(code or 0) end
 function L.fail(msg)
-  local f = io.open(WORK .. "lua_error.txt", "a"); f:write(tostring(msg) .. "\n"); f:close()
+  local f = io.open(ERRFILE or (WORK .. "lua_error.txt"), "a"); f:write(tostring(msg) .. "\n"); f:close()
   emu.stop(2)
 end
 -- Wrap a callback so Lua errors stop the run and land in work/lua_error.txt. Returns nothing.
