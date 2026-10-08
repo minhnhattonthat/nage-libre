@@ -49,3 +49,26 @@ Both edits are checked statically only (labels.py render + tile test).
   - Wrong portraits, and party-member lines as garbage tiles in about 30 sheets: a forced scene only has the stage-1 party, so op-13 slot lines can't be judged here. On EN this garbage runs a few rows further below the box, but it is the same uninitialized data.
   - "Level rose to 1!" for non-Yui members.
   - Sprites drawn over boxes.
+
+## Timed cutscenes: print check (final build)
+
+`run-timed` now logs every typing-printer start/end (`PRINTLOG`). The keep-alive A press waits until typing ends, like a player reading before pressing; A held would fast-forward typing.
+- `python -I scripts/tour.py printcheck en|jp <scenes>` lists pages cut off mid-typing, and pages up less than 30 frames before the next page starts.
+- **Result, 28 scenes:**
+  - EN and JP have the same page counts.
+  - No page is cut off mid-typing. The only `CUT` is the last page of 385 on both ROMs, at the run's time limit.
+  - Pages up for 12-27 frames occur at the same places on JP (continuation pages).
+
+## Review items and disposition
+
+| Item | Disposition |
+|---|---|
+| 341 0018 / 385 0034 / 345 0018 cleared mid-typing | Fixed: typing waits halved (`SECOND_WAIT`, `PORTRAIT_FRAMES`); print check clean |
+| Pages "clearing early" after the fix (345 0024-0030, 385 0008, 341 0047, 34C 0006) | 60-frame sampling plus keep-alive presses; print check shows every page typed to the end |
+| 385 0030 "…Meat at last!" never complete | Seen complete in a 4-frame trace (held 20 frames; JP holds its version 0) |
+| 385 0062-0068 not seen | After the tour's time limit on both ROMs; checked statically (fit + coverage) |
+| 341 0022 / 0032: one frame with missing letters | Transient: glyph tiles land a frame after placement; the next frame is correct |
+| 345 0026 / 0032 / 0036 never seen fully typed | Print check: typed to the end (the JP shots are partial at the same moments) |
+| 39A 0024 stage-direction text | In the original data, never displayed |
+| 447 0010 SCENARIO credit | Not shown on JP either (unused) |
+| 439 0036, 34F 0006 | Reworded |

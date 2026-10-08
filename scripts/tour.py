@@ -29,7 +29,7 @@ def run(rom_path, tag, scenes, every=None):
         for old in glob.glob(os.path.join(mesen.WORK, "shots", f"tour_{tag}_{s:03X}_*.png")):
             os.remove(old)
         params = {"FROM": "stage1", "ROUTE": BASE_ROUTE.replace("\\", "/"), "NAME": f"tour_{tag}_{s:03X}", "AUTO": 1,
-                  "SCENE": str(s), **({"SHOT_EVERY": every, "IDLE": 9000} if every else {"SHOT_ON": WAIT_OP})}
+                  "SCENE": str(s), **({"SHOT_EVERY": every, "IDLE": 9000, "PRINTLOG": 1} if every else {"SHOT_ON": WAIT_OP})}
         rc = mesen.run(HOOK, params, rom_path=rom_path)
         print(f"{tag} scene {s:03X}: rc={rc} shots={len(_shots(tag, s))}", flush=True)
         if rc != 0:
@@ -47,6 +47,20 @@ def select(paths, max_frames=40, threshold=0.02):
             if len(kept) >= max_frames:
                 break
     return kept
+
+
+def pages(log):
+    """Typed pages from a PRINTLOG trace: (start, end frame or None if cut off mid-typing, frames the finished page
+    stays up before the next page starts: an upper bound on reading time; 0 if cut off, None for the last page)."""
+    out = []
+    for line in log:
+        k = line.split()
+        if k[0] == "S":
+            out.append([int(k[1]), None])
+        elif k[0] == "E" and out and out[-1][1] is None:
+            out[-1][1] = int(k[1])
+    return [(s, e, (0 if e is None else nxt[0] - e) if nxt else None)
+            for (s, e), nxt in zip(out, out[1:] + [None])]
 
 
 def _blank():
@@ -91,6 +105,14 @@ def main():
         tag, rom_path, lst = sys.argv[2:5]
         failed = run(rom_path, tag, [int(x, 16) for x in lst.split(",")], every=60)
         print("failed:", " ".join(f"{s:03X}" for s in failed) or "none")
+    elif cmd == "printcheck":
+        # python -I scripts/tour.py printcheck TAG 032,033,... : pages cut off mid-typing or up < 30 frames (timed runs)
+        tag, lst = sys.argv[2:4]
+        for x in lst.split(","):
+            with open(os.path.join(mesen.WORK, "trace", f"scene_hook_tour_{tag}_{int(x, 16):03X}.txt")) as f:
+                ps = pages(f.read().splitlines())
+            bad = [f"{st}:{'CUT' if e is None else g}" for st, e, g in ps if e is None or (g is not None and g < 30)]
+            print(f"{tag} {int(x, 16):03X} pages={len(ps)} short: {' '.join(bad) or '-'}")
     elif cmd == "strips":
         with open(os.path.join(ROOT, "index.txt"), "a", encoding="utf-8") as idx:
             for s in _range(*sys.argv[2:4]):
