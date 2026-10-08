@@ -126,6 +126,36 @@ class Build(unittest.TestCase):
         with self.assertRaisesRegex(build.BuildError, "system.txt: battle line"):
             build.build(self.clean, d)
 
+    def test_gfx_empty_edits_identical(self):
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        p = os.path.join(d, "edits.json")
+        with open(p, "w") as f:
+            f.write("[]")
+        self.assertEqual(build.build(self.clean, gfx=p), build.build(self.clean))
+
+    def test_gfx_edit_applied(self):
+        import resources, tiles
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        p = os.path.join(d, "edits.json")
+        with open(p, "w") as f:
+            f.write('[{"res": "0x27B", "bpp": 2, "stride": 16, "labels": '
+                    '[{"tile": "0x10", "w": 5, "h": 2, "text": "Wait"}]}]')
+        img = build.build(self.clean, gfx=p)
+        old, new = resources.load(self.clean, 0x27B), resources.load(img, 0x27B)
+        self.assertEqual(len(new), len(old))
+        label = {0x10 + dx + 16 * dy for dx in range(5) for dy in range(2)}
+        ot, nt = tiles.decode(old, 2), tiles.decode(new, 2)
+        self.assertTrue(all(ot[i] == nt[i] for i in range(len(ot)) if i not in label))
+        self.assertTrue(any(ot[i] != nt[i] for i in label))
+
+    def test_gfx_label_too_long(self):
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        p = os.path.join(d, "edits.json")
+        with open(p, "w") as f:
+            f.write('[{"res": "0x27B", "bpp": 2, "labels": [{"tile": "0x10", "w": 5, "h": 2, "text": "Pocketbellxx"}]}]')
+        with self.assertRaisesRegex(build.BuildError, "0x27B.*Pocketbellxx"):
+            build.build(self.clean, gfx=p)
+
     def test_system_en_text_lands(self):
         import sysrefs
         d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)

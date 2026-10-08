@@ -2,9 +2,9 @@
 
     python -I scripts/build.py [--en script/en] [--out build]
 """
-import argparse, glob, os, re, sys
+import argparse, glob, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import bps, compress, decompress, dump, entable, fontgen, layout, rom, romimage, syslayout, sysrefs, syswidth, wrap
+import bps, compress, decompress, dump, entable, fontgen, labels, layout, resources, rom, romimage, syslayout, sysrefs, syswidth, tiles, wrap
 from tbl import Table
 
 CLEAN_CHECKSUM = 0xC895
@@ -25,6 +25,7 @@ NAME_HELPER = 0x81F1B0                             # free space in bank $81
 # ldy #$0040 / cpx #$1000 / bcs +3 / ldy #$0020 / rts : half-width codes (< 0x80, X = code<<5 < 0x1000) copy 0x20 bytes
 NAME_HELPER_BYTES = bytes([0xA0, 0x40, 0x00, 0xE0, 0x00, 0x10, 0xB0, 0x03, 0xA0, 0x20, 0x00, 0x60])
 SYSTEM_EN = "system.txt"
+GFX_EDITS = os.path.join(rom.ROOT, "gfx", "edits.json")    # graphics label edits (notes/graphics.md)
 
 
 class BuildError(Exception):
@@ -158,7 +159,29 @@ def system_patches(clean, en_dir, img):
     return p
 
 
-def build(clean, en_dir=None):
+def gfx_resources(clean, edits):
+    """{rid: new uncompressed bytes} for every resource with label edits (notes/graphics.md)."""
+    out = {}
+    for ed in edits:
+        rid, bpp, stride = int(ed["res"], 16), ed["bpp"], ed.get("stride", 16)
+        data = out.get(rid) or resources.load(clean, rid)
+        ts = tiles.decode(data, bpp)
+        for lb in ed["labels"]:
+            t0, w, h = int(lb["tile"], 16), lb["w"], lb["h"]
+            try:
+                grid = labels.render(lb["text"], 8 * w, 8 * h, lb.get("ink", 1), lb.get("outline", 2))
+            except ValueError as x:
+                raise BuildError(f"graphics resource {ed['res']} tile {lb['tile']}: {x}") from None
+            for i, tile in enumerate(labels.to_tiles(grid)):
+                ts[t0 + (i % w) + stride * (i // w)] = tile
+        new = tiles.encode(ts, bpp)
+        if len(new) != len(data):
+            raise BuildError(f"graphics resource {ed['res']}: size changed")
+        out[rid] = new
+    return out
+
+
+def build(clean, en_dir=None, gfx=None):
     if len(clean) != 0x180000 or romimage.checksum(clean) != CLEAN_CHECKSUM:
         raise BuildError("input is not the clean 1.5 MB Nage Libre ROM (size/checksum mismatch)")
     table = Table.load(dump.TBL)            # Japanese: splits the original blocks
@@ -173,7 +196,17 @@ def build(clean, en_dir=None):
             if not (m and FIRST <= int(m.group(1), 16) <= LAST):
                 raise BuildError(f"{os.path.basename(p)}: not a scene file name (expected scene_30F.txt .. scene_45B.txt)")
     img = romimage.expand(clean, SIZE)
-    free, over = FREE_START, []
+    state, over = {"free": FREE_START}, []
+
+    def place(at, packed):          # pack into free space (never across a 32 KB bank), repoint resource-table entry `at`
+        free = state["free"]
+        if free // 0x8000 != (free + len(packed) - 1) // 0x8000:
+            free = (free // 0x8000 + 1) * 0x8000
+        if free + len(packed) > SIZE:
+            raise BuildError("expanded ROM is out of space")
+        img[free:free + len(packed)] = packed
+        img[at:at + 3] = rom.pc_to_lorom(free).to_bytes(3, "little")
+        state["free"] = free + len(packed)
     for r in range(FIRST, LAST + 1):
         name = f"scene_{r:03X}"
         at = RES_TABLE + 3 * r
@@ -188,14 +221,12 @@ def build(clean, en_dir=None):
         if len(new) > WRAM_WINDOW:
             over.append(f"{name}: {len(new):#x} bytes > window {WRAM_WINDOW:#x}")
             continue
-        packed = compress.compress(new)
-        if free // 0x8000 != (free + len(packed) - 1) // 0x8000:
-            free = (free // 0x8000 + 1) * 0x8000
-        if free + len(packed) > SIZE:
-            raise BuildError("expanded ROM is out of space")
-        img[free:free + len(packed)] = packed
-        img[at:at + 3] = rom.pc_to_lorom(free).to_bytes(3, "little")
-        free += len(packed)
+        place(at, compress.compress(new))
+    if gfx:
+        with open(gfx, encoding="utf-8") as f:
+            for rid, new in sorted(gfx_resources(clean, json.load(f)).items()):
+                place(RES_TABLE + 3 * rid, compress.compress(new))
+    free = state["free"]
     if over:
         raise BuildError("blocks exceed the WRAM window (shorten text or relocate the buffer):\n  " + "\n  ".join(over))
     if free > syslayout.BASE_FILE:
@@ -217,7 +248,8 @@ def main():
     clean = rom.load()
     try:
         default_en = os.path.join(rom.ROOT, "script", "en")
-        img = build(clean, a.en if a.en is not None else (default_en if os.path.isdir(default_en) else None))
+        img = build(clean, a.en if a.en is not None else (default_en if os.path.isdir(default_en) else None),
+                    gfx=GFX_EDITS if os.path.exists(GFX_EDITS) else None)
     except BuildError as e:
         print("BUILD FAILED:", e)
         sys.exit(1)
