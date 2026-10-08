@@ -37,6 +37,9 @@ Both edits are checked statically only (labels.py render + tile test).
     - The build prints the leftovers as `warning: … awkward wrap`: 695 before, 4 after balancing, all 4 reworded.
   - **Translation fixes:** `346 0014`, `36C 0006`, `375 0010`, `37F 0020`, `383 0000`, `391 0028`, `402 0000`, `43C-441 0002`. Jewel Shard messages `3CF-3D5 0002` now break before the item name.
 - **Engine quirk, not compensated:** an indent after a full line shows one blank less than written (41B has 3 blanks, shows 2). A spare-blank fix in `wrap.fit` broke 76 scenes (blanks after a full line are drawn past the box edge, clobbering memory), so it was reverted. `test_indent_after_br_is_emitted_as_written` pins this.
+- **Timed cutscenes (28 scenes, reviewed separately):** each page clears on a timer that runs while it types. English has about 2× the glyphs, so long lines vanished mid-typing (`341 0018` "…are gonna get wre").
+  - **Fix:** halve the per-glyph waits in both typing printers: `80F5B0` (2nd frame wait at `80F5F4` NOPed) and the talking-portrait printer `80F52F` (`lda #6` at `80F581` → 3). English now types at Japanese speed per screen width, and dialogue types twice as fast.
+  - **Text fixes:** `439 0036` (break before "Stage 1♥"), `34F 0006`. `39A 0024` is a stage-direction string in the original data and is never displayed.
 - **Context artifacts (also on JP, not bugs):**
   - Garbage portrait/kanji boxes on the first page of many scenes.
   - Wrong portraits, and party-member lines as garbage tiles in about 30 sheets: a forced scene only has the stage-1 party, so op-13 slot lines can't be judged here. On EN this garbage runs a few rows further below the box, but it is the same uninitialized data.
