@@ -26,3 +26,18 @@ Not reached:
 - **Rest? prompt.**
 
 Both edits are checked statically only (labels.py render + tile test).
+
+## Forced-scene tour (all 333 scenes, EN build vs JP identity build)
+
+- **Coverage:** 305 scenes have op-06 pages, 1614 pages on each ROM, with equal per-scene page counts. The other 28 are timed narration with no key waits (`032 033 036 03D 040 044 047 04E 052 060 065 071 076 07B 083 08B 08F 09D 0A3 0D1 0D2 0D3 0D4 12A 136 137 138 14B`) and were toured with `run-timed` (a shot every 60 frames).
+- **Review:** 4 reviewers over 326 full-size 4×4 sheets (`python -I scripts/tour.py sheets FIRST LAST` → `work/tour/review/`), findings in `work/tour/issues_1..4.md`.
+  - 0 text past a box edge, 0 Japanese glyphs or garbage tiles in English text, 0 pages blank where JP has text.
+  - **Systemic: greedy word-wrap orphans.** A lone word on the last line, or an indented narration line spilling to the left margin. `…` is a 2-column glyph, so these lines really were too long; the engine wrapped them as `wrap.fit` laid them out.
+    - **Fix:** `wrap.balance` (called by `fit`). A widow takes a word from the line above, and an indented line that spills loses its indent; the line count never grows.
+    - The build prints the leftovers as `warning: … awkward wrap`: 695 before, 4 after balancing, all 4 reworded.
+  - **Translation fixes:** `346 0014`, `36C 0006`, `375 0010`, `37F 0020`, `383 0000`, `391 0028`, `402 0000`, `43C-441 0002`. Jewel Shard messages `3CF-3D5 0002` now break before the item name.
+- **Context artifacts (also on JP, not bugs):**
+  - Garbage portrait/kanji boxes on the first page of many scenes.
+  - Wrong portraits, and party-member lines as garbage tiles in about 30 sheets: a forced scene only has the stage-1 party, so op-13 slot lines can't be judged here. On EN this garbage runs a few rows further below the box, but it is the same uninitialized data.
+  - "Level rose to 1!" for non-Yui members.
+  - Sprites drawn over boxes.
