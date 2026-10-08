@@ -58,3 +58,10 @@ To finish each one:
 1. Save a state on the screen.
 2. Run `dump_screen.lua` on it and read its BG3 tilemap to get the cell order of each word.
 3. Add the English to `gfx/edits.json` (one label per word area; shared cells may need a word-level redesign).
+
+## Final check
+
+- 185 tests pass; the build succeeds.
+- The text routes (`accept.SYS_CHAIN`, prefix `gfx_`) are compared against the pre-graphics build (`full_`):
+  - dialogue1, dialogue1_idle, birthday (settle60) and map1: final frames identical.
+  - battle_a: same English UI, but a different card hand. The edited resources decompress at a different speed, which shifts frame timing and the random draw. This is expected.
