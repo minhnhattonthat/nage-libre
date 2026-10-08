@@ -113,6 +113,23 @@ class Build(unittest.TestCase):
         h = rom.lorom_to_pc(build.NAME_HELPER)
         self.assertEqual(self.img[h:h + 12], build.NAME_HELPER_BYTES)
 
+    def test_birthstone_bonus_gets_its_own_line(self):
+        import sysrefs, syslayout
+        for s in build.BONUS_SITES:                     # identity build: original jsl $80F4A7
+            self.assertEqual(self.img[rom.lorom_to_pc(s):rom.lorom_to_pc(s) + 4], bytes.fromhex("22a7f480"))
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:
+            f.write("## system 0258 @0 len=0\nBirthstone bonus!<END>\n")
+        img = build.build(self.clean, d)
+        for s in build.BONUS_SITES:
+            self.assertEqual(img[rom.lorom_to_pc(s):rom.lorom_to_pc(s) + 4], bytes.fromhex("22c0f181"))
+        _, new = syslayout.layout(sysrefs.entries(self.clean), {}, self.clean, {})
+        code = build.bonus_helper_bytes(new[build.LINE_CLEAR])
+        self.assertEqual(code.count(bytes.fromhex("a202178e4111")), 2)           # both prints go to line 2
+        h = rom.lorom_to_pc(build.BONUS_HELPER)
+        self.assertEqual(img[h:h + len(code)], code)
+        self.assertGreaterEqual(build.BONUS_HELPER, build.NAME_HELPER + len(build.NAME_HELPER_BYTES))
+
     def test_system_en_width_enforced(self):
         d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
         with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:

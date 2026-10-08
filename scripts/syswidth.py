@@ -53,8 +53,10 @@ def check_names(texts, original=None):
 
 BATTLE_LINE = 28                  # message window = width of the line-clear string, entry 244
 NAME, NUM = "name", "num"         # battle names are given names (100-220) or boss names (221-226); numbers <= 5 digits
+# Birthstone bonus lines stand alone: JP appends 258 to NAME+248, but build.BONUS_HELPER moves it to line 2 (NAME+248+258
+# would be 37 columns); 275 prints at the start of line 1 (the heal / DEF-up actions put no text there first).
 BATTLE_LINES = [(NAME, 249, NUM, 250), (NAME, 249, NUM, 251), (NAME, 248), (NAME, 263), (NAME, 277),
-                (NUM, 264), (271, NUM, 274)]
+                (NUM, 264), (271, NUM, 274), (258,), (275,)]
 
 
 def check_battle(texts, original):

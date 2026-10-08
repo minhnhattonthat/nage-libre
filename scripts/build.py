@@ -26,6 +26,28 @@ NAME_HOOKS = [0x81BACC, 0x81BB2A]                  # ldy #$0040 in the name buil
 NAME_HELPER = 0x81F1B0                             # free space in bank $81
 # ldy #$0040 / cpx #$1000 / bcs +3 / ldy #$0020 / rts : half-width codes (< 0x80, X = code<<5 < 0x1000) copy 0x20 bytes
 NAME_HELPER_BYTES = bytes([0xA0, 0x40, 0x00, 0xE0, 0x00, 0x10, 0xB0, 0x03, 0xA0, 0x20, 0x00, 0x60])
+# Birthstone bonus (system 0258): JP appends it to "<name>'s attack!" on line 1, which English overflows (wraps over
+# the window border, leaves tiles the line clear never reaches). The two damage routines' `jsl $80F4A7` that print
+# it jump to BONUS_HELPER instead: bonus on line 2, BONUS_FRAMES wait, clear line 2; the routine then prints the
+# damage line there as before. Applied when 0258 is translated (identity builds stay byte-exact).
+BONUS_SITES = [0x819988, 0x819A20]                 # damage to player / to enemy
+BONUS_HELPER = 0x81F1C0                            # free space in bank $81, after NAME_HELPER
+BONUS_FRAMES = 60
+LINE_CLEAR = 244                                   # 28 blanks: the battle window's line clear (819D93)
+
+
+def bonus_helper_bytes(clear):
+    """65816 for BONUS_HELPER (entered by jsl, $09-$0B -> bonus string); `clear` = CPU address of LINE_CLEAR."""
+    line2 = bytes([0xA2, 0x02, 0x17, 0x8E, 0x41, 0x11])                    # ldx #$1702 / stx $1141 (col 2, row $17)
+    draw = bytes([0x22, 0xA7, 0xF4, 0x80])                                  # jsl $80F4A7 (draw string [$09])
+    return (bytes([0x08, 0xC2, 0x30, 0xDA]) + line2 + draw                  # php / rep #$30 / phx
+            + bytes([0xA2, BONUS_FRAMES, 0x00])                             # ldx #frames
+            + bytes([0x22, 0xB6, 0x85, 0x80, 0xCA, 0xD0, 0xF9])             # -: jsl $8085B6 (1 frame) / dex / bne -
+            + bytes([0xA9, clear & 0xFF, (clear >> 8) & 0xFF, 0x85, 0x09])  # lda #clear / sta $09
+            + bytes([0xE2, 0x20, 0xA9, clear >> 16, 0x85, 0x0B, 0xC2, 0x20])  # sep #$20 / lda #bank / sta $0B / rep #$20
+            + line2 + draw + bytes([0xFA, 0x28, 0x6B]))                     # plx / plp / rtl
+
+
 SYSTEM_EN = "system.txt"
 GFX_EDITS = os.path.join(rom.ROOT, "gfx", "edits.json")    # graphics label edits (notes/graphics.md)
 
@@ -164,6 +186,11 @@ def system_patches(clean, en_dir, img):
     p += [(rom.lorom_to_pc(h), bytes([0xA0, 0x40, 0x00]), bytes([0x20, 0xB0, 0xF1])) for h in NAME_HOOKS]
     h = rom.lorom_to_pc(NAME_HELPER)
     p.append((h, bytes([0xFF]) * len(NAME_HELPER_BYTES), NAME_HELPER_BYTES))
+    if 258 in texts:
+        jsl = bytes([0x22]) + BONUS_HELPER.to_bytes(3, "little")
+        p += [(rom.lorom_to_pc(s), bytes([0x22, 0xA7, 0xF4, 0x80]), jsl) for s in BONUS_SITES]
+        code = bonus_helper_bytes(new[LINE_CLEAR])
+        p.append((rom.lorom_to_pc(BONUS_HELPER), bytes([0xFF]) * len(code), code))
     return p
 
 

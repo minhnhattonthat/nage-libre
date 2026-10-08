@@ -50,5 +50,8 @@
 - **Battle lines:** messages are assembled from pieces, so the build checks whole lines against the 28-column window (the width of the line-clear string, entry 244):
   - name + 249 + number + 250/251, name + 248/263/277, number + 264, 271 + number + 274
   - name = widest given/boss name (100-226, translated or Japanese); numbers = 5 digits
+  - Text past column 29 wraps onto the window border (cols 0/30-31), which the line clear (cols 2-29) never erases: leftover tiles in later messages.
+  - **Birthstone bonus 258:** JP appends it to name + 248 on line 1 (damage routines `819959`/`8199F1`, only when the attacker's card jewel = birthstone). English would be 37 columns, so the build (when 258 is translated) redirects the two `jsl $80F4A7` at `819988`/`819A20` to `BONUS_HELPER` (`$81F1C0`): bonus on line 2, 60-frame wait, clear line 2, then the routine's damage line. Verified with `FORCE_BONUS` / longest names (Tsukiyomi, Sakurako) via a Lua hook (writes `$10C8`/`$10E8` = birthstone, name indexes `$1084` player / `$109C` enemy = system entry + 1).
+  - **275** (heal / DEF-up routines `819A89`, `819AF3`, `819B5D`, `819BC7`): prints at line 1 start, because those actions put no text on line 1 (dispatch `81E91A`). Static only; not reached in play.
 - **Prompts:** 24 half-columns (measured on the birthday confirmation window).
 - **Other categories:** the Japanese maximum (birthstones 14, menu items 14, clubs 10). Not measured on screen; the menus weren't reached (see Routes).

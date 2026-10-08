@@ -764,7 +764,7 @@ Run for it!<END>
 …Managed to escape…<END>
 
 ## system 0258 @000000 len=0
-<$FE03>Birthstone bonus<END>
+Birthstone bonus!<END>
 
 ## system 0259 @000000 len=0
 No damage dealt!<END>
@@ -815,7 +815,7 @@ is now selectable!<END>
 !<END>
 
 ## system 0275 @000000 len=0
-Birthstone bonus<END>
+Birthstone bonus!<END>
 
 ## system 0276 @000000 len=0
 <$FE03>Yes <$FE03><$FE03>No<END>

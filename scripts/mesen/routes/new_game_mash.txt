@@ -1,0 +1,8 @@
+# nage-libre: power-on -> title menu -> A on NEW GAME -> opening narration; then --mash clicks through
+900 -
+4 start
+400 -
+4 start
+300 -
+4 a
+476 -
