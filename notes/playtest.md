@@ -36,6 +36,7 @@ Both edits are checked statically only (labels.py render + tile test).
     - **Fix:** `wrap.balance` (called by `fit`). A widow takes a word from the line above, and an indented line that spills loses its indent; the line count never grows.
     - The build prints the leftovers as `warning: … awkward wrap`: 695 before, 4 after balancing, all 4 reworded.
   - **Translation fixes:** `346 0014`, `36C 0006`, `375 0010`, `37F 0020`, `383 0000`, `391 0028`, `402 0000`, `43C-441 0002`. Jewel Shard messages `3CF-3D5 0002` now break before the item name.
+- **Engine quirk, not compensated:** an indent after a full line shows one blank less than written (41B has 3 blanks, shows 2). A spare-blank fix in `wrap.fit` broke 76 scenes (blanks after a full line are drawn past the box edge, clobbering memory), so it was reverted. `test_indent_after_br_is_emitted_as_written` pins this.
 - **Context artifacts (also on JP, not bugs):**
   - Garbage portrait/kanji boxes on the first page of many scenes.
   - Wrong portraits, and party-member lines as garbage tiles in about 30 sheets: a forced scene only has the stage-1 party, so op-13 slot lines can't be judged here. On EN this garbage runs a few rows further below the box, but it is the same uninitialized data.
