@@ -45,3 +45,16 @@ Not reached: status screen, club select, shop, after-stage menu, and whatever us
 |---|---|---|---|
 | Command menu | `0x27B` | Wait / Attack / Item / Trade / Pager / Anime / Save. Greyed items stay grey (palette 1, same colour indices), the cursor highlight works, the frame is intact | `gx_open_final.png` |
 | WHO window | `0x28B` | Ayaka / Mai / Yui / Miki / Ryoko. Members not on the map stay dimmed as in the original. "Mai" / "Yui" use condensed spacing in their 16-px cells | `gx_who_final.png` |
+
+## Deferred to playtest (sub-project 5)
+
+These are Japanese glyph cells composed into words by tilemaps that haven't been located, because their screens weren't reached:
+- `0x295`: スピード, costumes 夏服 / 冬服 / 体操着 / 水着, コト, 向き, 連れません, 回復床 / ダメージ床
+- `0x274`: status labels 次の / 体力 / 腕力 / 防御 / 素早 / 精神
+- `0x28B` tiles `0xC0-0xFF`: 攻撃 防御 回復 必殺 着変 移動
+- `0x007` row 0: small kanji
+
+To finish each one:
+1. Save a state on the screen.
+2. Run `dump_screen.lua` on it and read its BG3 tilemap to get the cell order of each word.
+3. Add the English to `gfx/edits.json` (one label per word area; shared cells may need a word-level redesign).
