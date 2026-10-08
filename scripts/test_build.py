@@ -48,6 +48,14 @@ class Build(unittest.TestCase):
             self.assertEqual(self.img[rom.lorom_to_pc(a):rom.lorom_to_pc(a) + 2], b"\x80\x00")
         self.assertEqual(self.img[0x28400:0x29000], fontgen.font_bytes(fontgen.load()))
 
+    def test_printer_waits_one_frame_per_glyph(self):
+        # English has ~2x the glyphs of Japanese; timed cutscenes clear pages on a timer that runs while typing
+        at = rom.lorom_to_pc(build.SECOND_WAIT)
+        self.assertEqual(self.clean[at:at + 4], bytes.fromhex("22b68580"))
+        self.assertEqual(self.img[at:at + 4], b"\xea" * 4)
+        at = rom.lorom_to_pc(build.PORTRAIT_FRAMES)       # talking-portrait printer: frames per glyph 6 -> 3
+        self.assertEqual((self.clean[at:at + 3], self.img[at:at + 3]), (bytes.fromhex("a90600"), bytes.fromhex("a90300")))
+
     def test_halfwidth_digits_untouched(self):
         self.assertEqual(self.img[0x28000:0x28400], self.clean[0x28000:0x28400])
 

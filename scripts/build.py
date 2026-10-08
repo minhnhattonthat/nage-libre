@@ -18,6 +18,8 @@ ADC_SITES = [0x83840D, 0x838463, 0x838755, 0x8388E9, 0x838C13, 0x8396A9, 0x83978
 LOADER = 0x8380F0           # lda #$C0 / sta $06 / lda #$64 / sta $07
 EN_TBL = entable.OUT
 THRESHOLD_SITES = [0x80F3AE, 0x80F3C7, 0x80F426]   # operand of cmp #$0010 (half-width glyph threshold)
+SECOND_WAIT = 0x80F5F4      # string printer's 2nd per-glyph frame wait: NOPed so English (2x the glyphs) types at JP speed
+PORTRAIT_FRAMES = 0x80F581  # talking-portrait printer: lda #6 frames per glyph -> 3, same reason
 BLANK = bytes([0xFE, 0x03])                        # full-width blank glyph 03FE
 FONT_AT = 0x28000 + 0x20 * 0x20                    # glyphs for codes 0x20-0x7F (English = ASCII)
 NAME_HOOKS = [0x81BACC, 0x81BB2A]                  # ldy #$0040 in the name builder's glyph copy loops
@@ -45,6 +47,8 @@ def relocation_patches(base):
 def english_patches(clean):
     """(file offset, expected original bytes, new bytes): threshold 0x10 -> 0x80 and the English font."""
     p = [(rom.lorom_to_pc(a), bytes([0x10, 0x00]), bytes([0x80, 0x00])) for a in THRESHOLD_SITES]
+    p.append((rom.lorom_to_pc(SECOND_WAIT), bytes.fromhex("22b68580"), bytes.fromhex("eaeaeaea")))
+    p.append((rom.lorom_to_pc(PORTRAIT_FRAMES), bytes.fromhex("a90600"), bytes.fromhex("a90300")))
     font = fontgen.font_bytes(fontgen.load())
     p.append((FONT_AT, bytes(clean[FONT_AT:FONT_AT + len(font)]), font))
     return p
