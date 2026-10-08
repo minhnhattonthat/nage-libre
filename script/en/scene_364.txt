@@ -14,7 +14,7 @@ Yes! Hurry up and go!<END>
 Kyuuuu. I made it…… Now then, fight me!<END>
 
 ## scene_364 0011 @0001A0 len=62
-……A fierce wind blasts out of<BR><$FE03>the anti-gravity zone!…<END>
+……A fierce wind blasts from<BR><$FE03>the anti-gravity zone!…<END>
 
 ## scene_364 0013 @0001E0 len=34
 Whoa! We have to back off!<END>

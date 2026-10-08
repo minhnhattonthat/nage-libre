@@ -98,3 +98,11 @@ class Balance(unittest.TestCase):
     def test_orphans_reports_what_balance_cannot_fix(self):
         self.assertEqual(wrap.orphans("hello abc there<END>", B, T), [])
         self.assertEqual(wrap.orphans("abcdefghij k<END>", B, T), ["abcdefghij k"])
+
+
+class NoExtraBlanks(unittest.TestCase):
+    # The engine shows one blank less of an indent that follows a full line. Compensating with a spare
+    # blank broke 76 scenes in the tour (blanks after a full line are drawn past the box edge), so fit
+    # must emit an indent exactly as written.
+    def test_indent_after_br_is_emitted_as_written(self):
+        self.assertEqual(wrap.fit("ab<BR><$FE03>k<END>", B, T), "ab" + pad(8) + "<$FE03>k<END>")

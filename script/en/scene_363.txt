@@ -29,7 +29,7 @@ Whoooa! ……Phew. Looks like I made it.<END>
 Now, let's fight!<END>
 
 ## scene_363 0029 @0002DE len=62
-……A fierce wind blasts out of<BR><$FE03>the anti-gravity zone!…<END>
+……A fierce wind blasts from<BR><$FE03>the anti-gravity zone!…<END>
 
 ## scene_363 0031 @00031E len=64
 What a wind… …It's dangerous near the school, everyone!<END>

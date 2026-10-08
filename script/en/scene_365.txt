@@ -14,7 +14,7 @@ Exactly! Now go, Miyuki!<END>
 Ooh. That was kinda fun. ……Here I come!<END>
 
 ## scene_365 0014 @00018A len=62
-……A fierce wind blasts out of<BR><$FE03>the anti-gravity zone!…<END>
+……A fierce wind blasts from<BR><$FE03>the anti-gravity zone!…<END>
 
 ## scene_365 0016 @0001CA len=38
 What a wind… Can't move forward!<END>

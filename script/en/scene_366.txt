@@ -14,7 +14,7 @@ But I made it somehow!<END>
 Fight me, everyone!<END>
 
 ## scene_366 0013 @000196 len=62
-……A fierce wind blasts out of<BR><$FE03>the anti-gravity zone!…<END>
+……A fierce wind blasts from<BR><$FE03>the anti-gravity zone!…<END>
 
 ## scene_366 0015 @0001D6 len=64
 What a wind… …It's dangerous near the school, everyone!<END>
