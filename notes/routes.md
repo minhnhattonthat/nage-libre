@@ -19,3 +19,5 @@ Notes:
 | map2 | `map2.txt` | stage1 | 3480 | Stage 1 map, free roam (TIME SPEED panel) |
 | s1c | `stage1_clear.txt` (cheats `7E10CCFF,7E10D163,7E17790F,7E177A27`) | stage1b | 12000 | Several battles won; party at the school door (boss not yet present). Stage clear NOT reached (see notes/system-text.md) |
 | — | `battle_a.txt` (cheats) | stage1b | 2400 | First battle(s) won in one hit; victory messages |
+| g_open | `work/run_open.txt` (120 -, a, 40 -) | map2 | 164 | Stage 1 map, command menu open (graphics labels 待機…セーブ) |
+| g_item2/4/5/6 | `work/run_itemK.txt` (down×K, a) | g_open | ~100 | ITEM window / WHO window / Anime ON-OFF / Save NO-YES |
