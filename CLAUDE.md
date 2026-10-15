@@ -37,6 +37,6 @@ Skill: translate-retro-game (H:/translation/nage-libre/.claude/skills/translate-
 - Specs/plans pre-approved: write them, execute, merge to master, continue. Claude scripts the playtest; the user does not play.
 
 ## Status
-- Done: SP1-5 (dump, insertion, English rendering, system text, translation 2572/2572, graphics, 333-scene tour, v1.1 BPS in release/). No remote, nothing published.
+- Done: SP1-5 (dump, insertion, English rendering, system text, translation 2572/2572, graphics, 333-scene tour, v1.1 BPS in release/). Public repo: github.com/nathantonsoniq/nage-libre (master); the BPS release itself is not published.
 - Debug pass: every hard-to-reach screen reached and English (notes/playtest.md, Debug screens); release/ v1.1 includes it.
 - Open: indent quirk (README known issues).
