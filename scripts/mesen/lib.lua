@@ -23,6 +23,15 @@ function L.on_reg_write(reg, fn)
   end
 end
 
+-- Debug override: spec "828C2E:a=0,81D23C:x=10" sets a CPU register (cpu.<reg>) on every execution of each PC.
+function L.force(spec)
+  for pc, reg, v in tostring(spec or ""):gmatch("(%x+):(%a+)=(%x+)") do
+    local val = tonumber(v, 16)
+    emu.addMemoryCallback(L.safe(function() emu.setState({ ["cpu." .. reg] = val }) end),
+      emu.callbackType.exec, tonumber(pc, 16), tonumber(pc, 16), snes, cpuMem)
+  end
+end
+
 function L.dump_mem(mem, size, rel)
   local t = {}
   for i = 0, size - 1 do t[#t + 1] = string.char(emu.read(i, mem)) end

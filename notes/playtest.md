@@ -21,11 +21,24 @@ The main loop (`8093DD…`) calls the after-stage menu `87CA0F` right before the
 | Club select | down, A | `am_club2_final.png` | stat panel LV/AT/AG/HP/DF/MT (graphics, English); club name "Student" (system 242) |
 | Save | down×2, A | `am_save_final.png` | "Save to which file?" File 1-3 / none: English |
 
-Not reached:
-- **Status screen (`0x274`).** Club select ignores X/Y/Select/Start/L/R (`cs_*_final.png`); B goes back to the menu.
-- **Rest? prompt.**
+## Debug screens (`python -X utf8 -I scripts/debug_screens.py [--rom R --tag T] [screen ...]`)
 
-Both edits are checked statically only (labels.py render + tile test).
+Cold boot → `dialogue1` → `stage1` → mash A until the unit-control loop `828BC0` runs (`until_pc.lua`, robust to text-speed changes), then one route per screen (`scripts/mesen/routes/dbg_*.txt`). Shots `work/shots/<tag>_<screen>_final.png`, sheet `<tag>_debug_sheet.png`. All 10 verified English on the final build; JP reference with `--rom "rom/…sfc" --tag jp`.
+
+| Screen | How (map code) | Fake |
+|---|---|---|
+| status | Y (free look `828934`), cursor onto a unit, A (`8286CC`, gfx `0x274`) | — |
+| stats | status, A again (`81BF6F`, tilemaps `0x275`/`0x276`) | — |
+| terrain | Y, A on ground (`81D1F9`, gfx `0x295`) | variants: `FORCE=81D33A:a=1..5` (costume), `81D2CD:a=80/90` (heal / damage floor), `81D239:a=0` (blocked) |
+| rest | X (`8288AD`) | `FORCE=828C2E:a=0`: Rest? needs 2+ awake members (`82E8F2`) |
+| pager | command menu, Pager → WHO | — |
+| trade | command menu, Trade → WHO → member (`81CF8F`, card types from `$027C`) | `FORCE=828263:a=1,82844D:a=1`, stock cards via `CHEATS` |
+| menu / shop / club / save | `redirect.lua` 828000 → 87CA0F, mashing A until the jump | — |
+
+- `FORCE` (goto.lua, until_pc.lua; `L.force`): "PC:reg=hex,…" sets a CPU register on every execution of PC (`pc` jumps within the bank).
+- Battle message 275 ("Birthstone bonus!" on heal / DEF-up, `819A89 819AF3 819B5D 819BC7`): `until_pc.lua FROM=<tag>_ctl AT_PC=<routine>`, `FORCE=<bne>:pc=<next>` (birthstone check at routine + 0x0B) and, for DEF, `818DAD:pc=8DA6` / `818DCD:pc=8DC6` (HP card handler → DEF handler). All four verified (`b275_*`).
+- Mesen's test runner stops at about 22000 frames (both ROMs); runs needing more must start from a later state.
+- Fixes from this pass: status stat names left-aligned like JP (`labels.render(left=True)`, `"align": "left"`); terrain panel and Trade card types translated (notes/graphics.md).
 
 ## Forced-scene tour (all 333 scenes, EN build vs JP identity build)
 

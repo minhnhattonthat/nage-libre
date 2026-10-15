@@ -45,7 +45,7 @@ def fits(text, width_px):
         return False
 
 
-def render(text, width_px, height_px=16, ink=1, outline=2):
+def render(text, width_px, height_px=16, ink=1, outline=2, left=False):
     if not text:                                  # blank out an area (e.g. a cell whose glyph is not needed)
         return [[0] * width_px for _ in range(height_px)]
     glyph_h = len(_glyph(text[0]))
@@ -56,7 +56,7 @@ def render(text, width_px, height_px=16, ink=1, outline=2):
         raise ValueError(f"label {text!r} is {width(text)} px, area is {width_px} px")
     rows = _strokes(text, gap)
     w = len(rows[0]) + 2
-    x0 = (width_px - w) // 2 + 1
+    x0 = 1 + (0 if left else (width_px - w) // 2)
     y0 = (height_px - len(rows)) // 2
     g = [[0] * width_px for _ in range(height_px)]
     for y, row in enumerate(rows):

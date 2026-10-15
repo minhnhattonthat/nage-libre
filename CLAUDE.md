@@ -1,15 +1,16 @@
 # Nage Libre (SNES, Varie 1995) English translation
 
-Skill: translate-retro-game (H:/translation/.claude/skills/translate-retro-game/SKILL.md). Read it before ROM, text or QA work.
+Skill: translate-retro-game (H:/translation/nage-libre/.claude/skills/translate-retro-game/SKILL.md). Read it before ROM, text or QA work.
 
 ## Commands (repo root; `-I` ignores PYTHONUTF8, so always pass `-X utf8`)
 - Build:  `python -X utf8 -I scripts/build.py` -> build/nage_en.sfc + .bps (fails on box overflow; prints `awkward wrap` warnings)
-- Check:  `python -X utf8 -I -m unittest discover -s scripts` (204 tests, ~25 s; the pre-commit hook runs this)
-- Smoke:  `python -X utf8 H:/translation/.claude/skills/translate-retro-game/scripts/emu.py build/nage_en.sfc --out work/qa/smoke --frames 900 --smoke`
+- Check:  `python -X utf8 -I -m unittest discover -s scripts` (206 tests, ~25 s; the pre-commit hook runs this)
+- Smoke:  `python -X utf8 H:/translation/nage-libre/.claude/skills/translate-retro-game/scripts/emu.py build/nage_en.sfc --out work/qa/smoke --frames 900 --smoke`
 - Accept: `python -X utf8 -I scripts/accept.py identity|growth|english` (identity: clean vs identity-build screens must match)
 - Tour:   `python -X utf8 -I scripts/tour.py ref` (JP ref -> work/tour/jp.sfc) | `run TAG ROM FIRST LAST` (hex scene idx 00-14C = scene_30F-45B) | `run-timed TAG ROM 032,033,..` | `strips FIRST LAST` (index.txt en=/jp= page counts) | `sheets FIRST LAST` -> work/tour/review/
 - Printcheck: `python -X utf8 -I scripts/tour.py printcheck en|jp <timed list>` (after run-timed; CUT = cut mid-typing, <30 f = short)
 - Mesen:  `python -X utf8 -I scripts/mesen.py scripts/mesen/goto.lua ROUTE=scripts/mesen/routes/X.txt SAVE=name [FROM=state] [ROM=build/nage_en.sfc]` -> work/{shots,states,trace}
+- Debug:  `python -X utf8 -I scripts/debug_screens.py [--rom R --tag T] [status stats terrain rest pager trade menu shop club save]` -> work/shots/<tag>_debug_sheet.png (cold boot; FORCE=PC:reg=hex in goto/until_pc fakes conditions)
 - Review page: `python -X utf8 -I scripts/review.py` -> build/review.html
 - Release: `python -X utf8 -I scripts/release.py --version 1.0` -> release/ (local, gitignored; never publish without the user)
 
@@ -37,4 +38,5 @@ Skill: translate-retro-game (H:/translation/.claude/skills/translate-retro-game/
 
 ## Status
 - Done: SP1-5 (dump, insertion, English rendering, system text, translation 2572/2572, graphics, 333-scene tour, v1.0 BPS in release/). No remote, nothing published.
-- Open: status screen and "Rest?" prompt never reached in play (static check only); deferred graphics labels (notes/graphics.md); indent quirk (README known issues).
+- Debug pass: every hard-to-reach screen reached and English (notes/playtest.md, Debug screens); release/ v1.0 predates it (rebuild with release.py).
+- Open: indent quirk (README known issues).

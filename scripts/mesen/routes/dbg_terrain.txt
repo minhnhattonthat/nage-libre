@@ -1,0 +1,9 @@
+# from dbg_ctl: Y = free look, move off the unit, A on empty ground = terrain panel (0x295)
+4 y
+40 -
+8 left
+20 -
+8 left
+20 -
+4 a
+120 -

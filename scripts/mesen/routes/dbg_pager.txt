@@ -1,0 +1,15 @@
+# from dbg_ctl: A = command menu, down x4 = Pager, A = WHO window, A = order window (0x28B words)
+4 a
+60 -
+4 down
+10 -
+4 down
+10 -
+4 down
+10 -
+4 down
+10 -
+4 a
+60 -
+4 a
+90 -

@@ -30,6 +30,11 @@ class Labels(unittest.TestCase):
     def test_blank_label(self):
         self.assertEqual({v for row in labels.render("", 16) for v in row}, {0})
 
+    def test_left_aligned_label_starts_at_outline_column(self):
+        first = lambda g: min(x for row in g for x, v in enumerate(row) if v)
+        self.assertEqual(first(labels.render("DEF", 32, left=True)), 0)        # outline column, stroke at 1
+        self.assertGreater(first(labels.render("DEF", 32)), 0)                  # centred
+
     def test_condensed_spacing_for_one_cell_names(self):
         # 舞 / 唯 are single 16-px cells in the WHO window: fall back to 0 px letter spacing
         self.assertEqual(labels.width("Mai"), 17)

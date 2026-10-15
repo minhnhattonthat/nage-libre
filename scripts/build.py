@@ -208,7 +208,8 @@ def gfx_resources(clean, edits):
             w, h = len(cols), lb["h"]
             where = lb.get("tile") or cols[0] if isinstance(cols[0], str) else cols[0][0]
             try:
-                grid = labels.render(lb["text"], 8 * w, 8 * h, lb.get("ink", 1), lb.get("outline", 2))
+                grid = labels.render(lb["text"], 8 * w, 8 * h, lb.get("ink", 1), lb.get("outline", 2),
+                                     lb.get("align") == "left")
             except ValueError as x:
                 raise BuildError(f"graphics resource {ed['res']} tile {where}: {x}") from None
             for i, tile in enumerate(labels.to_tiles(grid)):
@@ -219,6 +220,48 @@ def gfx_resources(clean, edits):
             raise BuildError(f"graphics resource {ed['res']}: size changed")
         out[rid] = new
     return out
+
+
+# Terrain panel (map free look: Y, then A on a tile; builder 81D1F9). Its words are rows of BG3 tilemap words
+# 0x2000 | (0x80 + tile of resource 0x295) in bank $87, drawn by the window helper $878000. Japanese shares glyph
+# cells between words, so the English labels (gfx/edits.json) get their own cells and the rows are rewritten.
+# (top row, bottom row, top tiles; bottom tile = top + 0x10): rewritten in place, never longer than the original.
+TERRAIN_ROWS = [(0x8D2B, 0x8D3D, range(0x00, 0x04)),                       # スピード -> Speed
+                (0x8D4F, 0x8D65, range(0x04, 0x0A)),                       # 通れません -> Blocked
+                (0x8DCB, 0x8DE1, range(0x68, 0x6E)),                       # 回復します -> Heals HP
+                (0x8DF7, 0x8E0D, [0x0E, 0x0F, 0x2F, 0x4D, 0x4F, 0x6E])]    # ダメージ床 -> Hurts HP
+# "<costume> 向き" -> "Best: <costume>" in one row (13 cells, the panel's inner width after the 1-cell margin):
+# new rows in free bank-$87 space, repointed in the costume table (index 1-5), and the 向き rows skipped (rts).
+TERRAIN_BEST = [0x0A, 0x0B, 0x0C, 0x0D]
+TERRAIN_COSTUMES = [range(0x20, 0x29), range(0x40, 0x49), range(0x60, 0x68), range(0x29, 0x2F), range(0x49, 0x4D)]
+TERRAIN_COSTUME_TABLE = 0x81D3B4                   # (top, bottom) row pointers for costumes 1-5
+TERRAIN_FREE = 0x87FA0C                            # 0xFF padding to the end of bank $87
+TERRAIN_SUFFIX = 0x81D373                          # pha after the costume rows -> rts (no 向き rows)
+
+
+def terrain_patches(clean):
+    def words(tops, dy):
+        return b"".join((0x2000 | 0x80 + t + dy).to_bytes(2, "little") for t in tops) + b"\xff\xff"
+    p = []
+    for top, bottom, tops in TERRAIN_ROWS:
+        for a, dy in ((top, 0), (bottom, 0x10)):
+            new, at = words(tops, dy), rom.lorom_to_pc(0x870000 | a)
+            end = next(i for i in range(at, at + 0x40, 2) if clean[i:i + 2] == b"\xff\xff") + 2
+            if len(new) > end - at:
+                raise BuildError(f"terrain row ${a:04X}: English row is longer than the original")
+            p.append((at, bytes(clean[at:at + len(new)]), new))
+    rows, ptrs, a = b"", b"", TERRAIN_FREE & 0xFFFF
+    for name in TERRAIN_COSTUMES:
+        for dy in (0, 0x10):
+            r = words(TERRAIN_BEST + list(name), dy)
+            ptrs += a.to_bytes(2, "little")
+            rows, a = rows + r, a + len(r)
+    at = rom.lorom_to_pc(TERRAIN_FREE)
+    p.append((at, b"\xff" * len(rows), rows))
+    at = rom.lorom_to_pc(TERRAIN_COSTUME_TABLE)
+    p.append((at, bytes(clean[at:at + len(ptrs)]), ptrs))
+    p.append((rom.lorom_to_pc(TERRAIN_SUFFIX), b"\x48", b"\x60"))
+    return p
 
 
 def build(clean, en_dir=None, gfx=None):
@@ -263,16 +306,21 @@ def build(clean, en_dir=None, gfx=None):
             over.append(f"{name}: {len(new):#x} bytes > window {WRAM_WINDOW:#x}")
             continue
         place(at, compress.compress(new))
+    edits = []
     if gfx:
         with open(gfx, encoding="utf-8") as f:
-            for rid, new in sorted(gfx_resources(clean, json.load(f)).items()):
-                place(RES_TABLE + 3 * rid, compress.compress(new))
+            edits = json.load(f)
+        for rid, new in sorted(gfx_resources(clean, edits).items()):
+            place(RES_TABLE + 3 * rid, compress.compress(new))
     free = state["free"]
     if over:
         raise BuildError("blocks exceed the WRAM window (shorten text or relocate the buffer):\n  " + "\n  ".join(over))
     if free > syslayout.BASE_FILE:
         raise BuildError("scene blocks overlap the system text bank (file 0x1F8000)")
-    for off, old, new in relocation_patches(WRAM_BASE) + english_patches(clean) + system_patches(clean, en_dir, img):
+    patches = relocation_patches(WRAM_BASE) + english_patches(clean) + system_patches(clean, en_dir, img)
+    if any(int(ed["res"], 16) == 0x295 for ed in edits):      # the 0x295 labels need their re-allocated rows
+        patches += terrain_patches(clean)
+    for off, old, new in patches:
         if img[off:off + len(old)] != old:
             raise BuildError(f"patch at {off:#x}: unexpected original bytes {img[off:off + len(old)].hex()}")
         img[off:off + len(new)] = new

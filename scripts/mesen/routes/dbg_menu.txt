@@ -1,0 +1,2 @@
+# after-stage menu (redirect 828000 -> 87CA0F): wait for the fade-in
+330 -

@@ -7,8 +7,8 @@ What is translated
 ------------------
 - All story text: 2257 dialogue and narration entries in 333 scenes, plus the opening and the ending.
 - System text: battle messages, names, clubs, birthstones, prompts and menus.
-- The map command menu and the Pager's WHO window (graphics).
-- The status screen labels and the "Rest?" prompt (graphics).
+- Graphics labels: the map command menu, the WHO window, the status screen, the "Rest?" prompt, the terrain
+  panel (speed, best costume, healing / damage floors) and the Trade window's card types.
 
 How to patch
 ------------

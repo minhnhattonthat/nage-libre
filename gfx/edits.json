@@ -23,14 +23,37 @@
    {"tile": "0x28", "w": 4, "h": 2, "text": "Miki"},
    {"tile": "0x2C", "w": 4, "h": 2, "text": "Ryoko"}
   ]},
+ {"res": "0x28B", "bpp": 2, "stride": 16, "note": "Trade window: stock card types (rows $87:8C77+, table 81D092); verified dbg_trade",
+  "labels": [
+   {"tile": "0x40", "w": 4, "h": 2, "text": "Attack", "align": "left"},
+   {"tile": "0x44", "w": 4, "h": 2, "text": "Guard", "align": "left"},
+   {"tile": "0x48", "w": 4, "h": 2, "text": "Heal", "align": "left"},
+   {"tile": "0x4C", "w": 4, "h": 2, "text": "Super", "align": "left"},
+   {"tile": "0x60", "w": 4, "h": 2, "text": "Change", "align": "left"},
+   {"tile": "0x64", "w": 4, "h": 2, "text": "Move", "align": "left"}
+  ]},
  {"res": "0x274", "bpp": 2, "stride": 16, "note": "status screen stat names (static tilemaps 0x275/0x276); 力 shared by 4 words and さ blanked; UNVERIFIED, playtest",
   "labels": [
-   {"tile": "0x30", "w": 2, "h": 2, "text": "HP"},
+   {"tile": "0x30", "w": 2, "h": 2, "text": "HP", "align": "left"},
    {"tile": "0x32", "w": 2, "h": 2, "text": ""},
-   {"tile": "0x34", "w": 2, "h": 2, "text": "ST"},
-   {"tile": "0x36", "w": 4, "h": 2, "text": "DEF"},
-   {"tile": "0x3A", "w": 4, "h": 2, "text": "SPD"},
+   {"tile": "0x34", "w": 2, "h": 2, "text": "ST", "align": "left"},
+   {"tile": "0x36", "w": 4, "h": 2, "text": "DEF", "align": "left"},
+   {"tile": "0x3A", "w": 4, "h": 2, "text": "SPD", "align": "left"},
    {"tile": "0x1B", "w": 2, "h": 2, "text": ""},
-   {"cols": ["0x3E", "0x3F", "0x50", "0x51"], "h": 2, "text": "SPI"}
+   {"cols": ["0x3E", "0x3F", "0x50", "0x51"], "h": 2, "text": "SPI", "align": "left"}
+  ]},
+ {"res": "0x295", "bpp": 2, "stride": 16, "note": "terrain panel (map free look: Y, A on a tile); cells re-allocated, rows rewritten by build.terrain_patches; arrow 0x4E kept",
+  "labels": [
+   {"tile": "0x00", "w": 4, "h": 2, "text": "Speed", "align": "left"},
+   {"tile": "0x04", "w": 6, "h": 2, "text": "Blocked", "align": "left"},
+   {"tile": "0x0A", "w": 4, "h": 2, "text": "Best:", "align": "left"},
+   {"tile": "0x20", "w": 9, "h": 2, "text": "Summer uniform", "align": "left"},
+   {"tile": "0x29", "w": 6, "h": 2, "text": "Swimsuit", "align": "left"},
+   {"tile": "0x40", "w": 9, "h": 2, "text": "Winter uniform", "align": "left"},
+   {"tile": "0x49", "w": 4, "h": 2, "text": "Coat", "align": "left"},
+   {"tile": "0x60", "w": 8, "h": 2, "text": "Gym clothes", "align": "left"},
+   {"tile": "0x68", "w": 6, "h": 2, "text": "Heals HP", "align": "left"},
+   {"cols": ["0x0E", "0x0F", "0x2F", "0x4D", "0x4F", "0x6E"], "h": 2, "text": "Hurts HP", "align": "left"},
+   {"tile": "0x6F", "w": 1, "h": 2, "text": ""}
   ]}
 ]

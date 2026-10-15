@@ -4,7 +4,7 @@
 
 - Cheats via `goto.lua`/`oldreads.lua` param `CHEATS` (Pro Action Replay): `7E10CCFF` invincible, `7E10D163` death hit, `7E17790F`/`7E177A27` infinite gold.
 - `stage1_clear.txt` (from `stage1b`) wins several battles automatically: names and the attack/damage/defeat/gold messages are on screen.
-- **Stage clear / after-stage menu not reached** (time box, ~10 route iterations):
+- **Stage clear / after-stage menu not reached by play routes** (now reached with `scripts/debug_screens.py`; history below):
   - The tactical map needs cursor-driven moves to the remaining enemies, and random input traps the map command menu ("WHO" window).
   - Shop / club select / save / after-stage menu are therefore verified by full static reference coverage plus old-block reads on the reachable screens only, and are **flagged for playtest**. A savestate at the after-stage menu (Mesen GUI, copied into `work/states/`) would enable the visual check (`accept.py system` picks up states `shop`/`club`/`save` if present).
 
@@ -52,6 +52,6 @@
   - name = widest given/boss name (100-226, translated or Japanese); numbers = 5 digits
   - Text past column 29 wraps onto the window border (cols 0/30-31), which the line clear (cols 2-29) never erases: leftover tiles in later messages.
   - **Birthstone bonus 258:** JP appends it to name + 248 on line 1 (damage routines `819959`/`8199F1`, only when the attacker's card jewel = birthstone). English would be 37 columns, so the build (when 258 is translated) redirects the two `jsl $80F4A7` at `819988`/`819A20` to `BONUS_HELPER` (`$81F1C0`): bonus on line 2, 60-frame wait, clear line 2, then the routine's damage line. Verified with `FORCE_BONUS` / longest names (Tsukiyomi, Sakurako) via a Lua hook (writes `$10C8`/`$10E8` = birthstone, name indexes `$1084` player / `$109C` enemy = system entry + 1).
-  - **275** (heal / DEF-up routines `819A89`, `819AF3`, `819B5D`, `819BC7`): prints at line 1 start, because those actions put no text on line 1 (dispatch `81E91A`). Static only; not reached in play.
+  - **275** (heal / DEF-up routines `819A89`, `819AF3`, `819B5D`, `819BC7`): prints at line 1 start, because those actions put no text on line 1 (dispatch `81E91A`). Seen in battle for all four routines via forced birthstone checks (notes/playtest.md, Debug screens).
 - **Prompts:** 24 half-columns (measured on the birthday confirmation window).
 - **Other categories:** the Japanese maximum (birthstones 14, menu items 14, clubs 10). Not measured on screen; the menus weren't reached (see Routes).

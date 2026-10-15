@@ -20,12 +20,12 @@
 |---|---|---|---|---|---|
 | `0x27B` | 2 | `0x80-0xFF` | 待機 Wait, 攻撃 Attack, アイテム Item, 交換 Trade, ポケベル Pager, アニメ Anime, セーブ Save (each 5×2 tiles); "COMMAND" header already English | Map command menu (`g_open`) | yes (`g_open_final.png`) |
 | `0x28B` | 2 | `0xA0-0xBF` | 彩香 Ayaka, 舞 Mai, 唯 Yui, 美姫 Miki, 嶺子 Ryoko (舞 and 唯 are one 16-px cell: "Mai" / "Yui" at 0 px letter spacing) | Pager → WHO window (`g_item4`); "WHO" header already English | yes (`g_item4_final.png`) |
-| `0x28B` | 2 | `0xC0-0xFF` | 攻撃 防御 回復 必殺 着変 移動 (attack, defense, heal, special, change, move): glyph cells composed by a tilemap | not reached | no: needs screen + tilemap (playtest) |
-| `0x295` | 2 | all | スピード 夏服 冬服 体操着 水着 コト 向き 通れません (can't pass) 回復床 ダメージ床: glyph cells shared between words (着 in 体操着 and 水着) | not reached (map info panel or costume display?) | no: needs screen + tilemap (playtest) |
-| `0x274` | 2 | `0xB0-0xE1`, さ `0x9B` | 体力 / 腕力 / 防御力 / 素早さ / 精神力 → HP / ST / DEF / SPD / SPI. Layout from the static tilemaps `0x275`/`0x276`; 力 (`0xB2`) is shared by four words and blanked, さ blanked | Status screen, not reached | edited, UNVERIFIED: playtest |
-| `0x274` | 2 | `0x97-0x9A` | 次の (next): thin single-index lettering, placed at runtime | Status screen (EXP to next level?) | no: playtest |
-| `0x27B` | 2 | `0xDB-0xDE`/`0xEB-0xEE` + 2×2 cells `0xF0-0xFF` | 眠りますか？ → Rest? Layout from the static tilemaps `0x285`/`0x286`, line above NO/YES; mixes stride-16 columns and 2×2 cells (`cols` schema) | not identified | edited, UNVERIFIED: playtest |
-| `0x007` | 2 | row 0 (16 tiles) | small 8×8 kanji next to the battle HUD set | not identified | no: playtest |
+| `0x28B` | 2 | `0xC0-0xEF` | 攻撃 防御 回復 必殺 着変 移動 → Attack / Guard / Heal / Super / Change / Move (4 cells each; "Defense" / "Special" / "Costume" don't fit, and the sprite cursor sits right of the 4 cells). Rows `$87:8C77+` (top, bottom = top + 10), table `81D092` by stock-card type `$027C` | Trade window (`debug_screens.py trade`) | yes (`en_trade_final.png`) |
+| `0x295` | 2 | all | スピード / 通れません / 回復します / ダメージ床 / 〈costume〉向き → Speed / Blocked / Heals HP / Hurts HP / "Best: 〈Summer uniform, Winter uniform, Gym clothes, Swimsuit, Coat〉". Japanese shares cells between words, so the labels get fresh cells (arrow `0x4E` kept) and `build.terrain_patches` rewrites the bank-$87 rows, moves the costume rows to `$87:FA0C` and skips the 向き rows | Terrain panel: map free look (Y), A on a tile (`81D1F9`) | yes, all 8 variants (`tp_*`) |
+| `0x274` | 2 | `0xB0-0xE1`, さ `0x9B` | 体力 / 腕力 / 防御力 / 素早さ / 精神力 → HP / ST / DEF / SPD / SPI, left-aligned like JP. Layout from the static tilemaps `0x275`/`0x276`; 力 (`0xB2`) is shared by four words and blanked, さ blanked | Status stat page (`debug_screens.py stats`) | yes (`en_stats_final.png`) |
+| `0x274` | 2 | `0x95-0x9A` | EXP 次の (next) | none: no tilemap (`0x275/276/278/279`) or immediate references these cells; unused | no (unused) |
+| `0x27B` | 2 | `0xDB-0xDE`/`0xEB-0xEE` + 2×2 cells `0xF0-0xFF` | 眠りますか？ → Rest? Layout from the static tilemaps `0x285`/`0x286`, line above NO/YES; mixes stride-16 columns and 2×2 cells (`cols` schema). The window is see-through: the gate pillar shows left of "Rest?" (JP too) | Rest? prompt (`debug_screens.py rest`) | yes (`en_rest_final.png`) |
+| `0x007` | 2 | row 0 (16 tiles) | small 8×8 kanji | none: rows 0-3 are a scratch area overwritten in battle VRAM (birthstone labels); never shown | no (overwritten) |
 
 Where these tiles also occur: the WHO and command-menu blank and frame tiles also appear in `0x262` (map HUD) and `0x007` (battle HUD). The edits change only label tiles, which are unique to their resource.
 
@@ -39,7 +39,7 @@ Where these tiles also occur: the WHO and command-menu blank and frame tiles als
 | `g_item5` | `g_open` + down×5, A | Anime ON/OFF (English) |
 | `g_item6` | `g_open` + down×6, A | Save NO/YES (English) |
 
-Not reached: status screen, club select, shop, after-stage menu, and whatever uses the `0x295` words. X / Y / Select / L / R on the map do nothing visible; X / Y in the menu do nothing.
+The other screens (status, terrain panel, Rest?, Trade, after-stage menu, shop, clubs, save) are reached by `scripts/debug_screens.py` (notes/playtest.md, Debug screens). Y / X only act in the unit-control loop `828BC0` (free look / Rest?), not while the map scrolls.
 
 ## Edits applied (`gfx/edits.json`)
 
@@ -48,18 +48,9 @@ Not reached: status screen, club select, shop, after-stage menu, and whatever us
 | Command menu | `0x27B` | Wait / Attack / Item / Trade / Pager / Anime / Save. Greyed items stay grey (palette 1, same colour indices), the cursor highlight works, the frame is intact | `gx_open_final.png` |
 | WHO window | `0x28B` | Ayaka / Mai / Yui / Miki / Ryoko. Members not on the map stay dimmed as in the original. "Mai" / "Yui" use condensed spacing in their 16-px cells | `gx_who_final.png` |
 
-## Deferred to playtest (sub-project 5)
+## Formerly deferred (resolved with the debug screens)
 
-These are Japanese glyph cells composed into words by tilemaps that haven't been located, because their screens weren't reached:
-- `0x295`: スピード, costumes 夏服 / 冬服 / 体操着 / 水着, コト, 向き, 通れません (can't pass), 回復床 / ダメージ床
-- `0x274` 次の: thin lettering placed at runtime
-- `0x28B` tiles `0xC0-0xFF`: 攻撃 防御 回復 必殺 着変 移動
-- `0x007` row 0: small kanji
-
-To finish each one:
-1. Save a state on the screen.
-2. Run `dump_screen.lua` on it and read its BG3 tilemap to get the cell order of each word.
-3. Add the English to `gfx/edits.json` (one label per word area; shared cells may need a word-level redesign).
+`0x295` and `0x28B` `0xC0-0xEF` are translated and seen on screen; `0x274` EXP 次の is unused and `0x007` row 0 is overwritten before display (table above). Method for any new one: state on the screen, `dump_screen.lua`, read the BG3 tilemap (word `0x7C00`, tile = resource tile + `0x80`), find the bank-$87 rows the window helper `$878000` draws, then `gfx/edits.json`.
 
 ## Final check
 
@@ -72,4 +63,4 @@ To finish each one:
 
 - `labels.render` refuses an area shorter than the glyphs (it used to garble the label silently), and renders an empty text as a blank area.
 - `gfx/edits.json` labels may give `cols`: one entry per 8-px column, either a top tile (rows below via `stride`) or an explicit `[top, bottom]` list. This handles words spread over non-adjacent cells (精 + 神) and mixed layouts (眠り + 2×2 kana cells).
-- The status screen and the 眠りますか？ prompt were laid out from their static tilemaps (`0x275`/`0x276`, `0x285`/`0x286`). The build composite shows HP / ST / DEF / SPD / SPI and "Rest?"; confirm both on screen in playtest.
+- The status screen and the 眠りますか？ prompt were laid out from their static tilemaps (`0x275`/`0x276`, `0x285`/`0x286`). The build composite shows HP / ST / DEF / SPD / SPI and "Rest?"; both confirmed on screen later (debug screens).

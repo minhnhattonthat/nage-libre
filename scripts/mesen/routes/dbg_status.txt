@@ -1,0 +1,9 @@
+# from dbg_ctl (unit control): Y = free look, cursor onto Yui, A = status screen
+4 y
+40 -
+4 left
+30 -
+4 down
+30 -
+4 a
+150 -

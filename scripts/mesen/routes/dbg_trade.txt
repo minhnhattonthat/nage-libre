@@ -1,0 +1,17 @@
+# from dbg_ctl, FORCE=828263:a=1,82844D:a=1: A = command menu, down x3 = Trade, A = WHO, down x2 = Yui, A = her cards (0x28B card-type words)
+4 a
+60 -
+4 down
+10 -
+4 down
+10 -
+4 down
+10 -
+4 a
+60 -
+4 down
+10 -
+4 down
+10 -
+4 a
+90 -

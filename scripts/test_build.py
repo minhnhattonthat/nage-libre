@@ -187,6 +187,25 @@ class Build(unittest.TestCase):
         self.assertTrue(all(ot[i] == nt[i] for i in range(len(ot)) if i not in touched))
         self.assertTrue(any(ot[i] != nt[i] for i in touched))
 
+    def test_terrain_panel_rows(self):
+        # 0x295 labels bring their rows: in-place rows end in time, costume rows in bank-$87 padding, 向き skipped
+        import resources
+        img = build.build(self.clean, gfx=build.GFX_EDITS)
+        for at, old, new in build.terrain_patches(self.clean):
+            self.assertEqual(self.clean[at:at + len(old)], old, f"{at:#x}")
+            self.assertEqual(img[at:at + len(new)], new, f"{at:#x}")
+        free = rom.lorom_to_pc(build.TERRAIN_FREE)
+        self.assertEqual(self.clean[free:rom.lorom_to_pc(0x87FFFF) + 1], b"\xff" * (0x10000 - 0xFA0C))
+        t = rom.lorom_to_pc(build.TERRAIN_COSTUME_TABLE)
+        tops = [int.from_bytes(img[t + 4 * k:t + 4 * k + 2], "little") for k in range(5)]
+        self.assertEqual(tops[0], build.TERRAIN_FREE & 0xFFFF)
+        row = img[rom.lorom_to_pc(0x870000 | tops[3]):][:2 * 11]                 # Swimsuit: Best: + 6 cells + FFFF
+        self.assertEqual(row[:2], (0x2080 + build.TERRAIN_BEST[0]).to_bytes(2, "little"))
+        self.assertEqual(row[-2:], b"\xff\xff")
+        self.assertEqual(img[rom.lorom_to_pc(build.TERRAIN_SUFFIX)], 0x60)
+        self.assertEqual(build.build(self.clean)[rom.lorom_to_pc(build.TERRAIN_SUFFIX)], 0x48)   # identity: untouched
+        self.assertNotEqual(resources.load(img, 0x295), resources.load(self.clean, 0x295))
+
     def test_gfx_label_too_long(self):
         d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
         p = os.path.join(d, "edits.json")
