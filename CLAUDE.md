@@ -12,7 +12,7 @@ Skill: translate-retro-game (H:/translation/nage-libre/.claude/skills/translate-
 - Mesen:  `python -X utf8 -I scripts/mesen.py scripts/mesen/goto.lua ROUTE=scripts/mesen/routes/X.txt SAVE=name [FROM=state] [ROM=build/nage_en.sfc]` -> work/{shots,states,trace}
 - Debug:  `python -X utf8 -I scripts/debug_screens.py [--rom R --tag T] [status stats terrain rest pager trade menu shop club save]` -> work/shots/<tag>_debug_sheet.png (cold boot; FORCE=PC:reg=hex in goto/until_pc fakes conditions)
 - Review page: `python -X utf8 -I scripts/review.py` -> build/review.html
-- Release: `python -X utf8 -I scripts/release.py --version 1.0` -> release/ (local, gitignored; never publish without the user)
+- Release: `python -X utf8 -I scripts/release.py --version 1.1` -> release/ (local, gitignored; never publish without the user)
 
 ## QA order (after text/engine changes; cold boot, savestates carry old code/VRAM)
 1. Tour page counts: `run` en + jp, `strips`; per-scene EN page count must equal JP. 28 timed scenes (list in notes/playtest.md) via `run-timed`.
@@ -37,6 +37,6 @@ Skill: translate-retro-game (H:/translation/nage-libre/.claude/skills/translate-
 - Specs/plans pre-approved: write them, execute, merge to master, continue. Claude scripts the playtest; the user does not play.
 
 ## Status
-- Done: SP1-5 (dump, insertion, English rendering, system text, translation 2572/2572, graphics, 333-scene tour, v1.0 BPS in release/). No remote, nothing published.
-- Debug pass: every hard-to-reach screen reached and English (notes/playtest.md, Debug screens); release/ v1.0 predates it (rebuild with release.py).
+- Done: SP1-5 (dump, insertion, English rendering, system text, translation 2572/2572, graphics, 333-scene tour, v1.1 BPS in release/). No remote, nothing published.
+- Debug pass: every hard-to-reach screen reached and English (notes/playtest.md, Debug screens); release/ v1.1 includes it.
 - Open: indent quirk (README known issues).

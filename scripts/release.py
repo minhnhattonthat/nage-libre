@@ -1,6 +1,6 @@
 """Package the release: BPS patch, README, manifest (local only; nothing is uploaded).
 
-    python -I scripts/release.py [--version 1.0] [--out release]
+    python -I scripts/release.py [--version 1.1] [--out release]
 """
 import hashlib, os, subprocess, sys, zlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -23,7 +23,7 @@ def _commit():
         return "unknown"
 
 
-def make(out_dir, version="1.0"):
+def make(out_dir, version="1.1"):
     if coverage.missing(dump.OUT, coverage.EN) or coverage.avoided(coverage.EN, coverage.GLOSSARY):
         raise SystemExit("coverage gate failed: run python -I scripts/coverage.py --check")
     clean = rom.load()
@@ -50,7 +50,7 @@ def make(out_dir, version="1.0"):
 
 
 def main():
-    version = sys.argv[sys.argv.index("--version") + 1] if "--version" in sys.argv else "1.0"
+    version = sys.argv[sys.argv.index("--version") + 1] if "--version" in sys.argv else "1.1"
     out = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else os.path.join(rom.ROOT, "release")
     try:
         r = make(out, version)
