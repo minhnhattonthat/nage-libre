@@ -3,8 +3,8 @@
 Unofficial English fan translation of **Nage Libre: Seijaku no Suishin** (Super Famicom, Varie, 1995): the source text
 and tools that build the patch.
 
-**No game data is included.** Patches are published on the [Releases](../../releases) page when available; apply the
-BPS to your own unheadered dump of the Japanese ROM (1,572,864 bytes). The release README lists the hashes and
+**No game data is included.** Download the BPS patch from the [latest release](../../releases/latest) and apply it to
+your own unheadered dump of the Japanese ROM (1,572,864 bytes). The release README lists the hashes and
 patching steps. The patched ROM is 2 MB LoROM.
 
 ## What is translated
