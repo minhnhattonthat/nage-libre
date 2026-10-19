@@ -1,7 +1,9 @@
 -- On the first execution of AT_PC, jump to TO_PC instead (same stack/registers), then play ROUTE2 and screenshot.
 -- Params: FROM, ROUTE (reaches AT_PC), ROUTE2 (inputs after the jump), NAME, AT_PC, TO_PC (hex, 24-bit), SHOT_EVERY,
--- MASH (optional: after ROUTE, press this every 20 frames until the jump), LIMIT (frames before giving up, default 20000).
+-- MASH (optional: after ROUTE, press this every 20 frames until the jump), LIMIT (frames before giving up, default 20000),
+-- FORCE (optional register overrides, L.force).
 local function begin()
+  L.force(FORCE)
   local at, to, jumped = tonumber(tostring(AT_PC), 16), tonumber(tostring(TO_PC), 16), false
   emu.addMemoryCallback(L.safe(function()
     if jumped then return end

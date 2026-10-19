@@ -17,11 +17,11 @@
   ]},
  {"res": "0x28B", "bpp": 2, "stride": 16, "note": "Pager -> WHO window party names; verified g_item4",
   "labels": [
-   {"tile": "0x20", "w": 4, "h": 2, "text": "Ayaka"},
-   {"tile": "0x24", "w": 2, "h": 2, "text": "Mai"},
-   {"tile": "0x26", "w": 2, "h": 2, "text": "Yui"},
-   {"tile": "0x28", "w": 4, "h": 2, "text": "Miki"},
-   {"tile": "0x2C", "w": 4, "h": 2, "text": "Ryoko"}
+   {"tile": "0x20", "w": 4, "h": 2, "text": "Ayaka", "align": "left"},
+   {"tile": "0x24", "w": 2, "h": 2, "text": "Mai", "align": "left"},
+   {"tile": "0x26", "w": 2, "h": 2, "text": "Yui", "align": "left"},
+   {"tile": "0x28", "w": 4, "h": 2, "text": "Miki", "align": "left"},
+   {"tile": "0x2C", "w": 4, "h": 2, "text": "Ryoko", "align": "left"}
   ]},
  {"res": "0x28B", "bpp": 2, "stride": 16, "note": "Trade window: stock card types (rows $87:8C77+, table 81D092); verified dbg_trade",
   "labels": [
