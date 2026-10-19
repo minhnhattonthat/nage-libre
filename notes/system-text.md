@@ -47,6 +47,7 @@
   - Pairs are fixed per stage (indexes from the stage data stream at `$82934D` → enemy record +$1D/+$1E), so the bound is widest surname + widest given name ≤ 10.
   - Once any name is translated, **all surnames 0-99 must be** (an untranslated 3-kanji surname is 6 columns); untranslated given names count at their Japanese width.
   - **Recommended convention:** empty surnames (`<END>`), given names only. The fixture does this.
+  - **Full names (current):** once every name (0-226) is translated, the build replaces the builder body at `81BA86` with `jsl $BFC000` (`scripts/namevwf.asm`, bytes in `namevwf.py`): given name, 3 px space, surname, drawn with a narrow proportional font (`font/name_glyphs.txt`, records at `$BFC200`) into the same buffer. Budget: widest given/boss + space + widest surname ≤ 80 px (Tsukiyomi + Tsukishima = 80). The system blob is capped at `0x4000` (`$BF8000-BFBFFF`). Only the battle setup (`818743`/`81874C`) calls the builder.
 - **Battle lines:** messages are assembled from pieces, so the build checks whole lines against the 28-column window (the width of the line-clear string, entry 244):
   - name + 249 + number + 250/251, name + 248/263/277, number + 264, 271 + number + 274
   - name = widest given/boss name (100-226, translated or Japanese); numbers = 5 digits

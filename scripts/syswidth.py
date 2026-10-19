@@ -5,6 +5,8 @@ Measured in the emulator (notes/system-text.md):
   enemy names (random surname + random given name) need  widest surname + widest given name <= NAME_FIELD.
 - prompts: the birthday-confirmation window holds 24 half-columns.
 """
+import namevwf
+
 NAME_FIELD = 10
 SURNAMES, GIVEN = (0, 99), (100, 220)
 CATEGORIES = {
@@ -39,6 +41,8 @@ def check_names(texts, original=None):
     all surnames must be (an untranslated 3-kanji surname is 6 columns); untranslated given names count as Japanese."""
     if not any(SURNAMES[0] <= i <= GIVEN[1] for i in texts):
         return
+    if full_names(texts):
+        return check_full_names(texts)
     missing = [i for i in range(SURNAMES[0], SURNAMES[1] + 1) if i not in texts]
     if missing:
         raise ValueError(f"name field: surnames (entries {SURNAMES[0]}-{SURNAMES[1]}) must be translated as a "
@@ -51,7 +55,28 @@ def check_names(texts, original=None):
                          f"> {NAME_FIELD} columns")
 
 
-BATTLE_LINE = 28                  # message window = width of the line-clear string, entry 244
+def full_names(texts):
+    """Every name (0-226) translated: the build swaps in namevwf's renderer ("given surname", narrow font)."""
+    return all(i in texts for i in namevwf.NAMES)
+
+
+def check_full_names(texts):
+    """The HUD field is namevwf.FIELD_PX wide: widest given/boss name + space + widest surname must fit."""
+    def px(i):
+        codes = [int.from_bytes(texts[i][k:k + 2], "little") for k in range(0, len(texts[i]) - 2, 2)]
+        try:
+            return namevwf.width(codes)
+        except ValueError as x:
+            raise ValueError(f"name entry {i}: {x}") from None
+    (ws, s) = max((px(i), i) for i in range(SURNAMES[0], SURNAMES[1] + 1))
+    (wg, g) = max((px(i), i) for i in range(GIVEN[0], 227))
+    total = wg + namevwf.SPACE + 1 + ws - 2 if ws else wg
+    if total > namevwf.FIELD_PX:
+        raise ValueError(f"name field: widest given name (entry {g}, {wg} px) + space + widest surname "
+                         f"(entry {s}, {ws} px) = {total} px > {namevwf.FIELD_PX}")
+
+
+BATTLE_LINE = 28                 # message window = width of the line-clear string, entry 244
 NAME, NUM = "name", "num"         # battle names are given names (100-220) or boss names (221-226); numbers <= 5 digits
 # Birthstone bonus lines stand alone: JP appends 258 to NAME+248, but build.BONUS_HELPER moves it to line 2 (NAME+248+258
 # would be 37 columns); 275 prints at the start of line 1 (the heal / DEF-up actions put no text there first).

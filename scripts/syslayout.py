@@ -1,5 +1,5 @@
 """Lay out the system text block in bank $BF and build the reference patches."""
-BASE_FILE, BASE_CPU, MAX = 0x1F8000, 0xBF8000, 0x8000
+BASE_FILE, BASE_CPU, MAX = 0x1F8000, 0xBF8000, 0x4000   # $BFC000 on: name renderer (namevwf.py)
 BLANK, END, MARK = bytes([0xFE, 0x03]), bytes([0xFF, 0xFF]), bytes([0xFC, 0x03])   # 03FE blank, FFFF, 03FC ■
 
 
@@ -16,7 +16,7 @@ def layout(entries, texts, data, strides):
         new[e.index] = BASE_CPU + len(blob)
         blob += b
     if len(blob) > MAX:
-        raise ValueError(f"system text is {len(blob):#x} bytes, more than one bank ({MAX:#x})")
+        raise ValueError(f"system text is {len(blob):#x} bytes, more than its part of bank $BF ({MAX:#x})")
     return bytes(blob), new
 
 

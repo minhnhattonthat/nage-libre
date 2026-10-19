@@ -85,7 +85,8 @@ Authoritative for every English entry. Speakers by id: `notes/speakers.json`. Vo
 
 ## System text (script/en/system.txt)
 
-- Surnames 0-99 are empty (shared 10-column name buffer). Given names come from Japanese reading order: the pool is sorted by reading, which settles ambiguous readings.
+- Battle HUD shows full names, "given surname" in a narrow font (scripts/namevwf.py; budget 80 px, checked by the build). Battle messages use the given name alone. Surnames 0-99 and given names come from Japanese reading order: each pool (after the five leads) is sorted by reading, which settles ambiguous readings.
+  - Readings inferred from that order: 入`<$8A05>` = Irie, `<$9202>`井 = Takai, 東国 = Togoku, 道本 = Domoto, 中代 = Nakadai, 仁料 (仁科) = Nishina.
   - 紅 is used as a variant of 江 (詩紅 Utae, 静紅 Shizue, 睦紅 Mutsue).
   - `<$9002>` reads Hiro- (Hiroko, Hiromi).
   - 美`<$E405>` = Mia.

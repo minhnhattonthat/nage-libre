@@ -4,7 +4,7 @@
 """
 import argparse, glob, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import bps, compress, decompress, dump, entable, fontgen, labels, layout, resources, rom, romimage, syslayout, sysrefs, syswidth, tiles, wrap
+import bps, compress, decompress, dump, entable, fontgen, labels, layout, namevwf, resources, rom, romimage, syslayout, sysrefs, syswidth, tiles, wrap
 from tbl import Table
 
 CLEAN_CHECKSUM = 0xC895
@@ -183,9 +183,12 @@ def system_patches(clean, en_dir, img):
     p = [(at, bytes(img[at:at + len(blob)]), blob)]
     p += syslayout.patches(refs, new, clean)
     p += syslayout.marker_fill(entries, clean)
-    p += [(rom.lorom_to_pc(h), bytes([0xA0, 0x40, 0x00]), bytes([0x20, 0xB0, 0xF1])) for h in NAME_HOOKS]
-    h = rom.lorom_to_pc(NAME_HELPER)
-    p.append((h, bytes([0xFF]) * len(NAME_HELPER_BYTES), NAME_HELPER_BYTES))
+    if syswidth.full_names(texts):
+        p += namevwf.patches(img)
+    else:
+        p += [(rom.lorom_to_pc(h), bytes([0xA0, 0x40, 0x00]), bytes([0x20, 0xB0, 0xF1])) for h in NAME_HOOKS]
+        h = rom.lorom_to_pc(NAME_HELPER)
+        p.append((h, bytes([0xFF]) * len(NAME_HELPER_BYTES), NAME_HELPER_BYTES))
     if 258 in texts:
         jsl = bytes([0x22]) + BONUS_HELPER.to_bytes(3, "little")
         p += [(rom.lorom_to_pc(s), bytes([0x22, 0xA7, 0xF4, 0x80]), jsl) for s in BONUS_SITES]
