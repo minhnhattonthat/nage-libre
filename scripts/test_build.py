@@ -130,6 +130,21 @@ class Build(unittest.TestCase):
         self.assertEqual(img[h:h + len(code)], code)
         self.assertGreaterEqual(build.BONUS_HELPER, build.NAME_HELPER + len(build.NAME_HELPER_BYTES))
 
+    def test_save_rows_print_stage_label_first(self):
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:
+            f.write("## system 0291 @0 len=0\nStage <END>\n")
+        img = build.build(self.clean, d)
+        for s in build.STAGE_NUM_SITES:
+            at = rom.lorom_to_pc(s)
+            self.assertEqual(img[at:at + 4], bytes([0x22]) + build.STAGE_HELPER.to_bytes(3, "little"))
+            self.assertEqual(img[at + 25:at + 29], bytes([0xEA] * 4))     # the routine's own 291 print
+        for s in build.STAGE_COL_SITES:
+            self.assertEqual(img[rom.lorom_to_pc(s) + 1], build.STAGE_COL)
+        h = rom.lorom_to_pc(build.STAGE_HELPER)
+        self.assertEqual(img[h:h + 4], bytes.fromhex("08c23048"))
+        self.assertEqual(self.img[h], 0xFF)                                # identity build: untouched
+
     def test_system_en_width_enforced(self):
         d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
         with open(os.path.join(d, "system.txt"), "w", encoding="utf-8") as f:

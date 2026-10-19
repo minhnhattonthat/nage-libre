@@ -34,12 +34,24 @@ BONUS_SITES = [0x819988, 0x819A20]                 # damage to player / to enemy
 BONUS_HELPER = 0x81F1C0                            # free space in bank $81, after NAME_HELPER
 BONUS_FRAMES = 60
 LINE_CLEAR = 244                                   # 28 blanks: the battle window's line clear (819D93)
-# Save/load file rows: 290 at column 9, slot number at $11, stage number at $15 then 291 (JP 面, 2 columns). English
-# " stg" is 4 and overflows the border, so with "File" (4 columns, JP 8) the slot number moves to $0E and the stage
-# (or "none"/"EX") to $11. Sites: lda #$rrCC / sta $1141, rows 0A/0C/0E, save then load menu.
+# Save/load file rows: 290 at column 9, slot number at $11, stage number at $15 then 291 (JP 面). English reads
+# "File 1  Stage 2": the slot number moves to $0E (after "File", 4 columns vs JP 8), the stage (or "none"/"EX") to $11,
+# and STAGE_HELPER prints 291 before the number; the routine's own 291 print after it is NOPed.
+# Sites: lda #$rrCC / sta $1141, rows 0A/0C/0E, save then load menu.
 SLOT_COL_SITES = [0x87E882, 0x87E88F, 0x87E89C, 0x87EC8D, 0x87EC9A, 0x87ECA7]
 STAGE_COL_SITES = [0x87E8AE, 0x87E911, 0x87E974, 0x87ECB4, 0x87ED17, 0x87ED7A]
 SLOT_COL, STAGE_COL = 0x0E, 0x11
+STAGE_NUM_SITES = [0x87E8C4, 0x87E927, 0x87E98A, 0x87ECCA, 0x87ED2D, 0x87ED90]   # ldx #2 / jsl $80F6E8; +25: 291 print
+STAGE_HELPER = 0x81F200                            # free space in bank $81, after BONUS_HELPER
+
+
+def stage_helper_bytes(label):
+    """65816 for STAGE_HELPER (jsl, A = stage): print `label` (CPU address of 291), then the number, no padding."""
+    return (bytes([0x08, 0xC2, 0x30, 0x48])                                   # php / rep #$30 / pha
+            + bytes([0xA9, label & 0xFF, (label >> 8) & 0xFF, 0x85, 0x09])    # lda #label / sta $09
+            + bytes([0xE2, 0x20, 0xA9, label >> 16, 0x85, 0x0B, 0xC2, 0x20])  # sep #$20 / lda #bank / sta $0B / rep #$20
+            + bytes([0x22, 0xA7, 0xF4, 0x80, 0x68])                           # jsl $80F4A7 / pla
+            + bytes([0xA2, 0x01, 0x00, 0x22, 0xE8, 0xF6, 0x80, 0x28, 0x6B]))  # ldx #1 / jsl $80F6E8 / plp / rtl
 
 
 def bonus_helper_bytes(clear):
@@ -198,6 +210,12 @@ def system_patches(clean, en_dir, img):
     if 291 in texts:
         p += [(rom.lorom_to_pc(s) + 1, bytes([0x11]), bytes([SLOT_COL])) for s in SLOT_COL_SITES]
         p += [(rom.lorom_to_pc(s) + 1, bytes([0x15]), bytes([STAGE_COL])) for s in STAGE_COL_SITES]
+        jsl = bytes([0x22]) + STAGE_HELPER.to_bytes(3, "little") + bytes([0xEA] * 3)
+        for s in STAGE_NUM_SITES:
+            p.append((rom.lorom_to_pc(s), bytes.fromhex("a2020022e8f680"), jsl))
+            p.append((rom.lorom_to_pc(s) + 25, bytes.fromhex("22a7f480"), bytes([0xEA] * 4)))
+        code = stage_helper_bytes(new[291])
+        p.append((rom.lorom_to_pc(STAGE_HELPER), bytes([0xFF]) * len(code), code))
     if 258 in texts:
         jsl = bytes([0x22]) + BONUS_HELPER.to_bytes(3, "little")
         p += [(rom.lorom_to_pc(s), bytes([0x22, 0xA7, 0xF4, 0x80]), jsl) for s in BONUS_SITES]

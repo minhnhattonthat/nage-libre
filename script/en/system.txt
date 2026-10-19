@@ -863,7 +863,7 @@ Save to which file?<END>
 File<END>
 
 ## system 0291 @000000 len=0
- stg<END>
+Stage <END>
 
 ## system 0292 @000000 len=0
 Old data will be erased<END>

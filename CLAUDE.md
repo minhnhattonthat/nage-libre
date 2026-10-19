@@ -4,7 +4,7 @@ Skill: translate-retro-game (H:/translation/nage-libre/.claude/skills/translate-
 
 ## Commands (repo root; `-I` ignores PYTHONUTF8, so always pass `-X utf8`)
 - Build:  `python -X utf8 -I scripts/build.py` -> build/nage_en.sfc + .bps (fails on box overflow; prints `awkward wrap` warnings)
-- Check:  `python -X utf8 -I -m unittest discover -s scripts` (211 tests, ~25 s; the pre-commit hook runs this)
+- Check:  `python -X utf8 -I -m unittest discover -s scripts` (212 tests, ~25 s; the pre-commit hook runs this)
 - Smoke:  `python -X utf8 H:/translation/nage-libre/.claude/skills/translate-retro-game/scripts/emu.py build/nage_en.sfc --out work/qa/smoke --frames 900 --smoke`
 - Accept: `python -X utf8 -I scripts/accept.py identity|growth|english` (identity: clean vs identity-build screens must match)
 - Tour:   `python -X utf8 -I scripts/tour.py ref` (JP ref -> work/tour/jp.sfc) | `run TAG ROM FIRST LAST` (hex scene idx 00-14C = scene_30F-45B) | `run-timed TAG ROM 032,033,..` | `strips FIRST LAST` (index.txt en=/jp= page counts) | `sheets FIRST LAST` -> work/tour/review/
