@@ -39,7 +39,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update `docs/status.md`.
 - Staff credits (scene_447) stay kanji. Names: Western order, Hepburn without macrons, honorifics dropped; battle HUD shows full names in a narrow font (scripts/namevwf.py), messages given names only.
 - Full names, no abbreviations. English must fit boxes, no extra paging (build enforces).
-- Specs/plans pre-approved: write them, execute, merge to master, continue. Claude scripts the playtest; the user does not play.
+- Specs/plans pre-approved: write them, execute, merge to main, continue. Claude scripts the playtest; the user does not play.
 
 ## Status
 `docs/status.md`: done, next, open bugs. Update it at the end of every session.

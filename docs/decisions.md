@@ -6,7 +6,7 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 
 | # | Date | Question | Options offered | Decision and reason |
 |---|---|---|---|---|
-| D1 | 2026-10-08 | Specs and plans | need approval, pre-approved | Pre-approved: write them, execute, merge to master, continue to the next sub-project. The user wants progress without gate-by-gate check-ins. |
+| D1 | 2026-10-08 | Specs and plans | need approval, pre-approved | Pre-approved: write them, execute, merge to main, continue to the next sub-project. The user wants progress without gate-by-gate check-ins. |
 | D2 | 2026-10-08 | Honorifics and name order | keep (-san), drop; JP or Western order | Dropped; Western order, Hepburn without macrons. |
 | D3 | 2026-10-08 | Credits (scene_447) | stay Japanese, translate | Stay kanji: several glyphs are unmapped, and guessing real people's names is worse than leaving them. Kana nicknames romanized. |
 | D4 | 2026-10-08 | Playtest | user plays, Claude scripts it | Claude scripts the playtest (tour, printcheck, debug warps); the user does not play. |
