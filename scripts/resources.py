@@ -1,4 +1,4 @@
-"""Resource table access: 3-byte LoROM pointers at RES_TABLE, nibble-compressed blocks (notes/text-engine.md)."""
+"""Resource table access: 3-byte LoROM pointers at RES_TABLE, nibble-compressed blocks (docs/re/text-engine.md)."""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import decompress, rom

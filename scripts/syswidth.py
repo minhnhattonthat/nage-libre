@@ -1,6 +1,6 @@
 """Width budget (half-columns) per system-text category; English must fit where the string is drawn.
 
-Measured in the emulator (notes/system-text.md):
+Measured in the emulator (docs/re/system-text.md):
 - names: the name builder writes surname + given name into ONE 5-cell buffer (10 half-width letters), so
   enemy names (random surname + random given name) need  widest surname + widest given name <= NAME_FIELD.
 - prompts: the birthday-confirmation window holds 24 half-columns.

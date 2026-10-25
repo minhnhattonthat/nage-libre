@@ -2,7 +2,7 @@
 
     python -I scripts/build.py [--en script/en] [--out build]
 """
-import argparse, glob, json, os, re, sys
+import argparse, glob, json, os, re, runpy, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bps, compress, decompress, dump, entable, fontgen, labels, layout, namevwf, resources, rom, romimage, syslayout, sysrefs, syswidth, tiles, wrap
 from tbl import Table
@@ -12,8 +12,8 @@ SIZE = 0x200000
 FREE_START = 0x180000
 RES_TABLE = 0x50000
 FIRST, LAST = 0x30F, 0x45B
-WRAM_BASE = 0x64C0          # scene buffer $7F:WRAM_BASE (notes/wram.md)
-WRAM_WINDOW = 0x1340        # max decompressed block size (notes/wram.md)
+WRAM_BASE = 0x64C0          # scene buffer $7F:WRAM_BASE (docs/re/wram.md)
+WRAM_WINDOW = 0x1340        # max decompressed block size (docs/re/wram.md)
 ADC_SITES = [0x83840D, 0x838463, 0x838755, 0x8388E9, 0x838C13, 0x8396A9, 0x83978F, 0x839BAD]
 LOADER = 0x8380F0           # lda #$C0 / sta $06 / lda #$64 / sta $07
 EN_TBL = entable.OUT
@@ -67,7 +67,7 @@ def bonus_helper_bytes(clear):
 
 
 SYSTEM_EN = "system.txt"
-GFX_EDITS = os.path.join(rom.ROOT, "gfx", "edits.json")    # graphics label edits (notes/graphics.md)
+GFX_EDITS = os.path.join(rom.ROOT, "gfx", "edits.json")    # graphics label edits (docs/re/graphics.md)
 
 
 class BuildError(Exception):
@@ -225,7 +225,7 @@ def system_patches(clean, en_dir, img):
 
 
 def gfx_resources(clean, edits):
-    """{rid: new uncompressed bytes} for every resource with label edits (notes/graphics.md)."""
+    """{rid: new uncompressed bytes} for every resource with label edits (docs/re/graphics.md)."""
     out = {}
     for ed in edits:
         rid, bpp, stride = int(ed["res"], 16), ed["bpp"], ed.get("stride", 16)
@@ -364,6 +364,7 @@ def main():
     ap.add_argument("--en", default=None, help="translation dir (default: script/en if it exists)")
     ap.add_argument("--out", default=os.path.join(rom.ROOT, "build"))
     a = ap.parse_args()
+    runpy.run_path(os.path.join(rom.ROOT, "tools", "check_rom.py"))["check"]()
     clean = rom.load()
     try:
         default_en = os.path.join(rom.ROOT, "script", "en")

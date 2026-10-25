@@ -1,6 +1,6 @@
 # Glyph transcription (source for nage.tbl; run: python -I scripts/build_tbl.py)
 # Row = `CODE[/STEP] chars`, CODE = sheet row label (font/jp_font_*.png), STEP default 2 (16x16), 1 = half-width.
-# ＿ = empty slot, 〓 = unreadable (listed in notes/text-engine.md ## Uncertain glyphs)
+# ＿ = empty slot, 〓 = unreadable (listed in docs/re/text-engine.md ## Uncertain glyphs)
 0000/1 ＿＿0123456789
 0010 あぃいぅうぇえぉ
 0020 おかがきぎくぐけげこごさざしじす

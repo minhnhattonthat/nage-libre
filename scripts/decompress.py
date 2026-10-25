@@ -1,4 +1,4 @@
-"""Nage Libre nibble decompressor: Python transcription of $80F8DC (see notes/text-engine.md ## Compression)."""
+"""Nage Libre nibble decompressor: Python transcription of $80F8DC (see docs/re/text-engine.md ## Compression)."""
 
 
 def decompress(rom, off):

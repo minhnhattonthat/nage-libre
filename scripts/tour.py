@@ -1,5 +1,5 @@
 """Forced-scene tour: play every scene by overriding the scene loader (scene_hook.lua), keep the frames where text
-changed, and write EN-above-JP contact strips for review (notes/playtest.md).
+changed, and write EN-above-JP contact strips for review (docs/playtest.md).
 
     python -I scripts/tour.py ref                          # Japanese reference ROM -> work/tour/jp.sfc
     python -I scripts/tour.py run TAG ROM FIRST LAST        # e.g. run en build/nage_en.sfc 0x00 0x27

@@ -1,4 +1,13 @@
 # Script dumps, table and sources must stay LF: dump.py/tbl.py parse line-by-line.
 * text=auto eol=lf
-*.png binary
 *.sfc binary
+*.smc binary
+*.gba binary
+*.nds binary
+*.bin binary
+*.cue binary
+*.iso binary
+*.png binary
+*.bps binary
+*.ips binary
+*.xdelta binary

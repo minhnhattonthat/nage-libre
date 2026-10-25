@@ -1,4 +1,4 @@
-"""Debug warps to the screens that normal play routes don't reach (notes/playtest.md, Debug screens).
+"""Debug warps to the screens that normal play routes don't reach (docs/playtest.md, Debug screens).
 
     python -X utf8 -I scripts/debug_screens.py [--rom build/nage_en.sfc] [--tag en] [screen ...]
 

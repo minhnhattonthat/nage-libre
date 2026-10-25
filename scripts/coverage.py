@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import dump, rom
 
 EN = os.path.join(rom.ROOT, "script", "en")
-GLOSSARY = os.path.join(rom.ROOT, "notes", "glossary.md")
+GLOSSARY = os.path.join(rom.ROOT, "glossary.md")
 JAPANESE = re.compile(r"[぀-ヿ一-鿿０-９Ａ-Ｚａ-ｚ]")   # kana, kanji, full-width alnum
 TAG = re.compile(r"<[^>]*>")
 
